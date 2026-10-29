@@ -1,0 +1,5 @@
+---
+interface Props { group?:boolean }
+const { group=false }=Astro.props;
+---
+<div data-reveal={!group || undefined} data-reveal-group={group || undefined}><slot /></div>

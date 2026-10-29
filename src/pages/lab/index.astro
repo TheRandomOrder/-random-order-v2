@@ -1,0 +1,19 @@
+---
+import LabLayout from '../../components/lab/LabLayout.astro';
+import FlashPlayer from '../../components/lab/FlashPlayer.astro';
+import TypographyLab from '../../components/lab/TypographyLab.astro';
+import MediaFigure from '../../components/project/MediaFigure.astro';
+import {flashStudies} from '../../components/lab/content';
+const directions = [
+  {number:'01', title:'Editorial grid', text:'Variable scale. Deliberate space.', href:'/lab/editorial', mediaId:'golds-strength'},
+  {number:'02', title:'Visual archive', text:'A closer grouping. A wider view.', href:'/lab/archive', mediaId:'hallys-poster'},
+  {number:'03', title:'Cinematic story', text:'A large image. An unhurried sequence.', href:'/lab/cinematic', mediaId:'golds-rope'},
+];
+---
+<LabLayout title="Work in motion" description="Three interactive gallery directions, a controlled image sequence and typography studies using Random Order’s existing content." active="overview">
+  <header class="lab-intro wrap"><p class="lab-label">Random Order / Motion lab</p><h1>Work in<br />motion.</h1><div class="lab-intro-bottom"><p>Three ways through the work.<br />A few ways to make it move.</p><p class="lab-content-note">An exploration of pacing, scale and interaction.<br />For review / Not a production direction.</p></div></header>
+  <figure class="lab-overview-hero wrap"><MediaFigure mediaId="golds-composite" preview showCaption={false} eager sizes="(max-width: 1472px) 90vw, 1344px" /><figcaption><span class="lab-label">Gold’s Gym / Art direction exploration</span><span>AI image study · Original composition & credit retained</span></figcaption></figure>
+  <section class="lab-directions wrap" aria-labelledby="directions-heading"><div class="lab-section-head"><div><p class="lab-label">Gallery directions</p><h2 id="directions-heading">Same work.<br />Different pace.</h2></div><p>Compare the three directions with real imagery.<br />Each opens into its own gallery.</p></div><div class="lab-direction-grid">{directions.map(direction => <a class="lab-direction-card" href={direction.href}><span class="lab-label">{direction.number} / Open study <span aria-hidden="true">↗</span></span><MediaFigure mediaId={direction.mediaId} preview showCaption={false} sizes="(max-width: 767px) calc(100vw - 40px), 29vw" /><h3>{direction.title}</h3><p>{direction.text}</p></a>)}</div></section>
+  <FlashPlayer mediaList={flashStudies()} />
+  <TypographyLab />
+</LabLayout>

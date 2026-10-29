@@ -1,0 +1,4 @@
+@view-transition { navigation:auto; }
+::view-transition-old(root),::view-transition-new(root) { animation-duration:.25s; }
+.text-unit { display:inline-block; } .text-line { display:block; overflow:hidden; }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto!important; } *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; } ::view-transition-group(*) { animation:none!important; } }

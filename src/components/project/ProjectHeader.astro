@@ -1,0 +1,26 @@
+---
+import type {ProjectRecord} from '../../data/projects';
+import {getMedia} from '../../data/media';
+import Container from '../Container.astro';
+import Eyebrow from '../Eyebrow.astro';
+interface Props { project: ProjectRecord }
+const {project} = Astro.props;
+const background = project.headerMediaId ? getMedia(project.headerMediaId) : undefined;
+const metadata = project.metadata ?? [
+  ...(project.client ? [{label:'Client', value:project.client}] : []),
+  ...(project.year ? [{label:'Year', value:String(project.year)}] : []),
+  ...(project.disciplines.length ? [{label:'Scope', value:project.disciplines.join(', ')}] : []),
+];
+---
+<header class="project-header">
+  {background && <img class="project-header-background" src={background.type === 'video' ? background.poster : background.src} alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
+  <Container>
+    <div class="project-header-body">
+      <a class="project-back eyebrow" href="/work/">← Back to work</a>
+      {project.disciplines.length > 0 && <Eyebrow>{project.disciplines.join(' · ')}</Eyebrow>}
+      <h1>{project.title}</h1>
+      {project.intro && <p class="project-intro">{project.intro}</p>}
+      {metadata.length > 0 && <dl class="project-metadata">{metadata.map(item => <div><dt class="eyebrow">{item.label}</dt><dd>{item.value}</dd></div>)}</dl>}
+    </div>
+  </Container>
+</header>

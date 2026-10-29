@@ -1,0 +1,10 @@
+---
+import LabLayout from '../../components/lab/LabLayout.astro';
+import LabGallery from '../../components/lab/LabGallery.astro';
+import {archiveStudies} from '../../components/lab/content';
+---
+<LabLayout title="Visual archive" description="A compact browsing direction for selected imagery and films, with filtering and enlargement." active="archive">
+  <header class="lab-intro lab-intro--compact wrap"><p class="lab-label">02 / Visual archive</p><h1>Open<br />collection.</h1><div class="lab-intro-bottom"><p>A closer grouping of images and films.<br />Find a thread, then look a little closer.</p><p class="lab-content-note">Gold’s Gym / Hally’s / EARNT / The Shed<br />Selected imagery & studies</p></div></header>
+  <LabGallery mode="archive" mediaList={archiveStudies()} title="Selected images and films" />
+  <aside class="lab-direction-note wrap"><p class="lab-label">Reading the direction</p><p>A compact collection makes it easier to browse across projects. The filters narrow the collection, and the enlarged view follows the selection.</p><a class="lab-text-link" href="/lab/cinematic">Compare the cinematic story <span aria-hidden="true">↗</span></a></aside>
+</LabLayout>

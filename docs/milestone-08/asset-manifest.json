@@ -1,0 +1,110 @@
+[
+  {
+    "id": "golds-strength",
+    "nodeId": "7543:807",
+    "source": "random-order/docs/milestone-08/source-assets/golds-gym-strength.png",
+    "output": "random-order/public/assets/projects/golds-gym/strength.webp",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 178618
+  },
+  {
+    "id": "golds-bar",
+    "nodeId": "7543:934",
+    "source": "random-order/docs/milestone-08/source-assets/golds-gym-bar.png",
+    "output": "random-order/public/assets/projects/golds-gym/bar.webp",
+    "width": 1600,
+    "height": 897,
+    "bytes": 95126
+  },
+  {
+    "id": "golds-press",
+    "nodeId": "7543:813",
+    "source": "random-order/docs/milestone-08/source-assets/golds-gym-press.png",
+    "output": "random-order/public/assets/projects/golds-gym/press.webp",
+    "width": 1600,
+    "height": 897,
+    "bytes": 116260
+  },
+  {
+    "id": "golds-composite",
+    "nodeId": "7543:655",
+    "source": "random-order/docs/milestone-08/source-assets/golds-gym-composite.png",
+    "output": "random-order/public/assets/projects/golds-gym/composite.webp",
+    "width": 1600,
+    "height": 900,
+    "bytes": 119374
+  },
+  {
+    "id": "golds-rope",
+    "nodeId": "7552:765",
+    "source": "random-order/docs/milestone-08/source-assets/golds-gym-rope.png",
+    "output": "random-order/public/assets/projects/golds-gym/rope.webp",
+    "width": 806,
+    "height": 1437,
+    "bytes": 94842
+  },
+  {
+    "id": "shed-logo",
+    "nodeId": "7499:663",
+    "source": "random-order/docs/milestone-08/source-assets/the-shed-logo.png",
+    "output": "random-order/public/assets/projects/the-shed/logo.webp",
+    "width": 1080,
+    "height": 568,
+    "bytes": 1176
+  },
+  {
+    "id": "shed-photo",
+    "nodeId": "7420:3717",
+    "source": "random-order/docs/milestone-08/source-assets/the-shed-photo.png",
+    "output": "random-order/public/assets/projects/the-shed/photo.webp",
+    "width": 1254,
+    "height": 1204,
+    "bytes": 339300
+  },
+  {
+    "id": "orchard-logo",
+    "nodeId": "7554:920",
+    "source": "random-order/docs/milestone-08/source-assets/orchard-on-long-logo.png",
+    "output": "random-order/public/assets/projects/orchard-on-long/logo.webp",
+    "width": 1600,
+    "height": 1117,
+    "bytes": 19322
+  },
+  {
+    "id": "orchard-apple-form",
+    "nodeId": "7530:1023",
+    "source": "random-order/docs/milestone-08/source-assets/orchard-on-long-apple-form.png",
+    "output": "random-order/public/assets/projects/orchard-on-long/apple-form.webp",
+    "width": 1600,
+    "height": 1393,
+    "bytes": 12556
+  },
+  {
+    "id": "orchard-apple-texture",
+    "nodeId": "7543:653",
+    "source": "random-order/docs/milestone-08/source-assets/orchard-on-long-apple-texture.png",
+    "output": "random-order/public/assets/projects/orchard-on-long/apple-texture.webp",
+    "width": 1600,
+    "height": 1206,
+    "bytes": 28670
+  },
+  {
+    "id": "sneaker-collaboration",
+    "nodeId": "7553:779",
+    "source": "random-order/docs/milestone-08/source-assets/sneaker-lab-collaboration.png",
+    "output": "random-order/public/assets/projects/sneaker-lab/collaboration.webp",
+    "width": 1600,
+    "height": 7173,
+    "bytes": 440110
+  },
+  {
+    "id": "sneaker-concept",
+    "nodeId": "7553:820",
+    "source": "random-order/docs/milestone-08/source-assets/sneaker-lab-concept.png",
+    "output": "random-order/public/assets/projects/sneaker-lab/concept.webp",
+    "width": 1600,
+    "height": 8993,
+    "bytes": 1129906
+  }
+]

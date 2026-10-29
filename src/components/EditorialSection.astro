@@ -1,0 +1,5 @@
+---
+interface Props { id?:string; class?:string; label:string }
+const {id,class:className='',label}=Astro.props;
+---
+<section id={id} class={className}><div class="wrap section-stack rule"><p class="eyebrow">{label}</p><slot /></div></section>

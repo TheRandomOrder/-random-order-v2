@@ -1,0 +1,7 @@
+---
+interface Props { label?:string; ratio?:string; fullBleed?:boolean; fit?:'cover'|'contain'; class?:string; source?:string }
+const {label='',ratio='4/3',fullBleed=false,fit='cover',class:className='',source}=Astro.props;
+---
+<div class:list={['media',className,{'media--bleed':fullBleed}]} style={`--ratio:${ratio}`} data-media-source={source} data-fit={fit} role="img" aria-label={`Media placeholder${label ? ': '+label : ''}`}>
+  <span class="media-label">Media placeholder</span>{label && <span class="media-caption">{label}</span>}<span class="media-detail" aria-hidden="true">{ratio.replace('/', ' : ')}</span>
+</div>

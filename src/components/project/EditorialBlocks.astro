@@ -1,0 +1,18 @@
+---
+import type {EditorialBlock} from '../../data/projects';
+import MediaFigure from './MediaFigure.astro';
+interface Props { blocks: EditorialBlock[] }
+const {blocks} = Astro.props;
+---
+<div class="project-editorial">
+{blocks.map((block, index) => {
+  if (block.type === 'text') return <section class:list={['project-copy', 'project-section', {'project-copy-without-label':!block.label}]} id={block.id}>{block.label && <h2 class="eyebrow">{block.label}</h2>}<div class="project-copy-body">{(Array.isArray(block.body) ? block.body : [block.body]).map(paragraph => <p>{paragraph}</p>)}</div></section>;
+  if (block.type === 'heading') return <section class="project-heading project-section" id={block.id}>{block.eyebrow && <p class="eyebrow">{block.eyebrow}</p>}<h2>{block.title}</h2></section>;
+  if (block.type === 'media') return <section class:list={['project-section', 'project-media-block', {'project-full-bleed':block.fullBleed, 'project-media-narrow':block.width === 'narrow'}]} id={block.id}><MediaFigure mediaId={block.mediaId} caption={block.caption} fit={block.fit} eager={index === 0} sizes={block.width === 'narrow' ? '(max-width: 767px) calc(100vw - 40px), 656px' : undefined} /></section>;
+  if (block.type === 'gallery') return <section class:list={['project-section', 'project-gallery', `project-gallery-${block.layout ?? 'paired'}`, {'project-full-bleed':block.fullBleed}]} id={block.id} aria-label="Project image sequence">{block.items.map(item => {const entry = typeof item === 'string' ? {mediaId:item} : item;return <div class="project-gallery-item" style={entry.span ? `--gallery-span:${entry.span}` : undefined}><MediaFigure mediaId={entry.mediaId} caption={entry.caption} fit={entry.fit} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1472px) 44vw, 656px" /></div>;})}</section>;
+  if (block.type === 'formula') return <section class="project-section project-formula" id={block.id} aria-label="Creative formula">{block.terms.map(term => <div class="project-formula-term"><div class="project-formula-image"><MediaFigure mediaId={term.mediaId} sizes="(max-width: 767px) calc(50vw - 28px), 324px" />{term.operator && <span class="project-formula-operator" aria-hidden="true">{term.operator}</span>}</div><p class="eyebrow">{term.label}</p></div>)}</section>;
+  if (block.type === 'quote') return <figure class="project-section project-quote" id={block.id}><blockquote>{block.quote}</blockquote>{(block.attribution || block.role) && <figcaption class="eyebrow">{[block.attribution, block.role].filter(Boolean).join(' / ')}</figcaption>}</figure>;
+  if (block.type === 'credits') return <section class="project-copy project-section project-credits" id={block.id}><h2 class="eyebrow">Credits</h2><dl>{block.items.map(item => <div><dt>{item.label}</dt><dd>{item.href ? <a href={item.href}>{item.value}</a> : item.value}</dd></div>)}</dl></section>;
+  return null;
+})}
+</div>

@@ -1,0 +1,30 @@
+---
+import {getMedia, imageSourceSet, mediaAssets} from '../../data/media';
+interface Props {
+  mediaId: string;
+  caption?: string;
+  fit?: 'cover' | 'contain';
+  label?: string;
+  eager?: boolean;
+  preview?: boolean;
+  showCaption?: boolean;
+  sizes?: string;
+  class?: string;
+}
+const {mediaId, caption, fit, label, eager = false, preview = false, showCaption = true, sizes = '(max-width: 767px) calc(100vw - 40px), (max-width: 1472px) 90vw, 1344px', class: className} = Astro.props;
+const media = getMedia(mediaId);
+const imageMedia = media.type === 'image' ? media : mediaAssets.find(asset => asset.type === 'image' && asset.src === media.poster);
+const displayCaption = caption ?? media.caption;
+const autoplay = media.motion?.autoplay ?? 'manual';
+---
+<figure class:list={['project-media', className]} data-media-id={media.id}>
+  <div class="project-media-surface" style={`--media-ratio:${media.width} / ${media.height};--media-fit:${fit ?? media.fit ?? 'contain'};--media-position:${media.position ?? 'center'};`} data-media={media.type === 'video' && !preview || undefined} data-media-autoplay={media.type === 'video' && !preview ? autoplay : undefined}>
+    {media.type === 'image' || preview ? <img src={media.type === 'image' ? media.src : media.poster} srcset={imageMedia ? imageSourceSet(imageMedia) : undefined} sizes={sizes} alt={media.alt} width={imageMedia?.width ?? media.width} height={imageMedia?.height ?? media.height} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" /> : <>
+      <img class="project-video-poster" src={media.poster} srcset={imageMedia ? imageSourceSet(imageMedia) : undefined} sizes={sizes} alt={media.alt} width={imageMedia?.width ?? media.width} height={imageMedia?.height ?? media.height} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+      <video data-src={media.src} muted loop={media.motion?.loop ?? true} playsinline preload="none" poster={media.poster} width={media.width} height={media.height} aria-hidden="true" tabindex="-1"></video>
+      <button class="media-toggle" type="button" aria-label={`Play ${label ?? media.alt ?? 'project film'}`} aria-pressed="false" hidden>Play film</button>
+      <noscript><a class="project-film-fallback" href={media.src}>Watch project film</a></noscript>
+    </>}
+  </div>
+  {showCaption && (displayCaption || media.credit) && <figcaption>{displayCaption && <span>{displayCaption}</span>}{media.credit && <span class="project-media-credit">{media.credit}</span>}</figcaption>}
+</figure>

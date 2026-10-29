@@ -1,0 +1,24 @@
+---
+import type {MediaAsset} from '../../data/media';
+import {studyLabel} from './content';
+interface Props { mediaList: MediaAsset[] }
+const {mediaList} = Astro.props;
+const frames = mediaList.filter(media => media.type === 'image').map(media => ({src:media.src, alt:media.alt, title:studyLabel(media)}));
+const first = frames[0];
+---
+<section class="lab-flash" data-flash aria-labelledby="flash-heading">
+  <div class="lab-section-head wrap"><div><p class="lab-label">Motion study / 01</p><h2 id="flash-heading">A controlled<br />change of scene.</h2></div><p>Seven selected images. Three tempos.<br />You decide when the sequence begins.</p></div>
+  <div class="lab-flash-workspace wrap">
+    <div class="lab-flash-stage" data-flash-viewport><img data-flash-image src={first.src} alt={first.alt} width="1200" height="1200" loading="lazy" decoding="async" /><span class="lab-flash-marker lab-label" aria-hidden="true">RO / Flash study</span><div class="lab-flash-overlay"><span data-flash-title>{first.title}</span><span data-flash-count>1 / {frames.length}</span></div></div>
+    <div class="lab-flash-panel">
+      <p class="lab-label">Playback</p>
+      <label class="lab-speed-label" for="flash-speed">Time per image<select id="flash-speed" data-flash-speed><option value="450">450 ms — quick</option><option value="700" selected>700 ms — measured</option><option value="1000">1,000 ms — unhurried</option></select></label>
+      <div class="lab-flash-primary"><button type="button" data-flash-play hidden>Play once <span aria-hidden="true">↗</span></button><button type="button" data-flash-stop hidden>Stop</button></div>
+      <div class="lab-flash-secondary"><button type="button" data-flash-prev hidden aria-label="Previous flash image">← Previous</button><button type="button" data-flash-next hidden aria-label="Next flash image">Next →</button><button type="button" data-flash-reset hidden>Reset</button></div>
+      <p class="lab-flash-status" role="status" data-flash-status>Ready. Playback starts only when you choose.</p>
+      <p class="lab-small">Playback runs once, for a maximum of 30 seconds. Leaving the sequence stops it. Reduced motion keeps the images available one at a time.</p>
+      <details class="lab-source-note"><summary>About this study</summary><p>The Workbench source contains 71 variants with mixed timings, totalling 20.85 seconds. This shorter browser sequence tests a curated selection at 450, 700 and 1,000 ms. It remains an experiment.</p></details>
+    </div>
+  </div>
+  <script type="application/json" data-flash-frames set:html={JSON.stringify(frames).replace(/</g, '\\u003c')} />
+</section>

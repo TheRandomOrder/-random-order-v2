@@ -1,0 +1,5 @@
+---
+interface Props { href:string; direction?:'left'|'right' }
+const {href,direction='right'}=Astro.props;
+---
+<a class="link-arrow" href={href}>{direction==='left' && <span aria-hidden="true">←</span>}<slot />{direction==='right' && <span aria-hidden="true">→</span>}</a>

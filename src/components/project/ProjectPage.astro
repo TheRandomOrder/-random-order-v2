@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import type {ProjectRecord} from '../../data/projects';
+import ProjectHeader from './ProjectHeader.astro';
+import EditorialBlocks from './EditorialBlocks.astro';
+import ProjectNavigation from './ProjectNavigation.astro';
+import '../../styles/projects.css';
+interface Props { project: ProjectRecord }
+const {project} = Astro.props;
+---
+<Base title={`${project.title} — Random Order`} description={project.intro ?? `${project.title}: selected work by Random Order.`} noindex={project.status !== 'published'}>
+  <article class:list={['project-page', `project-presentation-${project.presentation}`]} data-project={project.id}>
+    <ProjectHeader project={project} />
+    <EditorialBlocks blocks={project.blocks} />
+    <ProjectNavigation project={project} />
+  </article>
+</Base>

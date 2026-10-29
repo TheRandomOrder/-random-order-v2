@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import Container from '../../components/Container.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import MediaFigure from '../../components/project/MediaFigure.astro';
+import {featuredProjects, archiveProjects, projectHref} from '../../data/projects';
+import '../../styles/projects.css';
+const featured = featuredProjects.filter(project => projectHref(project));
+const archive = archiveProjects.filter(project => projectHref(project));
+---
+<Base title="Work — Random Order" description="Selected identity, strategy and art-direction work from Random Order.">
+  <header class="work-index-header"><Container><Eyebrow>Work</Eyebrow><h1>Selected work.</h1></Container></header>
+  <Container>
+    {featured.length > 0 && <div class="work-index-featured">{featured.map(project => <a class="work-index-card" href={projectHref(project)}>{project.heroMediaId && <MediaFigure mediaId={project.heroMediaId} preview showCaption={false} fit="cover" sizes="(max-width: 767px) calc(100vw - 40px), 656px" />}<div><p class="eyebrow">{project.disciplines.join(' · ')}</p><h2>{project.title}</h2>{project.intro && <p>{project.intro}</p>}</div></a>)}</div>}
+    {archive.length > 0 && <section class="work-index-archive" aria-labelledby="archive-title"><h2 id="archive-title" class="eyebrow">From the archive</h2><div class="work-index-archive-grid">{archive.map(project => <a class="work-index-card" href={projectHref(project)}>{project.heroMediaId && <MediaFigure mediaId={project.heroMediaId} preview showCaption={false} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1000px) 44vw, 426px" />}<div><h3>{project.title}</h3><p class="eyebrow">{project.disciplines.join(' · ')}</p></div></a>)}</div></section>}
+  </Container>
+</Base>

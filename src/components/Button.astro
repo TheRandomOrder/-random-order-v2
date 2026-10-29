@@ -1,0 +1,5 @@
+---
+interface Props { href:string; ghost?:boolean }
+const { href,ghost=false }=Astro.props;
+---
+<a href={href} class:list={['btn',{'btn--ghost':ghost}]}><slot /></a>

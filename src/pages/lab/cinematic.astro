@@ -1,0 +1,10 @@
+---
+import LabLayout from '../../components/lab/LabLayout.astro';
+import LabGallery from '../../components/lab/LabGallery.astro';
+import {goldStudies} from '../../components/lab/content';
+---
+<LabLayout title="Cinematic story" description="A cinematic gallery study with large imagery, quiet scroll transitions and an unhurried reading sequence." active="cinematic">
+  <header class="lab-intro wrap"><p class="lab-label">03 / Cinematic story</p><h1>One image.<br />One moment.</h1><div class="lab-intro-bottom"><p>A large image holds the frame.<br />Scroll to let the next moment unfold.</p><p class="lab-content-note">Gold’s Gym<br />Art direction exploration / AI image studies</p></div></header>
+  <LabGallery mode="cinematic" mediaList={goldStudies()} title="Gold’s Gym cinematic image studies" />
+  <aside class="lab-direction-note wrap"><p class="lab-label">Reading the direction</p><p>A slower sequence gives a small set of images more room. This direction is suited to a focused project introduction or a short visual story.</p><a class="lab-text-link" href="/lab/editorial">Return to the editorial grid <span aria-hidden="true">↗</span></a></aside>
+</LabLayout>

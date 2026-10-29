@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/projects.css';
+import '../../styles/lab.css';
+interface Props { title: string; description: string; active?: 'overview' | 'editorial' | 'archive' | 'cinematic' }
+const {title, description, active = 'overview'} = Astro.props;
+const directions = [
+  {id:'overview', label:'Motion lab', href:'/lab'},
+  {id:'editorial', label:'01 Editorial', href:'/lab/editorial'},
+  {id:'archive', label:'02 Archive', href:'/lab/archive'},
+  {id:'cinematic', label:'03 Cinematic', href:'/lab/cinematic'},
+];
+---
+<Base title={`${title} — Random Order Motion Lab`} description={description} noindex>
+  <div class="lab">
+    <div class="lab-topline wrap">
+      <a href="/lab" class="lab-label">Workbench / 08</a>
+      <span class="lab-label">Experimental directions</span>
+    </div>
+    <nav class="lab-nav wrap" aria-label="Gallery directions">
+      {directions.map(direction => <a href={direction.href} aria-current={active === direction.id ? 'page' : undefined}>{direction.label}</a>)}
+    </nav>
+    <slot />
+    <div class="lab-end wrap">
+      <p class="lab-label">End of study</p>
+      <a href="/lab" class="lab-text-link">Back to the motion lab <span aria-hidden="true">↗</span></a>
+      <a href="/" class="lab-text-link">Random Order homepage <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <script>import '../../scripts/lab/interactions';</script>
+</Base>

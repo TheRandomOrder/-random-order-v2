@@ -1,0 +1,77 @@
+[
+  {
+    "root": "1088:1758",
+    "beforeUniqueMediaHashes": 6,
+    "afterUniqueMediaHashes": 7,
+    "missingMediaHashes": [],
+    "galleryItems": [
+      {
+        "id": "1116:1169",
+        "w": 1344,
+        "h": 760,
+        "items": [
+          {
+            "id": "I1116:1169;1116:469;1116:1172",
+            "name": "Media / Tapas Night / poster-tapas",
+            "x": 0,
+            "y": 0,
+            "w": 434,
+            "h": 760,
+            "type": "FRAME"
+          },
+          {
+            "id": "I1116:1169;1116:469;1116:1197",
+            "name": "Media / Cocktail Hour / poster-cocktail",
+            "x": 454,
+            "y": 0,
+            "w": 434,
+            "h": 760,
+            "type": "FRAME"
+          },
+          {
+            "id": "I1116:1169;1116:469;1116:1227",
+            "name": "Media / Gallery event / poster-gallery",
+            "x": 908,
+            "y": 0,
+            "w": 434,
+            "h": 760,
+            "type": "FRAME"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "root": "1088:1519",
+    "beforeUniqueMediaHashes": 2,
+    "afterUniqueMediaHashes": 9,
+    "missingMediaHashes": [],
+    "galleryItems": [
+      {
+        "id": "1116:1256",
+        "w": 1344,
+        "h": 698,
+        "items": [
+          {
+            "id": "I1116:1256;1116:469;1116:1259",
+            "name": "Frame 480961782",
+            "x": 0,
+            "y": 0,
+            "w": 624,
+            "h": 698,
+            "type": "INSTANCE"
+          },
+          {
+            "id": "I1116:1256;1116:469;1116:1260",
+            "name": "Frame 480961783",
+            "x": 720,
+            "y": 0,
+            "w": 624,
+            "h": 698,
+            "type": "INSTANCE"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+---
+import MediaContainer from './MediaContainer.astro';
+import '../styles/homepage-interactions.css';
+import type {projects} from '../data/home';
+type Props = typeof projects[number];
+const p=Astro.props;
+---
+<article class:list={['featured-project',`project-${p.id}`]} aria-labelledby={`project-${p.id}`}>
+ <MediaContainer image={p.image} video={p.video} alt={p.alt} label={`${p.title} film`} />
+ <div class="project-meta"><p class="meta project-number">{p.number}</p><p class="meta tags">{p.tags}</p><h3 id={`project-${p.id}`} class="section-title">{p.href?<a class="project-title-link" href={p.href}>{p.title}</a>:p.title}</h3><p class="project-summary">{p.summary}</p></div>
+</article>

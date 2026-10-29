@@ -1,0 +1,10 @@
+---
+import LabLayout from '../../components/lab/LabLayout.astro';
+import LabGallery from '../../components/lab/LabGallery.astro';
+import {goldStudies} from '../../components/lab/content';
+---
+<LabLayout title="Editorial grid" description="A gallery study in variable scale, deliberate whitespace and source-ordered images." active="editorial">
+  <header class="lab-intro wrap"><p class="lab-label">01 / Editorial grid</p><h1>Space for<br />the work.</h1><div class="lab-intro-bottom"><p>Variable scale. Deliberate whitespace.<br />A sequence you can move through at your own pace.</p><p class="lab-content-note">Gold’s Gym<br />Art direction exploration / AI image studies</p></div></header>
+  <LabGallery mode="editorial" mediaList={goldStudies()} title="Gold’s Gym editorial image studies" />
+  <aside class="lab-direction-note wrap"><p class="lab-label">Reading the direction</p><p>The image sets the pace. A wider composition can sit beside a smaller detail, with enough space for both to hold their own. Select any image to see it in full colour.</p><a class="lab-text-link" href="/lab/archive">Compare the visual archive <span aria-hidden="true">↗</span></a></aside>
+</LabLayout>

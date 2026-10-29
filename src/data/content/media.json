@@ -1,0 +1,407 @@
+[
+  {
+    "id": "golds-strength",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/strength.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "A silver-haired athlete in gold training clothes in a gym.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/strength-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/strength-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "caption": "AI image study",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7543-807",
+      "nodeId": "7543:807"
+    }
+  },
+  {
+    "id": "golds-bar",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/bar.webp",
+    "width": 1600,
+    "height": 897,
+    "alt": "A strength-training image study in warm gold light.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/bar-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/bar-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "caption": "AI image study",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7543-934",
+      "nodeId": "7543:934"
+    }
+  },
+  {
+    "id": "golds-press",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/press.webp",
+    "width": 1600,
+    "height": 897,
+    "alt": "An athlete using a gym press beneath a gold roof.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/press-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/press-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "caption": "AI image study",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7543-813",
+      "nodeId": "7543:813"
+    }
+  },
+  {
+    "id": "golds-composite",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/composite.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Gold’s Gym identity over a study of an athlete in motion, with the original Hotel Atelier credit.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/composite-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/composite-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "caption": "AI image study",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7543-655",
+      "nodeId": "7543:655"
+    }
+  },
+  {
+    "id": "golds-rope",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/rope.webp",
+    "width": 806,
+    "height": 1437,
+    "alt": "A portrait image study of a woman skipping with a light-traced rope.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/rope-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "caption": "AI image study",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7552-765",
+      "nodeId": "7552:765"
+    }
+  },
+  {
+    "id": "shed-logo",
+    "type": "image",
+    "src": "/assets/projects/the-shed/logo.webp",
+    "width": 1080,
+    "height": 568,
+    "alt": "The Shed wordmark with cutlery and a gardening fork.",
+    "variants": [
+      {
+        "src": "/assets/projects/the-shed/logo-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/the-shed/logo-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7499-663",
+      "nodeId": "7499:663"
+    }
+  },
+  {
+    "id": "shed-photo",
+    "type": "image",
+    "src": "/assets/projects/the-shed/photo.webp",
+    "width": 1254,
+    "height": 1204,
+    "alt": "A gardening fork set against greenery.",
+    "variants": [
+      {
+        "src": "/assets/projects/the-shed/photo-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/the-shed/photo-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7420-3717",
+      "nodeId": "7420:3717"
+    }
+  },
+  {
+    "id": "orchard-logo",
+    "type": "image",
+    "src": "/assets/projects/orchard-on-long/logo.webp",
+    "width": 1600,
+    "height": 1117,
+    "alt": "Orchard handwritten wordmark.",
+    "variants": [
+      {
+        "src": "/assets/projects/orchard-on-long/logo-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/orchard-on-long/logo-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-920",
+      "nodeId": "7554:920"
+    }
+  },
+  {
+    "id": "orchard-apple-form",
+    "type": "image",
+    "src": "/assets/projects/orchard-on-long/apple-form.webp",
+    "width": 1600,
+    "height": 1393,
+    "alt": "A solid red apple-shaped identity study.",
+    "variants": [
+      {
+        "src": "/assets/projects/orchard-on-long/apple-form-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/orchard-on-long/apple-form-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7530-1023",
+      "nodeId": "7530:1023"
+    }
+  },
+  {
+    "id": "orchard-apple-texture",
+    "type": "image",
+    "src": "/assets/projects/orchard-on-long/apple-texture.webp",
+    "width": 1600,
+    "height": 1206,
+    "alt": "A red apple identity study with a textured treatment.",
+    "variants": [
+      {
+        "src": "/assets/projects/orchard-on-long/apple-texture-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/orchard-on-long/apple-texture-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7543-653",
+      "nodeId": "7543:653"
+    }
+  },
+  {
+    "id": "sneaker-collaboration",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/collaboration.webp",
+    "width": 1600,
+    "height": 7173,
+    "alt": "BSTN and Sneaker LAB collaboration studies for a care-kit sleeve.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/collaboration-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/collaboration-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7553-779",
+      "nodeId": "7553:779"
+    }
+  },
+  {
+    "id": "sneaker-concept",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/concept.webp",
+    "width": 1600,
+    "height": 8993,
+    "alt": "Basketball, court geometry and care-kit sleeve concept artwork for BSTN and Sneaker LAB.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/concept-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/concept-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7553-820",
+      "nodeId": "7553:820"
+    }
+  },
+  {
+    "id": "golds-logo",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/logo.svg",
+    "width": 977,
+    "height": 977,
+    "alt": "Gold’s Gym circular identity mark.",
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-HOTEL / Workbench",
+      "nodeId": "7554:922",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-922"
+    }
+  },
+  {
+    "id": "hallys-poster",
+    "type": "image",
+    "src": "/assets/hallys-poster.webp",
+    "width": 656,
+    "height": 394,
+    "alt": "Hally’s neighbourhood café exterior.",
+    "variants": [
+      {
+        "src": "/assets/hallys-poster-384.webp",
+        "width": 384
+      }
+    ],
+    "source": {
+      "label": "Existing approved V2 homepage assets"
+    }
+  },
+  {
+    "id": "earnt-poster",
+    "type": "image",
+    "src": "/assets/earnt-poster.webp",
+    "width": 656,
+    "height": 410,
+    "alt": "EARNT campaign illustration with a group in graphic T-shirts.",
+    "variants": [
+      {
+        "src": "/assets/earnt-poster-384.webp",
+        "width": 384
+      }
+    ],
+    "source": {
+      "label": "Existing approved V2 homepage assets"
+    }
+  },
+  {
+    "id": "cozy-poster",
+    "type": "image",
+    "src": "/assets/cozy-heaven.webp",
+    "width": 1456,
+    "height": 816,
+    "alt": "Cozy Heaven image of a woman eating crisps in bed.",
+    "variants": [
+      {
+        "src": "/assets/cozy-heaven-384.webp",
+        "width": 384
+      }
+    ],
+    "source": {
+      "label": "Existing approved V2 homepage assets"
+    }
+  },
+  {
+    "id": "sussex-poster",
+    "type": "image",
+    "src": "/assets/sussex.webp",
+    "width": 1600,
+    "height": 883,
+    "alt": "Sussex restaurant exterior and wordmark.",
+    "variants": [
+      {
+        "src": "/assets/sussex-384.webp",
+        "width": 384
+      }
+    ],
+    "source": {
+      "label": "Existing approved V2 homepage assets"
+    }
+  },
+  {
+    "id": "hallys-film",
+    "type": "video",
+    "src": "/assets/hallys.mp4",
+    "poster": "/assets/hallys-poster.webp",
+    "width": 832,
+    "height": 464,
+    "alt": "Hally’s neighbourhood café exterior.",
+    "caption": "Exterior image study",
+    "source": {
+      "label": "Existing V2 homepage motion asset"
+    },
+    "motion": {
+      "autoplay": "manual",
+      "loop": true
+    }
+  },
+  {
+    "id": "earnt-film",
+    "type": "video",
+    "src": "/assets/earnt.mp4",
+    "poster": "/assets/earnt-poster.webp",
+    "width": 832,
+    "height": 464,
+    "alt": "EARNT campaign illustration with a group in graphic T-shirts.",
+    "caption": "Campaign image study",
+    "source": {
+      "label": "Existing V2 homepage motion asset"
+    },
+    "motion": {
+      "autoplay": "manual",
+      "loop": true
+    }
+  }
+]

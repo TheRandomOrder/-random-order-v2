@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+.sites-runtime/
+.DS_Store
+.env
+# Curation originals and visual QA stay on disk; production assets remain tracked.
+docs/**/source-assets/
+docs/**/*.png
+docs/**/*.jpg
+docs/**/*.jpeg
+docs/milestone-08/asset-downloads.json

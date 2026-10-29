@@ -1,0 +1,19 @@
+---
+import MediaFigure from '../project/MediaFigure.astro';
+---
+<section class="lab-typography wrap" aria-labelledby="typography-heading">
+  <div class="lab-section-head"><div><p class="lab-label">Motion study / 02</p><h2 id="typography-heading">Type sets<br />the rhythm.</h2></div><p>Three restrained treatments.<br />Play a study to compare the movement.</p></div>
+  <article class="lab-type-treatment lab-type-lines" data-type-treatment>
+    <div class="lab-type-meta"><p class="lab-label">A / Line mask</p><p>A headline comes into view, one line at a time.</p><button type="button" class="lab-text-link" data-type-play hidden>Play line reveal <span aria-hidden="true">↗</span></button></div>
+    <h3 class="lab-type-sample lab-type-display" aria-label="Random Order."><span class="lab-type-mask" aria-hidden="true"><span>Random</span></span><span class="lab-type-mask" aria-hidden="true"><span>Order.</span></span></h3>
+  </article>
+  <article class="lab-type-treatment lab-type-words" data-type-treatment>
+    <div class="lab-type-meta"><p class="lab-label">B / Word rhythm</p><p>A short thought, with space between each beat.</p><button type="button" class="lab-text-link" data-type-play hidden>Play word rhythm <span aria-hidden="true">↗</span></button></div>
+    <h3 class="lab-type-sample lab-type-sans" aria-label="Stories to tell."><span aria-hidden="true" style="--word-index:0">Stories</span> <span aria-hidden="true" style="--word-index:1">to</span> <span aria-hidden="true" style="--word-index:2">tell.</span></h3>
+  </article>
+  <article class="lab-type-treatment lab-type-relationship" data-type-treatment>
+    <div class="lab-type-meta"><p class="lab-label">C / Type + image</p><p>A project title and its image share one moment.</p><button type="button" class="lab-text-link" data-type-play hidden>Play title interaction <span aria-hidden="true">↗</span></button></div>
+    <div class="lab-type-image-sample"><div class="lab-type-photo"><MediaFigure mediaId="hallys-poster" preview showCaption={false} sizes="(max-width: 767px) 75vw, 45vw" /></div><h3 class="lab-type-display">Hally’s</h3></div>
+  </article>
+  <p class="lab-type-footnote lab-small">The full text remains readable before and after each study. With reduced motion enabled, each treatment stays still.</p>
+</section>
