@@ -69,7 +69,7 @@ test('media has intrinsic dimensions, existing files, valid variants and video p
 test('editorial order references real media and known block types', () => {
   const types = ['text','heading','media','gallery','formula','quote','credits'];
   for (const project of projects) {
-    for (const field of ['heroMediaId','headerMediaId']) if (project[field]) checkMediaReference(project[field], `${project.id}.${field}`);
+    for (const field of ['heroMediaId','headerMediaId','logoMediaId']) if (project[field]) checkMediaReference(project[field], `${project.id}.${field}`);
     const blockIds = new Set();
     for (const [index, block] of project.blocks.entries()) {
       const owner = `${project.id}: block ${index}`;
@@ -92,7 +92,10 @@ test('editorial order references real media and known block types', () => {
         for (const term of block.terms) {checkMediaReference(term.mediaId, owner); assert.ok(term.label?.trim(), `${owner}: term label`);}
       }
       if (block.type === 'text') assert.ok((Array.isArray(block.body) ? block.body : [block.body]).every(text => typeof text === 'string' && text.trim()), `${owner}: text content`);
-      if (block.type === 'heading') assert.ok(block.title?.trim(), `${owner}: heading`);
+      if (block.type === 'heading') {
+        assert.ok(block.title?.trim(), `${owner}: heading`);
+        if (block.divider) localAssetExists(block.divider, `${owner}: divider`);
+      }
       if (block.type === 'quote') assert.ok(block.quote?.trim(), `${owner}: quote`);
     }
   }

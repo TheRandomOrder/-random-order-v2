@@ -5,10 +5,10 @@ export type Presentation = 'narrative' | 'gallery' | 'extended' | 'archive';
 
 interface BlockBase { id?: string }
 export interface TextBlock extends BlockBase { type: 'text'; label?: string; body: string | string[] }
-export interface HeadingBlock extends BlockBase { type: 'heading'; title: string; eyebrow?: string }
+export interface HeadingBlock extends BlockBase { type: 'heading'; title: string; eyebrow?: string; divider?: string }
 export interface MediaBlock extends BlockBase { type: 'media'; mediaId: string; caption?: string; fullBleed?: boolean; width?: 'full' | 'narrow'; fit?: 'cover' | 'contain' }
 export interface GalleryItem { mediaId: string; caption?: string; fit?: 'cover' | 'contain'; span?: number }
-export interface GalleryBlock extends BlockBase { type: 'gallery'; items: (string | GalleryItem)[]; layout?: 'paired' | 'editorial' | 'dense' | 'triptych'; fullBleed?: boolean }
+export interface GalleryBlock extends BlockBase { type: 'gallery'; items: (string | GalleryItem)[]; layout?: 'paired' | 'editorial' | 'dense' | 'triptych'; gap?: 'wide'; fullBleed?: boolean }
 export interface FormulaBlock extends BlockBase { type: 'formula'; terms: {mediaId: string; label: string; operator?: string}[] }
 export interface QuoteBlock extends BlockBase { type: 'quote'; quote: string; attribution?: string; role?: string }
 export interface CreditsBlock extends BlockBase { type: 'credits'; items: {label: string; value: string; href?: string}[] }
@@ -23,6 +23,8 @@ export interface ProjectRecord {
   routeEnabled: boolean;
   status: 'draft' | 'ready' | 'published';
   featuredOrder?: number;
+  homeOrder?: number;
+  headerStyle?: 'plain' | 'image' | 'cinematic';
   cardNumber?: string;
   externalUrl?: string;
   client?: string;
@@ -34,6 +36,7 @@ export interface ProjectRecord {
   deliverables?: string[];
   outcomes?: string[];
   heroMediaId?: string;
+  logoMediaId?: string;
   headerMediaId?: string;
   relatedIds?: string[];
   metadata?: {label: string; value: string}[];

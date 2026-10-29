@@ -1,10 +1,10 @@
 ---
-interface Props { image:string; video?:string; alt:string; hero?:boolean; label?:string }
-const {image,video,alt,hero=false,label='film'}=Astro.props;
-const intrinsicWidth=image.includes('cozy-heaven')?1456:image.includes('sussex')?1600:656;
-const srcset=`${image.replace('.webp','-384.webp')} 384w, ${image} ${intrinsicWidth}w`;
+interface Props { image:string; video?:string; alt:string; hero?:boolean; label?:string; width?:number; height?:number; sourceSet?:string }
+const {image,video,alt,hero=false,label='film',width,height,sourceSet}=Astro.props;
+const intrinsicWidth=width??(image.includes('cozy-heaven')?1456:image.includes('sussex')?1600:656);
+const srcset=sourceSet??`${image.replace('.webp','-384.webp')} 384w, ${image} ${intrinsicWidth}w`;
 ---
 <div class="media-container" data-media>
- <img src={image} srcset={srcset} sizes={hero?'100vw':'(max-width: 767px) calc(100vw - 40px), (max-width: 1000px) 45vw, 656px'} alt={hero?'':alt} width={hero?1920:656} height={hero?1200:394} loading={hero?'eager':'lazy'} fetchpriority={hero?'high':'auto'} decoding="async" />
+ <img src={image} srcset={srcset} sizes={hero?'100vw':'(max-width: 767px) calc(100vw - 40px), (max-width: 1000px) 45vw, 656px'} alt={hero?'':alt} width={width??(hero?1920:656)} height={height??(hero?1200:394)} loading={hero?'eager':'lazy'} fetchpriority={hero?'high':'auto'} decoding="async" />
  {video && <><video data-src={video} muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" poster={image}></video><button class="media-toggle" type="button" aria-label={`Play ${label}`} aria-pressed="false" hidden>Play film</button></>}
 </div>

@@ -1,4 +1,4 @@
 ---
 import {navigation} from '../data/home';
 ---
-<div class="mobile-menu" id="mobile-menu" inert aria-hidden="true"><nav aria-label="Mobile"><a href="#main">Home</a>{navigation.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true">{label}</span>)}</nav></div>
+<div class="mobile-menu" id="mobile-menu" inert aria-hidden="true"><nav aria-label="Mobile"><a href="/">Home</a>{navigation.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true">{label}</span>)}</nav></div>

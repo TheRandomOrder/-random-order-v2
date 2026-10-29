@@ -7,7 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test scripts/media.test.mjs"
+    "test": "node --test scripts/media.test.mjs scripts/content.test.mjs scripts/lab-flash.test.mjs",
+    "test:site": "node --test scripts/site-output.test.mjs"
   },
   "dependencies": {
     "astro": "^5.13.0",

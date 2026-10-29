@@ -1,0 +1,4 @@
+---
+import {capabilities} from '../data/home';
+---
+<div class="capabilities">{capabilities.map(([title,body])=><div class="capability"><h3 class="section-title">{title}</h3><p>{body}</p></div>)}</div>

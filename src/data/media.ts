@@ -22,6 +22,7 @@ export interface MediaAsset {
   variants?: MediaVariant[];
   fit?: 'cover' | 'contain';
   position?: string;
+  aspectRatio?: string;
   caption?: string;
   credit?: string;
   source?: SourceReference;

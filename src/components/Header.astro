@@ -1,4 +1,4 @@
 ---
 import {navigation} from '../data/home';
 ---
-<header class="site-header"><a class="logo" href="#main" aria-label="Random Order home">Random Order</a><nav class="nav-primary" aria-label="Primary">{navigation.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true" title="Magazine is not yet available">{label}</span>)}</nav><button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">MENU +</button></header>
+<header class="site-header"><a class="logo" href="/" aria-label="Random Order home">Random Order</a><nav class="nav-primary" aria-label="Primary">{navigation.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true" title="Magazine is not yet available">{label}</span>)}</nav><button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">MENU +</button></header>

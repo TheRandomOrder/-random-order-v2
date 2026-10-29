@@ -24,8 +24,11 @@ matchMedia('(min-width:48rem)').addEventListener('change',e=>{if(e.matches&&togg
 // Keep the current in-page destination visible in both navigation layouts.
 function updateActiveNavigation() {
  document.querySelectorAll<HTMLAnchorElement>('.nav-primary a,.mobile-menu a').forEach(link=>{
-  const active=link.getAttribute('href')===location.hash;
-  if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
+  const destination=new URL(link.href,location.href);
+  const path=location.pathname.replace(/\/+$/,'')||'/';
+  const target=destination.pathname.replace(/\/+$/,'')||'/';
+  const active=destination.origin===location.origin && (target==='/work' ? path==='/work'||path.startsWith('/work/') : target===path);
+  if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
  });
 }
 window.addEventListener('hashchange',updateActiveNavigation);
