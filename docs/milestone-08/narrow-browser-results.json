@@ -1,0 +1,32 @@
+[
+  {
+    "overflow": false,
+    "route": "/",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/work/",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/work/superbalist/",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/logos/",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/about/",
+    "width": 320
+  },
+  {
+    "overflow": false,
+    "route": "/contact/",
+    "width": 320
+  }
+]

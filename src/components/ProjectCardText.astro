@@ -1,0 +1,21 @@
+---
+interface Props {
+  variant: 'home' | 'featured' | 'archive';
+  title: string;
+  tags: string;
+  summary?: string;
+  id?: string;
+  number?: string;
+  href?: string | null;
+}
+const {variant, title, tags, summary, id, number, href} = Astro.props;
+const home = variant === 'home';
+const Heading = variant === 'featured' ? 'h2' : 'h3';
+---
+<div class={home ? 'project-meta' : undefined}>
+  {home && <p class="meta project-number">{number}</p>}
+  {variant !== 'archive' && <p class={home ? 'meta tags' : 'eyebrow'}>{tags}</p>}
+  <Heading id={home ? `project-${id}` : undefined} class={home ? 'section-title' : undefined}>{home && href ? <a class="project-title-link" href={href}>{title}</a> : title}</Heading>
+  {variant === 'archive' && <p class="eyebrow">{tags}</p>}
+  {(home || summary) && <p class={home ? 'project-summary' : undefined}>{summary}</p>}
+</div>

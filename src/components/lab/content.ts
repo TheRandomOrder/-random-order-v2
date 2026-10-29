@@ -20,7 +20,9 @@ export function studyLabel(media: MediaAsset): string {
 
 export function studyContext(media: MediaAsset): string {
   if (media.id.startsWith('golds-')) return 'AI image study';
-  return media.type === 'video' ? 'Brand film' : 'Selected project imagery';
+  if (media.type === 'video') return 'Contemporary film study / AI-assisted motion';
+  if (['hallys-poster','earnt-poster'].includes(media.id)) return 'Contemporary image study';
+  return 'Selected project imagery';
 }
 
 export const studyCollection = (media: MediaAsset): 'golds' | 'selected' => media.id.startsWith('golds-') ? 'golds' : 'selected';

@@ -2,12 +2,11 @@
 import Base from '../../layouts/Base.astro';
 import Hero from '../../components/Hero.astro';
 import Container from '../../components/Container.astro';
-import MediaFigure from '../../components/project/MediaFigure.astro';
-import {featuredProjects,archiveProjects,projectHref,type ProjectRecord} from '../../data/projects';
+import WorkCard from '../../components/WorkCard.astro';
+import {featuredProjects,archiveProjects,projectHref} from '../../data/projects';
 import '../../styles/projects.css';
 const featured=featuredProjects.filter(p=>projectHref(p));
 const archive=archiveProjects.filter(p=>projectHref(p));
-function categories(p:ProjectRecord){const s=p.disciplines.join(' ').toLowerCase();return ['all',...(/brand|identity|rebrand/.test(s)?['brand']:[]),...(/product|ux|digital|systems/.test(s)?['product']:[]),...(/art direction|image/.test(s)?['art']:[]),...(/identity|illustration/.test(s)?['identity']:[])].join(' ');}
 const filters=[['all','All'],['brand','Brand'],['product','Product / Digital'],['art','Art Direction'],['identity','Identity / Marks']];
 ---
 <Base title="Work — Random Order" description="Brand identities, digital products, collaborations and constructed worlds.">
@@ -15,11 +14,11 @@ const filters=[['all','All'],['brand','Brand'],['product','Product / Digital'],[
  <Container>
   <div class="work-filters" role="group" aria-label="Filter projects">{filters.map(([id,label])=><button type="button" data-work-filter={id} aria-pressed={id==='all'} hidden>{label}</button>)}</div>
   <p class="work-result-count" role="status" data-work-count>{featured.length+archive.length} selected projects</p>
-  <section class="work-index-featured work-index-group" id="selected" aria-label="Featured projects" data-work-group>{featured.map(p=><a class="work-index-card" href={projectHref(p)} data-work-card data-categories={categories(p)}>{p.heroMediaId&&<MediaFigure mediaId={p.heroMediaId} preview showCaption={false} sizes="(max-width: 767px) calc(100vw - 40px), 656px" />}<div><p class="eyebrow">{p.disciplines.join(' · ')}</p><h2>{p.title}</h2>{p.intro&&<p>{p.intro}</p>}</div></a>)}</section>
-  <section class="work-index-archive work-index-group" id="archive" aria-labelledby="archive-title" data-work-group><h2 class="eyebrow" id="archive-title">From the archive</h2><div class="work-index-archive-grid">{archive.map(p=><a class="work-index-card" href={projectHref(p)} data-work-card data-categories={categories(p)}>{p.heroMediaId&&<MediaFigure mediaId={p.heroMediaId} preview showCaption={false} sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1000px) 44vw, 426px" />}<div><h3>{p.title}</h3><p class="eyebrow">{p.disciplines.join(' · ')}</p></div></a>)}</div></section>
+  <section class="work-index-featured work-index-group" id="selected" aria-label="Featured projects" data-work-group>{featured.map(p=><WorkCard project={p} variant="featured" />)}</section>
+  <section class="work-index-archive work-index-group" id="archive" aria-labelledby="archive-title" data-work-group><h2 class="eyebrow" id="archive-title">From the archive</h2><div class="work-index-archive-grid">{archive.map(p=><WorkCard project={p} variant="archive" />)}</div></section>
  </Container>
  <script>
  const buttons=[...document.querySelectorAll<HTMLButtonElement>('[data-work-filter]')],cards=[...document.querySelectorAll<HTMLElement>('[data-work-card]')];
- buttons.forEach(button=>{button.hidden=false;button.addEventListener('click',()=>{const selected=button.dataset.workFilter!;cards.forEach(card=>card.hidden=!card.dataset.categories?.split(' ').includes(selected));buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelectorAll<HTMLElement>('[data-work-group]').forEach(group=>group.hidden=![...group.querySelectorAll<HTMLElement>('[data-work-card]')].some(card=>!card.hidden));const count=document.querySelector('[data-work-count]');if(count)count.textContent=`${cards.filter(card=>!card.hidden).length} projects shown`;});});
+ buttons.forEach(button=>{button.hidden=false;button.addEventListener('click',()=>{const selected=button.dataset.workFilter!;cards.forEach(card=>card.hidden=!card.dataset.categories?.split(' ').includes(selected));buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelectorAll<HTMLElement>('[data-work-group]').forEach(group=>group.hidden=![...group.querySelectorAll<HTMLElement>('[data-work-card]')].some(card=>!card.hidden));const count=document.querySelector('[data-work-count]');if(count)count.textContent=`${cards.filter(card=>!card.hidden).length} ${cards.filter(card=>!card.hidden).length===1?'project':'projects'} shown`;});});
  </script>
 </Base>

@@ -23,20 +23,24 @@ No standalone About, Contact or Logos page frame is present on this Figma page. 
 - [x] Figma page inventory and classification.
 - [x] Canonical project/media collection and reusable editorial block renderer.
 - [x] Workbench source collections and content/motion guidance.
-- [ ] `/` — finish and validate homepage refinements.
-- [ ] `/work/` — reconcile the selected index design with real records and useful filters.
-- [ ] `/work/earnt/` — complete verified narrative and deliverable imagery.
-- [ ] `/work/sneaker-lab/` — remove inherited Cozy Heaven content; preserve pitch status.
-- [ ] `/work/superbalist/` — translate the current Figma case study and credit contemporary reconstructions.
-- [ ] `/work/golds-gym/` — validate the full content pilot at desktop, tablet and mobile.
-- [ ] `/work/orchard-on-long/` and `/work/the-shed/` — concise archive presentations from actual assets and documented context.
-- [ ] `/work/hallys/` — retain the established published destination until a supported local presentation is complete.
-- [ ] `/logos/` — curate original identity assets; connect marks to their projects.
-- [ ] `/about/` — use approved studio positioning and capabilities.
-- [ ] `/contact/` — use the verified email enquiry destination; no simulated form submission.
-- [ ] Shared navigation/footer and active routes across every page.
-- [x] `/lab/`, `/lab/editorial/`, `/lab/archive/`, `/lab/cinematic/` — implemented as isolated experiments; browser QA pending.
-- [ ] Desktop/tablet/mobile, keyboard, reduced motion, media lifecycle and route regression checks.
-- [ ] Record completed stages in Git. The current project directory has no Git repository; preserve the existing files and establish local version history without adding a remote.
+- [x] `/` — finish and validate homepage refinements.
+- [x] `/work/` — reconcile the selected index design with real records and useful filters.
+- [x] `/work/earnt/` — complete verified narrative and deliverable imagery.
+- [x] `/work/sneaker-lab/` — remove inherited Cozy Heaven content; preserve pitch status.
+- [x] `/work/superbalist/` — translate the current Figma case study and credit contemporary reconstructions.
+- [x] `/work/golds-gym/` — validate the full content pilot at desktop, tablet and mobile.
+- [x] `/work/orchard-on-long/` and `/work/the-shed/` — concise archive presentations from actual assets and documented context.
+- [x] `/work/hallys/` — complete the local presentation from verified published narrative and imagery.
+- [x] `/logos/` — curate original identity assets; connect marks to their projects.
+- [x] `/about/` — use approved studio positioning and capabilities.
+- [x] `/contact/` — use the verified email enquiry destination; no simulated form submission.
+- [x] Shared navigation/footer and active routes across every page.
+- [x] `/lab/`, `/lab/editorial/`, `/lab/archive/`, `/lab/cinematic/` — implemented and browser-checked as isolated experiments.
+- [x] Desktop/tablet/mobile, keyboard, reduced motion, media lifecycle and route regression checks.
+- [x] Record completed stages in Git. Local history was established and completed stages committed; no remote was added.
 
 Experiments remain available for review. Unapproved copy and unsupported business outcomes are not promoted into production records.
+
+## Completed source refinements
+
+Sneaker LAB frame `1088:1519` now contains the factual pitch and original artwork. Gold’s Gym has an independent editable pilot at `1166:131` on Content & Prototypes, preserving the current Superbalist frame `1130:735`. The complete route and validation handoff is in [README.md](README.md).

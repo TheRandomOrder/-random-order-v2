@@ -13,14 +13,15 @@ const metadata = project.metadata ?? [
 ];
 ---
 <header class:list={['project-header', `project-header-${project.headerStyle ?? 'plain'}`]}>
-  {background && <img class="project-header-background" src={background.type === 'video' ? background.poster : background.src} srcset={background.type==='image'?imageSourceSet(background):undefined} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
+  {background && <img class="project-header-background" style={`object-position:${background.position ?? 'center'}`} src={background.type === 'video' ? background.poster : background.src} srcset={background.type==='image'?imageSourceSet(background):undefined} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
   <Container>
     <div class="project-header-body">
       <a class="project-back eyebrow" href="/work/">← Back to work</a>
-      {project.disciplines.length > 0 && <Eyebrow>{project.disciplines.join(' · ')}</Eyebrow>}
+      {(project.category || project.disciplines.length > 0) && <Eyebrow>{project.category ?? project.disciplines.join(' · ')}</Eyebrow>}
       <h1 data-editorial-reveal>{project.title}</h1>
       {project.intro && <p class="project-intro">{project.intro}</p>}
       {metadata.length > 0 && <dl class="project-metadata">{metadata.map(item => <div><dt class="eyebrow">{item.label}</dt><dd>{item.value}</dd></div>)}</dl>}
     </div>
+    {project.headerCaption && <p class="project-header-caption">{project.headerCaption}</p>}
   </Container>
 </header>

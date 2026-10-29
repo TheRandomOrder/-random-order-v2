@@ -6,5 +6,5 @@ const next = getRelatedProjects(project)[0];
 ---
 <nav class="project-navigation wrap" aria-label="More project work">
   <a class="project-navigation-item" href="/work/"><span class="eyebrow">Project index</span><span class="project-navigation-title">Back to work</span></a>
-  {next && <a class="project-navigation-item" href={projectHref(next)}><span class="eyebrow">Next project</span><span class="project-navigation-title">{next.title}</span></a>}
+  {next && <a class="project-navigation-item" href={projectHref(next)}><span class="eyebrow">Related project</span><span class="project-navigation-title">{next.title}</span></a>}
 </nav>

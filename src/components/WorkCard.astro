@@ -1,0 +1,15 @@
+---
+import {projectHref, type ProjectRecord} from '../data/projects';
+import MediaFigure from './project/MediaFigure.astro';
+import ProjectCardText from './ProjectCardText.astro';
+interface Props { project: ProjectRecord; variant: 'featured' | 'archive' }
+const {project, variant} = Astro.props;
+const disciplines = project.disciplines.join(' · ');
+const text = project.disciplines.join(' ').toLowerCase();
+const categories = ['all', ...(/brand|identity|rebrand/.test(text) ? ['brand'] : []), ...(/product|ux|digital|systems/.test(text) ? ['product'] : []), ...(/art direction|image/.test(text) ? ['art'] : []), ...(/identity|illustration/.test(text) ? ['identity'] : [])].join(' ');
+const sizes = variant === 'archive' ? '(max-width: 767px) calc(100vw - 40px), (max-width: 1000px) 44vw, 426px' : '(max-width: 767px) calc(100vw - 40px), 656px';
+---
+<a class="work-index-card" href={projectHref(project)} data-work-card data-categories={categories}>
+  {project.heroMediaId && <MediaFigure mediaId={project.heroMediaId} preview showCaption={false} sizes={sizes} />}
+  <ProjectCardText variant={variant} title={project.title} tags={disciplines} summary={variant === 'featured' ? project.intro : undefined} />
+</a>

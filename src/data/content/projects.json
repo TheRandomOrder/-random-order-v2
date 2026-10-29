@@ -326,7 +326,8 @@
         "value": "A Tangle of Moments"
       }
     ],
-    "logoMediaId": "marks-hallys"
+    "logoMediaId": "marks-hallys",
+    "editorialTop": 96
   },
   {
     "id": "earnt",
@@ -357,12 +358,12 @@
         "value": "Brand Direction, Website, Art Direction"
       },
       {
-        "label": "Based",
-        "value": "United Kingdom"
+        "label": "Brand Story",
+        "value": "Natural Resistance"
       },
       {
-        "label": "Concept",
-        "value": "Natural Resistance"
+        "label": "Positioning",
+        "value": "A Revolution in Consumption"
       }
     ],
     "relatedIds": [
@@ -424,6 +425,12 @@
             "label": "EARNT"
           }
         ]
+      },
+      {
+        "type": "quote",
+        "quote": "“Make EARNT feel like it’s for everyone, everywhere, without losing clarity or cool — and communicate a totally new idea.”",
+        "attribution": "Lauren Scott-Harris",
+        "role": "Founder, EARNT"
       },
       {
         "type": "text",
@@ -517,7 +524,9 @@
       }
     ],
     "homeOrder": 2,
-    "logoMediaId": "marks-teamearnt"
+    "logoMediaId": "marks-teamearnt",
+    "editorialTop": 96,
+    "category": "Brand Direction · Website"
   },
   {
     "id": "cozy",
@@ -671,7 +680,9 @@
       }
     ],
     "headerStyle": "image",
-    "headerMediaId": "sneaker-hero"
+    "headerMediaId": "sneaker-hero",
+    "headerCaption": "Pitch image reference",
+    "editorialTop": 96
   },
   {
     "id": "superbalist",
@@ -755,7 +766,7 @@
       {
         "type": "media",
         "mediaId": "superbalist-wordmark",
-        "caption": "Wordmark reference / Screenshot captured in 2026; not presented as a historical screen capture"
+        "caption": "Wordmark reference / Captured in 2026"
       },
       {
         "type": "text",
@@ -767,6 +778,8 @@
         "label": "Revisiting the work",
         "body": "Years later, I have returned to this body of work through a different creative lens. Using contemporary generative tools, I have begun reconstructing and reinterpreting elements of my original interface designs, iconography and visual systems. These new images are not historical screenshots. They are contemporary visual studies grounded in the original design thinking — a way of revisiting six years of work as an evolving design language."
       }
-    ]
+    ],
+    "headerCaption": "Contemporary image study",
+    "editorialTop": 200
   }
 ]

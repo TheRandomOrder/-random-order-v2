@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "earnt-website-home",
+    "type": "image",
+    "src": "/assets/projects/earnt/website-home.webp",
+    "width": 1600,
+    "height": 868,
+    "alt": "EARNT website homepage design",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/website-home-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/website-home-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 119262
+  },
+  {
+    "id": "earnt-rationale-revolution",
+    "type": "image",
+    "src": "/assets/projects/earnt/rationale-revolution.webp",
+    "width": 1104,
+    "height": 784,
+    "alt": "Revolution-era propaganda poster, painted from a low upward angle",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/rationale-revolution-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/rationale-revolution-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 155208
+  },
+  {
+    "id": "earnt-rationale-street-culture",
+    "type": "image",
+    "src": "/assets/projects/earnt/rationale-street-culture.webp",
+    "width": 500,
+    "height": 560,
+    "alt": "Street and activewear culture styling",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/rationale-street-culture-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 73638
+  },
+  {
+    "id": "earnt-rationale-nature",
+    "type": "image",
+    "src": "/assets/projects/earnt/rationale-nature.webp",
+    "width": 1200,
+    "height": 673,
+    "alt": "Lush green nature backdrop",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/rationale-nature-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/rationale-nature-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 141762
+  },
+  {
+    "id": "earnt-rationale-earnt",
+    "type": "image",
+    "src": "/assets/projects/earnt/rationale-earnt.webp",
+    "width": 1200,
+    "height": 1028,
+    "alt": "EARNT community, styled editorial portrait",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/rationale-earnt-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/rationale-earnt-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 141766
+  },
+  {
+    "id": "earnt-website-rebels",
+    "type": "image",
+    "src": "/assets/projects/earnt/website-rebels.webp",
+    "width": 1200,
+    "height": 667,
+    "alt": "EARNT website, Rebels With a Cause page",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/website-rebels-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/website-rebels-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 106592
+  },
+  {
+    "id": "earnt-website-collaboration",
+    "type": "image",
+    "src": "/assets/projects/earnt/website-collaboration.webp",
+    "width": 1200,
+    "height": 526,
+    "alt": "EARNT website, current collaboration page",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/website-collaboration-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/website-collaboration-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 82988
+  },
+  {
+    "id": "earnt-twill-cap",
+    "type": "image",
+    "src": "/assets/projects/earnt/twill-cap.webp",
+    "width": 1600,
+    "height": 1264,
+    "alt": "EARNT twill cap merchandise",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/twill-cap-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/twill-cap-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 328296
+  },
+  {
+    "id": "earnt-tshirt",
+    "type": "image",
+    "src": "/assets/projects/earnt/tshirt.webp",
+    "width": 1400,
+    "height": 826,
+    "alt": "EARNT Club tee, front and back",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/tshirt-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/tshirt-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 48860
+  },
+  {
+    "id": "earnt-apparel-track-jacket-board",
+    "type": "image",
+    "src": "/assets/projects/earnt/apparel-track-jacket-board.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Team EARNT track jacket concept: the rendered jacket with detail crops, alongside its technical drawing and specification sheet",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/apparel-track-jacket-board-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/apparel-track-jacket-board-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 170010
+  },
+  {
+    "id": "earnt-apparel-track-jacket-lifestyle",
+    "type": "image",
+    "src": "/assets/projects/earnt/apparel-track-jacket-lifestyle.webp",
+    "width": 1370,
+    "height": 1148,
+    "alt": "Two models in the Team EARNT track jacket and an orange tracksuit, seated among flowers",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/apparel-track-jacket-lifestyle-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/apparel-track-jacket-lifestyle-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 170014
+  },
+  {
+    "id": "earnt-river-cafe-keyring-cad",
+    "type": "image",
+    "src": "/assets/projects/earnt/river-cafe-keyring-cad.webp",
+    "width": 1600,
+    "height": 1651,
+    "alt": "Keyring CAD: the enamel keyring's dimensions (53mm by 17mm) and Pantone colours",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/river-cafe-keyring-cad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/river-cafe-keyring-cad-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 48378
+  },
+  {
+    "id": "earnt-river-cafe-cup-keyring",
+    "type": "image",
+    "src": "/assets/projects/earnt/river-cafe-cup-keyring.webp",
+    "width": 962,
+    "height": 1226,
+    "alt": "A coffee cup with the Cafe script mark, beside the enamel keyring on a steel counter",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/river-cafe-cup-keyring-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/river-cafe-cup-keyring-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 62538
+  },
+  {
+    "id": "earnt-river-cafe-door-keyring",
+    "type": "image",
+    "src": "/assets/projects/earnt/river-cafe-door-keyring.webp",
+    "width": 1304,
+    "height": 1620,
+    "alt": "A hand holding a Cafe cup and the enamel keyring in front of The River Cafe Cafe's blue door",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/river-cafe-door-keyring-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/earnt/river-cafe-door-keyring-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 155448
+  },
+  {
+    "id": "earnt-team-earnt-tiger",
+    "type": "image",
+    "src": "/assets/projects/earnt/team-earnt-tiger.webp",
+    "width": 900,
+    "height": 786,
+    "alt": "Team EARNT tiger mark",
+    "variants": [
+      {
+        "src": "/assets/projects/earnt/team-earnt-tiger-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/earnt"
+    },
+    "bytes": 51948
+  },
+  {
+    "id": "hallys-hero-tangle",
+    "type": "image",
+    "src": "/assets/projects/hallys/hero-tangle.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Hally's café storefront with the wandering line and hands illustration overlaid",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/hero-tangle-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/hero-tangle-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 198450
+  },
+  {
+    "id": "hallys-photo-2",
+    "type": "image",
+    "src": "/assets/projects/hallys/photo-2.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Hally's café detail",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/photo-2-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/photo-2-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 145000
+  },
+  {
+    "id": "hallys-menu",
+    "type": "image",
+    "src": "/assets/projects/hallys/menu.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Hally's menu design",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/menu-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/menu-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 193414
+  },
+  {
+    "id": "hallys-rationale-wandering-paths",
+    "type": "image",
+    "src": "/assets/projects/hallys/rationale-wandering-paths.webp",
+    "width": 1500,
+    "height": 844,
+    "alt": "Map illustration tracing wandering paths through the neighbourhood",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/rationale-wandering-paths-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/rationale-wandering-paths-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 369934
+  },
+  {
+    "id": "hallys-rationale-light-painting",
+    "type": "image",
+    "src": "/assets/projects/hallys/rationale-light-painting.webp",
+    "width": 603,
+    "height": 800,
+    "alt": "Long-exposure light painting",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/rationale-light-painting-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 63840
+  },
+  {
+    "id": "hallys-rationale-moments-tangled",
+    "type": "image",
+    "src": "/assets/projects/hallys/rationale-moments-tangled.webp",
+    "width": 1500,
+    "height": 844,
+    "alt": "Hally's storefront with the wandering line illustration overlaid",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/rationale-moments-tangled-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/rationale-moments-tangled-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 201452
+  },
+  {
+    "id": "hallys-photo-3",
+    "type": "image",
+    "src": "/assets/projects/hallys/photo-3.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Hally's illustration detail",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/photo-3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/photo-3-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 81388
+  },
+  {
+    "id": "hallys-photo-4",
+    "type": "image",
+    "src": "/assets/projects/hallys/photo-4.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Hally's packaging",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/photo-4-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/photo-4-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 63632
+  },
+  {
+    "id": "hallys-photo-5",
+    "type": "image",
+    "src": "/assets/projects/hallys/photo-5.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Hally's brand application",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/photo-5-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/photo-5-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 46894
+  },
+  {
+    "id": "hallys-illustration-storefront",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-storefront.webp",
+    "width": 1600,
+    "height": 1006,
+    "alt": "Hand-drawn illustration of Hally's café storefront",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-storefront-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/illustration-storefront-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 161798
+  },
+  {
+    "id": "hallys-illustration-glass",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-glass.webp",
+    "width": 896,
+    "height": 2246,
+    "alt": "Hand-drawn illustration of a single glass",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-glass-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 24380
+  },
+  {
+    "id": "hallys-illustration-diver",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-diver.webp",
+    "width": 892,
+    "height": 2378,
+    "alt": "Hand-drawn illustration of a diver",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-diver-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 22498
+  },
+  {
+    "id": "hallys-illustration-avocado",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-avocado.webp",
+    "width": 1046,
+    "height": 1202,
+    "alt": "Hand-drawn illustration of an avocado",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-avocado-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/illustration-avocado-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 21722
+  },
+  {
+    "id": "hallys-illustration-birdcage",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-birdcage.webp",
+    "width": 1151,
+    "height": 1202,
+    "alt": "Hand-drawn illustration of a birdcage",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-birdcage-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/illustration-birdcage-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 31846
+  },
+  {
+    "id": "hallys-poster",
+    "type": "image",
+    "src": "/assets/projects/hallys/poster.webp",
+    "width": 1600,
+    "height": 1401,
+    "alt": "Hally's brunch poster",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/poster-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/poster-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 218770
+  },
+  {
+    "id": "hallys-illustration-totebag",
+    "type": "image",
+    "src": "/assets/projects/hallys/illustration-totebag.webp",
+    "width": 1500,
+    "height": 1314,
+    "alt": "Hally's tote bag, printed with the champagne illustration and wandering line",
+    "variants": [
+      {
+        "src": "/assets/projects/hallys/illustration-totebag-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/hallys/illustration-totebag-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/work/hallys"
+    },
+    "bytes": 188616
+  },
+  {
+    "id": "marks-mark-artboard28",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard28.webp",
+    "width": 205,
+    "height": 189,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 2486
+  },
+  {
+    "id": "marks-mark-artboard29",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard29.webp",
+    "width": 198,
+    "height": 192,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 3036
+  },
+  {
+    "id": "marks-mark-artboard30",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard30.webp",
+    "width": 212,
+    "height": 210,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 2612
+  },
+  {
+    "id": "marks-mark-artboard31",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard31.webp",
+    "width": 238,
+    "height": 238,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 3784
+  },
+  {
+    "id": "marks-mark-artboard32",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard32.webp",
+    "width": 163,
+    "height": 163,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 2388
+  },
+  {
+    "id": "marks-mark-artboard33",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard33.webp",
+    "width": 184,
+    "height": 188,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 4196
+  },
+  {
+    "id": "marks-mark-artboard34",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard34.webp",
+    "width": 195,
+    "height": 195,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 3168
+  },
+  {
+    "id": "marks-mark-artboard35",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard35.webp",
+    "width": 173,
+    "height": 180,
+    "alt": "Brand mark",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 1352
+  },
+  {
+    "id": "marks-teamearnt",
+    "type": "image",
+    "src": "/assets/projects/marks/teamearnt.webp",
+    "width": 640,
+    "height": 559,
+    "alt": "Team Earnt",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/teamearnt-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 24248
+  },
+  {
+    "id": "marks-kwasha",
+    "type": "image",
+    "src": "/assets/projects/marks/kwasha.webp",
+    "width": 640,
+    "height": 462,
+    "alt": "Kwasha",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/kwasha-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 34726
+  },
+  {
+    "id": "marks-mother-moods",
+    "type": "image",
+    "src": "/assets/projects/marks/mother-moods.webp",
+    "width": 554,
+    "height": 558,
+    "alt": "Mother Moods",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mother-moods-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 29084
+  },
+  {
+    "id": "marks-rabbit",
+    "type": "image",
+    "src": "/assets/projects/marks/rabbit.webp",
+    "width": 620,
+    "height": 151,
+    "alt": "Rabbit",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/rabbit-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 11692
+  },
+  {
+    "id": "marks-mark-03",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-03.webp",
+    "width": 640,
+    "height": 337,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-03-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 6158
+  },
+  {
+    "id": "marks-soigne",
+    "type": "image",
+    "src": "/assets/projects/marks/soigne.webp",
+    "width": 635,
+    "height": 176,
+    "alt": "Soigné",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/soigne-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 5596
+  },
+  {
+    "id": "marks-royal-1",
+    "type": "image",
+    "src": "/assets/projects/marks/royal-1.webp",
+    "width": 640,
+    "height": 228,
+    "alt": "Royal",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/royal-1-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 24342
+  },
+  {
+    "id": "marks-mark-02",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-02.webp",
+    "width": 505,
+    "height": 269,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-02-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 11774
+  },
+  {
+    "id": "marks-mark-artboard22",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard22.webp",
+    "width": 640,
+    "height": 345,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-artboard22-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 6168
+  },
+  {
+    "id": "marks-fuse",
+    "type": "image",
+    "src": "/assets/projects/marks/fuse.webp",
+    "width": 640,
+    "height": 306,
+    "alt": "Fuse",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/fuse-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 12504
+  },
+  {
+    "id": "marks-mark-artboard15",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard15.webp",
+    "width": 640,
+    "height": 304,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-artboard15-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 7174
+  },
+  {
+    "id": "marks-the-black-lamb",
+    "type": "image",
+    "src": "/assets/projects/marks/the-black-lamb.webp",
+    "width": 640,
+    "height": 796,
+    "alt": "The Black Lamb",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/the-black-lamb-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 31482
+  },
+  {
+    "id": "marks-tfb-black",
+    "type": "image",
+    "src": "/assets/projects/marks/tfb-black.webp",
+    "width": 640,
+    "height": 626,
+    "alt": "The Fat Badger",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/tfb-black-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 48412
+  },
+  {
+    "id": "marks-nutbourne",
+    "type": "image",
+    "src": "/assets/projects/marks/nutbourne.webp",
+    "width": 640,
+    "height": 472,
+    "alt": "Nutbourne",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/nutbourne-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 55130
+  },
+  {
+    "id": "marks-sussex",
+    "type": "image",
+    "src": "/assets/projects/marks/sussex.webp",
+    "width": 563,
+    "height": 522,
+    "alt": "Sussex",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/sussex-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 7106
+  },
+  {
+    "id": "marks-mark-artboard23",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-artboard23.webp",
+    "width": 640,
+    "height": 640,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-artboard23-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 14894
+  },
+  {
+    "id": "marks-a-logo",
+    "type": "image",
+    "src": "/assets/projects/marks/a-logo.webp",
+    "width": 639,
+    "height": 604,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/a-logo-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 16294
+  },
+  {
+    "id": "marks-chalet-berlioz",
+    "type": "image",
+    "src": "/assets/projects/marks/chalet-berlioz.webp",
+    "width": 640,
+    "height": 634,
+    "alt": "Chalet Berlioz",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/chalet-berlioz-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 29126
+  },
+  {
+    "id": "marks-hallys",
+    "type": "image",
+    "src": "/assets/projects/marks/hallys.webp",
+    "width": 640,
+    "height": 414,
+    "alt": "Hally's",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/hallys-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 17980
+  },
+  {
+    "id": "marks-wilma",
+    "type": "image",
+    "src": "/assets/projects/marks/wilma.webp",
+    "width": 596,
+    "height": 163,
+    "alt": "Wilma",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/wilma-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 3880
+  },
+  {
+    "id": "marks-tfb",
+    "type": "image",
+    "src": "/assets/projects/marks/tfb.webp",
+    "width": 297,
+    "height": 295,
+    "alt": "The Fat Badger",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 1252
+  },
+  {
+    "id": "marks-wright",
+    "type": "image",
+    "src": "/assets/projects/marks/wright.webp",
+    "width": 606,
+    "height": 206,
+    "alt": "Wright",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/wright-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 6086
+  },
+  {
+    "id": "marks-war-hen",
+    "type": "image",
+    "src": "/assets/projects/marks/war-hen.webp",
+    "width": 640,
+    "height": 566,
+    "alt": "War Hen",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/war-hen-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 45316
+  },
+  {
+    "id": "marks-mark-04",
+    "type": "image",
+    "src": "/assets/projects/marks/mark-04.webp",
+    "width": 640,
+    "height": 500,
+    "alt": "Brand mark",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/mark-04-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 28452
+  },
+  {
+    "id": "marks-young-team",
+    "type": "image",
+    "src": "/assets/projects/marks/young-team.webp",
+    "width": 630,
+    "height": 397,
+    "alt": "Young Team",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/young-team-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 30194
+  },
+  {
+    "id": "marks-badger-head",
+    "type": "image",
+    "src": "/assets/projects/marks/badger-head.webp",
+    "width": 297,
+    "height": 295,
+    "alt": "Badger",
+    "variants": [],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 2808
+  },
+  {
+    "id": "marks-good-luck",
+    "type": "image",
+    "src": "/assets/projects/marks/good-luck.webp",
+    "width": 640,
+    "height": 667,
+    "alt": "Good Luck",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/good-luck-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 16770
+  },
+  {
+    "id": "marks-royal-2-black",
+    "type": "image",
+    "src": "/assets/projects/marks/royal-2-black.webp",
+    "width": 640,
+    "height": 361,
+    "alt": "Royal",
+    "variants": [
+      {
+        "src": "/assets/projects/marks/royal-2-black-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/logos"
+    },
+    "bytes": 29060
+  },
+  {
+    "id": "about-photo",
+    "type": "image",
+    "src": "/assets/projects/about/photo.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Portrait on a rocky coastline with the sea behind",
+    "variants": [
+      {
+        "src": "/assets/projects/about/photo-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/about/photo-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "Published Random Order",
+      "url": "https://therandomorder.com/about"
+    },
+    "bytes": 74462
+  },
+  {
+    "id": "superbalist-hero",
+    "type": "image",
+    "src": "/assets/projects/superbalist/hero.webp",
+    "width": 1600,
+    "height": 2003,
+    "alt": "Contemporary fashion image study used to revisit the Superbalist design language.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/hero-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-736",
+      "nodeId": "1130:736"
+    },
+    "bytes": 245336
+  },
+  {
+    "id": "superbalist-mobile",
+    "type": "image",
+    "src": "/assets/projects/superbalist/mobile.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Three mobile interface reconstructions showing the Superbalist S and shopping experience.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/mobile-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/mobile-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-769",
+      "nodeId": "1130:769"
+    },
+    "bytes": 69940
+  },
+  {
+    "id": "superbalist-icons",
+    "type": "image",
+    "src": "/assets/projects/superbalist/icons.webp",
+    "width": 1600,
+    "height": 971,
+    "alt": "Superbalist symbols shown as a shared visual system.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/icons-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/icons-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-783",
+      "nodeId": "1130:783"
+    },
+    "bytes": 52396
+  },
+  {
+    "id": "superbalist-symbols",
+    "type": "image",
+    "src": "/assets/projects/superbalist/symbols.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "A cropped field of Superbalist S identity studies.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/symbols-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/symbols-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1126-5173",
+      "nodeId": "1126:5173"
+    },
+    "bytes": 232646
+  },
+  {
+    "id": "superbalist-wordmark",
+    "type": "image",
+    "src": "/assets/projects/superbalist/wordmark.webp",
+    "width": 1024,
+    "height": 554,
+    "alt": "Superbalist wordmark reference with construction guides.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/wordmark-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/wordmark-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1142-5652",
+      "nodeId": "1142:5652"
+    },
+    "bytes": 13862
+  },
+  {
+    "id": "work-hero",
+    "type": "image",
+    "src": "/assets/projects/work/hero.webp",
+    "width": 1600,
+    "height": 913,
+    "alt": "Editorial project imagery in the Work-index hero.",
+    "variants": [
+      {
+        "src": "/assets/projects/work/hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/work/hero-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "V2 / Build Experiment Test",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1124-4186",
+      "nodeId": "1124:4186"
+    },
+    "bytes": 20404
+  }
+]

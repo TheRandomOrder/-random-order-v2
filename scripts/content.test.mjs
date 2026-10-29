@@ -43,6 +43,7 @@ test('canonical records have stable, unique identities and valid route configura
     assert.ok(Array.isArray(project.blocks), `${project.id}: blocks array`);
     if (project.externalUrl) assert.match(project.externalUrl, /^https:\/\//, `${project.id}: external URL`);
     if (project.routeEnabled) assert.ok(project.blocks.length > 0, `${project.id}: enabled local route needs content`);
+    if (project.editorialTop !== undefined) assert.ok(Number.isFinite(project.editorialTop) && project.editorialTop >= 0, `${project.id}: editorial spacing`);
   }
 });
 

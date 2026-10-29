@@ -1900,7 +1900,7 @@
     "src": "/assets/projects/sneaker/geometry.webp",
     "width": 1344,
     "height": 1301,
-    "alt": "Basketball court geometry poster",
+    "alt": "Geometry: an orange basketball court. The poster reads: The basketball court is a beautiful piece of design. An eloquent form of geometry, bringing people together in a configuration of playful shapes.",
     "variants": [
       {
         "src": "/assets/projects/sneaker/geometry-480.webp",
@@ -1984,7 +1984,8 @@
       "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
       "nodeId": "1088:1521",
       "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1088-1521"
-    }
+    },
+    "position": "50% 87%"
   },
   {
     "id": "sneaker-basketball-portrait",

@@ -30,6 +30,7 @@ export interface ProjectRecord {
   client?: string;
   year?: string | number;
   disciplines: string[];
+  category?: string;
   intro?: string;
   description?: string;
   approach?: string;
@@ -38,6 +39,8 @@ export interface ProjectRecord {
   heroMediaId?: string;
   logoMediaId?: string;
   headerMediaId?: string;
+  headerCaption?: string;
+  editorialTop?: number;
   relatedIds?: string[];
   metadata?: {label: string; value: string}[];
   blocks: EditorialBlock[];

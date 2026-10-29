@@ -1,0 +1,682 @@
+[
+  {
+    "project": "earnt",
+    "name": "website-home",
+    "url": "https://therandomorder.com/images/work/earnt/website-home.jpg",
+    "alt": "EARNT website homepage design",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-website-home.jpg",
+    "bytes": 230076,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "rationale-revolution",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-revolution.jpg",
+    "alt": "Revolution-era propaganda poster, painted from a low upward angle",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-rationale-revolution.jpg",
+    "bytes": 176187,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "rationale-street-culture",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-street-culture.jpg",
+    "alt": "Street and activewear culture styling",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-rationale-street-culture.jpg",
+    "bytes": 69769,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "rationale-nature",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-nature.jpg",
+    "alt": "Lush green nature backdrop",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-rationale-nature.jpg",
+    "bytes": 165125,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "rationale-earnt",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-earnt.jpg",
+    "alt": "EARNT community, styled editorial portrait",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-rationale-earnt.jpg",
+    "bytes": 201929,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "website-rebels",
+    "url": "https://therandomorder.com/images/work/earnt/website-rebels.jpg",
+    "alt": "EARNT website, Rebels With a Cause page",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-website-rebels.jpg",
+    "bytes": 140582,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "website-collaboration",
+    "url": "https://therandomorder.com/images/work/earnt/website-collaboration.jpg",
+    "alt": "EARNT website, current collaboration page",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-website-collaboration.jpg",
+    "bytes": 112332,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "twill-cap",
+    "url": "https://therandomorder.com/images/work/earnt/twill-cap.jpg",
+    "alt": "EARNT twill cap merchandise",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-twill-cap.jpg",
+    "bytes": 460326,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "tshirt",
+    "url": "https://therandomorder.com/images/work/earnt/tshirt.jpg",
+    "alt": "EARNT Club tee, front and back",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-tshirt.jpg",
+    "bytes": 81680,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "apparel-track-jacket-board",
+    "url": "https://therandomorder.com/images/work/earnt/apparel-track-jacket-board.jpg",
+    "alt": "Team EARNT track jacket concept: the rendered jacket with detail crops, alongside its technical drawing and specification sheet",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-apparel-track-jacket-board.jpg",
+    "bytes": 264776,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "apparel-track-jacket-lifestyle",
+    "url": "https://therandomorder.com/images/work/earnt/apparel-track-jacket-lifestyle.jpg",
+    "alt": "Two models in the Team EARNT track jacket and an orange tracksuit, seated among flowers",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-apparel-track-jacket-lifestyle.jpg",
+    "bytes": 270602,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "river-cafe-keyring-cad",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-keyring-cad.png",
+    "alt": "Keyring CAD: the enamel keyring's dimensions (53mm by 17mm) and Pantone colours",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-river-cafe-keyring-cad.png",
+    "bytes": 79304,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "river-cafe-cup-keyring",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-cup-keyring.jpg",
+    "alt": "A coffee cup with the Cafe script mark, beside the enamel keyring on a steel counter",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-river-cafe-cup-keyring.jpg",
+    "bytes": 115565,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "river-cafe-door-keyring",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-door-keyring.jpg",
+    "alt": "A hand holding a Cafe cup and the enamel keyring in front of The River Cafe Cafe's blue door",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-river-cafe-door-keyring.jpg",
+    "bytes": 255436,
+    "ok": true
+  },
+  {
+    "project": "earnt",
+    "name": "team-earnt-tiger",
+    "url": "https://therandomorder.com/images/work/earnt/team-earnt-tiger.png",
+    "alt": "Team EARNT tiger mark",
+    "sourcePage": "https://therandomorder.com/work/earnt",
+    "localPath": "random-order/docs/milestone-08/source-assets/earnt-team-earnt-tiger.png",
+    "bytes": 82182,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "hero-tangle",
+    "url": "https://therandomorder.com/images/work/hallys/hero-tangle.jpg",
+    "alt": "Hally's caf\u00e9 storefront with the wandering line and hands illustration overlaid",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-hero-tangle.jpg",
+    "bytes": 307952,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "photo-2",
+    "url": "https://therandomorder.com/images/work/hallys/photo-2.jpg",
+    "alt": "Hally's caf\u00e9 detail",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-photo-2.jpg",
+    "bytes": 256164,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "menu",
+    "url": "https://therandomorder.com/images/work/hallys/menu.jpg",
+    "alt": "Hally's menu design",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-menu.jpg",
+    "bytes": 306211,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "rationale-wandering-paths",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-wandering-paths.jpg",
+    "alt": "Map illustration tracing wandering paths through the neighbourhood",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-rationale-wandering-paths.jpg",
+    "bytes": 350340,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "rationale-light-painting",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-light-painting.webp",
+    "alt": "Long-exposure light painting",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-rationale-light-painting.webp",
+    "bytes": 67976,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "rationale-moments-tangled",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-moments-tangled.jpg",
+    "alt": "Hally's storefront with the wandering line illustration overlaid",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-rationale-moments-tangled.jpg",
+    "bytes": 244132,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "photo-3",
+    "url": "https://therandomorder.com/images/work/hallys/photo-3.jpg",
+    "alt": "Hally's illustration detail",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-photo-3.jpg",
+    "bytes": 134062,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "photo-4",
+    "url": "https://therandomorder.com/images/work/hallys/photo-4.jpg",
+    "alt": "Hally's packaging",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-photo-4.jpg",
+    "bytes": 111522,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "photo-5",
+    "url": "https://therandomorder.com/images/work/hallys/photo-5.jpg",
+    "alt": "Hally's brand application",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-photo-5.jpg",
+    "bytes": 83470,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-storefront",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-storefront.png",
+    "alt": "Hand-drawn illustration of Hally's caf\u00e9 storefront",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-storefront.png",
+    "bytes": 129428,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-glass",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-glass.png",
+    "alt": "Hand-drawn illustration of a single glass",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-glass.png",
+    "bytes": 48076,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-diver",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-diver.png",
+    "alt": "Hand-drawn illustration of a diver",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-diver.png",
+    "bytes": 41229,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-avocado",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-avocado.png",
+    "alt": "Hand-drawn illustration of an avocado",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-avocado.png",
+    "bytes": 17164,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-birdcage",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-birdcage.png",
+    "alt": "Hand-drawn illustration of a birdcage",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-birdcage.png",
+    "bytes": 27734,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "poster",
+    "url": "https://therandomorder.com/images/work/hallys/poster.jpg",
+    "alt": "Hally's brunch poster",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-poster.jpg",
+    "bytes": 396264,
+    "ok": true
+  },
+  {
+    "project": "hallys",
+    "name": "illustration-totebag",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-totebag.jpg",
+    "alt": "Hally's tote bag, printed with the champagne illustration and wandering line",
+    "sourcePage": "https://therandomorder.com/work/hallys",
+    "localPath": "random-order/docs/milestone-08/source-assets/hallys-illustration-totebag.jpg",
+    "bytes": 258284,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard28",
+    "url": "https://therandomorder.com/images/logos/mark-artboard28.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard28.png",
+    "bytes": 4247,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard29",
+    "url": "https://therandomorder.com/images/logos/mark-artboard29.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard29.png",
+    "bytes": 4918,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard30",
+    "url": "https://therandomorder.com/images/logos/mark-artboard30.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard30.png",
+    "bytes": 4826,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard31",
+    "url": "https://therandomorder.com/images/logos/mark-artboard31.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard31.png",
+    "bytes": 6314,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard32",
+    "url": "https://therandomorder.com/images/logos/mark-artboard32.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard32.png",
+    "bytes": 3359,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard33",
+    "url": "https://therandomorder.com/images/logos/mark-artboard33.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard33.png",
+    "bytes": 6095,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard34",
+    "url": "https://therandomorder.com/images/logos/mark-artboard34.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard34.png",
+    "bytes": 5433,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard35",
+    "url": "https://therandomorder.com/images/logos/mark-artboard35.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard35.png",
+    "bytes": 2419,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "teamearnt",
+    "url": "https://therandomorder.com/images/logos/teamearnt.png",
+    "alt": "Team Earnt",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-teamearnt.png",
+    "bytes": 40376,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "kwasha",
+    "url": "https://therandomorder.com/images/logos/kwasha.png",
+    "alt": "Kwasha",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-kwasha.png",
+    "bytes": 158566,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mother-moods",
+    "url": "https://therandomorder.com/images/logos/mother-moods.png",
+    "alt": "Mother Moods",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mother-moods.png",
+    "bytes": 24506,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "rabbit",
+    "url": "https://therandomorder.com/images/logos/rabbit.png",
+    "alt": "Rabbit",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-rabbit.png",
+    "bytes": 11348,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-03",
+    "url": "https://therandomorder.com/images/logos/mark-03.jpg",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-03.jpg",
+    "bytes": 8204,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "soigne",
+    "url": "https://therandomorder.com/images/logos/soigne.png",
+    "alt": "Soign\u00e9",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-soigne.png",
+    "bytes": 5220,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "royal-1",
+    "url": "https://therandomorder.com/images/logos/royal-1.png",
+    "alt": "Royal",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-royal-1.png",
+    "bytes": 121594,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-02",
+    "url": "https://therandomorder.com/images/logos/mark-02.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-02.png",
+    "bytes": 11240,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard22",
+    "url": "https://therandomorder.com/images/logos/mark-artboard22.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard22.png",
+    "bytes": 2268,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "fuse",
+    "url": "https://therandomorder.com/images/logos/fuse.png",
+    "alt": "Fuse",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-fuse.png",
+    "bytes": 6496,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard15",
+    "url": "https://therandomorder.com/images/logos/mark-artboard15.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard15.png",
+    "bytes": 24694,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "the-black-lamb",
+    "url": "https://therandomorder.com/images/logos/the-black-lamb.png",
+    "alt": "The Black Lamb",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-the-black-lamb.png",
+    "bytes": 19220,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "tfb-black",
+    "url": "https://therandomorder.com/images/logos/tfb-black.png",
+    "alt": "The Fat Badger",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-tfb-black.png",
+    "bytes": 40466,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "nutbourne",
+    "url": "https://therandomorder.com/images/logos/nutbourne.png",
+    "alt": "Nutbourne",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-nutbourne.png",
+    "bytes": 32506,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "sussex",
+    "url": "https://therandomorder.com/images/logos/sussex.png",
+    "alt": "Sussex",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-sussex.png",
+    "bytes": 6312,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-artboard23",
+    "url": "https://therandomorder.com/images/logos/mark-artboard23.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-artboard23.png",
+    "bytes": 8242,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "a-logo",
+    "url": "https://therandomorder.com/images/logos/a-logo.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-a-logo.png",
+    "bytes": 15366,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "chalet-berlioz",
+    "url": "https://therandomorder.com/images/logos/chalet-berlioz.jpg",
+    "alt": "Chalet Berlioz",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-chalet-berlioz.jpg",
+    "bytes": 129812,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "hallys",
+    "url": "https://therandomorder.com/images/logos/hallys.png",
+    "alt": "Hally's",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-hallys.png",
+    "bytes": 20688,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "wilma",
+    "url": "https://therandomorder.com/images/logos/wilma.png",
+    "alt": "Wilma",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-wilma.png",
+    "bytes": 3580,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "tfb",
+    "url": "https://therandomorder.com/images/logos/tfb.png",
+    "alt": "The Fat Badger",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-tfb.png",
+    "bytes": 820,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "wright",
+    "url": "https://therandomorder.com/images/logos/wright.png",
+    "alt": "Wright",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-wright.png",
+    "bytes": 5632,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "war-hen",
+    "url": "https://therandomorder.com/images/logos/war-hen.jpg",
+    "alt": "War Hen",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-war-hen.jpg",
+    "bytes": 139650,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "mark-04",
+    "url": "https://therandomorder.com/images/logos/mark-04.png",
+    "alt": "Brand mark",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-mark-04.png",
+    "bytes": 20648,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "young-team",
+    "url": "https://therandomorder.com/images/logos/young-team.png",
+    "alt": "Young Team",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-young-team.png",
+    "bytes": 28710,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "badger-head",
+    "url": "https://therandomorder.com/images/logos/badger-head.png",
+    "alt": "Badger",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-badger-head.png",
+    "bytes": 1976,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "good-luck",
+    "url": "https://therandomorder.com/images/logos/good-luck.png",
+    "alt": "Good Luck",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-good-luck.png",
+    "bytes": 23114,
+    "ok": true
+  },
+  {
+    "project": "marks",
+    "name": "royal-2-black",
+    "url": "https://therandomorder.com/images/logos/royal-2-black.png",
+    "alt": "Royal",
+    "sourcePage": "https://therandomorder.com/logos",
+    "localPath": "random-order/docs/milestone-08/source-assets/marks-royal-2-black.png",
+    "bytes": 264887,
+    "ok": true
+  },
+  {
+    "project": "about",
+    "name": "photo",
+    "url": "https://therandomorder.com/images/about/photo.jpg",
+    "alt": "Portrait on a rocky coastline with the sea behind",
+    "sourcePage": "https://therandomorder.com/about",
+    "localPath": "random-order/docs/milestone-08/source-assets/about-photo.jpg",
+    "bytes": 241205,
+    "ok": true
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "sneaker-geometry",
+    "type": "image",
+    "src": "/assets/projects/sneaker/geometry.webp",
+    "width": 1344,
+    "height": 1301,
+    "alt": "Basketball court geometry poster",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/geometry-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/geometry-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1088:1545",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1088-1545"
+    },
+    "bytes": 96230
+  },
+  {
+    "id": "sneaker-round-marks",
+    "type": "image",
+    "src": "/assets/projects/sneaker/round-marks.webp",
+    "width": 1344,
+    "height": 549,
+    "alt": "Sneaker LAB and BSTN circular basketball identity studies",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/round-marks-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/round-marks-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1088:1598",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1088-1598"
+    },
+    "bytes": 97576
+  },
+  {
+    "id": "sneaker-identity-studies",
+    "type": "image",
+    "src": "/assets/projects/sneaker/identity-studies.webp",
+    "width": 1344,
+    "height": 826,
+    "alt": "Basketball court and laboratory symbol identity studies",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/identity-studies-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/identity-studies-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1126:5142",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1126-5142"
+    },
+    "bytes": 59852
+  },
+  {
+    "id": "sneaker-hero",
+    "type": "image",
+    "src": "/assets/projects/sneaker/hero.webp",
+    "width": 1200,
+    "height": 800,
+    "alt": "Football portrait from the original pitch",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/hero-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1088:1521",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1088-1521"
+    },
+    "bytes": 95520
+  },
+  {
+    "id": "sneaker-basketball-portrait",
+    "type": "image",
+    "src": "/assets/projects/sneaker/basketball-portrait.webp",
+    "width": 1200,
+    "height": 1500,
+    "alt": "Basketball portrait on a coloured court from the original pitch",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/basketball-portrait-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/basketball-portrait-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1116:1256",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1116-1256"
+    },
+    "aspectRatio": "624 / 698",
+    "bytes": 162470
+  },
+  {
+    "id": "sneaker-sneakers",
+    "type": "image",
+    "src": "/assets/projects/sneaker/sneakers.webp",
+    "width": 1200,
+    "height": 1500,
+    "alt": "Sneakers on a coloured basketball court from the original pitch",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker/sneakers-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker/sneakers-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Sneaker LAB × BSTN pitch artwork",
+      "nodeId": "1116:1256",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1116-1256"
+    },
+    "aspectRatio": "624 / 698",
+    "bytes": 220396
+  }
+]
