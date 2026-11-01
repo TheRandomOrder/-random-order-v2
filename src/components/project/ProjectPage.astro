@@ -9,7 +9,7 @@ interface Props { project: ProjectRecord }
 const {project} = Astro.props;
 ---
 <Base title={`${project.title} — Random Order`} description={project.intro ?? `${project.title}: selected work by Random Order.`} noindex={project.status !== 'published'}>
-  <article class:list={['project-page', `project-presentation-${project.presentation}`]} style={`--editorial-top:${project.editorialTop ?? 0}px`} data-project={project.id}>
+  <article class:list={['project-page', `project-presentation-${project.presentation}`, project.mode && `project-mode-${project.mode}`]} style={`--editorial-top:${project.editorialTop ?? 0}px;${project.headerHeight ? `--project-header-height:${project.headerHeight}px;` : ''}`} data-project={project.id}>
     <ProjectHeader project={project} />
     <EditorialBlocks blocks={project.blocks} />
     <ProjectNavigation project={project} />

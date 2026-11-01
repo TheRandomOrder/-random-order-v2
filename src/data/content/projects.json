@@ -534,8 +534,8 @@
     "title": "Cozy Heaven",
     "presentation": "gallery",
     "classification": "featured",
-    "routeEnabled": false,
-    "status": "draft",
+    "routeEnabled": true,
+    "status": "ready",
     "featuredOrder": 1,
     "cardNumber": "03",
     "disciplines": [
@@ -544,14 +544,202 @@
     ],
     "intro": "Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.",
     "heroMediaId": "cozy-poster",
-    "relatedIds": [],
+    "relatedIds": [
+      "superbalist",
+      "sneaker-lab"
+    ],
     "sources": [
       {
-        "label": "Existing V2 project header and homepage artwork"
+        "label": "V2 / Build Experiment Test / Cozy Heaven",
+        "nodeId": "1206:1212",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1206-1212"
+      },
+      {
+        "label": "Cozy Heaven — Building the Brand / Phase 2, pages 13–22"
       }
     ],
-    "blocks": [],
-    "homeOrder": 1
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "cozy-m09-soft-cozy-campaign",
+        "caption": "Cozy Heaven / AI-assisted campaign study"
+      },
+      {
+        "type": "media",
+        "mediaId": "cozy-m09-joy-campaign",
+        "caption": "Süße Träume / Campaign film poster"
+      },
+      {
+        "type": "text",
+        "label": "A story about care",
+        "body": "Comfort was never in the fabric. It was in the care. Every touchpoint should reinforce this story through language, imagery, pacing, service and product experience."
+      },
+      {
+        "type": "palette",
+        "label": "Cozy Heaven colour studies",
+        "columns": 6,
+        "colors": [
+          {
+            "value": "#2b1c1e",
+            "name": "Colour study 1"
+          },
+          {
+            "value": "#2b1c1e",
+            "name": "Colour study 2"
+          },
+          {
+            "value": "#1d231f",
+            "name": "Colour study 3"
+          },
+          {
+            "value": "#875e4a",
+            "name": "Colour study 4"
+          },
+          {
+            "value": "#1d231f",
+            "name": "Colour study 5"
+          },
+          {
+            "value": "#eaeaea",
+            "name": "Colour study 6"
+          },
+          {
+            "value": "#3b1219",
+            "name": "Colour study 7"
+          },
+          {
+            "value": "#3b1219",
+            "name": "Colour study 8"
+          },
+          {
+            "value": "#2b1c1e",
+            "name": "Colour study 9"
+          },
+          {
+            "value": "#cd735b",
+            "name": "Colour study 10"
+          },
+          {
+            "value": "#eebd9a",
+            "name": "Colour study 11"
+          },
+          {
+            "value": "#e7cba5",
+            "name": "Colour study 12"
+          },
+          {
+            "value": "#670f1d",
+            "name": "Colour study 13"
+          },
+          {
+            "value": "#17202a",
+            "name": "Colour study 14"
+          },
+          {
+            "value": "#0a1b33",
+            "name": "Colour study 15"
+          },
+          {
+            "value": "#aaaaaa",
+            "name": "Colour study 16"
+          },
+          {
+            "value": "#d5d5d5",
+            "name": "Colour study 17"
+          },
+          {
+            "value": "#eaeaea",
+            "name": "Colour study 18"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Colour worlds",
+        "body": "Burgundy, ocean and eucalyptus form the core colour worlds, supported by cream, warm and cool greys, charcoal and black. Each becomes an emotional world expressed through photography, story, campaign and editorial."
+      },
+      {
+        "type": "heading",
+        "eyebrow": "Material studies",
+        "title": "Softness, light and texture."
+      },
+      {
+        "type": "gallery",
+        "columns": [
+          628,
+          628
+        ],
+        "columnGap": 85.863,
+        "maxWidth": 1342,
+        "items": [
+          "cozy-m09-textile",
+          "cozy-m09-fibre"
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "cozy-m09-fabric-ritual",
+        "caption": "Materiality and care / Film poster"
+      },
+      {
+        "type": "heading",
+        "eyebrow": "Brand story",
+        "title": "Comfort was never in the fabric. It was in the care."
+      },
+      {
+        "type": "text",
+        "label": "Photography & art direction",
+        "body": "Product: sheets, pillows, fibres, details and textures. Interior: rooms, architecture, light and stillness. Lifestyle: rituals, people and everyday comfort. Editorial: atmosphere, material and quiet luxury. Campaign: big ideas, memory, story and film."
+      },
+      {
+        "type": "media",
+        "mediaId": "cozy-m09-forest-bedroom",
+        "caption": "Cozy Heaven / AI-assisted interior study"
+      },
+      {
+        "type": "text",
+        "label": "One connected experience",
+        "body": "The brand should feel coherent before, during and after purchase — across the website, product pages, packaging, editorial, email and the customer’s home."
+      },
+      {
+        "type": "media",
+        "mediaId": "cozy-m09-day-begins",
+        "caption": "Where the day begins / AI-assisted campaign film poster"
+      },
+      {
+        "type": "text",
+        "label": "Repeatable production",
+        "body": "Clear briefs, curated references, reusable prompt systems and quality control create a shared standard for realism, composition and brand fit. The aim is a coherent production system that can be reviewed and improved over time."
+      }
+    ],
+    "homeOrder": 1,
+    "mode": "case-study",
+    "headerHeight": 1080,
+    "headerTitleScale": "large",
+    "headerStyle": "image",
+    "headerMediaId": "cozy-m09-hero",
+    "headerOpacity": 1,
+    "headerMonochrome": true,
+    "editorialTop": 200,
+    "category": "Brand Direction · Website",
+    "metadata": [
+      {
+        "label": "Project",
+        "value": "Cozy Heaven"
+      },
+      {
+        "label": "Scope",
+        "value": "Brand direction / Art direction / Website"
+      },
+      {
+        "label": "Story",
+        "value": "A story about care"
+      },
+      {
+        "label": "Media",
+        "value": "AI-assisted image studies"
+      }
+    ]
   },
   {
     "id": "sussex",

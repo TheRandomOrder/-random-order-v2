@@ -12,8 +12,8 @@ const metadata = project.metadata ?? [
   ...(project.disciplines.length ? [{label:'Scope', value:project.disciplines.join(', ')}] : []),
 ];
 ---
-<header class:list={['project-header', `project-header-${project.headerStyle ?? 'plain'}`]}>
-  {background && <img class="project-header-background" style={`object-position:${background.position ?? 'center'}`} src={background.type === 'video' ? background.poster : background.src} srcset={background.type==='image'?imageSourceSet(background):undefined} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
+<header class:list={['project-header', `project-header-${project.headerStyle ?? 'plain'}`, {'project-header-large-title':project.headerTitleScale === 'large'}]}>
+  {background && <img class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.type === 'video' ? background.poster : background.src} srcset={background.type==='image'?imageSourceSet(background):undefined} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
   <Container>
     <div class="project-header-body">
       <a class="project-back eyebrow" href="/work/">← Back to work</a>

@@ -3,22 +3,24 @@ import type {SourceReference} from './media';
 
 export type Presentation = 'narrative' | 'gallery' | 'extended' | 'archive';
 
-interface BlockBase { id?: string }
+interface BlockBase { id?: string; spaceBefore?: number }
 export interface TextBlock extends BlockBase { type: 'text'; label?: string; body: string | string[] }
 export interface HeadingBlock extends BlockBase { type: 'heading'; title: string; eyebrow?: string; divider?: string }
 export interface MediaBlock extends BlockBase { type: 'media'; mediaId: string; caption?: string; fullBleed?: boolean; width?: 'full' | 'narrow'; fit?: 'cover' | 'contain' }
 export interface GalleryItem { mediaId: string; caption?: string; fit?: 'cover' | 'contain'; span?: number }
-export interface GalleryBlock extends BlockBase { type: 'gallery'; items: (string | GalleryItem)[]; layout?: 'paired' | 'editorial' | 'dense' | 'triptych'; gap?: 'wide'; fullBleed?: boolean }
+export interface GalleryBlock extends BlockBase { type: 'gallery'; items: (string | GalleryItem)[]; layout?: 'paired' | 'editorial' | 'dense' | 'triptych'; gap?: 'wide'; fullBleed?: boolean; columns?: number[]; columnGap?: number; maxWidth?: number }
+export interface PaletteBlock extends BlockBase { type: 'palette'; label: string; colors: {value: string; name: string}[]; columns?: number }
 export interface FormulaBlock extends BlockBase { type: 'formula'; terms: {mediaId: string; label: string; operator?: string}[] }
 export interface QuoteBlock extends BlockBase { type: 'quote'; quote: string; attribution?: string; role?: string }
 export interface CreditsBlock extends BlockBase { type: 'credits'; items: {label: string; value: string; href?: string}[] }
-export type EditorialBlock = TextBlock | HeadingBlock | MediaBlock | GalleryBlock | FormulaBlock | QuoteBlock | CreditsBlock;
+export type EditorialBlock = TextBlock | HeadingBlock | MediaBlock | GalleryBlock | FormulaBlock | QuoteBlock | CreditsBlock | PaletteBlock;
 
 export interface ProjectRecord {
   id: string;
   slug: string;
   title: string;
   presentation: Presentation;
+  mode?: 'case-study' | 'visual-story';
   classification: 'featured' | 'archive' | 'unlisted';
   routeEnabled: boolean;
   status: 'draft' | 'ready' | 'published';
@@ -40,6 +42,10 @@ export interface ProjectRecord {
   logoMediaId?: string;
   headerMediaId?: string;
   headerCaption?: string;
+  headerHeight?: number;
+  headerTitleScale?: 'large';
+  headerOpacity?: number;
+  headerMonochrome?: boolean;
   editorialTop?: number;
   relatedIds?: string[];
   metadata?: {label: string; value: string}[];

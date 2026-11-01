@@ -1,0 +1,186 @@
+[
+  {
+    "id": "cozy-m09-soft-cozy-campaign",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/soft-cozy-campaign.webp",
+    "width": 1344,
+    "height": 760,
+    "alt": "A woman resting in white bedding, with the original Soft and Cozy campaign typography.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/soft-cozy-campaign-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/soft-cozy-campaign-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:13981",
+      "nodeId": "1265:13981",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-13981"
+    }
+  },
+  {
+    "id": "cozy-m09-joy-campaign",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/joy-campaign.webp",
+    "width": 1344,
+    "height": 796,
+    "alt": "A woman in sunglasses eating crisps in bed, with the original Süße Träume campaign lettering.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/joy-campaign-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/joy-campaign-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:14055",
+      "nodeId": "1265:14055",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-14055"
+    }
+  },
+  {
+    "id": "cozy-m09-textile",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/textile.webp",
+    "width": 628,
+    "height": 630,
+    "alt": "Close study of pale textile fibres.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/textile-480.webp",
+        "width": 480
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:14138",
+      "nodeId": "1265:14138",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-14138"
+    }
+  },
+  {
+    "id": "cozy-m09-fibre",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/fibre.webp",
+    "width": 628,
+    "height": 630,
+    "alt": "Fine white fibres against a dark background.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/fibre-480.webp",
+        "width": 480
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:14139",
+      "nodeId": "1265:14139",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-14139"
+    }
+  },
+  {
+    "id": "cozy-m09-fabric-ritual",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/fabric-ritual.webp",
+    "width": 1344,
+    "height": 576,
+    "alt": "Hands folding soft white fabric in warm light.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/fabric-ritual-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/fabric-ritual-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:14029",
+      "nodeId": "1265:14029",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-14029"
+    }
+  },
+  {
+    "id": "cozy-m09-forest-bedroom",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/forest-bedroom.webp",
+    "width": 1344,
+    "height": 1080,
+    "alt": "A white bed in a timber room opening onto a misty forest.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/forest-bedroom-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/forest-bedroom-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1265:14052",
+      "nodeId": "1265:14052",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1265-14052"
+    }
+  },
+  {
+    "id": "cozy-m09-day-begins",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/day-begins.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "Forest bedroom campaign composition with the original Where the day begins typography.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/day-begins-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/day-begins-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1206:1226",
+      "nodeId": "1206:1226",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1206-1226"
+    }
+  },
+  {
+    "id": "cozy-m09-hero",
+    "type": "image",
+    "src": "/assets/projects/cozy-heaven/m09/hero.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Cozy Heaven forest bedroom film poster.",
+    "fit": "contain",
+    "variants": [
+      {
+        "src": "/assets/projects/cozy-heaven/m09/hero-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/cozy-heaven/m09/hero-960.webp",
+        "width": 960
+      }
+    ],
+    "source": {
+      "label": "V2 / Build Experiment Test / Cozy Heaven / 1206:1218",
+      "nodeId": "1206:1218",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1206-1218"
+    }
+  }
+]
