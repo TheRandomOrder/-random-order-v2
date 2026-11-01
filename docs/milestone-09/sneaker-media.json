@@ -1,0 +1,180 @@
+[
+  {
+    "id": "sneaker-m09-court-geometry",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/court-geometry.webp",
+    "width": 624,
+    "height": 698,
+    "alt": "White basketball-court markings across an orange court, selected for the Thinking Unity packaging concept.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/court-geometry-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12038",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12038"
+    }
+  },
+  {
+    "id": "sneaker-m09-monochrome",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/monochrome.webp",
+    "width": 624,
+    "height": 698,
+    "alt": "Monochrome court geometry and care-kit sleeve graphic studies from the Sneaker LAB × BSTN pitch.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/monochrome-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12039",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12039"
+    }
+  },
+  {
+    "id": "sneaker-m09-orange-box",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/orange-box.webp",
+    "width": 600,
+    "height": 375,
+    "alt": "Orange BSTN packaging mockup with white basketball-court linework. Pitch concept.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/orange-box-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12042",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12042"
+    }
+  },
+  {
+    "id": "sneaker-m09-care-kit",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/care-kit.webp",
+    "width": 610,
+    "height": 375,
+    "alt": "Original circular BSTN and Sneaker LAB collaboration artwork, including the Bring Dope Stuff to Life lettering.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/care-kit-480.webp",
+        "width": 480
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12043",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12043"
+    }
+  },
+  {
+    "id": "sneaker-m09-court-group",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/court-group.webp",
+    "width": 1254,
+    "height": 1254,
+    "alt": "Monochrome basketball action on an outdoor court, selected for the Sneaker LAB × BSTN pitch.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/court-group-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/m09/court-group-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12033",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12033"
+    },
+    "aspectRatio": "1344 / 760",
+    "position": "50% 50%"
+  },
+  {
+    "id": "sneaker-m09-basketball-editorial",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/basketball-editorial.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "A streetwear portrait in a BSTN shirt on an orange basketball court. Contemporary AI-assisted pitch image.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/basketball-editorial-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/m09/basketball-editorial-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12035",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12035"
+    }
+  },
+  {
+    "id": "sneaker-m09-pack-black",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/pack-black.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Black BSTN care-kit sleeve mockup with white basketball-court geometry. Pitch concept.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/pack-black-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/m09/pack-black-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12079",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12079"
+    }
+  },
+  {
+    "id": "sneaker-m09-pack-white",
+    "type": "image",
+    "src": "/assets/projects/sneaker-lab/m09/pack-white.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "White BSTN care-kit sleeve mockup with black basketball-court geometry. Pitch concept.",
+    "variants": [
+      {
+        "src": "/assets/projects/sneaker-lab/m09/pack-white-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/sneaker-lab/m09/pack-white-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN",
+      "nodeId": "1262:12080",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12080"
+    }
+  }
+]

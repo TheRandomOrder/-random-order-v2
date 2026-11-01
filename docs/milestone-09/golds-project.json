@@ -1,0 +1,81 @@
+{
+  "id": "golds-gym",
+  "slug": "golds-gym",
+  "title": "Gold’s Gym",
+  "presentation": "gallery",
+  "classification": "archive",
+  "routeEnabled": true,
+  "status": "ready",
+  "disciplines": [
+    "Art Direction",
+    "Image Exploration"
+  ],
+  "intro": "Studies of strength, movement and gold. A sequence of AI-assisted fitness image explorations.",
+  "heroMediaId": "golds-m09-opening",
+  "metadata": [
+    {
+      "label": "Project",
+      "value": "Gold’s Gym"
+    },
+    {
+      "label": "Scope",
+      "value": "Art direction / Image exploration"
+    },
+    {
+      "label": "Status",
+      "value": "Concept studies"
+    },
+    {
+      "label": "Media",
+      "value": "AI-assisted imagery"
+    }
+  ],
+  "relatedIds": [
+    "the-shed",
+    "earnt"
+  ],
+  "sources": [
+    {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold’s Gym",
+      "nodeId": "1262:12370",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12370"
+    },
+    {
+      "label": "RANDOM-HOTEL / Workbench / Gold’s Gym",
+      "nodeId": "7738:678",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-678"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "media",
+      "mediaId": "golds-m09-opening"
+    },
+    {
+      "type": "media",
+      "mediaId": "golds-m09-press"
+    },
+    {
+      "type": "text",
+      "label": "Visual direction",
+      "body": "A warm gold palette, hard gym light and traces of movement connect a sequence of fitness image studies."
+    },
+    {
+      "type": "text",
+      "label": "Creative process",
+      "body": "Generative image-making explores strength and movement through pose, atmosphere and cinematic lighting. The images are presented as AI-assisted concept studies."
+    },
+    {
+      "type": "text",
+      "label": "Structured direction",
+      "body": "The visual brief centres on four recurring elements: strength, movement, cinematic lighting and a gold-led palette. Together, they provide a consistent direction across the individual studies."
+    }
+  ],
+  "logoMediaId": "golds-logo",
+  "mode": "visual-story",
+  "headerStyle": "plain",
+  "headerHeight": 1080,
+  "editorialTop": 160,
+  "category": "Art Direction · Image Exploration",
+  "headerTop": 361.5
+}

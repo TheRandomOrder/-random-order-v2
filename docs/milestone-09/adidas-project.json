@@ -1,0 +1,81 @@
+{
+  "id": "adidas",
+  "slug": "adidas",
+  "title": "Adidas",
+  "mode": "visual-story",
+  "presentation": "gallery",
+  "classification": "featured",
+  "routeEnabled": true,
+  "status": "ready",
+  "featuredOrder": 5,
+  "headerStyle": "image",
+  "headerHeight": 1080,
+  "headerTitleScale": "large",
+  "headerOpacity": 0.07,
+  "category": "Apparel · Packaging · Visual studies",
+  "disciplines": [
+    "Art Direction",
+    "Packaging"
+  ],
+  "intro": "Apparel and packaging studies featuring Adidas and I ART JOBURG.",
+  "description": "A visual sequence of apparel, printed tissue and kraft packaging studies.",
+  "heroMediaId": "adidas-portrait",
+  "headerMediaId": "adidas-header",
+  "editorialTop": 200,
+  "metadata": [
+    {
+      "label": "Artwork",
+      "value": "Adidas × I ART JOBURG"
+    },
+    {
+      "label": "Project details",
+      "value": "Pending verification"
+    }
+  ],
+  "relatedIds": [
+    "the-shed",
+    "sneaker-lab"
+  ],
+  "blocks": [
+    {
+      "id": "apparel",
+      "type": "media",
+      "mediaId": "adidas-portrait"
+    },
+    {
+      "type": "text",
+      "label": "Selected studies",
+      "body": "The artwork brings together a graphic T-shirt, repeated brand marks, printed tissue and kraft packaging."
+    },
+    {
+      "type": "heading",
+      "title": "Apparel to packaging",
+      "eyebrow": "Visual sequence"
+    },
+    {
+      "type": "media",
+      "mediaId": "adidas-tissue"
+    },
+    {
+      "type": "media",
+      "mediaId": "adidas-open-box"
+    },
+    {
+      "id": "packaging",
+      "type": "media",
+      "mediaId": "adidas-packaging-concept"
+    },
+    {
+      "type": "media",
+      "mediaId": "adidas-packaging-details"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Adidas selected artwork and editorial sequence",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-940",
+      "nodeId": "1183:940"
+    }
+  ],
+  "headerMonochrome": true
+}

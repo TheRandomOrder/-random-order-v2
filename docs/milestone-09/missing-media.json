@@ -1,0 +1,6 @@
+[
+  {"projectId":"cozy","type":"video","sourceNodeId":"1206:1218","sourceHash":"28ed5c680c8911b1ba98238e181ee9c8da08bce3","description":"Bedroom / morning film","status":"original-file-missing","posterMediaId":"cozy-m09-hero"},
+  {"projectId":"cozy","type":"video","sourceNodeId":"1265:14061","sourceHash":"bdafa68be21bd521fa882af8d4bba8cf01f270bd","description":"Sunglasses / crisps-in-bed campaign film","status":"original-file-missing","posterMediaId":"cozy-m09-joy-campaign"},
+  {"projectId":"cozy","type":"video","sourceNodeId":"1265:14029","sourceHash":"1cdc7375d975b1c8e350d70f9b5da601fd1d3c46","description":"Fabric-folding film","status":"original-file-missing","posterMediaId":"cozy-m09-fabric-ritual"},
+  {"projectId":"golds-gym","type":"video","sourceNodeId":"1262:12377","sourceHash":"228d84448586f4c68677cb29ee931a3e9cbf4232","description":"Golden-light fitness motion study","status":"original-file-missing","posterMediaId":"golds-m09-opening"}
+]

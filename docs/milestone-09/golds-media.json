@@ -1,0 +1,52 @@
+[
+  {
+    "id": "golds-m09-opening",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/m09/opening.webp",
+    "width": 1344,
+    "height": 760,
+    "alt": "An athlete holds a quiet prayer pose in cinematic gold light. AI-assisted fitness image study.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/m09/opening-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/m09/opening-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold’s Gym",
+      "nodeId": "1262:12375",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12375"
+    },
+    "caption": "AI-assisted image study / Still from supplied motion"
+  },
+  {
+    "id": "golds-m09-press",
+    "type": "image",
+    "src": "/assets/projects/golds-gym/m09/press.webp",
+    "width": 1344,
+    "height": 1346,
+    "alt": "An athlete lifting a bar in warm directional gym light. AI-assisted image study.",
+    "variants": [
+      {
+        "src": "/assets/projects/golds-gym/m09/press-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/golds-gym/m09/press-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "source": {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold’s Gym",
+      "nodeId": "1262:12378",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12378"
+    },
+    "caption": "AI-assisted fitness image study"
+  }
+]

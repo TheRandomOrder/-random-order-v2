@@ -18,13 +18,8 @@ const {mode, mediaList, title = 'Project gallery'} = Astro.props;
     {mediaList.map((media, index) => <article class="lab-gallery-item" data-gallery-item data-collection={studyCollection(media)} data-cinematic-panel={mode === 'cinematic' || undefined}>
       <div class:list={['lab-gallery-item-inner', {wrap:mode === 'cinematic'}]}>
         {mode === 'cinematic' && <div class="lab-scene-heading"><span class="lab-label">Image study / {String(index + 1).padStart(2, '0')}</span><h2>{index === mediaList.length - 1 ? 'The composition.' : ['Strength.', 'Stillness.', 'Pressure.', 'Momentum.'][index % 4]}</h2></div>}
-        <div class="lab-scene-surface"><LabMedia media={media} number={index + 1} eager={index === 0} cinematic={mode === 'cinematic'} sizes={mode === 'archive' ? '(max-width: 600px) calc(100vw - 40px), (max-width: 1000px) 44vw, 28vw' : undefined} /></div>
+        <div class="lab-scene-surface"><LabMedia media={media} number={index + 1} eager={index === 0} sizes={mode === 'archive' ? '(max-width: 600px) calc(100vw - 40px), (max-width: 1000px) 44vw, 28vw' : undefined} /></div>
       </div>
     </article>)}
   </div>
-  <dialog class="lab-lightbox" data-lightbox aria-labelledby={`lightbox-title-${mode}`}>
-    <div class="lab-lightbox-header"><h2 id={`lightbox-title-${mode}`} data-lightbox-title>Gallery detail</h2><button type="button" data-lightbox-close aria-label="Close enlarged media">Close <span aria-hidden="true">×</span></button></div>
-    <div class="lab-lightbox-media" data-lightbox-media></div>
-    <div class="lab-lightbox-footer"><p data-lightbox-caption></p><div class="lab-lightbox-navigation"><button type="button" data-lightbox-prev aria-label="Previous image or film">← Previous</button><span data-lightbox-count aria-live="polite"></span><button type="button" data-lightbox-next aria-label="Next image or film">Next →</button></div></div>
-  </dialog>
 </section>

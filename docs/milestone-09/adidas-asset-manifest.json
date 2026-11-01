@@ -1,0 +1,92 @@
+[
+  {
+    "file": "public/assets/projects/adidas/m09/header-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 18072
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/header-960.webp",
+    "width": 960,
+    "height": 539,
+    "bytes": 51108
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/header.webp",
+    "width": 1009,
+    "height": 567,
+    "bytes": 74392
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/open-box-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 19766
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/open-box-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 77012
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/open-box.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 263454
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/packaging-board-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 34234
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/packaging-board-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 112298
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/packaging-board.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 304952
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/portrait-480.webp",
+    "width": 480,
+    "height": 720,
+    "bytes": 35098
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/portrait-960.webp",
+    "width": 960,
+    "height": 1440,
+    "bytes": 95116
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/portrait.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 144816
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/tissue-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 37656
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/tissue-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 105696
+  },
+  {
+    "file": "public/assets/projects/adidas/m09/tissue.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 299542
+  }
+]

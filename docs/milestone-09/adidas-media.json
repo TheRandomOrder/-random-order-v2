@@ -1,0 +1,158 @@
+[
+  {
+    "id": "adidas-header",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/header.webp",
+    "width": 1009,
+    "height": 567,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/header-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/header-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "16 / 9",
+    "fit": "cover",
+    "position": "center",
+    "alt": "Close crop of a white STAY.UP graphic T-shirt featuring Adidas and I ART JOBURG marks.",
+    "source": {
+      "label": "Selected Adidas frame: portrait hero crop",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-1122",
+      "nodeId": "1183:1122"
+    }
+  },
+  {
+    "id": "adidas-portrait",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/portrait.webp",
+    "width": 1024,
+    "height": 1536,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/portrait-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/portrait-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "1344 / 896",
+    "fit": "cover",
+    "position": "50% 30.787%",
+    "alt": "Model wearing a white STAY.UP graphic T-shirt featuring Adidas and I ART JOBURG, against a concrete wall.",
+    "source": {
+      "label": "Selected Adidas frame: opening portrait crop",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-952",
+      "nodeId": "1183:952"
+    }
+  },
+  {
+    "id": "adidas-tissue",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/tissue.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/tissue-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/tissue-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "16 / 9",
+    "fit": "cover",
+    "position": "center",
+    "alt": "White tissue paper with a repeating black Adidas trefoil and I ART JOBURG lockup.",
+    "source": {
+      "label": "Selected Adidas frame: printed tissue study",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-964",
+      "nodeId": "1183:964"
+    }
+  },
+  {
+    "id": "adidas-open-box",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/open-box.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/open-box-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/open-box-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "1344 / 1042",
+    "fit": "cover",
+    "position": "center",
+    "alt": "Open kraft presentation box lined with Adidas and I ART JOBURG tissue paper and a matching seal.",
+    "source": {
+      "label": "Selected Adidas frame: open packaging study",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-967",
+      "nodeId": "1183:967"
+    }
+  },
+  {
+    "id": "adidas-packaging-concept",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/packaging-board.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/packaging-board-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/packaging-board-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "1344 / 396",
+    "fit": "cover",
+    "position": "50% 14%",
+    "alt": "Adidas × I ART JOBURG packaging study showing a kraft-box die-cut diagram and an assembled box with a circular cut-out pattern.",
+    "source": {
+      "label": "Selected Adidas frame: upper packaging-board crop",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1265-13873",
+      "nodeId": "1265:13873"
+    }
+  },
+  {
+    "id": "adidas-packaging-details",
+    "type": "image",
+    "src": "/assets/projects/adidas/m09/packaging-board.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/assets/projects/adidas/m09/packaging-board-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/adidas/m09/packaging-board-960.webp",
+        "width": 960
+      }
+    ],
+    "aspectRatio": "1344 / 396",
+    "fit": "cover",
+    "position": "50% 96.6856%",
+    "alt": "Five packaging detail studies showing cut kraft texture, a flat-to-folded sequence, a close-up, the Adidas and I ART JOBURG label, and a box in context.",
+    "source": {
+      "label": "Selected Adidas frame: lower packaging-board crop",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1265-13877",
+      "nodeId": "1265:13877"
+    }
+  }
+]

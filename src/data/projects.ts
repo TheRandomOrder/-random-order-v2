@@ -43,6 +43,7 @@ export interface ProjectRecord {
   headerMediaId?: string;
   headerCaption?: string;
   headerHeight?: number;
+  headerTop?: number;
   headerTitleScale?: 'large';
   headerOpacity?: number;
   headerMonochrome?: boolean;

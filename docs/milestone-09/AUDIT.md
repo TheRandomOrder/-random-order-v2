@@ -19,15 +19,17 @@ All five requested frames on `V2 / Build Experiment Test` were inspected with fu
 - Both `case-study` and `visual-story` are explicit modes of the same project renderer, with ordered editorial blocks.
 - Source-driven hero height/title treatment, gallery columns/gaps/width and block spacing are optional fields. Existing projects retain their defaults.
 - A semantic palette block renders Cozy’s source colour study as native HTML/CSS.
-- Existing responsive media variants, captions, focal points, enlargement, keyboard navigation and reduced-motion behaviour apply to new records.
+- Existing responsive media variants, captions, focal points, reduced-motion behaviour apply to new records.
 - Existing `/work/sneaker-lab/` is retained under the mandate’s allowance for current route conventions. Cozy and Adidas gain local routes; all five appear in Work and have related-project navigation.
 
 ## Validation checklist
 
-- [ ] Cozy first: source comparison, desktop/mobile, gallery and shared renderer.
-- [ ] Integrate Superbalist, Adidas, Sneaker LAB and Gold’s Gym in sequence.
-- [ ] All five routes and index links; no inherited cross-project placeholders.
-- [ ] Desktop, tablet, mobile and 320px layouts; media loading and focal points.
-- [ ] Keyboard gallery, Escape/focus return, menu and reduced-motion checks.
-- [ ] Existing content/media/interaction tests, type check, build and built-output route/asset checks.
-- [ ] Publication gaps and source provenance recorded in final handoff.
+- [x] Cozy first: source comparison, desktop/mobile, gallery and shared renderer.
+- [x] Integrate Superbalist, Adidas, Sneaker LAB and Gold’s Gym in sequence.
+- [x] All five routes and index links; no inherited cross-project placeholders.
+- [x] Desktop, tablet, mobile and 320px layouts; media loading and focal points.
+- [x] Image enlargement controls removed per user follow-up; menu Escape/focus return and reduced-motion checks pass.
+- [x] Existing content/media/interaction tests, type check, build and built-output route/asset checks.
+- [x] Publication gaps and source provenance recorded in final handoff.
+
+Final interaction change: the user requested removal of all image controls. Production and lab image enlargement buttons/dialogs/zoom/navigation are removed, with collection filters and film/motion playback retained. The first-stage Cozy gallery check predates this requested removal.

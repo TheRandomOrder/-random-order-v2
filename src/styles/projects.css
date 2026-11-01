@@ -23,6 +23,7 @@
 /* Project-authored proportions extend the same editorial system. */
 .project-header{min-height:var(--project-header-height,900px)}
 .project-header-large-title h1{font-size:132px;line-height:1}
+@media(min-width:1101px){.project-header{padding-top:var(--project-header-top,272px)}}
 .project-editorial>.project-section{margin-block-start:calc(var(--space-before,96px) - 96px)}
 .project-gallery-authored{grid-template-columns:var(--gallery-columns);column-gap:var(--gallery-gap,32px)}
 .project-gallery-authored .project-gallery-item{grid-column:auto}

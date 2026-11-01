@@ -1,0 +1,136 @@
+{
+  "id": "superbalist",
+  "slug": "superbalist",
+  "title": "Superbalist",
+  "presentation": "extended",
+  "classification": "featured",
+  "routeEnabled": true,
+  "status": "ready",
+  "featuredOrder": 1.5,
+  "disciplines": [
+    "Product Design",
+    "Identity",
+    "Systems"
+  ],
+  "intro": "Six years. One evolving digital ecosystem. From identity to interface, from components to systems.",
+  "heroMediaId": "superbalist-mobile",
+  "headerStyle": "plain",
+  "metadata": [
+    {
+      "label": "Project",
+      "value": "Superbalist"
+    },
+    {
+      "label": "Scope",
+      "value": "Product design / UX / Identity / Stitch design system"
+    },
+    {
+      "label": "Period",
+      "value": "2017–2023"
+    },
+    {
+      "label": "Focus",
+      "value": "Identity / Interface / Systems"
+    }
+  ],
+  "relatedIds": [
+    "adidas",
+    "sneaker-lab",
+    "golds-gym"
+  ],
+  "sources": [
+    {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1130:735",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-735"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-fashion"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-phone-study"
+    },
+    {
+      "type": "text",
+      "label": "Six years in the making",
+      "body": "Superbalist was never simply about designing screens. It was about creating coherence across an increasingly complex world of fashion, technology, commerce and human interaction."
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-navigation"
+    },
+    {
+      "type": "heading",
+      "eyebrow": "Identity meets interface",
+      "title": "From the S to a shared design language.",
+      "divider": "/assets/projects/superbalist-divider.svg"
+    },
+    {
+      "type": "text",
+      "label": "Designing the system",
+      "body": "At the centre of the visual language was the S. A recognisable symbol extending into a broader vocabulary of shapes, icons and digital expressions. Identity was not simply applied to the product; it became part of how the product communicated. As the platform evolved, Stitch brought structure to complexity: typography, grids, colour, components and interaction patterns formed a shared design language. The objective was not uniformity, but a system flexible enough to evolve without losing its identity.",
+      "spaceBefore": 12
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-s-studies",
+      "spaceBefore": 12
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-wordmark"
+    },
+    {
+      "type": "text",
+      "label": "Six years of evolution",
+      "body": "Designing a digital product over six years changes your perspective. Individual screens become journeys. Components become systems. Small decisions accumulate into an experience used by real people. The work was never finished. It evolved with the technology, the business and the people using it."
+    },
+    {
+      "type": "text",
+      "label": "Revisiting the work",
+      "body": "Years later, I have returned to this body of work through a different creative lens. Using contemporary generative tools, I have begun reconstructing and reinterpreting elements of my original interface designs, iconography and visual systems. These new images are not historical screenshots. They are contemporary visual studies grounded in the original design thinking — a way of revisiting six years of work as an evolving design language."
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-phone-upper"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-phone-lower"
+    },
+    {
+      "type": "text",
+      "label": "Source artefacts",
+      "body": "The source material brings interface structure and visual language together: order tracking, delivery states, icon construction, mobile composition and the principles behind Stitch. These archive artefacts sit alongside the contemporary reconstructions above."
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-order-specification"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-icon-construction"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-icon-library"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-mobile-archive"
+    },
+    {
+      "type": "media",
+      "mediaId": "superbalist-m09-visual-language"
+    }
+  ],
+  "editorialTop": 200,
+  "mode": "case-study",
+  "headerHeight": 1080,
+  "headerTitleScale": "large",
+  "category": "Product Design · Identity · Systems"
+}

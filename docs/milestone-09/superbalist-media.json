@@ -1,0 +1,314 @@
+[
+  {
+    "id": "superbalist-m09-fashion",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/fashion.webp",
+    "width": 1344,
+    "height": 1080,
+    "alt": "Contemporary fashion study: a woman in a blue beanie, orange top and blue trainers.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/fashion-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/fashion-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary AI-assisted image study",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1291:14902",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1291-14902"
+    }
+  },
+  {
+    "id": "superbalist-m09-phone-study",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/phone-study.webp",
+    "width": 1344,
+    "height": 908,
+    "alt": "Three contemporary Superbalist phone studies showing the S, sneaker care and fashion shopping.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/phone-study-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/phone-study-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary AI-assisted interface reconstruction",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1130:769",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-769"
+    }
+  },
+  {
+    "id": "superbalist-m09-navigation",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/navigation.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "Superbalist home, category, bag, wishlist and profile symbols with visual-system notes.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/navigation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/navigation-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary visual-system study",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1130:783",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-783"
+    }
+  },
+  {
+    "id": "superbalist-m09-s-studies",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/s-studies.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "A cropped field of Superbalist S identity studies.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/s-studies-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/s-studies-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary identity study",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1126:5173",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1126-5173"
+    }
+  },
+  {
+    "id": "superbalist-m09-wordmark",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/wordmark.webp",
+    "width": 1344,
+    "height": 1042,
+    "alt": "Superbalist wordmark construction reference with turquoise measurement guides.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/wordmark-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/wordmark-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Wordmark construction reference / Captured in 2026",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1142:5652",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1142-5652"
+    }
+  },
+  {
+    "id": "superbalist-m09-phone-upper",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/phone-upper.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "Upper detail of a contemporary phone mockup showing the Superbalist fashion shopping interface.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/phone-upper-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/phone-upper-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary AI-assisted interface reconstruction / Detail 01",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13278",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13278"
+    }
+  },
+  {
+    "id": "superbalist-m09-phone-lower",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/phone-lower.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "Lower detail of the same contemporary Superbalist phone mockup and shopping navigation.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/phone-lower-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/phone-lower-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Contemporary AI-assisted interface reconstruction / Detail 02",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13281",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13281"
+    }
+  },
+  {
+    "id": "superbalist-m09-order-specification",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/order-specification.webp",
+    "width": 1344,
+    "height": 810,
+    "alt": "Stitch interface blueprint: order cards, delivery tracking, responsive typography notes and a base mobile layout.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/order-specification-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/order-specification-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Stitch archive / Order and delivery interface specification",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13284",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13284"
+    }
+  },
+  {
+    "id": "superbalist-m09-icon-construction",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/icon-construction.webp",
+    "width": 2688,
+    "height": 1030,
+    "alt": "A close view of Stitch icon construction showing the S, navigation, shopping and interface symbols on geometric grids.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/icon-construction-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/icon-construction-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/icon-construction-1600.webp",
+        "width": 1600
+      }
+    ],
+    "fit": "contain",
+    "caption": "Stitch archive / Icon construction detail",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13436",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13436"
+    }
+  },
+  {
+    "id": "superbalist-m09-icon-library",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/icon-library.webp",
+    "width": 2560,
+    "height": 1440,
+    "alt": "Full Stitch icon-library source including delivery vans, collection, click and collect, navigation, shopping and payment symbols.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/icon-library-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/icon-library-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/icon-library-1600.webp",
+        "width": 1600
+      }
+    ],
+    "fit": "contain",
+    "caption": "Stitch archive / Full icon-library source, including delivery and collection",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13437",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13437"
+    }
+  },
+  {
+    "id": "superbalist-m09-mobile-archive",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/mobile-archive.webp",
+    "width": 1344,
+    "height": 756,
+    "alt": "Three archived Superbalist mobile interface compositions for beauty, product and fashion browsing.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/mobile-archive-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/mobile-archive-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "contain",
+    "caption": "Stitch archive / Mobile interface compositions",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13438",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13438"
+    }
+  },
+  {
+    "id": "superbalist-m09-visual-language",
+    "type": "image",
+    "src": "/assets/projects/superbalist/m09/visual-language.webp",
+    "width": 2688,
+    "height": 1512,
+    "alt": "Stitch visual-language board relating a neutral interface palette, colour photography and strong monochrome typography.",
+    "variants": [
+      {
+        "src": "/assets/projects/superbalist/m09/visual-language-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/visual-language-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/assets/projects/superbalist/m09/visual-language-1600.webp",
+        "width": 1600
+      }
+    ],
+    "fit": "contain",
+    "caption": "Stitch archive / Visual-language principles",
+    "source": {
+      "label": "V2 / Build Experiment Test / Superbalist",
+      "nodeId": "1262:13442",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-13442"
+    }
+  }
+]

@@ -12,7 +12,7 @@
       "Image Exploration"
     ],
     "intro": "Studies of strength, movement and gold. A sequence of AI-assisted fitness image explorations.",
-    "heroMediaId": "golds-strength",
+    "heroMediaId": "golds-m09-opening",
     "metadata": [
       {
         "label": "Project",
@@ -37,6 +37,11 @@
     ],
     "sources": [
       {
+        "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold’s Gym",
+        "nodeId": "1262:12370",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12370"
+      },
+      {
         "label": "RANDOM-HOTEL / Workbench / Gold’s Gym",
         "nodeId": "7738:678",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-678"
@@ -45,7 +50,11 @@
     "blocks": [
       {
         "type": "media",
-        "mediaId": "golds-strength"
+        "mediaId": "golds-m09-opening"
+      },
+      {
+        "type": "media",
+        "mediaId": "golds-m09-press"
       },
       {
         "type": "text",
@@ -53,25 +62,23 @@
         "body": "A warm gold palette, hard gym light and traces of movement connect a sequence of fitness image studies."
       },
       {
-        "type": "gallery",
-        "layout": "paired",
-        "items": [
-          "golds-bar",
-          "golds-press"
-        ]
+        "type": "text",
+        "label": "Creative process",
+        "body": "Generative image-making explores strength and movement through pose, atmosphere and cinematic lighting. The images are presented as AI-assisted concept studies."
       },
       {
-        "type": "media",
-        "mediaId": "golds-composite",
-        "caption": "Gold’s Gym / AI-assisted image study"
-      },
-      {
-        "type": "media",
-        "mediaId": "golds-rope",
-        "width": "narrow"
+        "type": "text",
+        "label": "Structured direction",
+        "body": "The visual brief centres on four recurring elements: strength, movement, cinematic lighting and a gold-led palette. Together, they provide a consistent direction across the individual studies."
       }
     ],
-    "logoMediaId": "golds-logo"
+    "logoMediaId": "golds-logo",
+    "mode": "visual-story",
+    "headerStyle": "plain",
+    "headerHeight": 1080,
+    "editorialTop": 160,
+    "category": "Art Direction · Image Exploration",
+    "headerTop": 361.5
   },
   {
     "id": "the-shed",
@@ -784,8 +791,8 @@
       "Packaging Concept",
       "Art Direction"
     ],
-    "intro": "A care-kit sleeve concept exploring the shared territory between Sneaker LAB and BSTN: basketball, streetwear and sneaker culture.",
-    "heroMediaId": "sneaker-geometry",
+    "intro": "Two distinct identities. One shared language of basketball, streetwear and sneaker care. A proposed packaging sleeve that brings them together.",
+    "heroMediaId": "sneaker-m09-court-group",
     "metadata": [
       {
         "label": "Project",
@@ -810,6 +817,11 @@
     ],
     "sources": [
       {
+        "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN / Pitch",
+        "nodeId": "1262:12026",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12026"
+      },
+      {
         "label": "RANDOM-HOTEL / Workbench / BSTN × Sneaker LAB pitch",
         "nodeId": "7554:902",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-902"
@@ -818,59 +830,71 @@
     "blocks": [
       {
         "type": "media",
-        "mediaId": "sneaker-geometry",
-        "caption": "Basketball court geometry / Pitch artwork"
+        "mediaId": "sneaker-m09-court-group"
+      },
+      {
+        "type": "media",
+        "mediaId": "sneaker-m09-basketball-editorial"
       },
       {
         "type": "gallery",
         "layout": "paired",
+        "gap": "wide",
         "items": [
-          {
-            "mediaId": "sneaker-basketball-portrait",
-            "caption": "Basketball and streetwear / Pitch reference"
-          },
-          {
-            "mediaId": "sneaker-sneakers",
-            "caption": "Sneaker culture / Pitch reference"
-          }
+          "sneaker-m09-court-geometry",
+          "sneaker-m09-monochrome"
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "columns": [
+          600,
+          610
         ],
-        "gap": "wide"
+        "columnGap": 85.863,
+        "maxWidth": 1296,
+        "items": [
+          "sneaker-m09-orange-box",
+          "sneaker-m09-care-kit"
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "sneaker-m09-pack-black"
+      },
+      {
+        "type": "media",
+        "mediaId": "sneaker-m09-pack-white"
       },
       {
         "type": "text",
         "label": "The brief",
-        "body": "The care of uniting two unique brands should focus on intertwining their individual traits into a single creation."
+        "body": "How can two brands with different purposes create something that feels entirely their own? The brief explored a care-kit sleeve that connects Sneaker LAB’s product expertise with BSTN’s roots in basketball and streetwear."
       },
       {
         "type": "heading",
         "eyebrow": "Creative approach",
-        "title": "Thinking Unity"
+        "title": "Thinking Unity",
+        "divider": "/assets/projects/superbalist-divider.svg"
       },
       {
         "type": "text",
         "label": "Thinking Unity",
-        "body": "The pitch brings two brands into a shared visual language, drawing on Sneaker LAB’s care proposition and BSTN’s connection to basketball, streetwear and sneaker culture."
+        "body": "Thinking Unity. Rather than placing two identities side by side, the concept finds common ground in the culture surrounding the product. The basketball court provides the organising idea: a graphic language of lines, rhythm, movement and connection."
       },
       {
         "type": "text",
         "label": "The visual direction",
-        "body": "Basketball-court geometry becomes a way to connect the two identities across the care-kit sleeve concept."
-      },
-      {
-        "type": "media",
-        "mediaId": "sneaker-round-marks",
-        "caption": "Collaboration and identity studies / Pitch"
-      },
-      {
-        "type": "media",
-        "mediaId": "sneaker-identity-studies",
-        "caption": "Basketball, geometry and care / Concept studies"
+        "body": "Court markings become packaging architecture. Bold monochrome graphics, orange-court studies and a restrained typographic system translate the energy of the game into a sleeve designed for sneaker culture. Presented as a pitch concept, not a released product."
       }
     ],
-    "headerStyle": "image",
-    "headerMediaId": "sneaker-hero",
-    "headerCaption": "Pitch image reference",
-    "editorialTop": 96
+    "headerStyle": "plain",
+    "editorialTop": 96,
+    "mode": "visual-story",
+    "headerHeight": 1080,
+    "category": "Packaging Concept · Art Direction",
+    "headerTop": 343
   },
   {
     "id": "superbalist",
@@ -888,8 +912,7 @@
     ],
     "intro": "Six years. One evolving digital ecosystem. From identity to interface, from components to systems.",
     "heroMediaId": "superbalist-mobile",
-    "headerMediaId": "superbalist-hero",
-    "headerStyle": "cinematic",
+    "headerStyle": "plain",
     "metadata": [
       {
         "label": "Project",
@@ -909,8 +932,9 @@
       }
     ],
     "relatedIds": [
-      "the-shed",
-      "earnt"
+      "adidas",
+      "sneaker-lab",
+      "golds-gym"
     ],
     "sources": [
       {
@@ -922,8 +946,11 @@
     "blocks": [
       {
         "type": "media",
-        "mediaId": "superbalist-mobile",
-        "caption": "Contemporary interface reconstruction / AI image study"
+        "mediaId": "superbalist-m09-fashion"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-phone-study"
       },
       {
         "type": "text",
@@ -932,8 +959,7 @@
       },
       {
         "type": "media",
-        "mediaId": "superbalist-icons",
-        "caption": "Visual-system reference"
+        "mediaId": "superbalist-m09-navigation"
       },
       {
         "type": "heading",
@@ -944,17 +970,17 @@
       {
         "type": "text",
         "label": "Designing the system",
-        "body": "At the centre of the visual language was the S. A recognisable symbol extending into a broader vocabulary of shapes, icons and digital expressions. Identity was not simply applied to the product; it became part of how the product communicated. As the platform evolved, Stitch brought structure to complexity: typography, grids, colour, components and interaction patterns formed a shared design language. The objective was not uniformity, but a system flexible enough to evolve without losing its identity."
+        "body": "At the centre of the visual language was the S. A recognisable symbol extending into a broader vocabulary of shapes, icons and digital expressions. Identity was not simply applied to the product; it became part of how the product communicated. As the platform evolved, Stitch brought structure to complexity: typography, grids, colour, components and interaction patterns formed a shared design language. The objective was not uniformity, but a system flexible enough to evolve without losing its identity.",
+        "spaceBefore": 12
       },
       {
         "type": "media",
-        "mediaId": "superbalist-symbols",
-        "caption": "Identity study"
+        "mediaId": "superbalist-m09-s-studies",
+        "spaceBefore": 12
       },
       {
         "type": "media",
-        "mediaId": "superbalist-wordmark",
-        "caption": "Wordmark reference / Captured in 2026"
+        "mediaId": "superbalist-m09-wordmark"
       },
       {
         "type": "text",
@@ -965,9 +991,126 @@
         "type": "text",
         "label": "Revisiting the work",
         "body": "Years later, I have returned to this body of work through a different creative lens. Using contemporary generative tools, I have begun reconstructing and reinterpreting elements of my original interface designs, iconography and visual systems. These new images are not historical screenshots. They are contemporary visual studies grounded in the original design thinking — a way of revisiting six years of work as an evolving design language."
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-phone-upper"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-phone-lower"
+      },
+      {
+        "type": "text",
+        "label": "Source artefacts",
+        "body": "The source material brings interface structure and visual language together: order tracking, delivery states, icon construction, mobile composition and the principles behind Stitch. These archive artefacts sit alongside the contemporary reconstructions above."
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-order-specification"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-icon-construction"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-icon-library"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-mobile-archive"
+      },
+      {
+        "type": "media",
+        "mediaId": "superbalist-m09-visual-language"
       }
     ],
-    "headerCaption": "Contemporary image study",
-    "editorialTop": 200
+    "editorialTop": 200,
+    "mode": "case-study",
+    "headerHeight": 1080,
+    "headerTitleScale": "large",
+    "category": "Product Design · Identity · Systems"
+  },
+  {
+    "id": "adidas",
+    "slug": "adidas",
+    "title": "Adidas",
+    "mode": "visual-story",
+    "presentation": "gallery",
+    "classification": "featured",
+    "routeEnabled": true,
+    "status": "ready",
+    "featuredOrder": 5,
+    "headerStyle": "image",
+    "headerHeight": 1080,
+    "headerTitleScale": "large",
+    "headerOpacity": 0.07,
+    "category": "Apparel · Packaging · Visual studies",
+    "disciplines": [
+      "Art Direction",
+      "Packaging"
+    ],
+    "intro": "Apparel and packaging studies featuring Adidas and I ART JOBURG.",
+    "description": "A visual sequence of apparel, printed tissue and kraft packaging studies.",
+    "heroMediaId": "adidas-portrait",
+    "headerMediaId": "adidas-header",
+    "editorialTop": 200,
+    "metadata": [
+      {
+        "label": "Artwork",
+        "value": "Adidas × I ART JOBURG"
+      },
+      {
+        "label": "Project details",
+        "value": "Pending verification"
+      }
+    ],
+    "relatedIds": [
+      "the-shed",
+      "sneaker-lab"
+    ],
+    "blocks": [
+      {
+        "id": "apparel",
+        "type": "media",
+        "mediaId": "adidas-portrait"
+      },
+      {
+        "type": "text",
+        "label": "Selected studies",
+        "body": "The artwork brings together a graphic T-shirt, repeated brand marks, printed tissue and kraft packaging."
+      },
+      {
+        "type": "heading",
+        "title": "Apparel to packaging",
+        "eyebrow": "Visual sequence"
+      },
+      {
+        "type": "media",
+        "mediaId": "adidas-tissue"
+      },
+      {
+        "type": "media",
+        "mediaId": "adidas-open-box"
+      },
+      {
+        "id": "packaging",
+        "type": "media",
+        "mediaId": "adidas-packaging-concept"
+      },
+      {
+        "type": "media",
+        "mediaId": "adidas-packaging-details"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Adidas selected artwork and editorial sequence",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-940",
+        "nodeId": "1183:940"
+      }
+    ],
+    "headerMonochrome": true
   }
 ]

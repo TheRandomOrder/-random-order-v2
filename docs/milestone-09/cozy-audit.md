@@ -8,13 +8,13 @@ Primary frame: `1206:1212`, V2 / Build Experiment Test. `/work/cozy-heaven/` use
 | --- | --- | --- |
 | 1206:1218 | cozy-m09-hero | 1920 × 1080 film poster, source luminosity treatment |
 | 1265:13981 | cozy-m09-soft-cozy-campaign | 1344 × 760 bedding image with original campaign typography |
-| 1265:14055 | cozy-m09-joy-campaign | 1344 × 796 campaign poster and Süße Träume lettering |
-| 1265:14138 | cozy-m09-textile | 628 × 630 exact fibre crop |
-| 1265:14139 | cozy-m09-fibre | 628 × 630 exact fibre crop |
-| 1265:14029 | cozy-m09-fabric-ritual | 1344 × 576 folding-fabric poster |
-| 1265:14052 | cozy-m09-forest-bedroom | 1344 × 1080 exact selected room composition |
+| 1265: 14055 | cozy-m09-joy-campaign | 1344 × 796 campaign poster and Süße Träume lettering |
+| 1265: 14138 | cozy-m09-textile | 628 × 630 exact fibre crop |
+| 1265: 14139 | cozy-m09-fibre | 628 × 630 exact fibre crop |
+| 1265: 14029 | cozy-m09-fabric-ritual | 1344 × 576 folding-fabric poster |
+| 1265: 14052 | cozy-m09-forest-bedroom | 1344 × 1080 exact selected room composition |
 | 1206:1226 | cozy-m09-day-begins | 1344 × 756 film poster and original campaign lettering |
-| 1277:14756 | Semantic palette block | All 18 source swatches, six columns, same source order |
+| 1277: 14756 | Semantic palette block | All 18 source swatches, six columns, same source order |
 
 Native exports are discrete campaign artwork, photographs and film posters, never a screenshot of a website section used as a page asset. The campaign export’s stray one-pixel anchor at Y1272 created an unintended 478px white extension; this is trimmed to its actual 796px image. The room campaign’s inherited caption is outside its 756px image and is rendered as accessible HTML instead. All supplied brand lettering stays inside original artwork. Source files remain in the ignored `source-assets/cozy/` folder; responsive WebP files live in `public/assets/projects/cozy-heaven/m09/`.
 
@@ -36,4 +36,4 @@ This is a contemporary AI-assisted brand exploration. It is not represented as a
 
 ## First-stage validation
 
-Cozy was validated before integration of the remaining four records. Browser widths1920,853,390and320 showed no horizontal overflow or broken images. At1920 the hero is1080px and every selected artwork surface matches the native dimensions above. Textile row uses628:628 columns and85.863px gap. The gallery opened, ArrowRight advanced to2/7, Escape closed it and focus returned to its trigger. Astro check: zero errors/warnings, one pre-existing deprecated-listener hint.
+Cozy was validated before integration of the remaining four records. Browser widths 1920, 853, 390 and 320 showed no horizontal overflow or broken images. At 1920 the hero is 1080px and every selected artwork surface matches the native dimensions above. Textile row uses 628:628 columns and 85.863px gap. The gallery opened, ArrowRight advanced to 2/7, Escape closed it and focus returned to its trigger. Astro check: zero errors/warnings, one pre-existing deprecated-listener hint.

@@ -2,16 +2,13 @@
 import MediaFigure from '../project/MediaFigure.astro';
 import type {MediaAsset} from '../../data/media';
 import {studyLabel, studyContext} from './content';
-interface Props { media: MediaAsset; number: number; eager?: boolean; cinematic?: boolean; sizes?: string }
-const {media, number, eager = false, cinematic = false, sizes = '(max-width: 767px) calc(100vw - 40px), (max-width: 1472px) 80vw, 1100px'} = Astro.props;
+interface Props { media: MediaAsset; number: number; eager?: boolean; sizes?: string }
+const {media, number, eager = false, sizes = '(max-width: 767px) calc(100vw - 40px), (max-width: 1472px) 80vw, 1100px'} = Astro.props;
 const label = studyLabel(media);
 ---
 <div class="lab-media" data-lab-media style={`--lab-media-ratio:${media.width} / ${media.height};`}>
   <MediaFigure mediaId={media.id} preview showCaption={false} eager={eager} sizes={sizes} class="lab-media-figure" />
   {media.type === 'video' && <video data-lab-video data-src={media.src} data-label={`${label} film`} muted playsinline preload="none" poster={media.poster} width={media.width} height={media.height} aria-label={`${label} film`} tabindex="-1"></video>}
-  <button class="lab-enlarge" type="button" hidden data-lightbox-item data-src={media.src} data-alt={media.alt} data-kind={media.type} data-poster={media.poster} data-width={media.width} data-height={media.height} data-caption={media.caption ?? studyContext(media)} data-title={label} aria-label={`Enlarge ${label} ${media.type === 'video' ? 'film' : 'image'} ${number}`}>
-    <span>{cinematic ? 'View in detail' : 'Enlarge'} <span aria-hidden="true">↗</span></span>
-  </button>
   {media.type === 'video' && <button class="lab-film-toggle" type="button" hidden data-lab-video-toggle aria-label={`Play ${label} film`} aria-pressed="false">Play film</button>}
   {media.type === 'video' && <noscript><a class="lab-film-fallback" href={media.src}>Watch {label} film</a></noscript>}
 </div>

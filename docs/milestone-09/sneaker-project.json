@@ -1,0 +1,117 @@
+{
+  "id": "sneaker-lab",
+  "slug": "sneaker-lab",
+  "title": "BSTN × Sneaker LAB",
+  "presentation": "gallery",
+  "classification": "archive",
+  "routeEnabled": true,
+  "status": "ready",
+  "disciplines": [
+    "Packaging Concept",
+    "Art Direction"
+  ],
+  "intro": "Two distinct identities. One shared language of basketball, streetwear and sneaker care. A proposed packaging sleeve that brings them together.",
+  "heroMediaId": "sneaker-m09-court-group",
+  "metadata": [
+    {
+      "label": "Project",
+      "value": "Sneaker LAB × BSTN"
+    },
+    {
+      "label": "Scope",
+      "value": "Care-kit sleeve concept & design"
+    },
+    {
+      "label": "Stage",
+      "value": "Pitch / Concept"
+    },
+    {
+      "label": "Approach",
+      "value": "Thinking Unity"
+    }
+  ],
+  "relatedIds": [
+    "superbalist",
+    "golds-gym"
+  ],
+  "sources": [
+    {
+      "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN / Pitch",
+      "nodeId": "1262:12026",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12026"
+    },
+    {
+      "label": "RANDOM-HOTEL / Workbench / BSTN × Sneaker LAB pitch",
+      "nodeId": "7554:902",
+      "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-902"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "media",
+      "mediaId": "sneaker-m09-court-group"
+    },
+    {
+      "type": "media",
+      "mediaId": "sneaker-m09-basketball-editorial"
+    },
+    {
+      "type": "gallery",
+      "layout": "paired",
+      "gap": "wide",
+      "items": [
+        "sneaker-m09-court-geometry",
+        "sneaker-m09-monochrome"
+      ]
+    },
+    {
+      "type": "gallery",
+      "layout": "paired",
+      "columns": [
+        600,
+        610
+      ],
+      "columnGap": 85.863,
+      "maxWidth": 1296,
+      "items": [
+        "sneaker-m09-orange-box",
+        "sneaker-m09-care-kit"
+      ]
+    },
+    {
+      "type": "media",
+      "mediaId": "sneaker-m09-pack-black"
+    },
+    {
+      "type": "media",
+      "mediaId": "sneaker-m09-pack-white"
+    },
+    {
+      "type": "text",
+      "label": "The brief",
+      "body": "How can two brands with different purposes create something that feels entirely their own? The brief explored a care-kit sleeve that connects Sneaker LAB’s product expertise with BSTN’s roots in basketball and streetwear."
+    },
+    {
+      "type": "heading",
+      "eyebrow": "Creative approach",
+      "title": "Thinking Unity",
+      "divider": "/assets/projects/superbalist-divider.svg"
+    },
+    {
+      "type": "text",
+      "label": "Thinking Unity",
+      "body": "Thinking Unity. Rather than placing two identities side by side, the concept finds common ground in the culture surrounding the product. The basketball court provides the organising idea: a graphic language of lines, rhythm, movement and connection."
+    },
+    {
+      "type": "text",
+      "label": "The visual direction",
+      "body": "Court markings become packaging architecture. Bold monochrome graphics, orange-court studies and a restrained typographic system translate the energy of the game into a sleeve designed for sneaker culture. Presented as a pitch concept, not a released product."
+    }
+  ],
+  "headerStyle": "plain",
+  "editorialTop": 96,
+  "mode": "visual-story",
+  "headerHeight": 1080,
+  "category": "Packaging Concept · Art Direction",
+  "headerTop": 343
+}

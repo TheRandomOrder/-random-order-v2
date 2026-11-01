@@ -73,8 +73,6 @@ function initGallery(root: HTMLElement) {
   const items = [...root.querySelectorAll<HTMLElement>('[data-gallery-item]')];
   const filters = [...root.querySelectorAll<HTMLButtonElement>('[data-archive-filter]')];
   const filterStatus = root.querySelector<HTMLElement>('[data-archive-status]');
-  const triggers = [...root.querySelectorAll<HTMLButtonElement>('[data-lightbox-item]')];
-  const visibleTriggers = () => triggers.filter(item => !item.closest('[hidden]'));
   for (const filter of filters) {
     filter.hidden = false;
     filter.addEventListener('click', () => {
@@ -87,96 +85,6 @@ function initGallery(root: HTMLElement) {
       const count = items.filter(item => !item.hidden).length;
       if (filterStatus) filterStatus.textContent = `${count} ${count === 1 ? 'asset' : 'assets'} shown.`;
     });
-  }
-
-  const dialog = root.querySelector<HTMLDialogElement>('[data-lightbox]');
-  const media = dialog?.querySelector<HTMLElement>('[data-lightbox-media]');
-  const close = dialog?.querySelector<HTMLButtonElement>('[data-lightbox-close]');
-  const previous = dialog?.querySelector<HTMLButtonElement>('[data-lightbox-prev]');
-  const next = dialog?.querySelector<HTMLButtonElement>('[data-lightbox-next]');
-  const heading = dialog?.querySelector<HTMLElement>('[data-lightbox-title]');
-  const caption = dialog?.querySelector<HTMLElement>('[data-lightbox-caption]');
-  const count = dialog?.querySelector<HTMLElement>('[data-lightbox-count]');
-  if (dialog && media && close && previous && next && typeof dialog.showModal === 'function') {
-    let opener: HTMLButtonElement | undefined;
-    let current: HTMLButtonElement | undefined;
-    const render = (trigger: HTMLButtonElement) => {
-      current = trigger;
-      for (const video of media.querySelectorAll('video')) video.pause();
-      media.replaceChildren();
-      const kind = trigger.dataset.kind || 'image';
-      const src = trigger.dataset.src;
-      if (!src) return;
-      if (kind === 'video') {
-        const video = document.createElement('video');
-        video.src = src;
-        video.controls = true;
-        video.playsInline = true;
-        video.preload = 'none';
-        video.setAttribute('aria-label', trigger.dataset.alt || trigger.dataset.title || 'Project film');
-        if (trigger.dataset.poster) video.poster = trigger.dataset.poster;
-        video.addEventListener('play', () => pauseVideos());
-        media.append(video);
-      } else {
-        const image = document.createElement('img');
-        image.src = src;
-        image.alt = trigger.dataset.alt || '';
-        image.decoding = 'async';
-        const width = Number(trigger.dataset.width);
-        const height = Number(trigger.dataset.height);
-        if (width > 0) image.width = width;
-        if (height > 0) image.height = height;
-        media.append(image);
-      }
-      if (heading) heading.textContent = trigger.dataset.title || 'Gallery detail';
-      if (caption) caption.textContent = trigger.dataset.caption || trigger.dataset.alt || '';
-      const available = visibleTriggers();
-      if (count) count.textContent = `${available.indexOf(trigger) + 1} / ${available.length}`;
-      previous.disabled = available.length < 2;
-      next.disabled = available.length < 2;
-    };
-    const navigate = (direction: number) => {
-      const available = visibleTriggers();
-      if (!available.length) return;
-      const index = Math.max(0, current ? available.indexOf(current) : 0);
-      render(available[(index + direction + available.length) % available.length]);
-    };
-    for (const trigger of triggers) {
-      if (!trigger.dataset.src) continue;
-      trigger.hidden = false;
-      trigger.addEventListener('click', () => {
-        for (const openDialog of document.querySelectorAll<HTMLDialogElement>('[data-lightbox][open]')) openDialog.close();
-        pauseVideos();
-        opener = trigger;
-        render(trigger);
-        dialog.showModal();
-        close.focus({ preventScroll: true });
-      });
-    }
-    close.addEventListener('click', () => dialog.close());
-    previous.addEventListener('click', () => navigate(-1));
-    next.addEventListener('click', () => navigate(1));
-    dialog.addEventListener('keydown', event => {
-      const target = event.target;
-      if (target instanceof Element && target.closest('video, audio, input, select, textarea')) return;
-      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-        event.preventDefault();
-        navigate(event.key === 'ArrowLeft' ? -1 : 1);
-      }
-    });
-    dialog.addEventListener('click', event => {
-      if (event.target !== dialog) return;
-      const rect = dialog.getBoundingClientRect();
-      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
-    });
-    dialog.addEventListener('close', () => {
-      for (const video of media.querySelectorAll('video')) video.pause();
-      media.replaceChildren();
-      if (!document.querySelector('dialog[open]') && opener?.isConnected) opener.focus({ preventScroll: true });
-    });
-    const closeDialog = () => { if (dialog.open) dialog.close(); };
-    suspenders.push(closeDialog);
-    cleanups.push(closeDialog);
   }
 
   const panels = [...root.querySelectorAll<HTMLElement>('[data-cinematic-panel]')];
@@ -363,7 +271,6 @@ function init() {
 
 const pauseAllMedia = () => {
   pauseVideos();
-  for (const video of document.querySelectorAll<HTMLVideoElement>('[data-lightbox] video')) video.pause();
 };
 document.addEventListener('visibilitychange', () => { if (document.hidden) pauseAllMedia(); });
 motionPreference.addEventListener('change', pauseAllMedia);
