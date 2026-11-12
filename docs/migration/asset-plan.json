@@ -684,5 +684,355 @@
     "id": "legacy-random-projects-1",
     "alt": "Good Luck Citrus packaging design — a row of cold-pressed juice bottles",
     "slug": "random-projects"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/hero-tangle.jpg",
+    "id": "legacy-hallys-1",
+    "dest": "public/assets/legacy/hallys/1.jpg",
+    "alt": "Hally's café storefront with the wandering line and hands illustration overlaid"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/photo-2.jpg",
+    "id": "legacy-hallys-2",
+    "dest": "public/assets/legacy/hallys/2.jpg",
+    "alt": "Hally's café detail"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/menu.jpg",
+    "id": "legacy-hallys-3",
+    "dest": "public/assets/legacy/hallys/3.jpg",
+    "alt": "Hally's menu design"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/line-divider.png",
+    "id": "legacy-hallys-4",
+    "dest": "public/assets/legacy/hallys/4.png",
+    "alt": ""
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-wandering-paths.jpg",
+    "id": "legacy-hallys-5",
+    "dest": "public/assets/legacy/hallys/5.jpg",
+    "alt": "Map illustration tracing wandering paths through the neighbourhood"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-light-painting.webp",
+    "id": "legacy-hallys-6",
+    "dest": "public/assets/legacy/hallys/6.webp",
+    "alt": "Long-exposure light painting"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/rationale-moments-tangled.jpg",
+    "id": "legacy-hallys-7",
+    "dest": "public/assets/legacy/hallys/7.jpg",
+    "alt": "Hally's storefront with the wandering line illustration overlaid"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/photo-3.jpg",
+    "id": "legacy-hallys-8",
+    "dest": "public/assets/legacy/hallys/8.jpg",
+    "alt": "Hally's illustration detail"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/photo-4.jpg",
+    "id": "legacy-hallys-9",
+    "dest": "public/assets/legacy/hallys/9.jpg",
+    "alt": "Hally's packaging"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/photo-5.jpg",
+    "id": "legacy-hallys-10",
+    "dest": "public/assets/legacy/hallys/10.jpg",
+    "alt": "Hally's brand application"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-storefront.png",
+    "id": "legacy-hallys-11",
+    "dest": "public/assets/legacy/hallys/11.png",
+    "alt": "Hand-drawn illustration of Hally's café storefront"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-glass.png",
+    "id": "legacy-hallys-12",
+    "dest": "public/assets/legacy/hallys/12.png",
+    "alt": "Hand-drawn illustration of a single glass"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-diver.png",
+    "id": "legacy-hallys-13",
+    "dest": "public/assets/legacy/hallys/13.png",
+    "alt": "Hand-drawn illustration of a diver"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-avocado.png",
+    "id": "legacy-hallys-14",
+    "dest": "public/assets/legacy/hallys/14.png",
+    "alt": "Hand-drawn illustration of an avocado"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-birdcage.png",
+    "id": "legacy-hallys-15",
+    "dest": "public/assets/legacy/hallys/15.png",
+    "alt": "Hand-drawn illustration of a birdcage"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-cake.png",
+    "id": "legacy-hallys-16",
+    "dest": "public/assets/legacy/hallys/16.png",
+    "alt": "Hand-drawn illustration of a slice of cake"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-champagne-tower.png",
+    "id": "legacy-hallys-17",
+    "dest": "public/assets/legacy/hallys/17.png",
+    "alt": "Hand-drawn illustration of a champagne glass tower"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-croissant.png",
+    "id": "legacy-hallys-18",
+    "dest": "public/assets/legacy/hallys/18.png",
+    "alt": "Hand-drawn illustration of a croissant"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-dove-1.png",
+    "id": "legacy-hallys-19",
+    "dest": "public/assets/legacy/hallys/19.png",
+    "alt": "Hand-drawn illustration of a dove in flight"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-dove-2.png",
+    "id": "legacy-hallys-20",
+    "dest": "public/assets/legacy/hallys/20.png",
+    "alt": "Hand-drawn illustration of a pigeon"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-drinks.png",
+    "id": "legacy-hallys-21",
+    "dest": "public/assets/legacy/hallys/21.png",
+    "alt": "Hand-drawn illustration of a champagne bottle, glass, and lemon"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-flapjack-stack.png",
+    "id": "legacy-hallys-22",
+    "dest": "public/assets/legacy/hallys/22.png",
+    "alt": "Hand-drawn illustration of a stack of pancakes"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-flat-white.png",
+    "id": "legacy-hallys-23",
+    "dest": "public/assets/legacy/hallys/23.png",
+    "alt": "Hand-drawn illustration of a flat white coffee"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-radio.png",
+    "id": "legacy-hallys-24",
+    "dest": "public/assets/legacy/hallys/24.png",
+    "alt": "Hand-drawn illustration of a radio"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-scale.png",
+    "id": "legacy-hallys-25",
+    "dest": "public/assets/legacy/hallys/25.png",
+    "alt": "Hand-drawn illustration of a kitchen scale with flowers"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-turntable.png",
+    "id": "legacy-hallys-26",
+    "dest": "public/assets/legacy/hallys/26.png",
+    "alt": "Hand-drawn illustration of a record turntable"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-watermelon.png",
+    "id": "legacy-hallys-27",
+    "dest": "public/assets/legacy/hallys/27.png",
+    "alt": "Hand-drawn illustration of a watermelon slice"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/poster.jpg",
+    "id": "legacy-hallys-28",
+    "dest": "public/assets/legacy/hallys/28.jpg",
+    "alt": "Hally's brunch poster"
+  },
+  {
+    "slug": "hallys",
+    "url": "https://therandomorder.com/images/work/hallys/illustration-totebag.jpg",
+    "id": "legacy-hallys-29",
+    "dest": "public/assets/legacy/hallys/29.jpg",
+    "alt": "Hally's tote bag, printed with the champagne illustration and wandering line"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/website-home.jpg",
+    "id": "legacy-earnt-1",
+    "dest": "public/assets/legacy/earnt/1.jpg",
+    "alt": "EARNT website homepage design"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-revolution.jpg",
+    "id": "legacy-earnt-2",
+    "dest": "public/assets/legacy/earnt/2.jpg",
+    "alt": "Revolution-era propaganda poster, painted from a low upward angle"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-street-culture.jpg",
+    "id": "legacy-earnt-3",
+    "dest": "public/assets/legacy/earnt/3.jpg",
+    "alt": "Street and activewear culture styling"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-nature.jpg",
+    "id": "legacy-earnt-4",
+    "dest": "public/assets/legacy/earnt/4.jpg",
+    "alt": "Lush green nature backdrop"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/rationale-earnt.jpg",
+    "id": "legacy-earnt-5",
+    "dest": "public/assets/legacy/earnt/5.jpg",
+    "alt": "EARNT community, styled editorial portrait"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/website-rebels.jpg",
+    "id": "legacy-earnt-6",
+    "dest": "public/assets/legacy/earnt/6.jpg",
+    "alt": "EARNT website, Rebels With a Cause page"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/website-collaboration.jpg",
+    "id": "legacy-earnt-7",
+    "dest": "public/assets/legacy/earnt/7.jpg",
+    "alt": "EARNT website, current collaboration page"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/twill-cap.jpg",
+    "id": "legacy-earnt-8",
+    "dest": "public/assets/legacy/earnt/8.jpg",
+    "alt": "EARNT twill cap merchandise"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/tshirt.jpg",
+    "id": "legacy-earnt-9",
+    "dest": "public/assets/legacy/earnt/9.jpg",
+    "alt": "EARNT Club tee, front and back"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/apparel-track-jacket-board.jpg",
+    "id": "legacy-earnt-10",
+    "dest": "public/assets/legacy/earnt/10.jpg",
+    "alt": "Team EARNT track jacket concept: the rendered jacket with detail crops, alongside its technical drawing and specification sheet"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/apparel-track-jacket-lifestyle.jpg",
+    "id": "legacy-earnt-11",
+    "dest": "public/assets/legacy/earnt/11.jpg",
+    "alt": "Two models in the Team EARNT track jacket and an orange tracksuit, seated among flowers"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-keyring-cad.png",
+    "id": "legacy-earnt-12",
+    "dest": "public/assets/legacy/earnt/12.png",
+    "alt": "Keyring CAD: the enamel keyring's dimensions (53mm by 17mm) and Pantone colours"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-cup-keyring.jpg",
+    "id": "legacy-earnt-13",
+    "dest": "public/assets/legacy/earnt/13.jpg",
+    "alt": "A coffee cup with the Cafe script mark, beside the enamel keyring on a steel counter"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/river-cafe-door-keyring.jpg",
+    "id": "legacy-earnt-14",
+    "dest": "public/assets/legacy/earnt/14.jpg",
+    "alt": "A hand holding a Cafe cup and the enamel keyring in front of The River Cafe Cafe's blue door"
+  },
+  {
+    "slug": "earnt",
+    "url": "https://therandomorder.com/images/work/earnt/team-earnt-tiger.png",
+    "id": "legacy-earnt-15",
+    "dest": "public/assets/legacy/earnt/15.png",
+    "alt": "Team EARNT tiger mark"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/hero-closeup-1.jpg",
+    "id": "legacy-adidas-1",
+    "dest": "public/assets/legacy/adidas/1.jpg",
+    "alt": "Adidas x I Art Joburg press pack close-up"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/closeup-2.jpg",
+    "id": "legacy-adidas-2",
+    "dest": "public/assets/legacy/adidas/2.jpg",
+    "alt": "Adidas x I Art Joburg press pack detail"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/box-inner.jpg",
+    "id": "legacy-adidas-3",
+    "dest": "public/assets/legacy/adidas/3.jpg",
+    "alt": "Adidas x I Art Joburg box interior"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/all-contents.jpg",
+    "id": "legacy-adidas-4",
+    "dest": "public/assets/legacy/adidas/4.jpg",
+    "alt": "Adidas x I Art Joburg press pack, full contents"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/inner-print.jpg",
+    "id": "legacy-adidas-5",
+    "dest": "public/assets/legacy/adidas/5.jpg",
+    "alt": "Adidas x I Art Joburg inner print detail"
+  },
+  {
+    "slug": "adidas",
+    "url": "https://therandomorder.com/images/work/adidas/book.gif",
+    "id": "legacy-adidas-6",
+    "dest": "public/assets/legacy/adidas/6.gif",
+    "alt": "Adidas x I Art Joburg booklet, animated"
   }
 ]

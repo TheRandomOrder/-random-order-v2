@@ -1,11 +1,11 @@
 ---
-import {getRelatedProjects, projectHref, workIndexProjects, type ProjectRecord} from '../../data/projects';
+import {getProject, getRelatedProjects, projectHref, workIndexProjects, type ProjectRecord} from '../../data/projects';
 interface Props { project: ProjectRecord }
 const {project} = Astro.props;
 const index = workIndexProjects.findIndex(item => item.id === project.id);
 const related = getRelatedProjects(project)[0];
-const previous = index > 0 ? workIndexProjects[index - 1] : undefined;
-const next = index >= 0 ? workIndexProjects[index + 1] : undefined;
+const previous = project.legacyNavigation ? getProject(project.legacyNavigation.previous ?? '') : index > 0 ? workIndexProjects[index - 1] : undefined;
+const next = project.legacyNavigation ? getProject(project.legacyNavigation.next ?? '') : index >= 0 ? workIndexProjects[index + 1] : undefined;
 ---
 <nav class="project-navigation wrap" aria-label="Project navigation">
   {previous && <a class="project-navigation-item" href={`/work/${previous.slug}/`}><span class="eyebrow">Previous project</span><span class="project-navigation-title">{previous.title}</span></a>}

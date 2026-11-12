@@ -17,6 +17,7 @@ export type EditorialBlock = TextBlock | HeadingBlock | MediaBlock | GalleryBloc
 
 export interface ProjectRecord {
   legacyLayout?: boolean;
+  legacyNavigation?: {previous?: string; next?: string};
   sourceComposition?: string;
   id: string;
   slug: string;

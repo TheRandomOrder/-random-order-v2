@@ -493,5 +493,14 @@
 .legacy-editorial .case-hue-wrap{height:auto;min-height:320px;display:flex}
 .legacy-editorial .case-hue-pin{position:static;display:flex;height:320px;width:100%}
 .legacy-editorial .chp-band{position:static;flex:1}
-.legacy-editorial .case-story h2{font:400 var(--text-h2)/1.1 var(--font-display);text-transform:uppercase}
+
 .legacy-editorial{box-sizing:border-box;width:100%;max-width:90rem;padding-inline:clamp(1.25rem,3vw,3rem)}
+
+.legacy-editorial{--color-accent:#2e42e0;--color-accent-soft:#4e5fe8;--color-ink-faint:#6b6b6d;--text-body:1rem;--text-hero:clamp(2.75rem,1.5rem + 5.5vw,6.75rem);--dot-color:rgba(10,10,10,.06)}
+.legacy-editorial .case-divider img{clip-path:none}
+.legacy-editorial .chp-band{align-items:flex-end;padding:24px;min-width:0}
+.legacy-editorial .chp-band span{font-size:14px;line-height:1.5;overflow-wrap:anywhere;background:rgba(255,255,255,.92);color:#111;padding:8px 12px}
+@media(max-width:40rem){.legacy-editorial .case-hue-pin{flex-wrap:wrap;height:auto;min-height:320px}.legacy-editorial .chp-band{flex-basis:50%;min-height:160px;padding:12px}}
+.legacy-editorial .case-cheers-left,.legacy-editorial .case-cheers-right{transform:translateY(-50%)}
+.legacy-editorial .ai-tag{position:absolute;right:12px;top:12px;padding:4px 8px;background:#fff;color:#111;font-size:12px}
+.legacy-editorial .accent{font-family:var(--font-accent);font-style:italic;font-weight:400;text-transform:uppercase;letter-spacing:0;font-size:.972em}

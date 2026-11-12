@@ -1,8 +1,19 @@
 ---
 import '../../styles/legacy-editorial.css';
-const layouts = import.meta.glob('./legacy/*.html', {query:'?raw', import:'default', eager:true}) as Record<string,string>;
+import layout0 from './legacy/hallys.html?raw';
+import layout1 from './legacy/earnt.html?raw';
+import layout2 from './legacy/sussex.html?raw';
+import layout3 from './legacy/adidas.html?raw';
+import layout4 from './legacy/tfb.html?raw';
+import layout5 from './legacy/wright.html?raw';
+import layout6 from './legacy/ham.html?raw';
+import layout7 from './legacy/scottusa.html?raw';
+import layout8 from './legacy/gadventures.html?raw';
+import layout9 from './legacy/brandmarks.html?raw';
+import layout10 from './legacy/random-projects.html?raw';
+const layouts: Record<string,string> = {'hallys':layout0,'earnt':layout1,'sussex':layout2,'adidas':layout3,'tfb':layout4,'wright':layout5,'ham':layout6,'scottusa':layout7,'gadventures':layout8,'brandmarks':layout9,'random-projects':layout10};
 const {id} = Astro.props as {id:string};
-const markup = layouts[`./legacy/${id}.html`];
+const markup = layouts[id];
 if (!markup) throw new Error(`Missing legacy composition: ${id}`);
 ---
 <div class="legacy-editorial case-full" set:html={markup} />

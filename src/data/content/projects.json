@@ -346,7 +346,12 @@
     "logoMediaId": "marks-hallys",
     "editorialTop": 96,
     "headerHeight": 900,
-    "headerTop": 271.5
+    "headerTop": 271.5,
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "brandmarks",
+      "next": "sussex"
+    }
   },
   {
     "id": "earnt",
@@ -552,7 +557,12 @@
     "editorialTop": 96,
     "category": "Brand Direction · Website",
     "headerHeight": 900,
-    "headerTop": 271.5
+    "headerTop": 271.5,
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "sussex",
+      "next": "tfb"
+    }
   },
   {
     "id": "cozy",
@@ -1003,7 +1013,11 @@
         "value": "Six Birds, One Stone"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "hallys",
+      "next": "earnt"
+    }
   },
   {
     "id": "sneaker-lab",
@@ -1337,7 +1351,12 @@
       }
     ],
     "headerMonochrome": true,
-    "headerTop": 271.5
+    "headerTop": 271.5,
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "gadventures",
+      "next": "brandmarks"
+    }
   },
   {
     "id": "ssuperlative",
@@ -1799,7 +1818,11 @@
         "url": "https://therandomorder.com/work/tfb"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "earnt",
+      "next": "wright"
+    }
   },
   {
     "id": "wright",
@@ -1917,7 +1940,11 @@
         "url": "https://therandomorder.com/work/wright"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "tfb",
+      "next": "ham"
+    }
   },
   {
     "id": "ham",
@@ -2111,7 +2138,11 @@
         "url": "https://therandomorder.com/work/ham"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "wright",
+      "next": "scottusa"
+    }
   },
   {
     "id": "scottusa",
@@ -2218,7 +2249,11 @@
         "url": "https://therandomorder.com/work/scottusa"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "ham",
+      "next": "gadventures"
+    }
   },
   {
     "id": "gadventures",
@@ -2470,7 +2505,11 @@
         "url": "https://therandomorder.com/work/gadventures"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "scottusa",
+      "next": "adidas"
+    }
   },
   {
     "id": "brandmarks",
@@ -2657,7 +2696,11 @@
         "url": "https://therandomorder.com/work/brandmarks"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {
+      "previous": "adidas",
+      "next": "hallys"
+    }
   },
   {
     "id": "random-projects",
@@ -2693,6 +2736,7 @@
         "url": "https://therandomorder.com/work/random-projects"
       }
     ],
-    "legacyLayout": true
+    "legacyLayout": true,
+    "legacyNavigation": {}
   }
 ]

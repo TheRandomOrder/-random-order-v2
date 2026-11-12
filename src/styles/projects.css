@@ -33,6 +33,8 @@
 @media(max-width:767px){.project-header{min-height:0}.project-header-large-title h1{font-size:clamp(56px,14vw,80px);line-height:1}.project-editorial>.project-section{margin-block-start:calc(min(var(--space-before,56px),56px) - 56px)}.project-gallery-authored{grid-template-columns:1fr;gap:24px}.project-gallery-authored .project-gallery-item{grid-column:1/-1}}
 
 /* A compact typographic index, aligned to the same grid as the case studies. */
+.project-navigation:has(>a:nth-child(3)){grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:767px){.project-navigation,.project-navigation:has(>a:nth-child(3)){grid-template-columns:1fr;gap:24px}}
 .work-list { padding-top: clamp(150px, 14vw, 250px); padding-bottom: clamp(100px, 12vw, 200px); }
 .index-intro { max-width: 885px; margin-block: var(--space-md); font-size: clamp(18px, 1.6vw, 22px); line-height: 1.46; }
 .index-cover { display: block; margin-bottom: var(--space-xl); }

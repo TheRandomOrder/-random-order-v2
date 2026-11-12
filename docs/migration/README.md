@@ -33,3 +33,7 @@ All 11 live Work destinations have corresponding slash-terminated V2 routes. Eig
 Astro check: no errors, 10 existing hints. Existing content/media tests and built-site tests passed; 31 static pages built. Full desktop/mobile visual, keyboard and reduced-motion review remains outstanding. Do not treat these drafts as production-ready.
 
 Browser review: all eight migrated routes rendered with expected titles and image counts. Actual available viewports measured 354px and 1309px despite requested 390/1440 overrides; no horizontal text overflow was detected. Exact six-width certification, full image-load/visual comparison and keyboard/reduced-motion review remain pending.
+
+## Subsequent layout and QA correction
+
+See [QUALITY-REVIEW.md](QUALITY-REVIEW.md). All 11 original Work destinations now use preserved source-body layouts. 148 original body images plus EARNT’s two films and posters are available locally. Existing custom scene files remain preserved. The earlier eight-page/generic-gallery descriptions above describe the first import and are superseded by this correction. Specialty fonts, GIF motion and the homepage SSUPERLATIVE asset remain review gaps.
