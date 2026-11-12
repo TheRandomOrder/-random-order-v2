@@ -81,7 +81,7 @@ export function getRelatedProjects(project: ProjectRecord): ProjectRecord[] {
 }
 
 /** The index and case-study navigation share one explicit editorial order. */
-const workOrder = ['publicis-machine', 'ssuperlative', 'golds-gym', 'muso', 'hotel-atelier', 'hallys', 'cozy', 'superbalist', 'adidas', 'sneaker-lab', 'earnt', 'the-shed', 'orchard-on-long'];
+const workOrder = ['publicis-machine', 'ssuperlative', 'golds-gym', 'muso', 'hotel-atelier', 'hallys', 'cozy', 'superbalist', 'adidas', 'sneaker-lab', 'earnt', 'sussex', 'tfb', 'wright', 'ham', 'scottusa', 'gadventures', 'brandmarks', 'random-projects', 'the-shed', 'orchard-on-long'];
 export const workIndexProjects = workOrder.flatMap(id => {
   const project = getProject(id);
   return project?.routeEnabled ? [project] : [];

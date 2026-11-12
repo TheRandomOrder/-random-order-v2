@@ -2,7 +2,7 @@
   {
     "id": "golds-gym",
     "slug": "golds-gym",
-    "title": "Gold’s Gym",
+    "title": "Gold\u2019s Gym",
     "presentation": "gallery",
     "classification": "archive",
     "routeEnabled": true,
@@ -16,7 +16,7 @@
     "metadata": [
       {
         "label": "Project",
-        "value": "Gold’s Gym"
+        "value": "Gold\u2019s Gym"
       },
       {
         "label": "Scope",
@@ -37,12 +37,12 @@
     ],
     "sources": [
       {
-        "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold’s Gym",
+        "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Gold\u2019s Gym",
         "nodeId": "1262:12370",
         "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12370"
       },
       {
-        "label": "RANDOM-HOTEL / Workbench / Gold’s Gym",
+        "label": "RANDOM-HOTEL / Workbench / Gold\u2019s Gym",
         "nodeId": "7738:678",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-678"
       },
@@ -82,7 +82,7 @@
     "headerStyle": "plain",
     "headerHeight": 900,
     "editorialTop": 160,
-    "category": "Art Direction · Image Exploration",
+    "category": "Art Direction \u00b7 Image Exploration",
     "headerTop": 271.5
   },
   {
@@ -123,7 +123,7 @@
       {
         "type": "text",
         "label": "The idea",
-        "body": "A gardener’s fork and trowel take the place of dining utensils in The Shed’s mark, connecting the garden with the table."
+        "body": "A gardener\u2019s fork and trowel take the place of dining utensils in The Shed\u2019s mark, connecting the garden with the table."
       },
       {
         "type": "media",
@@ -197,7 +197,7 @@
   {
     "id": "hallys",
     "slug": "hallys",
-    "title": "Hally’s",
+    "title": "Hally\u2019s",
     "presentation": "gallery",
     "classification": "featured",
     "routeEnabled": true,
@@ -205,13 +205,13 @@
     "featuredOrder": 0,
     "cardNumber": "01",
     "externalUrl": "https://therandomorder.com/work/hallys",
-    "client": "Hally’s",
+    "client": "Hally\u2019s",
     "disciplines": [
       "Rebrand",
       "Illustration",
       "Website"
     ],
-    "intro": "A neighbourhood café rebrand built around a tangle of moments.",
+    "intro": "A neighbourhood caf\u00e9 rebrand built around a tangle of moments.",
     "heroMediaId": "hallys-film",
     "relatedIds": [
       "the-shed",
@@ -219,11 +219,11 @@
     ],
     "sources": [
       {
-        "label": "Published Hally’s project",
+        "label": "Published Hally\u2019s project",
         "url": "https://therandomorder.com/work/hallys"
       },
       {
-        "label": "RANDOM-HOTEL / Workbench / Hally’s",
+        "label": "RANDOM-HOTEL / Workbench / Hally\u2019s",
         "nodeId": "7738:682",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-682"
       },
@@ -242,7 +242,7 @@
       {
         "type": "text",
         "label": "The challenge",
-        "body": "A neighbourhood café in Parsons Green needed an identity that felt as welcoming, energetic and distinctive as the place its regulars already knew."
+        "body": "A neighbourhood caf\u00e9 in Parsons Green needed an identity that felt as welcoming, energetic and distinctive as the place its regulars already knew."
       },
       {
         "type": "media",
@@ -264,7 +264,7 @@
       {
         "type": "text",
         "label": "The approach",
-        "body": "A café is a place where lives briefly cross. A wandering, looping line connects those moments across illustration, menus, packaging and the website. The refinement of the typography gives the loose hand-drawn line something to push against."
+        "body": "A caf\u00e9 is a place where lives briefly cross. A wandering, looping line connects those moments across illustration, menus, packaging and the website. The refinement of the typography gives the loose hand-drawn line something to push against."
       },
       {
         "type": "formula",
@@ -328,7 +328,7 @@
     "metadata": [
       {
         "label": "Client",
-        "value": "Hally’s"
+        "value": "Hally\u2019s"
       },
       {
         "label": "Scope",
@@ -452,7 +452,7 @@
       },
       {
         "type": "quote",
-        "quote": "“Make EARNT feel like it’s for everyone, everywhere, without losing clarity or cool — and communicate a totally new idea.”",
+        "quote": "\u201cMake EARNT feel like it\u2019s for everyone, everywhere, without losing clarity or cool \u2014 and communicate a totally new idea.\u201d",
         "attribution": "Lauren Scott-Harris",
         "role": "Founder, EARNT"
       },
@@ -473,7 +473,7 @@
       {
         "type": "text",
         "label": "Team EARNT",
-        "body": "The tiger motif plays on “earn your stripes”. Event caps and tees were made to be earned through participation, turning the merchandise into a sign of showing up."
+        "body": "The tiger motif plays on \u201cearn your stripes\u201d. Event caps and tees were made to be earned through participation, turning the merchandise into a sign of showing up."
       },
       {
         "type": "gallery",
@@ -550,7 +550,7 @@
     "homeOrder": 2,
     "logoMediaId": "marks-teamearnt",
     "editorialTop": 96,
-    "category": "Brand Direction · Website",
+    "category": "Brand Direction \u00b7 Website",
     "headerHeight": 900,
     "headerTop": 271.5
   },
@@ -568,7 +568,7 @@
       "Brand Direction",
       "Website"
     ],
-    "intro": "Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.",
+    "intro": "Building a premium bedding brand around care \u2014 and the art direction required to make that feeling coherent across every touchpoint.",
     "heroMediaId": "cozy-poster",
     "relatedIds": [
       "superbalist",
@@ -576,7 +576,7 @@
     ],
     "sources": [
       {
-        "label": "Cozy Heaven — Building the Brand / Phase 2, pages 13–22"
+        "label": "Cozy Heaven \u2014 Building the Brand / Phase 2, pages 13\u201322"
       },
       {
         "label": "Current production work slot / 2026-11-05",
@@ -593,7 +593,7 @@
       {
         "type": "media",
         "mediaId": "cozy-m09-joy-campaign",
-        "caption": "Süße Träume / Campaign film poster"
+        "caption": "S\u00fc\u00dfe Tr\u00e4ume / Campaign film poster"
       },
       {
         "type": "text",
@@ -725,7 +725,7 @@
       {
         "type": "text",
         "label": "One connected experience",
-        "body": "The brand should feel coherent before, during and after purchase — across the website, product pages, packaging, editorial, email and the customer’s home."
+        "body": "The brand should feel coherent before, during and after purchase \u2014 across the website, product pages, packaging, editorial, email and the customer\u2019s home."
       },
       {
         "type": "media",
@@ -746,7 +746,7 @@
     "headerOpacity": 1,
     "headerMonochrome": true,
     "editorialTop": 200,
-    "category": "Brand Direction · Website",
+    "category": "Brand Direction \u00b7 Website",
     "metadata": [
       {
         "label": "Project",
@@ -773,8 +773,8 @@
     "title": "Sussex",
     "presentation": "narrative",
     "classification": "featured",
-    "routeEnabled": false,
-    "status": "published",
+    "routeEnabled": true,
+    "status": "ready",
     "featuredOrder": 3,
     "cardNumber": "02",
     "externalUrl": "https://therandomorder.com/work/sussex",
@@ -782,26 +782,232 @@
       "Identity",
       "Typography"
     ],
-    "intro": "A wordmark built from a county flag, for the Gladwin Brothers’ flagship restaurant.",
-    "heroMediaId": "sussex-poster",
+    "intro": "A wordmark built from a county flag, for the Gladwin Brothers' flagship wine bar and restaurant.",
+    "heroMediaId": "legacy-sussex-1",
     "relatedIds": [
       "hallys",
       "earnt"
     ],
     "sources": [
       {
-        "label": "Published Sussex project",
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
         "url": "https://therandomorder.com/work/sussex"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-sussex-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Challenge",
+        "body": [
+          "Sussex needed to feel distinct from the Gladwin Brothers' six other London restaurants \u2014 refined, intentional, and rooted in a specific place, not just another wine bar."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-sussex-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "Six Birds, One Stone"
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "The solution came from a detail most people never notice: Sussex is the only English county whose flag carries six golden martlets in a triangular formation. Rather than design a conventional logo, we let the name itself take that shape \u2014 SUSSEX set across three lines in a triangular grid mirroring the flag, the X anchoring the composition like a keystone. The system flexes: six coffee beans for takeaway, six wine droplets for the wine list, six wildflowers for seasonal menus \u2014 same rhythm, shifting tone."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-sussex-4",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-5",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-6",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-7",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": [
+          "Wine Grapes",
+          "The Sussex Flag",
+          "Typewriter Type",
+          "The Wordmark"
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The System, Flexing",
+        "body": [
+          "The same grid flexes across contexts: six martlets for the core mark, six coffee beans for takeaway, six wine droplets for the wine list, six wildflowers for seasonal menus. Same rhythm, shifting tone."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-sussex-8",
+        "fit": "contain"
+      },
+      {
+        "type": "quote",
+        "quote": "\"Now, with six thriving restaurants across London, Jason's unparalleled creativity and vision have been essential at every turn.\""
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-sussex-9",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-10",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-sussex-11",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Posters",
+        "body": [
+          "Each event poster subtly references the six martlets of the Sussex flag through a triangular arrangement \u2014 six small plates for Tapas Night, six glass silhouettes for Cocktail Hour, six abstract forms for the gallery event. Quiet continuity across the campaign, with room to vary."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-sussex-12",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "Colours",
+        "body": [
+          "A palette built around the region itself \u2014 the deep tonal qualities of the South Downs, balanced against an unexpected breath of spring."
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "The Darkest of Greens",
+        "colors": [
+          {
+            "value": "#192A23",
+            "name": "The Darkest of Greens"
+          }
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "The Lightest of Lavenders",
+        "colors": [
+          {
+            "value": "#D9D0E8",
+            "name": "The Lightest of Lavenders"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": "Typography \u2014 Prestige Elite"
+      },
+      {
+        "type": "text",
+        "body": "The quick brown fox jumps over the lazy dog"
+      },
+      {
+        "type": "text",
+        "body": "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 0123456789"
+      },
+      {
+        "type": "text",
+        "body": "\"A monospaced typewriter font designed by Howard Kettler in 1953 \u2014 its evenly spaced, mechanical rhythm adds structure and a sense of deliberation, a nod to literary tradition and a reminder of craft.\""
+      },
+      {
+        "type": "text",
+        "body": "Aa"
+      },
+      {
+        "type": "text",
+        "label": "The Menu",
+        "body": [
+          "Presented like a clothbound book \u2014 a small gesture that hints at story, permanence, and care. Inside, minimal and deliberate, letting the food take the lead. Business cards and coasters follow the same restrained language."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-sussex-13",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "The triangular system now runs across menus, signage, business cards, and event posters \u2014 a mark that rewards curiosity, instantly legible to locals and layered with meaning for everyone else."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Richard Gladwin, CEO, Local & Wild"
+        ]
+      }
+    ],
     "homeOrder": 3,
-    "logoMediaId": "marks-sussex"
+    "logoMediaId": "marks-sussex",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "Sussex, Local & Wild"
+      },
+      {
+        "label": "Scope",
+        "value": "Logo, Brand System, Typography"
+      },
+      {
+        "label": "Based",
+        "value": "London"
+      },
+      {
+        "label": "Concept",
+        "value": "Six Birds, One Stone"
+      }
+    ]
   },
   {
     "id": "sneaker-lab",
     "slug": "sneaker-lab",
-    "title": "BSTN × Sneaker LAB",
+    "title": "BSTN \u00d7 Sneaker LAB",
     "presentation": "gallery",
     "classification": "archive",
     "routeEnabled": true,
@@ -815,7 +1021,7 @@
     "metadata": [
       {
         "label": "Project",
-        "value": "Sneaker LAB × BSTN"
+        "value": "Sneaker LAB \u00d7 BSTN"
       },
       {
         "label": "Scope",
@@ -836,7 +1042,7 @@
     ],
     "sources": [
       {
-        "label": "RANDOM-HOTEL / Workbench / BSTN × Sneaker LAB pitch",
+        "label": "RANDOM-HOTEL / Workbench / BSTN \u00d7 Sneaker LAB pitch",
         "nodeId": "7554:902",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-902"
       },
@@ -889,7 +1095,7 @@
       {
         "type": "text",
         "label": "The brief",
-        "body": "How can two brands with different purposes create something that feels entirely their own? The brief explored a care-kit sleeve that connects Sneaker LAB’s product expertise with BSTN’s roots in basketball and streetwear."
+        "body": "How can two brands with different purposes create something that feels entirely their own? The brief explored a care-kit sleeve that connects Sneaker LAB\u2019s product expertise with BSTN\u2019s roots in basketball and streetwear."
       },
       {
         "type": "heading",
@@ -912,7 +1118,7 @@
     "editorialTop": 96,
     "mode": "visual-story",
     "headerHeight": 900,
-    "category": "Packaging Concept · Art Direction",
+    "category": "Packaging Concept \u00b7 Art Direction",
     "headerTop": 271.5
   },
   {
@@ -943,7 +1149,7 @@
       },
       {
         "label": "Period",
-        "value": "2017–2023"
+        "value": "2017\u20132023"
       },
       {
         "label": "Focus",
@@ -1009,7 +1215,7 @@
       {
         "type": "text",
         "label": "Revisiting the work",
-        "body": "Years later, I have returned to this body of work through a different creative lens. Using contemporary generative tools, I have begun reconstructing and reinterpreting elements of my original interface designs, iconography and visual systems. These new images are not historical screenshots. They are contemporary visual studies grounded in the original design thinking — a way of revisiting six years of work as an evolving design language."
+        "body": "Years later, I have returned to this body of work through a different creative lens. Using contemporary generative tools, I have begun reconstructing and reinterpreting elements of my original interface designs, iconography and visual systems. These new images are not historical screenshots. They are contemporary visual studies grounded in the original design thinking \u2014 a way of revisiting six years of work as an evolving design language."
       },
       {
         "type": "media",
@@ -1048,7 +1254,7 @@
     "editorialTop": 200,
     "mode": "case-study",
     "headerHeight": 900,
-    "category": "Product Design · Identity · Systems",
+    "category": "Product Design \u00b7 Identity \u00b7 Systems",
     "headerTop": 271.5
   },
   {
@@ -1064,7 +1270,7 @@
     "headerStyle": "image",
     "headerHeight": 900,
     "headerOpacity": 0.07,
-    "category": "Apparel · Packaging · Visual studies",
+    "category": "Apparel \u00b7 Packaging \u00b7 Visual studies",
     "disciplines": [
       "Art Direction",
       "Packaging"
@@ -1077,7 +1283,7 @@
     "metadata": [
       {
         "label": "Artwork",
-        "value": "Adidas × I ART JOBURG"
+        "value": "Adidas \u00d7 I ART JOBURG"
       },
       {
         "label": "Project details",
@@ -1263,7 +1469,7 @@
     "headerTop": 360,
     "sources": [
       {
-        "label": "V2 / Content & Layout — 6 November 2026",
+        "label": "V2 / Content & Layout \u2014 6 November 2026",
         "nodeId": "1277:14558",
         "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1277-14558"
       }
@@ -1315,6 +1521,1169 @@
         "label": "Current production work slot / 2026-11-05",
         "nodeId": "1429:2058",
         "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1429-2058"
+      }
+    ]
+  },
+  {
+    "id": "tfb",
+    "slug": "tfb",
+    "title": "The Fat Badger",
+    "presentation": "narrative",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Logo",
+      "Brand Development"
+    ],
+    "intro": "A farmer walks into a bar \u2014 a restaurant and farm shop in one, for the Gladwin Brothers' seventh London location.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "The Fat Badger, Local & Wild"
+      },
+      {
+        "label": "Scope",
+        "value": "Logo, Brand Development, Bag Design"
+      },
+      {
+        "label": "Based",
+        "value": "London"
+      },
+      {
+        "label": "Concept",
+        "value": "A Farmer Walks Into a Bar\u2026"
+      }
+    ],
+    "heroMediaId": "legacy-tfb-1",
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-tfb-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Challenge",
+        "body": [
+          "The Gladwin Brothers wanted a visual identity that could hold two ideas at once: a fine-dining restaurant and a fresh, seasonal grocer, sharing one roof. It needed to resonate with their existing clientele while pulling in a new one entirely."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-3",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-4",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "A Farmer Walks Into a Bar\u2026"
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "The moodboard leaned into handpainted signage \u2014 the emphasis on typography and the craft of its execution. We loved the texture of one weathered old sign in particular, the way age had worn into the letterforms, and borrowed that as inspiration for texture within our own type. The arcs in the composition, both structural and decorative, came from the same source."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-5",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-6",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-7",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": [
+          "Handpainted Signage",
+          "Farm-to-Fork Ethos",
+          "The Fat Badger"
+        ]
+      },
+      {
+        "type": "quote",
+        "quote": "\"Since launching our first restaurant, The Shed, in 2012, we've had the privilege of collaborating with Jason de Villiers. His innovative input is a game-changer for any new business.\""
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-8",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-9",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-10",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Logo Development",
+        "body": [
+          "A flexible visual system for all applications \u2014 the full lockup, a solid reversal, a standalone wordmark, and the badger-head mark on its own, each one built to hold up at any size, from a farm shop sign to a jar label."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-11",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-12",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-13",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-14",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-tfb-15",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-tfb-16",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "Colours",
+        "body": [
+          "Two shades that reflect the farm-to-fork ethos while drawing from nature: Camo Green captures the earthy tones of fresh produce and the outdoors, while Lichen evokes the soft, mossy greens found growing wild."
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Camo Green",
+        "colors": [
+          {
+            "value": "#4F5D4A",
+            "name": "Camo Green"
+          }
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Lichen",
+        "colors": [
+          {
+            "value": "#717F7E",
+            "name": "Lichen"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": "Typography \u2014 TT Norms & Copperplate Extended"
+      },
+      {
+        "type": "text",
+        "body": "The quick brown fox jumps over the lazy dog"
+      },
+      {
+        "type": "text",
+        "body": "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 0123456789"
+      },
+      {
+        "type": "text",
+        "body": "\"TT Norms offers a clean, modern aesthetic for body copy; the extended letterforms and sharp serifs of Copperplate Extended bring refinement and authority to the headline. Together, a balance between heritage and modernity.\""
+      },
+      {
+        "type": "text",
+        "body": "Aa"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-tfb-17",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "Poster & Tote Bag",
+        "body": [
+          "\"Lettuce, Turnip the Beet\" \u2014 a headline that blends fresh produce with a clever pun, echoing the restaurant's playful blend of natural ingredients and lively atmosphere. The tote bag carries the same spirit: a pesto recipe on one side, the ingredients and tools to make it on the other."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-tfb-18",
+        "fit": "contain"
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-19",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-20",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "A flexible visual system now runs across signage, bags, and collateral \u2014 one identity, doing double duty as both restaurant and grocer, without ever feeling like two brands wearing one badge."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-tfb-21",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-tfb-22",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Richard Gladwin, CEO, Local & Wild"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/tfb"
+      }
+    ]
+  },
+  {
+    "id": "wright",
+    "slug": "wright",
+    "title": "Wright Architects",
+    "presentation": "narrative",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Logo",
+      "Signage",
+      "Stationery"
+    ],
+    "intro": "A wordmark built on a single precise cut \u2014 an identity as considered as the practice it belongs to.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "Wright Architects"
+      },
+      {
+        "label": "Scope",
+        "value": "Logo, Signage, Stationery"
+      },
+      {
+        "label": "Based",
+        "value": "Cape Town"
+      },
+      {
+        "label": "Concept",
+        "value": "Surgical Precision"
+      }
+    ],
+    "heroMediaId": "legacy-wright-1",
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-wright-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Challenge",
+        "body": [
+          "Wright Architects needed a mark that could sit on a waterfront office front, a business card, and a set of drawings alike, and read as exactly what the practice is: precise, considered, unshowy. Nothing about it could look decorative \u2014 every line had to earn its place. I worked alongside creative director Warren van Rensburg , who helped shape the brand's positioning, strategy, and creative direction."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-wright-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-wright-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "Surgical Precision"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-wright-4",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "The whole identity turns on a single decision: every terminal in the wordmark is cut at exactly 17.5\u00b0, the same angle, repeated without exception. Set it against a straight edge and the cut all but disappears \u2014 subtle enough that most people will never consciously clock it. Soften those terminals back to a plain 90\u00b0, though, and the mark goes flat: it loses the quiet tension that makes it read as drawn, not typed. That's \"surgical precision\" in one detail \u2014 a cut small enough to go unnoticed, essential enough to hold the whole structure together. The kind of exactness a good architect works in without ever pointing at it."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "The same 17.5\u00b0 geometry carries the identity across the whole practice \u2014 signage, business cards, letterhead \u2014 without a single additional flourish. A mark built on restraint, for a practice that trades on the same."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-wright-5",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-wright-6",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-wright-7",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Greg Wright, Director, Wright Architects"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/wright"
+      }
+    ]
+  },
+  {
+    "id": "ham",
+    "slug": "ham",
+    "title": "H\u0101m",
+    "presentation": "narrative",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Logo",
+      "Brand Identity"
+    ],
+    "intro": "An affordable fine dining restaurant in West Hampstead, where fine dining is made accessible to everyone.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "H\u0101m"
+      },
+      {
+        "label": "Scope",
+        "value": "Logo, Brand Identity, Menu Design"
+      },
+      {
+        "label": "Based",
+        "value": "West Hampstead, London"
+      },
+      {
+        "label": "Concept",
+        "value": "Art Deco-dence"
+      }
+    ],
+    "heroMediaId": "legacy-ham-1",
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-ham-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Challenge",
+        "body": [
+          "H\u0101m needed a logo that captured its heart: elegant and distinctive, with bold elements that still feel familiar. Working closely with co-founder Rose Tuckey, the visual identity had to match the restaurant's Art Deco interior and its stylish, vintage ambience."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-ham-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-ham-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "Art Deco-dence"
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "\"H\u0101m\" is Old English for \"home\" \u2014 a fitting anchor for a neighbourhood restaurant that wanted to feel like somewhere you could always come back to. That idea, paired with the geometry and glamour of the Art Deco movement, became the visual language: bold, symmetrical, warmly lit."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-ham-4",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-ham-5",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-ham-6",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": [
+          "Art Deco",
+          "H\u0101m Brand",
+          "Home"
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-ham-7",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-ham-8",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-ham-9",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Colours",
+        "body": [
+          "A palette pulled straight from the room \u2014 the warmth of aged brass, the cool weight of stone, the quiet green of the booths."
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Sage",
+        "colors": [
+          {
+            "value": "#5C6E5A",
+            "name": "Sage"
+          }
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Gold",
+        "colors": [
+          {
+            "value": "#B08D3F",
+            "name": "Gold"
+          }
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Coal",
+        "colors": [
+          {
+            "value": "#22201D",
+            "name": "Coal"
+          }
+        ]
+      },
+      {
+        "type": "palette",
+        "label": "Marble",
+        "colors": [
+          {
+            "value": "#E8E2D6",
+            "name": "Marble"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-ham-10",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "The identity now runs through the menu, signage, and social presence \u2014 bold and symmetrical where the room is bold and symmetrical, warm where the room is warm."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-ham-11",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Rose Tuckey, Co-Founder, H\u0101m"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/ham"
+      }
+    ]
+  },
+  {
+    "id": "scottusa",
+    "slug": "scottusa",
+    "title": "Scott USA",
+    "presentation": "narrative",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Illustration",
+      "Packaging"
+    ],
+    "intro": "A global art collaboration, passed from artist to artist across continents \u2014 one canvas, one long story.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "Scott USA"
+      },
+      {
+        "label": "Scope",
+        "value": "Illustration, Packaging Design"
+      },
+      {
+        "label": "Based",
+        "value": "South Africa"
+      },
+      {
+        "label": "Concept",
+        "value": "Global Collaboration"
+      }
+    ],
+    "heroMediaId": "legacy-scottusa-1",
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-scottusa-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Brief",
+        "body": [
+          "Scott USA had a wild idea for their snowboarding products: a global art collaboration that felt like a creative chain letter, passing one canvas from artist to artist across continents, each adding their own piece to the story."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-scottusa-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-scottusa-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "When the canvas reached South Africa, I was the third artist to contribute \u2014 the only one chosen from the entire African continent, which meant a great deal. I painted a fisherman, fitting for a canvas that had already crossed an ocean with a long journey still ahead. At the time I went by \"Further,\" a nod to Ken Kesey and the Merry Pranksters' bus, worked into the piece as both signature and a marker of the distance between each artist involved. That piece became the hero image on the final packaging and t-shirt design."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-scottusa-4",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-scottusa-5",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "quote": "\"Working with Jason is an excellent experience. He is a talented, hard-working professional that is passionate about his craft.\""
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "A surreal, proud moment: a painting born from a single South African contribution to a global chain, ending up as the face of the product itself."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Nowel Pawliw, Art Director, Scott USA"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/scottusa"
+      }
+    ]
+  },
+  {
+    "id": "gadventures",
+    "slug": "gadventures",
+    "title": "G Adventures",
+    "presentation": "narrative",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Illustration",
+      "Iconography"
+    ],
+    "intro": "A custom illustration and icon system for a travel company running over 700 itineraries in more than 100 countries.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "G Adventures"
+      },
+      {
+        "label": "Scope",
+        "value": "Illustration, Iconography"
+      },
+      {
+        "label": "Based",
+        "value": "International"
+      },
+      {
+        "label": "Concept",
+        "value": "Website Illustrations"
+      }
+    ],
+    "heroMediaId": "legacy-gadventures-1",
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-1",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Brief",
+        "body": [
+          "G Adventures specializes in guided tours for small groups, tailoring travel packages to each traveler's preferences \u2014 they even collaborate with National Geographic on some trips. To stand out in a market crowded with photography, we decided to lead with custom illustration instead."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-gadventures-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "A World in Icons"
+      },
+      {
+        "type": "text",
+        "label": "The Approach",
+        "body": [
+          "Working with G Adventures' upper management, we developed a unique graphic style built to scale across the site \u2014 header postcards for each region of the world, and a full icon set covering everything from booking status to trip type. Same linework, same warmth, wherever a traveler lands on the site."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Header Postcards",
+        "body": [
+          "A postcard illustration for every region G Adventures operates in \u2014 each one distinct, all of them clearly part of the same family."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-gadventures-4",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-5",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-6",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-gadventures-7",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-8",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-9",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-gadventures-10",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-11",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-gadventures-12",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The Icon Set",
+        "body": [
+          "A full library covering booking status, trip type, and traveler preference \u2014 small enough to sit next to a line of copy, distinctive enough to carry the brand on their own."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-13",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-14",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-15",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-16",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-17",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-18",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-19",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-20",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-21",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-22",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-23",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-24",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-25",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-26",
+        "fit": "contain"
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-27",
+        "fit": "contain"
+      },
+      {
+        "type": "quote",
+        "quote": "\"Illustrations played an important part of the project and we were thrilled with the results. Jason was collaborative, and went above and beyond with a fresh perspective that made the results even better.\""
+      },
+      {
+        "type": "text",
+        "label": "Trees for Life",
+        "body": [
+          "The same illustration language extended to G Adventures' sustainability initiatives \u2014 giving the environmental side of the business the same warmth as the trip-planning side."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-gadventures-28",
+        "fit": "contain"
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "A cohesive illustration system now carries G Adventures across the entire site \u2014 recognisable at a glance, warm at every touchpoint, built to grow as new destinations and features are added."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Client",
+        "body": [
+          "Greg Cormier, VP Digital & E-Commerce, G Adventures"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/gadventures"
+      }
+    ]
+  },
+  {
+    "id": "brandmarks",
+    "slug": "brandmarks",
+    "title": "Selected Brandmarks",
+    "presentation": "gallery",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Logo Design"
+    ],
+    "intro": "Behind every simple logo is a not-so-simple idea. A look behind the curtain at how these marks came to life.",
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "Selected Studio Work"
+      },
+      {
+        "label": "Scope",
+        "value": "Logo / Wordmark, Concept Breakdown"
+      },
+      {
+        "label": "Based",
+        "value": "International"
+      },
+      {
+        "label": "Concept",
+        "value": "A Reduction of a Reduction"
+      }
+    ],
+    "heroMediaId": "legacy-brandmarks-1",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "About the Process",
+        "body": [
+          "The marks here are rooted in strategy, story, and reduction \u2014 a balance between clarity and meaning. Each logo begins as a thought experiment: how do you express the soul of a brand using as little as possible? The answer often lives in dualities \u2014 function and feeling, concept and form."
+        ]
+      },
+      {
+        "type": "heading",
+        "title": "Start With Meaning"
+      },
+      {
+        "type": "text",
+        "label": "The Backstory",
+        "body": [
+          "Every logo starts with listening \u2014 getting close to a brand's personality, its ambitions, the people behind it. From there it's distillation: references, sketches, metaphors, patterns that feel both familiar and surprising. More often than not, the solution arrives when two distinct ideas lock together. That's where the spark is. That's where the logo begins."
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Tortuga Loca \u2014 Mexican Radiance",
+        "body": [
+          "For this bold, vibrant Mexican kitchen, the logo brings together symbolism from faith and folklore. A sharp monogram \"T\" radiates outward from a hexagonal frame \u2014 the hexagon a nod to a tortoise-shell plate, the radiant lines borrowed from the iconography of Our Lady of Guadalupe. Grounded and glowing, at once."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-brandmarks-1",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-2",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-3",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": [
+          "Our Lady of Guadalupe",
+          "Tortoise Shell",
+          "Tortuga Loca"
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Wilma \u2014 Caring First",
+        "body": [
+          "Wilma supports people through the challenging days after losing a loved one, making estate transfers clearer and easier. Rounded letterforms and a small heart hidden in the \"m\" convey warmth \u2014 modern, comforting, and quietly optimistic, unlike the neutral tones common in the industry."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-brandmarks-4",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-5",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Good Luck \u2014 Bottled Goodness",
+        "body": [
+          "This bottled citrus brand brings together grapefruit, blood orange, and lime. The wordmark divides into eight even segments \u2014 the natural geometry of citrus cut crosswise, and the brand's core values: simple, and full of character."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-brandmarks-6",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-7",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Outlier Health \u2014 Eternal Balance",
+        "body": [
+          "Balance sits at the heart of Outlier Medicine, a practice rooted in Eastern tradition. The logo draws from the yin-yang symbol, reinterpreted within a single letter \u2014 the \"O\" \u2014 transforming the brand's initial into a quiet symbol of equilibrium."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-brandmarks-8",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-9",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "quote": "Some logos tell you everything in a glance."
+      },
+      {
+        "type": "text",
+        "label": "The Shed \u2014 Farm to Fork",
+        "body": [
+          "For The Shed, a farm-to-fork restaurant, the usual knife and fork symbol became a gardener's fork and trowel \u2014 tools of the soil instead of the kitchen. A quiet visual shift that reframes the whole experience: great food starts in the ground."
+        ]
+      },
+      {
+        "type": "gallery",
+        "layout": "paired",
+        "items": [
+          {
+            "mediaId": "legacy-brandmarks-10",
+            "fit": "contain"
+          },
+          {
+            "mediaId": "legacy-brandmarks-11",
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "The Outcome",
+        "body": [
+          "Five brands, five different problems \u2014 the same process underneath each one: listen first, reduce until only the idea is left, then shape it into a mark that feels inevitable."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/brandmarks"
+      }
+    ]
+  },
+  {
+    "id": "random-projects",
+    "slug": "random-projects",
+    "title": "Random Projects",
+    "presentation": "gallery",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Work"
+    ],
+    "intro": "A growing collection of one-off pieces \u2014 quick hits, side projects, and things too fun not to share.",
+    "metadata": [],
+    "heroMediaId": "legacy-random-projects-1",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "Good Luck Citrus",
+        "body": [
+          "Packaging design for Good Luck Citrus."
+        ]
+      },
+      {
+        "type": "media",
+        "mediaId": "legacy-random-projects-1",
+        "fit": "contain"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jason\u2019s published Random Order project \u2014 captured 12 November 2026",
+        "url": "https://therandomorder.com/work/random-projects"
       }
     ]
   }

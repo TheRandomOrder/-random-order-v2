@@ -5,7 +5,7 @@ import {workIndexProjects, projectHref} from '../../data/projects';
 import '../../styles/projects.css';
 
 const opening = workIndexProjects[0];
-const legacy = new Set(['the-shed', 'orchard-on-long']);
+const legacy = new Set(['tfb','wright','ham','scottusa','gadventures','brandmarks','random-projects','the-shed', 'orchard-on-long']);
 const sections = [
   {title: 'Magazine', projects: workIndexProjects.filter(project => !legacy.has(project.id))},
   {title: 'Further work', projects: workIndexProjects.filter(project => legacy.has(project.id))},
