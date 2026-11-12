@@ -16,6 +16,7 @@ export interface CreditsBlock extends BlockBase { type: 'credits'; items: {label
 export type EditorialBlock = TextBlock | HeadingBlock | MediaBlock | GalleryBlock | FormulaBlock | QuoteBlock | CreditsBlock | PaletteBlock;
 
 export interface ProjectRecord {
+  legacyLayout?: boolean;
   sourceComposition?: string;
   id: string;
   slug: string;

@@ -1,0 +1,8 @@
+---
+import '../../styles/legacy-editorial.css';
+const layouts = import.meta.glob('./legacy/*.html', {query:'?raw', import:'default', eager:true}) as Record<string,string>;
+const {id} = Astro.props as {id:string};
+const markup = layouts[`./legacy/${id}.html`];
+if (!markup) throw new Error(`Missing legacy composition: ${id}`);
+---
+<div class="legacy-editorial case-full" set:html={markup} />
