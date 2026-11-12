@@ -1,0 +1,4439 @@
+{
+  "tag": "div",
+  "props": {
+    "className": "bg-white content-stretch flex flex-col items-center pb-[200px] relative size-full",
+    "data-node-id": "1429:2058",
+    "data-name": "MUSO"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]",
+        "data-node-id": "1480:1177",
+        "data-name": "Case Hero / Pinned Reference"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "absolute h-[1090px] left-0 mix-blend-luminosity overflow-clip top-[-22px] w-[1920px]",
+            "data-node-id": "1480:1178",
+            "data-name": "24"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "aria-hidden": true,
+                "className": "absolute inset-0 pointer-events-none"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute max-w-none object-bottom size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/27126.png"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute bg-[rgba(0,0,0,0.5)] inset-0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[61.48%_90.52%_38.43%_9.43%]",
+                "data-node-id": "1480:1179",
+                "data-name": "01"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/de16f.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[48.52%_82.14%_51.3%_17.76%]",
+                "data-node-id": "1480:1180",
+                "data-name": "02"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/0972b.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[39.44%_66.15%_60.46%_33.8%]",
+                "data-node-id": "1480:1181",
+                "data-name": "03"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/baef0.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[28.43%_64.01%_71.48%_35.94%]",
+                "data-node-id": "1480:1182",
+                "data-name": "04"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/1eaa3.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[67.69%_73.13%_32.22%_26.82%]",
+                "data-node-id": "1480:1183",
+                "data-name": "05"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/85b86.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[79.35%_64.06%_20.56%_35.89%]",
+                "data-node-id": "1480:1184",
+                "data-name": "06"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/26d8d.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[48.52%_71.09%_51.3%_28.75%]",
+                "data-node-id": "1480:1185",
+                "data-name": "07"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f7687.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_58.44%_54.07%_41.51%]",
+                "data-node-id": "1480:1186",
+                "data-name": "08"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/242ee.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[65.65%_67.24%_34.17%_32.6%]",
+                "data-node-id": "1480:1187",
+                "data-name": "09"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/523e8.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+7px)] size-[1.4px] top-[calc(50%-65.6px)]",
+                "data-node-id": "1480:1188",
+                "data-name": "10"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/46bf2.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_52.55%_54.07%_47.4%]",
+                "data-node-id": "1480:1189",
+                "data-name": "11"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/89b42.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[22.96%_41.72%_76.94%_58.23%]",
+                "data-node-id": "1480:1190",
+                "data-name": "12"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/0732e.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[68.15%_59.79%_31.76%_40.05%]",
+                "data-node-id": "1480:1191",
+                "data-name": "13"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/44dfb.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[77.78%_47.81%_22.13%_52.14%]",
+                "data-node-id": "1480:1192",
+                "data-name": "14"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/0728e.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[56.39%_45.42%_43.52%_54.43%]",
+                "data-node-id": "1480:1193",
+                "data-name": "15"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/26e50.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_46.72%_54.07%_53.23%]",
+                "data-node-id": "1480:1194",
+                "data-name": "16"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/8fb82.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[42.22%_31.46%_57.69%_68.49%]",
+                "data-node-id": "1480:1195",
+                "data-name": "17"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/22d20.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[44.54%_38.39%_55.37%_61.56%]",
+                "data-node-id": "1480:1196",
+                "data-name": "18"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/026e4.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[58.43%_22.4%_41.48%_77.55%]",
+                "data-node-id": "1480:1197",
+                "data-name": "19"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/241c4.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[56.39%_9.9%_43.52%_90.05%]",
+                "data-node-id": "1480:1198",
+                "data-name": "20"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/82e41.svg"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1480:1199",
+            "data-name": "Hero Body"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]",
+                "data-node-id": "1480:1200"
+              },
+              "children": [
+                "BRAND STRATEGY · ART DIRECTION · SYSTEM"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]",
+                "data-node-id": "1480:1201"
+              },
+              "children": [
+                "MUSO LONDON"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[566px]",
+                "data-node-id": "1480:1202"
+              },
+              "children": [
+                "Identity, campaign language and report design for a digital anti-piracy business."
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1480:1203",
+                "data-name": "Case Meta"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1204",
+                    "data-name": "Meta / CLIENT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1205",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1206"
+                      },
+                      "children": [
+                        "CLIENT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1207"
+                      },
+                      "children": [
+                        "Cozy Heaven"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1208",
+                    "data-name": "Meta / SCOPE"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1209",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1210"
+                      },
+                      "children": [
+                        "SCOPE"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1211"
+                      },
+                      "children": [
+                        "Brand Strategy, Art Direction, Photography, Packaging, Digital"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1212",
+                    "data-name": "Meta / BASED"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1213",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1214"
+                      },
+                      "children": [
+                        "BASED"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1215"
+                      },
+                      "children": [
+                        "DACH / Europe"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1216",
+                    "data-name": "Meta / CONCEPT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1217",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1218"
+                      },
+                      "children": [
+                        "CONCEPT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1219"
+                      },
+                      "children": [
+                        "Care, Made Visible"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "bg-white content-stretch flex flex-col gap-[102.473px] h-[6179px] items-center overflow-clip pb-[128.092px] pt-[102.473px] px-[307.42px] relative shrink-0 w-[1920px]",
+        "data-node-id": "1429:2065",
+        "data-name": "Case Body"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[64.046px] items-start min-h-[105px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:2075",
+            "data-name": "Copy / MUSO / BRAND DESIGN"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[352.252px]",
+                "data-node-id": "I1429:2075;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12.81px)] tracking-[1.0248px] uppercase w-[320.229px]",
+                    "data-node-id": "I1429:2075;1112:494"
+                  },
+                  "children": [
+                    "MUSO / BRAND DESIGN"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative",
+                "data-node-id": "I1429:2075;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,23.48px)] w-full",
+                    "data-node-id": "I1429:2075;1112:496"
+                  },
+                  "children": [
+                    "MUSO’s identity work brings a direct, expressive voice to digital anti-piracy. A bold wordmark and vivid green establish the visual language; the campaign borrows the mythology of piracy to talk about protection."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[64.046px] items-start min-h-[140px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:2080",
+            "data-name": "Copy / WHO’S THE JOLLY ROGER NOW?"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[352.252px]",
+                "data-node-id": "I1429:2080;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12.81px)] tracking-[1.0248px] uppercase w-[320.229px]",
+                    "data-node-id": "I1429:2080;1112:494"
+                  },
+                  "children": [
+                    "WHO’S THE JOLLY ROGER NOW?"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative",
+                "data-node-id": "I1429:2080;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,23.48px)] w-full",
+                    "data-node-id": "I1429:2080;1112:496"
+                  },
+                  "children": [
+                    "The campaign turns the pirate’s own language back on itself. Familiar cultural references give a technical subject an immediate point of entry, carrying the same confident voice from poster studies to information design."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[19.214px] h-[250.67px] items-start overflow-clip py-[68.316px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:2071",
+            "data-name": "Brand Story"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "h-[1.139px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1429:2072",
+                "data-name": "Divider"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f2a63.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[12.809px] tracking-[1.0247px] uppercase w-[500px]",
+                "data-node-id": "1429:2073"
+              },
+              "children": [
+                "MUSO / IDENTITY AND CAMPAIGN"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[72.585px] tracking-[0.7259px] whitespace-nowrap",
+                "data-node-id": "1429:2074"
+              },
+              "children": [
+                "A CLEAR VOICE FOR PROTECTION"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "bg-black h-[854.985px] overflow-clip relative shrink-0 w-[1334px]",
+            "data-node-id": "1429:2087",
+            "data-name": "28"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[61.48%_90.52%_38.43%_9.43%]",
+                "data-node-id": "1429:2088",
+                "data-name": "01"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f79df.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[48.52%_82.14%_51.3%_17.76%]",
+                "data-node-id": "1429:2089",
+                "data-name": "02"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/72269.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[39.44%_66.15%_60.46%_33.8%]",
+                "data-node-id": "1429:2090",
+                "data-name": "03"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/b2ac3.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[28.43%_64.01%_71.48%_35.94%]",
+                "data-node-id": "1429:2091",
+                "data-name": "04"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f810d.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[67.69%_73.12%_32.22%_26.82%]",
+                "data-node-id": "1429:2092",
+                "data-name": "05"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/53869.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[79.35%_64.06%_20.56%_35.89%]",
+                "data-node-id": "1429:2093",
+                "data-name": "06"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/ee25e.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[48.52%_71.09%_51.3%_28.75%]",
+                "data-node-id": "1429:2094",
+                "data-name": "07"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/ac669.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_58.44%_54.07%_41.51%]",
+                "data-node-id": "1429:2095",
+                "data-name": "08"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/29424.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[65.65%_67.24%_34.17%_32.6%]",
+                "data-node-id": "1429:2096",
+                "data-name": "09"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f8973.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-x-1/2 -translate-y-1/2 absolute h-[1.583px] left-[calc(50%+6.95px)] top-[calc(50%-73.62px)] w-[1.39px]",
+                "data-node-id": "1429:2097",
+                "data-name": "10"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/045ee.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_52.55%_54.07%_47.4%]",
+                "data-node-id": "1429:2098",
+                "data-name": "11"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/118b2.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[22.96%_41.72%_76.94%_58.23%]",
+                "data-node-id": "1429:2099",
+                "data-name": "12"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/cd3df.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[68.15%_59.79%_31.76%_40.05%]",
+                "data-node-id": "1429:2100",
+                "data-name": "13"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/3b2b9.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[77.78%_47.81%_22.13%_52.14%]",
+                "data-node-id": "1429:2101",
+                "data-name": "14"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/b69f2.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[56.39%_45.42%_43.52%_54.43%]",
+                "data-node-id": "1429:2102",
+                "data-name": "15"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/65eb7.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[45.83%_46.72%_54.07%_53.23%]",
+                "data-node-id": "1429:2103",
+                "data-name": "16"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/82d89.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[42.22%_31.46%_57.69%_68.49%]",
+                "data-node-id": "1429:2104",
+                "data-name": "17"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/bf616.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[44.54%_38.39%_55.37%_61.56%]",
+                "data-node-id": "1429:2105",
+                "data-name": "18"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/3880d.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[58.43%_22.4%_41.48%_77.55%]",
+                "data-node-id": "1429:2106",
+                "data-name": "19"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/88506.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-[56.39%_9.9%_43.52%_90.05%]",
+                "data-node-id": "1429:2107",
+                "data-name": "20"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/41b12.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute contents left-[50.03px] top-[57px]",
+                "data-node-id": "1429:2108"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[47.465px] left-[calc(91.67%-21.54px)] top-[57px] w-[88.255px]",
+                    "data-node-id": "1429:2109",
+                    "data-name": "HTL"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/847d7.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Lexend:Bold'] font-bold leading-[0] left-[50.03px] text-[11.866px] text-white top-[57px] tracking-[0.9493px] whitespace-nowrap",
+                    "data-node-id": "1429:2110"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "font-['Plus_Jakarta_Sans:Bold'] leading-[17.799px]"
+                      },
+                      "children": [
+                        "HTL | "
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "font-['Plus_Jakarta_Sans:ExtraLight'] font-extralight leading-[17.799px] tracking-[1.28px]"
+                      },
+                      "children": [
+                        "WE ARE SSUPERLATIVE | MUSO BRAND DESIGN"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-y-1/2 absolute contents left-[11.56%] right-[74.48%] top-[calc(50%-19.89px)]",
+                "data-node-id": "1429:2111"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-y-1/2 [word-break:break-word] absolute contents left-[11.56%] right-[74.48%] text-[11.866px] text-white top-[calc(50%-19.89px)]",
+                    "data-node-id": "1429:2112"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[1.54] left-[11.56%] right-[74.53%] top-[calc(50%-12.67px)]",
+                        "data-node-id": "1429:2113"
+                      },
+                      "children": [
+                        "Set in circular"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "absolute font-['Plus_Jakarta_Sans:Light'] font-light leading-[0] left-[11.61%] right-[74.48%] top-[calc(50%-45.12px)]",
+                        "data-node-id": "1429:2114"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[1.54]"
+                          },
+                          "children": [
+                            "Wordmark:"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "leading-[1.54]"
+                          },
+                          "children": [
+                            " "
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-x-1/2 -translate-y-1/2 absolute h-[486.391px] left-[calc(50%+0.26px)] top-[calc(50%+5.7px)] w-[1798.647px]",
+                "data-node-id": "1429:2115",
+                "data-name": "muso"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[-230.14%_-76.38%_-271.98%_-59.4%]"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "block max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2270a.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Circular_Std:Bold'] leading-[2658.047px] left-[calc(100%+548.89px)] not-italic text-[1139.163px] text-white top-[calc(50%-551.78px)] tracking-[-45.5665px] whitespace-nowrap",
+                "data-node-id": "1429:2120"
+              },
+              "children": [
+                ".ai"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "bg-black h-[854.985px] overflow-clip relative shrink-0 w-[1334px]",
+            "data-node-id": "1480:1260",
+            "data-name": "29"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute contents left-[-127px] top-[112.98px]",
+                "data-node-id": "1480:1295"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[61.87%_108.77%_36.96%_-9.52%]",
+                    "data-node-id": "1480:1296",
+                    "data-name": "01"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/381ff.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[48.54%_75.34%_50.41%_23.99%]",
+                    "data-node-id": "1480:1297",
+                    "data-name": "02"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/4ec13.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[34.03%_73.76%_64.91%_25.56%]",
+                    "data-node-id": "1480:1298",
+                    "data-name": "03"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/0afe3.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[20.11%_70.69%_78.83%_28.64%]",
+                    "data-node-id": "1480:1299",
+                    "data-name": "04"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/c20f7.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[69.71%_83.81%_29.24%_15.52%]",
+                    "data-node-id": "1480:1300",
+                    "data-name": "05"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/8dbfc.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[84.44%_70.46%_13.92%_28.56%]",
+                    "data-node-id": "1480:1301",
+                    "data-name": "06"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/ad854.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[48.54%_66.27%_49.36%_32.38%]",
+                    "data-node-id": "1480:1302",
+                    "data-name": "07"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/9841b.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[42.1%_62.59%_56.84%_36.66%]",
+                    "data-node-id": "1480:1303",
+                    "data-name": "08"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/b77ee.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[60%_63.34%_37.9%_35.31%]",
+                    "data-node-id": "1480:1304",
+                    "data-name": "09"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/9d9a9.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-14.5px)] size-[27px] top-[calc(50%-23.01px)]",
+                    "data-node-id": "1480:1305",
+                    "data-name": "10"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/7c4c0.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[42.1%_53.9%_56.38%_45.13%]",
+                    "data-node-id": "1480:1306",
+                    "data-name": "11"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/294b4.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[13.21%_38.61%_85.73%_60.72%]",
+                    "data-node-id": "1480:1307",
+                    "data-name": "12"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/e9bda.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[61.64%_57.65%_36.26%_41%]",
+                    "data-node-id": "1480:1308",
+                    "data-name": "13"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/814de.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[82.45%_47%_15.91%_51.95%]",
+                    "data-node-id": "1480:1309",
+                    "data-name": "14"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/8f124.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[53.8%_47%_44.68%_51.95%]",
+                    "data-node-id": "1480:1310",
+                    "data-name": "15"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/14b3f.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[42.1%_45.8%_56.84%_53.52%]",
+                    "data-node-id": "1480:1311",
+                    "data-name": "16"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/8f2f9.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[37.54%_23.54%_60.94%_75.49%]",
+                    "data-node-id": "1480:1312",
+                    "data-name": "17"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/d02b4.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[40.47%_33.81%_58.48%_65.52%]",
+                    "data-node-id": "1480:1313",
+                    "data-name": "18"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/114c4.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[58.01%_10.79%_40.94%_88.53%]",
+                    "data-node-id": "1480:1314",
+                    "data-name": "19"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/c7e32.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[55.44%_-7.27%_43.51%_106.52%]",
+                    "data-node-id": "1480:1315",
+                    "data-name": "20"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/be0b1.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Light'] font-light inset-[45.5%_77.81%_42.81%_2.17%] leading-[1.54] text-[16px] text-white",
+                    "data-node-id": "1480:1316"
+                  },
+                  "children": [
+                    "This now feels like it could be more of a neural network or a universe with space and dimension and yes a data cloud. "
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Light'] font-light inset-[40.7%_77.81%_56.38%_2.17%] leading-[0] text-[16px] text-white",
+                    "data-node-id": "1480:1317"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[1.54]"
+                      },
+                      "children": [
+                        "Concept:"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "leading-[1.54]"
+                      },
+                      "children": [
+                        " "
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "h-[1.139px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:2121",
+            "data-name": "Divider"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "className": "absolute block inset-0 max-w-none size-full",
+                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/f2a63.svg"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[91.618px] items-start justify-center relative shrink-0",
+            "data-node-id": "1429:2122"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[81.465px] items-center relative shrink-0",
+                "data-node-id": "1429:2123"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0",
+                    "data-node-id": "1429:2124"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "col-1 h-[94.603px] ml-0 mt-0 relative row-1 w-[463.477px]",
+                        "data-node-id": "1429:2125",
+                        "data-name": "JollyRoger 1"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-0 overflow-hidden pointer-events-none"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "absolute h-[649.64%] left-[-0.05%] max-w-none top-[-239.24%] w-[100.09%]",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/5d31d.png"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "col-1 h-[94.603px] ml-0 mt-[120.47px] relative row-1 w-[463.477px]",
+                        "data-node-id": "1429:2126",
+                        "data-name": "JollyRoger 2"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-0 overflow-hidden pointer-events-none"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "absolute h-[649.64%] left-[-0.05%] max-w-none top-[-324.48%] w-[100.09%]",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/5d31d.png"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "col-1 h-[48.494px] ml-0 mt-[254.69px] relative row-1 w-[463.477px]",
+                        "data-node-id": "1429:2127",
+                        "data-name": "JollyRoger 3"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-0 overflow-hidden pointer-events-none"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "absolute h-[1267.34%] left-[-0.05%] max-w-none top-[-969.97%] w-[100.09%]",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/5d31d.png"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "bg-[#1fd931] h-[661.246px] relative shrink-0 w-[465.862px]",
+                    "data-node-id": "1429:2128"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0",
+                "data-node-id": "1429:2129"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "col-1 h-[1045.749px] ml-0 mt-0 relative row-1 w-[734.249px]",
+                    "data-node-id": "1429:2130",
+                    "data-name": "whiterabbit1983_London_street_at_blue_hour_supplied_digital_b_531be95e-ef74-467d-b330-115addb25e51_0  1"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "col-1 h-[555.83px] mix-blend-color ml-[241.4px] mt-[38.29px] relative row-1 w-[300.489px]",
+                    "data-node-id": "1429:2131"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-72.44%_-133.99%]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/05139.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Space_Mono:Regular'] h-[680.228px] leading-[0] left-[48px] not-italic text-[0px] text-black top-[496.78px] w-[182.461px] whitespace-pre-wrap",
+                "data-node-id": "1429:2132",
+                "style": {
+                  "fontFeatureSettings": "\"salt\" 1, \"lnum\" 1, \"tnum\" 1"
+                }
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-none mb-0 text-[18.224px]"
+                  },
+                  "children": [
+                    "Captain Philips – “Look at me. I am the captain now.”"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0 text-[9.112px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0 text-[9.112px]"
+                  },
+                  "children": [
+                    "The line is appropriated and turned back on the pirate. “Who’s the Jolly Roger now?” shifts the balance of power, using the language and mythology of piracy to communicate protection without having to explain it literally."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0 text-[9.112px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0 text-[9.112px]"
+                  },
+                  "children": [
+                    "It gives MUSO a voice that is confident, knowing and slightly provocative — transforming what could otherwise be a technical conversation about anti-piracy into something immediate, culturally recognisable and memorable."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] text-[9.112px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Space_Mono:Regular'] h-[680.228px] leading-[0] left-[262px] not-italic text-[9.112px] text-black top-[496.78px] w-[182.461px] whitespace-pre-wrap",
+                "data-node-id": "1429:2133",
+                "style": {
+                  "fontFeatureSettings": "\"salt\" 1, \"lnum\" 1, \"tnum\" 1"
+                }
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0"
+                  },
+                  "children": [
+                    "The line is appropriated and turned back on the pirate. “Who’s the Jolly Roger now?” shifts the balance of power, using the language and mythology of piracy to communicate protection without having to explain it literally."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6] mb-0"
+                  },
+                  "children": [
+                    "It gives MUSO a voice that is confident, knowing and slightly provocative — transforming what could otherwise be a technical conversation about anti-piracy into something immediate, culturally recognisable and memorable."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[1.6]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0",
+            "data-node-id": "1429:2134"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "bg-[#1fd931] col-1 h-[861.394px] ml-0 mt-0 overflow-clip relative row-1 w-[1344px]",
+                "data-node-id": "1429:2135",
+                "data-name": "Creative Future17"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute bg-[#30ff45] h-[67.795px] left-[78.4px] top-[307.87px] w-[747.6px]",
+                    "data-node-id": "1429:2136"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute bg-[#30ff45] h-[67.795px] left-[78.4px] top-[409.96px] w-[504px]",
+                    "data-node-id": "1429:2137"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute bg-[#30ff45] h-[67.795px] left-[78.4px] top-[205.78px] w-[747.6px]",
+                    "data-node-id": "1429:2138"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Circular_Std:Bold'] leading-[95.642px] left-[78.4px] not-italic text-[95.642px] text-black top-[185.04px] w-[779.1px]",
+                    "data-node-id": "1429:2139"
+                  },
+                  "children": [
+                    "Creating Revenue Impact Estimates for 10 Titles"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[23.91px] left-[78.4px] not-italic text-[23.91px] text-white top-[63.81px] whitespace-pre",
+                    "data-node-id": "1429:2140"
+                  },
+                  "children": [
+                    "Section 3  — Creating Revenue Impact Estimates"
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[17.933px] left-[calc(91.67%-84px)] top-[70.19px] w-[40.349px]",
+                    "data-node-id": "1429:2141",
+                    "data-name": "Identity/Monogram"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/8ca92.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[17.933px] left-[calc(91.67%-29.4px)] overflow-clip top-[70.19px] w-[67.248px]",
+                    "data-node-id": "1429:2142",
+                    "data-name": "Logotype"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute contents inset-0",
+                        "data-node-id": "I1429:2142;214:1564",
+                        "data-name": "b"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute contents inset-0",
+                            "data-node-id": "I1429:2142;214:1565",
+                            "data-name": "c"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "absolute block inset-0 max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/ddc0f.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] absolute font-['Circular_Std:Light'] leading-[23.91px] left-[78.4px] not-italic text-[17.933px] text-black top-[580.64px] w-[646.8px]",
+                    "data-node-id": "1429:2143"
+                  },
+                  "children": [
+                    "PLEASE NOTE:The section of the report uses supposition to present some possible scenarios as to the economic impact of digital piracy and is not intended for use beyond this internal Creative Future report. It does not constitute an economic study or reflect MUSO’s position, and is only intended as a discussion for further analysis."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "bg-[#f3f6f8] h-[756px] overflow-clip relative shrink-0 w-full",
+            "data-node-id": "1429:2967",
+            "data-name": "Creative Future23"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute bg-[#30ff45] h-[22.4px] left-[76.13px] top-[61.6px] w-[674.332px]",
+                "data-node-id": "1429:2968"
+              },
+              "children": []
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[33.6px] items-center justify-center left-[76.13px] top-[268.8px] w-[1152.891px]",
+                "data-node-id": "1429:2969"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-scale-y-100 flex-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[rgba(168,168,168,0.12)] h-[33.6px] relative w-[1152.891px]"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[33.6px] items-center justify-center left-[76.13px] top-[336px] w-[1152.891px]",
+                "data-node-id": "1429:2970"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-scale-y-100 flex-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[rgba(168,168,168,0.12)] h-[33.6px] relative w-[1152.891px]"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[33.6px] items-center justify-center left-[76.13px] top-[403.2px] w-[1152.891px]",
+                "data-node-id": "1429:2971"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-scale-y-100 flex-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[rgba(168,168,168,0.12)] h-[33.6px] relative w-[1152.891px]"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[33.6px] items-center justify-center left-[76.13px] top-[470.4px] w-[1152.891px]",
+                "data-node-id": "1429:2972"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-scale-y-100 flex-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[rgba(168,168,168,0.12)] h-[33.6px] relative w-[1152.891px]"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[33.6px] items-center justify-center left-[76.13px] top-[537.6px] w-[1152.891px]",
+                "data-node-id": "1429:2973"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-scale-y-100 flex-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[rgba(168,168,168,0.12)] h-[33.6px] relative w-[1152.891px]"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[243.6px] w-[14.955px]",
+                "data-node-id": "1429:2974"
+              },
+              "children": [
+                "US"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Medium'] leading-[11.037px] left-[76.13px] not-italic text-[9.657px] text-black top-[169.4px] w-[97.887px]",
+                "data-node-id": "1429:2975"
+              },
+              "children": [
+                "Top 10 Countries"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[277.2px] w-[31.949px]",
+                "data-node-id": "1429:2976"
+              },
+              "children": [
+                "Russia"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[310.8px] w-[27.871px]",
+                "data-node-id": "1429:2977"
+              },
+              "children": [
+                "Brazil"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[344.4px] w-[25.152px]",
+                "data-node-id": "1429:2978"
+              },
+              "children": [
+                "India"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[378px] w-[51.663px]",
+                "data-node-id": "1429:2979"
+              },
+              "children": [
+                "Phillipines"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[411.6px] w-[38.067px]",
+                "data-node-id": "1429:2980"
+              },
+              "children": [
+                "Mexico"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[445.2px] w-[14.275px]",
+                "data-node-id": "1429:2981"
+              },
+              "children": [
+                "Uk"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(41.67%+42.15px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:2982"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[243.6px]",
+                    "data-node-id": "1429:2983",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$80,371,302.17"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[277.2px]",
+                    "data-node-id": "1429:2984",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$41,379,814.68"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[310.8px]",
+                    "data-node-id": "1429:2985",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$13,517,581.61"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[344.4px]",
+                    "data-node-id": "1429:2986",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$13,517,581.61"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[378px]",
+                    "data-node-id": "1429:2987",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,727,977.58"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[411.6px]",
+                    "data-node-id": "1429:2988",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,711,674.08"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[445.2px]",
+                    "data-node-id": "1429:2989",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$33,207,515.32"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[478.8px]",
+                    "data-node-id": "1429:2990",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$13,176,573.14"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[512.4px]",
+                    "data-node-id": "1429:2991",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$21,235,439.47"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(41.67%+52.34px)] top-[546px]",
+                    "data-node-id": "1429:2992",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$15,424,282.18"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(41.67%+42.15px)] top-[579.6px]",
+                    "data-node-id": "1429:2993",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$251,523,807.14"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(41.67%+42.15px)] top-[613.2px]",
+                    "data-node-id": "1429:2994",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$318,859,257.03"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(33.33%+18.36px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:2995"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[243.6px]",
+                    "data-node-id": "1429:2996",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$73,234,985.67"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[277.2px]",
+                    "data-node-id": "1429:2997",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$37,705,624.44"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[310.8px]",
+                    "data-node-id": "1429:2998",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$12,317,330.55"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+34.67px)] top-[344.4px]",
+                    "data-node-id": "1429:2999",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$3,436,755.42"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[378px]",
+                    "data-node-id": "1429:3000",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$13,420,253.22"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[411.6px]",
+                    "data-node-id": "1429:3001",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$13,405,397.34"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[445.2px]",
+                    "data-node-id": "1429:3002",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$30,258,958.65"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[478.8px]",
+                    "data-node-id": "1429:3003",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$12,006,600.85"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[512.4px]",
+                    "data-node-id": "1429:3004",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$19,349,905.54"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(33.33%+28.55px)] top-[546px]",
+                    "data-node-id": "1429:3005",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,054,731.65"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(33.33%+18.36px)] top-[579.6px]",
+                    "data-node-id": "1429:3006",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$229,190,543.34"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(33.33%+18.36px)] top-[613.2px]",
+                    "data-node-id": "1429:3007",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$290,971,930.69"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[478.8px] w-[33.309px]",
+                "data-node-id": "1429:3008"
+              },
+              "children": [
+                "Turkey"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[512.4px] w-[27.871px]",
+                "data-node-id": "1429:3009"
+              },
+              "children": [
+                "Spain"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(75%+4.76px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:3010"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+14.96px)] top-[243.6px]",
+                    "data-node-id": "1429:3011",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$38,401,571.96"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+14.96px)] top-[277.2px]",
+                    "data-node-id": "1429:3012",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$19,771,359.78"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[310.8px]",
+                    "data-node-id": "1429:3013",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$6,458,728.04"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[344.4px]",
+                    "data-node-id": "1429:3014",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$1,802,100.58"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[378px]",
+                    "data-node-id": "1429:3015",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$7,037,057.70"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[411.6px]",
+                    "data-node-id": "1429:3016",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$7,029,267.86"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+14.96px)] top-[445.2px]",
+                    "data-node-id": "1429:3017",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$15,866,618.49"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[478.8px]",
+                    "data-node-id": "1429:3018",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$6,295,793.50"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+14.96px)] top-[512.4px]",
+                    "data-node-id": "1429:3019",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$10,146,336.25"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(75%+21.07px)] top-[546px]",
+                    "data-node-id": "1429:3020",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$7,369,753.46"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(75%+4.76px)] top-[579.6px]",
+                    "data-node-id": "1429:3021",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$120,178,587.62"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(75%+4.76px)] top-[613.2px]",
+                    "data-node-id": "1429:3022",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$152,457,796.93"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Book'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[546px] w-[49.623px]",
+                "data-node-id": "1429:3023"
+              },
+              "children": [
+                "Argentina"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Black'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[579.6px] w-[127.797px]",
+                "data-node-id": "1429:3024",
+                "style": {
+                  "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                }
+              },
+              "children": [
+                "Top 10 Country Totals"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Black'] leading-[16.555px] left-[76.81px] not-italic text-[11.037px] text-black top-[613.2px] w-[129.836px]",
+                "data-node-id": "1429:3025",
+                "style": {
+                  "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                }
+              },
+              "children": [
+                "Rest of World Demand"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(50%+65.94px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:3026"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+70.02px)] top-[243.6px]",
+                    "data-node-id": "1429:3027",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$153,606,287.84"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[277.2px]",
+                    "data-node-id": "1429:3028",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$79,085,439.12"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[310.8px]",
+                    "data-node-id": "1429:3029",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$25,834,912.15"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(58.33%-26.51px)] top-[344.4px]",
+                    "data-node-id": "1429:3030",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$7,208,402.34"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[378px]",
+                    "data-node-id": "1429:3031",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$28,148,230.80"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[411.6px]",
+                    "data-node-id": "1429:3032",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$28,117,071.42"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[445.2px]",
+                    "data-node-id": "1429:3033",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$63,466,473.98"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[478.8px]",
+                    "data-node-id": "1429:3034",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$25,183,174.00"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[512.4px]",
+                    "data-node-id": "1429:3035",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$40,585,345.01"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(50%+76.14px)] top-[546px]",
+                    "data-node-id": "1429:3036",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$29,479,013.82"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(50%+65.94px)] top-[579.6px]",
+                    "data-node-id": "1429:3037",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$480,714,350.48"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(50%+65.94px)] top-[613.2px]",
+                    "data-node-id": "1429:3038",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$609,831,187.71"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(66.67%-19.03px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:3039"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[243.6px]",
+                    "data-node-id": "1429:3040",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$76,803,143.92"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[277.2px]",
+                    "data-node-id": "1429:3041",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$39,542,719.56"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[310.8px]",
+                    "data-node-id": "1429:3042",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$12,917,456.08"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-2.72px)] top-[344.4px]",
+                    "data-node-id": "1429:3043",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$3,604,201.17"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[378px]",
+                    "data-node-id": "1429:3044",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,074,115.40"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[411.6px]",
+                    "data-node-id": "1429:3045",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,058,535.71"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[445.2px]",
+                    "data-node-id": "1429:3046",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$31,733,236.99"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[478.8px]",
+                    "data-node-id": "1429:3047",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$12,591,587.00"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[512.4px]",
+                    "data-node-id": "1429:3048",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$20,292,672.51"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(66.67%-8.84px)] top-[546px]",
+                    "data-node-id": "1429:3049",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$14,739,506.91"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(66.67%-19.03px)] top-[579.6px]",
+                    "data-node-id": "1429:3050",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$240,357,175.24"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(66.67%-19.03px)] top-[613.2px]",
+                    "data-node-id": "1429:3051",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$304,915,593.86"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute contents leading-[16.555px] left-[calc(91.67%-73.42px)] not-italic text-[11.037px] text-black top-[243.6px] whitespace-nowrap",
+                "data-node-id": "1429:3052"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-69.34px)] top-[243.6px]",
+                    "data-node-id": "1429:3053",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$15,360,628.78"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[277.2px]",
+                    "data-node-id": "1429:3054",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$7,908,543.91"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[310.8px]",
+                    "data-node-id": "1429:3055",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$2,583,491.22"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-50.98px)] top-[344.4px]",
+                    "data-node-id": "1429:3056",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$720,840.23"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[378px]",
+                    "data-node-id": "1429:3057",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$2,814,823.08"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[411.6px]",
+                    "data-node-id": "1429:3058",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$2,811,707.14"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[445.2px]",
+                    "data-node-id": "1429:3059",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$6,346,647.40"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[478.8px]",
+                    "data-node-id": "1429:3060",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$2,518,317.40"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[512.4px]",
+                    "data-node-id": "1429:3061",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$4,058,534.50"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Book'] left-[calc(91.67%-63.22px)] top-[546px]",
+                    "data-node-id": "1429:3062",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$2,947,901.38"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(91.67%-73.42px)] top-[579.6px]",
+                    "data-node-id": "1429:3063",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$48,071,435.05"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "absolute font-['Circular_Std:Black'] left-[calc(91.67%-73.42px)] top-[613.2px]",
+                    "data-node-id": "1429:3064",
+                    "style": {
+                      "fontFeatureSettings": "\"lnum\" 1, \"tnum\" 1"
+                    }
+                  },
+                  "children": [
+                    "$60,983,118.77"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-x-1/2 absolute contents left-[calc(50%+0.35px)] top-[268.8px]",
+                "data-node-id": "1429:3065"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[268.8px] w-[1152.191px]",
+                    "data-node-id": "1429:3066"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/681fb.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[302.4px] w-[1152.191px]",
+                    "data-node-id": "1429:3067"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[336px] w-[1152.191px]",
+                    "data-node-id": "1429:3068"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[369.6px] w-[1152.191px]",
+                    "data-node-id": "1429:3069"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[403.2px] w-[1152.191px]",
+                    "data-node-id": "1429:3070"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[436.8px] w-[1152.191px]",
+                    "data-node-id": "1429:3071"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[470.4px] w-[1152.191px]",
+                    "data-node-id": "1429:3072"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[504px] w-[1152.191px]",
+                    "data-node-id": "1429:3073"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[537.6px] w-[1152.191px]",
+                    "data-node-id": "1429:3074"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[571.2px] w-[1152.191px]",
+                    "data-node-id": "1429:3075"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "-translate-x-1/2 absolute h-0 left-[calc(50%+0.35px)] top-[604.8px] w-[1152.191px]",
+                    "data-node-id": "1429:3076"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute inset-[-0.69px_0_0_0]"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "block max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/6fc62.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute font-['Circular_Std:Bold'] leading-[38.629px] left-[76.13px] not-italic text-[38.629px] text-black top-[50.4px] whitespace-nowrap",
+                "data-node-id": "1429:3078"
+              },
+              "children": [
+                "Revenue Impact Estimates By Country"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[0] left-[calc(33.33%+22.43px)] not-italic text-[9.657px] text-black top-[169.4px] w-[91.769px]",
+                "data-node-id": "1429:3079"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px] mb-0"
+                  },
+                  "children": [
+                    "Total Lost Theatrical Revenue (31.3% of Total Demand)"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[0] left-[calc(41.67%+42.82px)] not-italic text-[9.657px] text-black top-[169.4px] w-[86.331px] whitespace-pre-wrap",
+                "data-node-id": "1429:3080"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px] mb-0"
+                  },
+                  "children": [
+                    "Total Lost  post-Theatrical Revenue (68.7% of Demand, 50% lower value)"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[0] left-[calc(50%+70.7px)] not-italic text-[9.657px] text-black top-[169.4px] w-[99.926px]",
+                "data-node-id": "1429:3081"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px] mb-0"
+                  },
+                  "children": [
+                    "Total Lost Revenue"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px]"
+                  },
+                  "children": [
+                    "​"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[11.037px] left-[calc(66.67%-18.35px)] not-italic text-[9.657px] text-black top-[169.4px] w-[91.769px]",
+                "data-node-id": "1429:3082"
+              },
+              "children": [
+                "50% of streams/downloads converted"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[0] left-[calc(75%+10.2px)] not-italic text-[9.657px] text-black top-[169.4px] w-[95.848px] whitespace-pre-wrap",
+                "data-node-id": "1429:3083"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px] mb-0"
+                  },
+                  "children": [
+                    "25% of Visits "
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px]"
+                  },
+                  "children": [
+                    "Converted to Revenue"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "[word-break:break-word] absolute capitalize font-['Circular_Std:Bold'] leading-[0] left-[calc(91.67%-76.81px)] not-italic text-[9.657px] text-black top-[169.4px] w-[93.129px] whitespace-pre-wrap",
+                "data-node-id": "1429:3084"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px] mb-0"
+                  },
+                  "children": [
+                    "10% of Visits "
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "leading-[11.037px]"
+                  },
+                  "children": [
+                    "Converted to Revenue"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(41.67%+20.39px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3085"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(25%+103.32px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3086"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(50%+46.22px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3087"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(66.67%-36.71px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3088"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(75%-10.88px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3089"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute flex h-[469px] items-center justify-center left-[calc(91.67%-93.81px)] top-[169.4px] w-0",
+                "data-node-id": "1429:3090"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "flex-none rotate-90"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "h-0 relative w-[469px]"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute inset-[-0.69px_0_0_0]"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "block max-w-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2aa0d.svg"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "-translate-x-1/2 absolute h-0 left-[calc(50%-76.13px)] top-0 w-[1152.891px]",
+                "data-node-id": "1429:3091"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-[-1.38px_0]"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "block max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/61ead.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute h-[16.555px] left-[calc(91.67%-81.57px)] top-[61.6px] w-[37.25px]",
+                "data-node-id": "1429:3092",
+                "data-name": "Identity/Monogram"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/2fd96.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute h-[16.555px] left-[calc(91.67%-28.55px)] overflow-clip top-[61.6px] w-[62.083px]",
+                "data-node-id": "1429:3093",
+                "data-name": "Logotype"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute contents inset-0",
+                    "data-node-id": "I1429:3093;214:1564",
+                    "data-name": "b"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute contents inset-0",
+                        "data-node-id": "I1429:3093;214:1565",
+                        "data-name": "c"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "alt": "",
+                            "className": "absolute block inset-0 max-w-none size-full",
+                            "src": "https://www.figma.com/api/mcp/asset/c01ebff0-67fe-4d94-b314-20887145977a/fd20c.svg"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[60px] items-start relative shrink-0 w-[1344px]",
+            "data-node-id": "1476:979",
+            "data-name": "Copy / MAKING INFORMATION READABLE"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[330px]",
+                "data-node-id": "I1476:979;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "I1476:979;1112:494"
+                  },
+                  "children": [
+                    "MAKING INFORMATION READABLE"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[954px]",
+                "data-node-id": "I1476:979;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\\/lg,22px)] text-black w-[930px]",
+                    "data-node-id": "I1476:979;1112:496"
+                  },
+                  "children": [
+                    "The report studies apply the identity to dense information: headings, tables and a clear hierarchy. The revenue figures shown are illustrative scenarios from an internal discussion document, not measured outcomes or a statement of MUSO’s position."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "absolute content-stretch flex h-[96px] items-center justify-between left-0 mix-blend-difference px-[var(--gap\\/large,48px)] top-0 w-[1920px]",
+        "data-node-id": "1480:1222",
+        "data-name": "RO / Navigation / Desktop / Difference"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "props": {
+            "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] h-[25px] leading-[33.28px] not-italic relative shrink-0 text-[20.8px] text-[color:var(--#FFFFFF,white)] tracking-[0.624px] uppercase w-[105.813px]",
+            "data-node-id": "I1480:1222;973:95"
+          },
+          "children": [
+            "Random Order"
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[16px] items-center relative shrink-0",
+            "data-node-id": "I1480:1222;973:96",
+            "data-name": "Navigation links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1480:1222;973:97",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1480:1222;973:97;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Work"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1480:1222;973:98",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1480:1222;973:98;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Edit"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1480:1222;973:99",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1480:1222;973:99;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "About"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1480:1222;973:100",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1480:1222;973:100;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Contact"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

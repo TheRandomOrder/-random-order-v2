@@ -1,0 +1,269 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/9c95f79e-bb76-4781-ba48-9c6e62e84888";
+const imgGalleryMedia = `${assetPathPrefix}/6b5b5.png`;
+const imgWhiterabbit1983CandidHighEndBasketballStreetwearEditori985Af7C04B7D4D08A4Cc9A1E7E64224231 = `${assetPathPrefix}/891b0.png`;
+const imgMediaReplaceFill = `${assetPathPrefix}/a137a.png`;
+const imgRectangle2218 = `${assetPathPrefix}/66d80.png`;
+const imgRectangle2220 = `${assetPathPrefix}/a6025.png`;
+const imgMood23X2 = `${assetPathPrefix}/c8d56.png`;
+const img021 = `${assetPathPrefix}/745d4.png`;
+const img031 = `${assetPathPrefix}/04bb1.png`;
+const imgFrame = `${assetPathPrefix}/353b2.svg`;
+const imgLine2 = `${assetPathPrefix}/fc8ae.svg`;
+const imgRectangle2221 = `${assetPathPrefix}/6d91a.svg`;
+const imgDivider = `${assetPathPrefix}/6854e.svg`;
+const imgGroup5 = `${assetPathPrefix}/316e5.svg`;
+
+type RoWorkDetailProjectNavigationDesktopProps = {
+  className?: string;
+  nextLabel?: string;
+  nextTitle?: string;
+  previousLabel?: string;
+  previousTitle?: string;
+};
+
+function RoWorkDetailProjectNavigationDesktop({ className, nextLabel = "NEXT PROJECT", nextTitle = "THE FAT BADGER", previousLabel = "PREVIOUS", previousTitle = "HALLY’S" }: RoWorkDetailProjectNavigationDesktopProps) {
+  return (
+    <div className={className || "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap"} data-node-id="1112:503" data-name="RO / Work Detail / Project Navigation / Desktop">
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:504" data-name="Previous">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:505">
+          {previousLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:506">
+          {previousTitle}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:507" data-name="Next">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:508">
+          {nextLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:509">
+          {nextTitle}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function BstnXLab() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-node-id="1262:12026" data-name="BSTN x LAB">
+      <div className="bg-black content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]" data-node-id="1480:1791" data-name="Case Hero / Pinned Reference">
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]" data-node-id="1480:1792" data-name="Hero Body">
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]" data-node-id="1480:1793">
+            BRAND STRATEGY · ART DIRECTION · SYSTEM
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]" data-node-id="1480:1794">
+            BSTN x LAB
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]" data-node-id="1480:1795">
+            Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.
+          </p>
+          <div className="content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]" data-node-id="1480:1796" data-name="Case Meta">
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1797" data-name="Meta / CLIENT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1798" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1799">
+                CLIENT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1800">
+                Cozy Heaven
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1801" data-name="Meta / SCOPE">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1802" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1803">
+                SCOPE
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1804">
+                Brand Strategy, Art Direction, Photography, Packaging, Digital
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1805" data-name="Meta / BASED">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1806" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1807">
+                BASED
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1808">
+                DACH / Europe
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1809" data-name="Meta / CONCEPT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1810" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1811">
+                CONCEPT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1812">
+                Care, Made Visible
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[96px] items-center overflow-clip pb-[120px] pt-[200px] px-[288px] relative shrink-0 w-[1920px]" data-node-id="1262:12031" data-name="Case Body">
+        <div className="content-stretch flex flex-col h-[760px] items-start relative shrink-0 w-[1344px]" data-node-id="1262:12032">
+          <div className="h-[760px] relative shrink-0 w-[1344px]" data-node-id="1262:12033" data-name="Gallery media">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGalleryMedia} />
+          </div>
+        </div>
+        <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-[1344px]" data-node-id="1262:12034" data-name="Gallery media">
+          <div className="h-[896px] relative shrink-0 w-[1344px]" data-node-id="1262:12035" data-name="whiterabbit1983_Candid_high_end_basketball_streetwear_editori_985af7c0-4b7d-4d08-a4cc-9a1e7e642242_3 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWhiterabbit1983CandidHighEndBasketballStreetwearEditori985Af7C04B7D4D08A4Cc9A1E7E64224231} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col h-[698px] items-start relative shrink-0 w-[1344px]" data-node-id="1262:12036">
+          <div className="content-stretch flex gap-[96px] h-[760px] items-start relative shrink-0 w-[1344px]" data-node-id="1262:12037" data-name="Gallery media">
+            <div className="h-[698px] overflow-clip relative shrink-0 w-[624px]" data-node-id="1262:12038">
+              <div className="absolute inset-0" data-node-id="I1262:12038;960:267" data-name="MEDIA / replace fill">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[2425722429310089000%] left-[-43031646118914700%] max-w-none top-[-2407611363167610000%] w-[1657880166629003300%]" src={imgMediaReplaceFill} />
+                </div>
+              </div>
+            </div>
+            <div className="h-[698px] relative shrink-0 w-[624px]" data-node-id="1262:12039">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[204.57%] left-0 max-w-none top-[-102.26%] w-full" src={imgRectangle2218} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1262:12040">
+          <div className="content-stretch flex gap-[85.863px] items-start relative shrink-0 w-[1296px]" data-node-id="1262:12041">
+            <div className="h-[375px] relative shrink-0 w-[600px]" data-node-id="1262:12042">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle2220} />
+            </div>
+            <div className="bg-[#dad3d3] content-stretch flex flex-col h-[375px] items-start overflow-clip relative shrink-0 w-[610px]" data-node-id="1262:12043" data-name="Media / Sneaker Lab / Care kit artwork">
+              <div className="absolute bg-white h-[698px] left-[-0.38px] overflow-clip top-[-30px] w-[679px]" data-node-id="1262:12044" data-name="SL |  BSTN [PITCH] -3">
+                <div className="absolute h-[414px] left-[-2.24px] top-[13px] w-[354px]" data-node-id="1262:12045" data-name="Mood_2@3x 2">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[818.71%] left-[-12.67%] max-w-none top-[-538.81%] w-[224.29%]" src={imgMood23X2} />
+                  </div>
+                </div>
+                <div className="absolute h-[8.697px] left-[calc(100%+143.22px)] top-[-1443.53px] w-[73.923px]" data-node-id="1262:12046" data-name="Frame">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+                </div>
+                <p className="[word-break:break-word] absolute font-['Lexend:Bold'] font-bold leading-[34.787px] left-[37.88px] text-[#020202] text-[17.394px] top-[-1411.64px] whitespace-nowrap" data-node-id="1262:12074">{` COLLABORATION`}</p>
+                <div className="absolute flex h-[24.279px] items-center justify-center left-[0.19px] top-[-1405.84px] w-0" data-node-id="1262:12075">
+                  <div className="flex-none rotate-90">
+                    <div className="h-0 relative w-[24.279px]">
+                      <div className="absolute inset-[-2.9px_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['Lexend:Bold'] font-bold leading-[0] left-[55.27px] text-[#020202] text-[0px] top-[-1443.53px] whitespace-nowrap" data-node-id="1262:12076">
+                  <span className="leading-[8.697px] text-[6.523px]">{`SNEAKER LAB | BSTN `}</span>
+                  <span className="font-['Lexend:Light'] font-light leading-[8.697px] text-[6.523px]">{`— BRAND PARTNERSHIP [CARE KIT SLEEVE CONCEPT & DESIGN] `}</span>
+                </p>
+                <div className="absolute content-stretch flex flex-col gap-[1.449px] h-[8.697px] items-center justify-center left-[37.88px] top-[-1443.53px] w-[9.422px]" data-node-id="1262:12077" data-name="icon/menu">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px relative w-full" data-node-id="I1262:12077;116:1204">
+                    <div className="bg-black flex-[1_0_0] min-h-px relative w-full" data-node-id="I1262:12077;116:1200" />
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px relative w-full" data-node-id="I1262:12077;116:1205">
+                    <div className="bg-black flex-[1_0_0] min-h-px relative w-full" data-node-id="I1262:12077;116:1206" />
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px relative w-full" data-node-id="I1262:12077;116:1207">
+                    <div className="bg-black flex-[1_0_0] min-h-px relative w-full" data-node-id="I1262:12077;116:1208" />
+                  </div>
+                </div>
+              </div>
+              <div className="h-[375px] mix-blend-multiply relative shrink-0 w-full" data-node-id="1262:12078">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle2221} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[896px] relative shrink-0 w-[1344px]" data-node-id="1262:12079" data-name="0_2 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img021} />
+        </div>
+        <div className="h-[896px] relative shrink-0 w-[1344px]" data-node-id="1262:12080" data-name="0_3 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img031} />
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1262:12081" data-name="Copy / SNEAKER LAB × BSTN">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1262:12081;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1262:12081;1112:494">
+              SNEAKER LAB × BSTN
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1262:12081;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1262:12081;1112:496">
+              A care-kit sleeve concept brings Sneaker LAB’s product expertise into BSTN’s basketball and streetwear world. The pitch uses the court as common ground for the partnership.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] h-[220px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]" data-node-id="1262:12082" data-name="Brand Story">
+          <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1262:12083" data-name="Divider">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+          </div>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[500px]" data-node-id="1262:12084">
+            CREATIVE APPROACH
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] whitespace-nowrap" data-node-id="1262:12085">
+            THINKING UNITY
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1262:12086" data-name="Copy / THINKING UNITY">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1262:12086;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1262:12086;1112:494">
+              THINKING UNITY
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1262:12086;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1262:12086;1112:496">
+              Court markings provide the organising idea. Their lines and proportions become a graphic language that connects the two brands through the culture surrounding the product.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1262:12087" data-name="Copy / FROM COURT TO CARTON">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1262:12087;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1262:12087;1112:494">
+              FROM COURT TO CARTON
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1262:12087;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1262:12087;1112:496">
+              Orange-court studies and monochrome sleeve mockups test the same idea in different registers. The court becomes packaging architecture: a clear structure for type, marks and the product inside. Presented as a pitch concept.
+            </p>
+          </div>
+        </div>
+        <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1262:12088" data-name="Divider">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+        </div>
+        <RoWorkDetailProjectNavigationDesktop className="[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap" nextLabel="RELATED PROJECT" nextTitle="SUPERBALIST" previousLabel="BACK TO" previousTitle="WORK" />
+        <div className="absolute left-[1199px] size-px top-[3679px]" data-node-id="1262:12090">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Eyebrow: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 8), Body/Large: Font(family: "Hanken Grotesk", style: Regular, size: font-size/lg, weight: 400, lineHeight: 1.5, letterSpacing: 0), Display/Desktop/H2: Font(family: "Bebas Neue", style: Regular, size: 68, weight: 400, lineHeight: 1.0499999523162842, letterSpacing: 1), Label/Meta: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 6), RO V2/Display/Title Mobile: Font(family: "Bebas Neue", style: Regular, size: 32, weight: 400, lineHeight: 36, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## RO / Media Slot / Editorial
+**Node ID:** 960:266
+
+Neutral editable Editorial media slot. Replace the MEDIA fill with approved image/video. Show media hides imagery for structural review; Show slot label is optional. Stretch constraints preserve coverage when resized.
+
+## RO / Work Detail / Copy Block / Desktop
+**Node ID:** 1112:497
+
+Label and narrative copy in the existing 330 / 60 / 954 desktop composition. Editable text properties; instance height preserves the project-specific editorial rhythm. Labels and body use existing shared styles. Content remains source-authored.
+
+## RO / Work Detail / Project Navigation / Desktop
+**Node ID:** 1112:503
+
+Editable previous/next project navigation, replacing duplicated outlined labels. Keep project order sourced from the approved Work sequence. Each half uses the shared metadata style and Bebas display family.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

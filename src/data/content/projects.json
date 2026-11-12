@@ -45,6 +45,11 @@
         "label": "RANDOM-HOTEL / Workbench / Gold’s Gym",
         "nodeId": "7738:678",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-678"
+      },
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1432:1992",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1432-1992"
       }
     ],
     "blocks": [
@@ -75,10 +80,10 @@
     "logoMediaId": "golds-logo",
     "mode": "visual-story",
     "headerStyle": "plain",
-    "headerHeight": 1080,
+    "headerHeight": 900,
     "editorialTop": 160,
     "category": "Art Direction · Image Exploration",
-    "headerTop": 361.5
+    "headerTop": 271.5
   },
   {
     "id": "the-shed",
@@ -221,6 +226,11 @@
         "label": "RANDOM-HOTEL / Workbench / Hally’s",
         "nodeId": "7738:682",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-682"
+      },
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1270:14172",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1270-14172"
       }
     ],
     "blocks": [
@@ -334,7 +344,9 @@
       }
     ],
     "logoMediaId": "marks-hallys",
-    "editorialTop": 96
+    "editorialTop": 96,
+    "headerHeight": 900,
+    "headerTop": 271.5
   },
   {
     "id": "earnt",
@@ -386,6 +398,11 @@
         "label": "RANDOM-HOTEL / Workbench / EARNT",
         "nodeId": "7738:686",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7738-686"
+      },
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1088:1758",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1088-1758"
       }
     ],
     "blocks": [
@@ -533,7 +550,9 @@
     "homeOrder": 2,
     "logoMediaId": "marks-teamearnt",
     "editorialTop": 96,
-    "category": "Brand Direction · Website"
+    "category": "Brand Direction · Website",
+    "headerHeight": 900,
+    "headerTop": 271.5
   },
   {
     "id": "cozy",
@@ -557,12 +576,12 @@
     ],
     "sources": [
       {
-        "label": "V2 / Build Experiment Test / Cozy Heaven",
-        "nodeId": "1206:1212",
-        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1206-1212"
+        "label": "Cozy Heaven — Building the Brand / Phase 2, pages 13–22"
       },
       {
-        "label": "Cozy Heaven — Building the Brand / Phase 2, pages 13–22"
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1206:1212",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1206-1212"
       }
     ],
     "blocks": [
@@ -721,8 +740,7 @@
     ],
     "homeOrder": 1,
     "mode": "case-study",
-    "headerHeight": 1080,
-    "headerTitleScale": "large",
+    "headerHeight": 900,
     "headerStyle": "image",
     "headerMediaId": "cozy-m09-hero",
     "headerOpacity": 1,
@@ -746,7 +764,8 @@
         "label": "Media",
         "value": "AI-assisted image studies"
       }
-    ]
+    ],
+    "headerTop": 271.5
   },
   {
     "id": "sussex",
@@ -817,14 +836,14 @@
     ],
     "sources": [
       {
-        "label": "RANDOM-ORDER-X-HA / V2 / Build Experiment Test / Sneaker LAB × BSTN / Pitch",
-        "nodeId": "1262:12026",
-        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12026"
-      },
-      {
         "label": "RANDOM-HOTEL / Workbench / BSTN × Sneaker LAB pitch",
         "nodeId": "7554:902",
         "url": "https://www.figma.com/design/6hKBI8tF6TzpfgPttVcXUo/?node-id=7554-902"
+      },
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1262:12026",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1262-12026"
       }
     ],
     "blocks": [
@@ -892,9 +911,9 @@
     "headerStyle": "plain",
     "editorialTop": 96,
     "mode": "visual-story",
-    "headerHeight": 1080,
+    "headerHeight": 900,
     "category": "Packaging Concept · Art Direction",
-    "headerTop": 343
+    "headerTop": 271.5
   },
   {
     "id": "superbalist",
@@ -938,9 +957,9 @@
     ],
     "sources": [
       {
-        "label": "V2 / Build Experiment Test / Superbalist",
+        "label": "Current production work slot / 2026-11-05",
         "nodeId": "1130:735",
-        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1130-735"
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1130-735"
       }
     ],
     "blocks": [
@@ -1028,9 +1047,9 @@
     ],
     "editorialTop": 200,
     "mode": "case-study",
-    "headerHeight": 1080,
-    "headerTitleScale": "large",
-    "category": "Product Design · Identity · Systems"
+    "headerHeight": 900,
+    "category": "Product Design · Identity · Systems",
+    "headerTop": 271.5
   },
   {
     "id": "adidas",
@@ -1043,8 +1062,7 @@
     "status": "ready",
     "featuredOrder": 5,
     "headerStyle": "image",
-    "headerHeight": 1080,
-    "headerTitleScale": "large",
+    "headerHeight": 900,
     "headerOpacity": 0.07,
     "category": "Apparel · Packaging · Visual studies",
     "disciplines": [
@@ -1106,11 +1124,198 @@
     ],
     "sources": [
       {
-        "label": "Adidas selected artwork and editorial sequence",
-        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-940",
-        "nodeId": "1183:940"
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1183:940",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1183-940"
       }
     ],
-    "headerMonochrome": true
+    "headerMonochrome": true,
+    "headerTop": 271.5
+  },
+  {
+    "id": "ssuperlative",
+    "slug": "ssuperlative",
+    "title": "SSUPERLATIVE",
+    "intro": "Making Experience Legible. Project Alice is one evolving expression of an ongoing investigation into lived experience, information and the systems we create to understand ourselves.",
+    "disciplines": [
+      "Research",
+      "Visual Systems",
+      "Editorial Design"
+    ],
+    "client": "SSUPERLATIVE",
+    "presentation": "narrative",
+    "classification": "featured",
+    "routeEnabled": true,
+    "status": "ready",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "Project",
+        "body": "Making Experience Legible. Project Alice is one evolving expression of an ongoing investigation into lived experience, information and the systems we create to understand ourselves."
+      }
+    ],
+    "metadata": [
+      {
+        "label": "Project",
+        "value": "SSUPERLATIVE"
+      },
+      {
+        "label": "Scope",
+        "value": "Research, Visual Systems, Editorial Design"
+      }
+    ],
+    "sourceComposition": "1351-2283",
+    "headerHeight": 900,
+    "headerTop": 271.5,
+    "sources": [
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1351:2283",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1351-2283"
+      }
+    ]
+  },
+  {
+    "id": "hotel-atelier",
+    "slug": "hotel-atelier",
+    "title": "Hotel Atelier",
+    "intro": "Portrait, Pattern and Perception. An open-ended space for artistic experimentation, observation and making.",
+    "disciplines": [
+      "Portraiture",
+      "Image Experiments",
+      "Art"
+    ],
+    "client": "Hotel Atelier",
+    "presentation": "narrative",
+    "classification": "featured",
+    "routeEnabled": true,
+    "status": "ready",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "Project",
+        "body": "Portrait, Pattern and Perception. An open-ended space for artistic experimentation, observation and making."
+      }
+    ],
+    "metadata": [
+      {
+        "label": "Project",
+        "value": "Hotel Atelier"
+      },
+      {
+        "label": "Scope",
+        "value": "Portraiture, Image Experiments, Art"
+      }
+    ],
+    "sourceComposition": "1351-2159",
+    "headerHeight": 900,
+    "headerTop": 271.5,
+    "sources": [
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1351:2159",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1351-2159"
+      }
+    ]
+  },
+  {
+    "id": "publicis-machine",
+    "slug": "publicis-machine",
+    "title": "Publicis Machine",
+    "intro": "An exploration of typography, transparency and perception, where glass and lettering become one. Reversed typography transforms a simple gin label into an unexpected visual experience.",
+    "disciplines": [
+      "Packaging",
+      "Typography",
+      "Art Direction"
+    ],
+    "client": "Publicis Machine",
+    "presentation": "narrative",
+    "classification": "featured",
+    "routeEnabled": true,
+    "status": "ready",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "Project",
+        "body": "An exploration of typography, transparency and perception, where glass and lettering become one. Reversed typography transforms a simple gin label into an unexpected visual experience."
+      }
+    ],
+    "metadata": [
+      {
+        "label": "Client",
+        "value": "Publicis Machine"
+      },
+      {
+        "label": "Scope",
+        "value": "Packaging, Typography, Art Direction"
+      },
+      {
+        "label": "Based",
+        "value": "Cape Town, South Africa"
+      },
+      {
+        "label": "Concept",
+        "value": "Designed Backwards. Read Forwards."
+      }
+    ],
+    "sourceComposition": "1277-14558",
+    "headerHeight": 1080,
+    "headerTop": 360,
+    "sources": [
+      {
+        "label": "V2 / Content & Layout — 6 November 2026",
+        "nodeId": "1277:14558",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1277-14558"
+      }
+    ],
+    "category": "Publicis Machine / Packaging, Typography & Art Direction",
+    "heroMediaId": "machine-court",
+    "navigation": "related",
+    "relatedIds": [
+      "superbalist"
+    ]
+  },
+  {
+    "id": "muso",
+    "slug": "muso",
+    "title": "MUSO London",
+    "intro": "Identity, campaign imagery and report design for a digital piracy platform.",
+    "disciplines": [
+      "Identity",
+      "Campaign",
+      "Editorial Design"
+    ],
+    "client": "MUSO London",
+    "presentation": "narrative",
+    "classification": "featured",
+    "routeEnabled": true,
+    "status": "ready",
+    "blocks": [
+      {
+        "type": "text",
+        "label": "Project",
+        "body": "Identity, campaign imagery and report design for a digital piracy platform."
+      }
+    ],
+    "metadata": [
+      {
+        "label": "Project",
+        "value": "MUSO London"
+      },
+      {
+        "label": "Scope",
+        "value": "Identity, Campaign, Editorial Design"
+      }
+    ],
+    "sourceComposition": "1429-2058",
+    "headerHeight": 900,
+    "headerTop": 271.5,
+    "sources": [
+      {
+        "label": "Current production work slot / 2026-11-05",
+        "nodeId": "1429:2058",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1429-2058"
+      }
+    ]
   }
 ]

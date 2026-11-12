@@ -1,0 +1,601 @@
+{
+  "tag": "div",
+  "props": {
+    "className": "bg-[var(--bg,white)] content-stretch flex flex-col items-center relative size-full",
+    "data-node-id": "1432:1992",
+    "data-name": "GOLDS GYM"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "bg-black content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]",
+        "data-node-id": "1480:1699",
+        "data-name": "Case Hero / Pinned Reference"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1480:1700",
+            "data-name": "Hero Body"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]",
+                "data-node-id": "1480:1701"
+              },
+              "children": [
+                "BRAND STRATEGY · ART DIRECTION · SYSTEM"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]",
+                "data-node-id": "1480:1702"
+              },
+              "children": [
+                "GOLD’S GYM SOCAL"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]",
+                "data-node-id": "1480:1703"
+              },
+              "children": [
+                "Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint."
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1480:1704",
+                "data-name": "Case Meta"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1705",
+                    "data-name": "Meta / CLIENT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1706",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1707"
+                      },
+                      "children": [
+                        "CLIENT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1708"
+                      },
+                      "children": [
+                        "Cozy Heaven"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1709",
+                    "data-name": "Meta / SCOPE"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1710",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1711"
+                      },
+                      "children": [
+                        "SCOPE"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1712"
+                      },
+                      "children": [
+                        "Brand Strategy, Art Direction, Photography, Packaging, Digital"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1713",
+                    "data-name": "Meta / BASED"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1714",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1715"
+                      },
+                      "children": [
+                        "BASED"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1716"
+                      },
+                      "children": [
+                        "DACH / Europe"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1717",
+                    "data-name": "Meta / CONCEPT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1718",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1719"
+                      },
+                      "children": [
+                        "CONCEPT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]",
+                        "data-node-id": "1480:1720"
+                      },
+                      "children": [
+                        "Care, Made Visible"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "content-stretch flex flex-col gap-[96px] items-center overflow-clip pb-[120px] pt-[200px] px-[288px] relative shrink-0 w-[1920px]",
+        "data-node-id": "1432:1993",
+        "data-name": "Editorial / Gold’s Gym"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "bg-[var(--brand\\/grey-200,#e0e0e0)] h-[760px] overflow-clip relative shrink-0 w-full",
+            "data-node-id": "1432:1994"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute bg-[#d9d9d9] h-[760px] left-0 top-0 w-[903px]",
+                "data-node-id": "1432:1995"
+              },
+              "children": []
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute h-[1093px] left-[-89px] top-[-185px] w-[1448px]",
+                "data-node-id": "1432:1996",
+                "data-name": "hotel_28553_An_ethereal_collection_of_fitness_fashion-forward_i_aa2f6008-c0bb-463c-bfe1-a66376052a3f 1"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "aspect-[1344/1346] relative shrink-0 w-full",
+            "data-node-id": "1432:1997",
+            "data-name": "Gallery / Press study"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-0 overflow-hidden pointer-events-none"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute h-[132.56%] left-0 max-w-none top-[-31.93%] w-full",
+                    "src": "https://www.figma.com/api/mcp/asset/4429e7e0-3987-4d02-a0a4-814365132f8a/9cb78.png"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "flex items-center justify-center relative shrink-0",
+            "data-node-id": "1432:1998"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "-scale-y-100 flex-none rotate-180"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "bg-[var(--surface\\/primary,white)] h-[729px] overflow-clip relative w-[1296px]",
+                    "data-name": "2.1.6"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "absolute bg-[var(--surface\\/primary,white)] h-[1080px] left-[-311.5px] overflow-clip top-[-175.54px] w-[1919px]",
+                        "data-node-id": "1432:1999",
+                        "data-name": "2.1.3"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "absolute left-[-64px] size-[2015px] top-[-312px]",
+                            "data-node-id": "1432:2000",
+                            "data-name": "hotel_28553_httpss.mj.rundHCw0Xy_Pbk_ar169_--v_6.1_68771171-661a-43d0-8861-e08acab71f46_1 1"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "alt": "",
+                                "className": "absolute inset-0 max-w-none object-cover pointer-events-none size-full",
+                                "src": "https://www.figma.com/api/mcp/asset/4429e7e0-3987-4d02-a0a4-814365132f8a/f60b7.png"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[60px] items-start min-h-[66px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1112:497",
+            "data-name": "RO / Work Detail / Copy Block / Desktop"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[330px]",
+                "data-node-id": "1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "1112:494"
+                  },
+                  "children": [
+                    "GOLD’S GYM / IMAGE STUDIES"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[954px]",
+                "data-node-id": "1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                    "data-node-id": "1112:496"
+                  },
+                  "children": [
+                    "Warm gold, hard light and close framing connect these fitness studies. The sequence moves between effort and stillness, using colour and atmosphere to hold the images together."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[96px] items-start justify-center relative shrink-0 w-[1296px]",
+            "data-node-id": "1497:1023"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex items-center relative shrink-0",
+                "data-node-id": "1497:1022"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "h-[558px] relative shrink-0 w-[516px]",
+                    "data-node-id": "1497:1014",
+                    "data-name": "3888015244180529795social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_8049e2c6-f02c-460b-aa1d-ad54400d5df4_1 1"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "h-[558px] relative shrink-0 w-[684px]",
+                "data-node-id": "1497:1010"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex items-start justify-center relative shrink-0 w-[1296px]",
+            "data-node-id": "1497:1027"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "aspect-[1296/1551] flex-[1_0_0] min-w-px relative",
+                "data-node-id": "1497:1033",
+                "data-name": "-7759528984293724263social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_d545d961-7bc8-48d9-bc58-07170984edbf_3 2 1"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[96px] items-start relative shrink-0",
+            "data-node-id": "1432:2003"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[1296px]",
+                "data-node-id": "1432:2004"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex gap-[85.863px] items-start relative shrink-0",
+                    "data-node-id": "1432:2005"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                        "data-node-id": "1432:2006"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                        "data-node-id": "1432:2007"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                        "data-node-id": "1432:2008"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[85.863px] items-start relative shrink-0 w-[1296px]",
+                "data-node-id": "1432:2009"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                    "data-node-id": "1432:2010"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                    "data-node-id": "1432:2011"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "bg-[#d9d9d9] relative shrink-0 size-[374.758px]",
+                    "data-node-id": "1432:2012"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap",
+            "data-node-id": "1112:503",
+            "data-name": "RO / Work Detail / Project Navigation / Desktop"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[var(--space\\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]",
+                "data-node-id": "1112:504",
+                "data-name": "Previous"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\\/xs,12px)] tracking-[0.72px] uppercase",
+                    "data-node-id": "1112:505"
+                  },
+                  "children": [
+                    "BACK TO"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]",
+                    "data-node-id": "1112:506"
+                  },
+                  "children": [
+                    "WORK"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[var(--space\\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]",
+                "data-node-id": "1112:507",
+                "data-name": "Next"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\\/xs,12px)] tracking-[0.72px] uppercase",
+                    "data-node-id": "1112:508"
+                  },
+                  "children": [
+                    "RELATED PROJECT"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]",
+                    "data-node-id": "1112:509"
+                  },
+                  "children": [
+                    "THE SHED"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

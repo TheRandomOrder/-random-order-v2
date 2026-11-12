@@ -1,0 +1,1388 @@
+{
+  "tag": "div",
+  "props": {
+    "className": "bg-white content-stretch flex flex-col items-start relative size-full",
+    "data-node-id": "1277:14558",
+    "data-name": "MACHINE"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "bg-[#0a0a0a] content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]",
+        "data-node-id": "1480:1908",
+        "data-name": "Case Hero / Pinned Reference"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1480:1909",
+            "data-name": "Hero Body"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]",
+                "data-node-id": "1480:1910"
+              },
+              "children": [
+                "BRAND STRATEGY · ART DIRECTION · SYSTEM"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[#f4f4f4] text-[108px] w-[1000px]",
+                "data-node-id": "1480:1911"
+              },
+              "children": [
+                "PUBLICIS MACHINE"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[#f4f4f4] text-[24px] w-[800px]",
+                "data-node-id": "1480:1912"
+              },
+              "children": [
+                "Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint."
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1480:1913",
+                "data-name": "Case Meta"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1914",
+                    "data-name": "Meta / CLIENT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1915",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1916"
+                      },
+                      "children": [
+                        "CLIENT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[#f4f4f4] text-[16px] w-[280px]",
+                        "data-node-id": "1480:1917"
+                      },
+                      "children": [
+                        "Cozy Heaven"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1918",
+                    "data-name": "Meta / SCOPE"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1919",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1920"
+                      },
+                      "children": [
+                        "SCOPE"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[#f4f4f4] text-[16px] w-[280px]",
+                        "data-node-id": "1480:1921"
+                      },
+                      "children": [
+                        "Brand Strategy, Art Direction, Photography, Packaging, Digital"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1922",
+                    "data-name": "Meta / BASED"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1923",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1924"
+                      },
+                      "children": [
+                        "BASED"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[#f4f4f4] text-[16px] w-[280px]",
+                        "data-node-id": "1480:1925"
+                      },
+                      "children": [
+                        "DACH / Europe"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]",
+                    "data-node-id": "1480:1926",
+                    "data-name": "Meta / CONCEPT"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "bg-[#3b3b3b] h-px relative shrink-0 w-[312px]",
+                        "data-node-id": "1480:1927",
+                        "data-name": "Divider"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]",
+                        "data-node-id": "1480:1928"
+                      },
+                      "children": [
+                        "CONCEPT"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[#f4f4f4] text-[16px] w-[280px]",
+                        "data-node-id": "1480:1929"
+                      },
+                      "children": [
+                        "Care, Made Visible"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "bg-white content-stretch flex flex-col gap-[96px] h-[8992px] items-center overflow-clip pb-[120px] pt-[200px] px-[288px] relative shrink-0 w-[1920px]",
+        "data-node-id": "1277:14563",
+        "data-name": "Case Body"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[48px] h-[438px] items-start justify-center relative shrink-0 w-full",
+            "data-node-id": "1342:2421"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "bg-black h-[438px] relative shrink-0 w-[839px]",
+                "data-node-id": "1342:2420"
+              },
+              "children": []
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "h-[438px] relative shrink-0 w-[462px]",
+                "data-node-id": "1342:1883",
+                "data-name": "image 346"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-0 overflow-hidden pointer-events-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute h-[105.48%] left-[-0.11%] max-w-none top-0 w-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/1ad68.png"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "h-[973px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14564"
+          },
+          "children": []
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "h-[288px] relative shrink-0 w-[1341px]",
+            "data-node-id": "1342:2337",
+            "data-name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 1"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-0 overflow-hidden pointer-events-none"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute h-[358.33%] left-[-0.02%] max-w-none top-[-129.17%] w-[100.04%]",
+                    "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/ef411.png"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "h-[438px] relative shrink-0 w-[1341px]",
+            "data-node-id": "1342:2338",
+            "data-name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 2"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-0 overflow-hidden pointer-events-none"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute h-[235.62%] left-[-0.02%] max-w-none top-[-135.58%] w-[100.04%]",
+                    "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/ef411.png"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[46px] items-start relative shrink-0 w-full",
+            "data-node-id": "1539:1298"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[18px] items-start overflow-clip pb-[64px] relative shrink-0 w-[419px]",
+                "data-node-id": "1539:1293",
+                "data-name": "Brand Story"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] min-w-full not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] w-[min-content]",
+                    "data-node-id": "1539:1296"
+                  },
+                  "children": [
+                    "A NAME THAT WRAPS AROUND THE BOTTLE."
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "h-px relative shrink-0 w-[1344px]",
+                    "data-node-id": "1539:1294",
+                    "data-name": "Divider"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6854e.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[500px]",
+                    "data-node-id": "1539:1295"
+                  },
+                  "children": [
+                    "PUBLICIS MACHINE / GIN CONCEPT"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[48px] h-[409px] items-start relative shrink-0 w-[416px]",
+                "data-node-id": "1539:1281"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex gap-[60px] h-[510px] items-start relative shrink-0 w-[416px]",
+                    "data-node-id": "1539:1274",
+                    "data-name": "Case Block / The Approach"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "content-stretch flex flex-col h-full items-start relative shrink-0 w-[416px]",
+                        "data-node-id": "1539:1277",
+                        "data-name": "Copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[0] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-full",
+                            "data-node-id": "1539:1278"
+                          },
+                          "children": [
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "leading-[1.5] mb-0"
+                              },
+                              "children": [
+                                "Ideas, expression and the art of making."
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "leading-[1.5]"
+                              },
+                              "children": [
+                                "Creative work begins long before its final form. An idea takes shape through observation, experimentation and the gradual negotiation between intention and execution.The work presented here explores that relationship through visual communication, where typography, imagery, composition and art direction become the means through which an idea finds its expression."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex gap-[60px] h-[510px] items-start relative shrink-0 w-[416px]",
+                    "data-node-id": "1539:1301",
+                    "data-name": "Case Block / The Approach"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "content-stretch flex flex-col h-full items-start relative shrink-0 w-[416px]",
+                        "data-node-id": "1539:1304",
+                        "data-name": "Copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-full",
+                            "data-node-id": "1539:1305"
+                          },
+                          "children": [
+                            "Rather than separating concept from craft, the two are considered together. Each visual decision contributes to the character of the work, from its underlying structure to the smallest details of its execution.1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[18px] h-[220px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:1970",
+            "data-name": "Brand Story"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "h-px relative shrink-0 w-[1344px]",
+                "data-node-id": "1429:1971",
+                "data-name": "Divider"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6854e.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[500px]",
+                "data-node-id": "1429:1972"
+              },
+              "children": [
+                "PUBLICIS MACHINE / GIN CONCEPT"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] whitespace-nowrap",
+                "data-node-id": "1429:1973"
+              },
+              "children": [
+                "A NAME THAT WRAPS AROUND THE BOTTLE."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[48px] items-start min-h-[132px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1539:1307",
+            "data-name": "Copy / THE CONCEPT"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[416px]",
+                "data-node-id": "1539:1308",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "1539:1309"
+                  },
+                  "children": [
+                    "THE CONCEPT"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[954px]",
+                "data-node-id": "1539:1310",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                    "data-node-id": "1539:1311"
+                  },
+                  "children": [
+                    "A gin concept for Publicis Machine, built around the name itself. Large, stacked letters wrap the bottle, breaking the word into a graphic composition. The studies explore how much character a label can carry through type, colour and the transparency of glass."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[12px] items-start relative shrink-0",
+            "data-node-id": "1429:1950"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[18px] h-[220px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1429:1951",
+                "data-name": "Brand Story"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "h-px relative shrink-0 w-[1344px]",
+                    "data-node-id": "1429:1952",
+                    "data-name": "Divider"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute block inset-0 max-w-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6854e.svg"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[500px]",
+                    "data-node-id": "1429:1953"
+                  },
+                  "children": [
+                    "LABEL EXPLORATIONS"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] whitespace-nowrap",
+                    "data-node-id": "1429:1954"
+                  },
+                  "children": [
+                    "COLOUR, GLASS AND OVERSIZED TYPE."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex gap-[60px] items-start min-h-[132px] relative shrink-0 w-[1344px]",
+                "data-node-id": "1112:497",
+                "data-name": "RO / Work Detail / Copy Block / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[330px]",
+                    "data-node-id": "1112:493",
+                    "data-name": "Label"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                        "data-node-id": "1112:494"
+                      },
+                      "children": [
+                        "TYPE IN THE ROUND"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[954px]",
+                    "data-node-id": "1112:495",
+                    "data-name": "Copy"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                        "data-node-id": "1112:496"
+                      },
+                      "children": [
+                        "Across the bottle studies, the lettering shifts between black, white and saturated colour. Cropped details reveal how the label changes around the curved surface: letters overlap, disappear and return as the bottle turns."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[96px] items-start overflow-clip relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14566",
+            "data-name": "Gallery media"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "bg-[rgba(242,242,242,0.99)] h-[346.692px] overflow-clip relative shrink-0 w-[616.341px]",
+                "data-node-id": "1342:2414",
+                "data-name": "Machine02"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[1135.736px] left-[-84.11px] top-[-726.77px] w-[687.284px]",
+                    "data-node-id": "1342:2415",
+                    "data-name": "machine-5"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute inset-0 max-w-none object-cover pointer-events-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/1be36.png"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "bg-[rgba(242,242,242,0.99)] h-[342.733px] overflow-clip relative shrink-0 w-[621.424px]",
+                "data-node-id": "1342:2416",
+                "data-name": "Machine03"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[302.944px] left-[10.36px] top-[16.27px] w-[105.189px]",
+                    "data-node-id": "1342:2417",
+                    "data-name": "machine-3"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute inset-0 max-w-none object-cover pointer-events-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/e037c.png"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute h-[737.293px] left-[175.1px] top-[2.67px] w-[446.325px]",
+                    "data-node-id": "1342:2418",
+                    "data-name": "machine-5"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute inset-0 max-w-none object-cover pointer-events-none size-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/1be36.png"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0",
+            "data-node-id": "1342:2384"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "bg-[#e8e8e8] col-1 h-[573.383px] ml-0 mt-0 relative row-1 w-[1341px]",
+                "data-node-id": "1342:2385",
+                "data-name": "whiterabbit1983_a_stylish_young_woman_sitting_on_a_tennis_clu_167614c0-4eed-4cf0-91fa-197afd80ecf7_0 1"
+              },
+              "children": []
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "col-1 h-[573px] ml-[65.09px] mt-[0.31px] relative row-1 w-[834.815px]",
+                "data-node-id": "1342:2386",
+                "data-name": "machine-2 1"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "absolute inset-0 overflow-hidden pointer-events-none"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "alt": "",
+                        "className": "absolute h-[114.22%] left-[-0.09%] max-w-none top-[-7.11%] w-full",
+                        "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6205e.png"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14613",
+            "data-name": "Copy / THE WORDMARK"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[330px]",
+                "data-node-id": "I1277:14613;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "I1277:14613;1112:494"
+                  },
+                  "children": [
+                    "THE WORDMARK"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[954px]",
+                "data-node-id": "I1277:14613;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                    "data-node-id": "I1277:14613;1112:496"
+                  },
+                  "children": [
+                    "MACHINE GIN is set as a compact typographic block. The breaks within the name create the rhythm of the label, while smaller product text gives the oversized lettering a contrasting scale."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "aspect-[1344/1078] relative shrink-0 w-full",
+            "data-node-id": "1349:2198",
+            "data-name": "0_2 copy 1"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "absolute inset-0 overflow-hidden pointer-events-none"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute h-[99.1%] left-[-0.82%] max-w-none top-[2.15%] w-[101.64%]",
+                    "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/ca38c.png"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[var(--space\\/32,32px)] items-start overflow-clip relative shrink-0 w-[1344px]",
+            "data-node-id": "1429:2803",
+            "data-name": "Hero / editable editorial content"
+          },
+          "children": [
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--#0A0A0A,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[1344px]",
+                "data-node-id": "1429:2804"
+              },
+              "children": [
+                "MACHINE GIN / IN CONTEXT"
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col h-[104px] items-start justify-center overflow-clip relative shrink-0 w-[1122px]",
+                "data-node-id": "1429:2805",
+                "data-name": "Hero / paired typefaces"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] content-stretch flex items-start relative shrink-0 text-[112px] text-[color:var(--#0A0A0A,#0a0a0a)]",
+                    "data-node-id": "1429:2806"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "font-['Bebas_Neue:Regular'] leading-[85.643px] not-italic relative shrink-0 whitespace-nowrap",
+                        "data-node-id": "1429:2807"
+                      },
+                      "children": [
+                        "MACHINE"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "absolute font-['Instrument_Serif:Italic'] h-[90.185px] italic leading-[90.833px] left-[522px] top-[-5.19px] w-[555.381px]",
+                        "data-node-id": "1429:2808"
+                      },
+                      "children": [
+                        "in context."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[32px] relative shrink-0 text-[22px] text-[color:var(--#161616,#161616)] w-[885.333px]",
+                "data-node-id": "1429:2809"
+              },
+              "children": [
+                "A shift from the label to the scene: exploring how the bottle sits within a wider visual world."
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--#0A0A0A,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[1344px]",
+                "data-node-id": "1429:2810"
+              },
+              "children": [
+                "PACKAGING CONCEPT / CIRCA 2022"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "aspect-[1134/770] mix-blend-luminosity relative shrink-0 w-full",
+            "data-node-id": "1277:14611",
+            "data-name": "0_2 1"
+          },
+          "children": []
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex flex-col gap-[18px] h-[220px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14614",
+            "data-name": "Brand Story"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "h-px relative shrink-0 w-[1344px]",
+                "data-node-id": "1277:14615",
+                "data-name": "Divider"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "alt": "",
+                    "className": "absolute block inset-0 max-w-none size-full",
+                    "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6854e.svg"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[500px]",
+                "data-node-id": "1277:14616"
+              },
+              "children": [
+                "VISUAL DIRECTION"
+              ]
+            },
+            {
+              "tag": "p",
+              "props": {
+                "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] whitespace-nowrap",
+                "data-node-id": "1277:14617"
+              },
+              "children": [
+                "ONE NAME. TWO EXPRESSIONS."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14618",
+            "data-name": "Copy / TWO EXPRESSIONS"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[330px]",
+                "data-node-id": "I1277:14618;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "I1277:14618;1112:494"
+                  },
+                  "children": [
+                    "TWO EXPRESSIONS"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[954px]",
+                "data-node-id": "I1277:14618;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                    "data-node-id": "I1277:14618;1112:496"
+                  },
+                  "children": [
+                    "The coloured and monochrome bottles test different moods with the same typographic idea. One uses vivid lettering against dark glass; the other pares the label back to black and white."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14619",
+            "data-name": "Copy / CONCEPT STUDIES"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[330px]",
+                "data-node-id": "I1277:14619;1112:493",
+                "data-name": "Label"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/xs,12px)] tracking-[0.96px] uppercase w-[300px]",
+                    "data-node-id": "I1277:14619;1112:494"
+                  },
+                  "children": [
+                    "CONCEPT STUDIES"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col items-start relative shrink-0 w-[954px]",
+                "data-node-id": "I1277:14619;1112:495",
+                "data-name": "Copy"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\\/lg,22px)] w-[930px]",
+                    "data-node-id": "I1277:14619;1112:496"
+                  },
+                  "children": [
+                    "Bottle renders, label layouts and lifestyle scenes explore the proposed identity in context. Presented here as a packaging and art-direction concept."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "h-px relative shrink-0 w-[1344px]",
+            "data-node-id": "1277:14620",
+            "data-name": "Divider"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "className": "absolute block inset-0 max-w-none size-full",
+                "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/6854e.svg"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap",
+            "data-node-id": "1112:503",
+            "data-name": "RO / Work Detail / Project Navigation / Desktop"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[var(--space\\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]",
+                "data-node-id": "1112:504",
+                "data-name": "Previous"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\\/xs,12px)] tracking-[0.72px] uppercase",
+                    "data-node-id": "1112:505"
+                  },
+                  "children": [
+                    "BACK TO"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]",
+                    "data-node-id": "1112:506"
+                  },
+                  "children": [
+                    "WORK"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex flex-col gap-[var(--space\\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]",
+                "data-node-id": "1112:507",
+                "data-name": "Next"
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\\/xs,12px)] tracking-[0.72px] uppercase",
+                    "data-node-id": "1112:508"
+                  },
+                  "children": [
+                    "RELATED PROJECT"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]",
+                    "data-node-id": "1112:509"
+                  },
+                  "children": [
+                    "SUPERBALIST"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "absolute left-[1199px] size-px top-[3679px]",
+            "data-node-id": "1277:14622"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "alt": "",
+                "className": "absolute block inset-0 max-w-none size-full",
+                "src": "https://www.figma.com/api/mcp/asset/fd49d050-a26c-4402-9f47-6c8cb1efb6f6/316e5.svg"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "props": {
+        "className": "absolute content-stretch flex h-[96px] items-center justify-between left-[3px] mix-blend-difference px-[var(--gap\\/large,48px)] top-px w-[1920px]",
+        "data-node-id": "1429:2556",
+        "data-name": "RO / Navigation / Desktop / Difference"
+      },
+      "children": [
+        {
+          "tag": "p",
+          "props": {
+            "className": "[word-break:break-word] font-['Bebas_Neue:Regular'] h-[25px] leading-[33.28px] not-italic relative shrink-0 text-[20.8px] text-[color:var(--#FFFFFF,white)] tracking-[0.624px] uppercase w-[105.813px]",
+            "data-node-id": "I1429:2556;973:95"
+          },
+          "children": [
+            "Random Order"
+          ]
+        },
+        {
+          "tag": "div",
+          "props": {
+            "className": "content-stretch flex gap-[16px] items-center relative shrink-0",
+            "data-node-id": "I1429:2556;973:96",
+            "data-name": "Navigation links"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1429:2556;973:97",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1429:2556;973:97;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Work"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1429:2556;973:98",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1429:2556;973:98;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Edit"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1429:2556;973:99",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1429:2556;973:99;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "About"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "props": {
+                "className": "content-stretch flex h-[44px] items-center px-[var(--space\\/8,8px)] relative shrink-0",
+                "data-node-id": "I1429:2556;973:100",
+                "data-name": "RO / Navigation Link / Desktop"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\\/body,16px)] text-center whitespace-nowrap",
+                    "data-node-id": "I1429:2556;973:100;973:91"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "leading-none"
+                      },
+                      "children": [
+                        "Contact"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

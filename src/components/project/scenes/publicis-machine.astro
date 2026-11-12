@@ -1,0 +1,83 @@
+---
+import MediaFigure from '../MediaFigure.astro';
+---
+<div class="machine-story project-section" data-source-frame="1277:14558">
+  <section class="project-copy"><h2 class="eyebrow">The concept</h2>
+    <p>A gin label for Publicis Machine developed through typography, material and experimentation. The bottle becomes more than a container: it changes how the identity is seen.</p>
+  </section>
+  <figure class="wordmark"><img src="/assets/parity/1277-14558-1ad68.png" alt="Publicis Machine wordmark" width="280" height="280" /></figure>
+  <section class="brief">
+    <h2>A name that wraps around the bottle.</h2>
+    <p>The brief was to create a gin label for Publicis Machine. Starting with the name, the design explored oversized typography, simple composition and the transparent surface of the bottle.</p>
+    <p>MACHINE GIN is arranged as a compact typographic block. Large, stacked letters establish the rhythm, while smaller product details create scale and contrast.</p>
+  </section>
+  <MediaFigure mediaId="machine-court" />
+  <section class="project-copy"><h2 class="eyebrow">The physical experiment</h2>
+    <p>Early labels were printed, cut and wrapped around an existing bottle. Testing the artwork in three dimensions revealed a different way to read the name: through the glass, from the opposite side.</p>
+  </section>
+  <figure class="type-study"><img loading="lazy" src="/assets/parity/1277-14558-6205e.png" width="2500" height="1960" alt="MACHINE GIN broken into three stacked lines" /></figure>
+  <div class="bottle">
+    <MediaFigure mediaId="machine-glass" />
+    <div class="bottle-caption"><span>Designed backwards</span><span>. Read forwards</span><span>43% vol</span></div>
+  </div>
+  <section class="project-copy"><h2 class="eyebrow">The wordmark</h2>
+    <p>MACHINE GIN is set as a compact typographic block. The breaks within the name create the rhythm of the label, while smaller product text gives the oversized lettering a contrasting scale.</p>
+  </section>
+  <MediaFigure mediaId="machine-motion" />
+  <section class="process">
+    <p class="eyebrow">Publicis Machine / The process</p>
+    <div class="project-copy"><h2>Designed backwards.<br />Read forwards.</h2>
+      <p>The defining idea emerged through physical experimentation. I printed variations, wrapped them around a bottle and examined the lettering from different angles. Reversing the artwork made the letters readable through the glass. The material became part of the message.</p>
+    </div>
+  </section>
+  <div class="studies">
+    <figure><img loading="lazy" src="/assets/parity/1277-14558-1be36.png" alt="Detail of the stacked label lettering" /></figure>
+    <figure><img loading="lazy" src="/assets/parity/1277-14558-e037c.png" alt="Four variations on GIN" /><img loading="lazy" src="/assets/parity/1277-14558-1be36.png" alt="" /></figure>
+  </div>
+  <section class="process">
+    <p class="eyebrow">Machine Gin / Art direction</p>
+    <h2>A study in perception</h2>
+    <p>From typographic packaging to a playful visual world of tennis, summer light and cocktails.</p>
+  </section>
+  <section class="context">
+    <p class="eyebrow">Machine Gin / In context</p>
+    <h2>Machine <em>in context.</em></h2>
+    <p>Beyond the bottle, a playful photographic world of pink tennis courts, motion blur and afternoon cocktails.</p>
+    <p class="eyebrow">Packaging concept / circa 2022</p>
+  </section>
+  <section class="process"><p class="eyebrow">Two directions</p><h2>One name. Two expressions.</h2></section>
+  <section class="project-copy"><h2 class="eyebrow">Two expressions</h2>
+    <p>Two expressions emerge from the same typographic idea: a restrained, monochrome approach and a vivid botanical exploration using colour, transparency and oversized lettering.</p>
+  </section>
+  <section class="project-copy"><h2 class="eyebrow">Concept studies</h2>
+    <p>The black-gin experiment, bottle renders and tennis imagery extend the original packaging study into a broader visual direction. These are exploratory concepts, not a produced campaign.</p>
+  </section>
+</div>
+
+<style>
+  .machine-story { display: grid; gap: clamp(56px, 5vw, 96px); padding-block: clamp(64px, 10.4vw, 200px) clamp(64px, 6.25vw, 120px); }
+  .machine-story p:not(.eyebrow) { font-size: clamp(18px, 1.6vw, 22px); line-height: 1.5; }
+  .machine-story h2:not(.eyebrow) { font: 400 clamp(40px, 4.8vw, 68px)/1.05 var(--font-display); }
+  .brief { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-lg); }
+  .wordmark { display: flex; justify-content: flex-end; background: black; }
+  .wordmark img { width: 34.4%; height: auto; aspect-ratio: 462/438; object-fit: cover; }
+  .type-study { background: #e29384; aspect-ratio: 1341/573; overflow: hidden; }
+  .type-study img { width: 62.25%; height: 100%; object-fit: cover; margin-left: 4.85%; }
+  .bottle { max-width: 1328px; width: 100%; margin: auto; position: relative; }
+  .bottle :global(.project-media) { transform: scaleX(-1); }
+  .bottle-caption { position: absolute; inset: auto 5% 7% 8%; display: flex; align-items: baseline; gap: 3%; color: white; font: 400 clamp(13px, 2vw, 36px)/1.05 var(--font-display); }
+  .bottle-caption span:first-child { margin-right: auto; transform: scaleX(-1); }
+  .process { border-top: 1px solid var(--color-border); padding-top: var(--space-md); }
+  .process > :first-child, .context > :not(:last-child) { margin-bottom: var(--space-md); }
+  .machine-story .context h2 { font-size: var(--text-h1); }
+  .context em { font-family: var(--font-accent); }
+  .studies { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7.14%; }
+  .studies figure { position: relative; overflow: hidden; background: var(--color-bg-alt); aspect-ratio: 616/347; }
+  .studies img { position: absolute; max-width: none; }
+  .studies figure:first-child img { width: 111.5%; top: -210%; left: -13.65%; }
+  .studies figure:last-child img:first-child { width: 17%; top: 4.75%; left: 1.67%; }
+  .studies figure:last-child img:last-child { width: 72%; left: 28.2%; top: .78%; }
+  @media (max-width: 767px) {
+    .brief, .studies { grid-template-columns: 1fr; gap: var(--space-sm); }
+  }
+</style>

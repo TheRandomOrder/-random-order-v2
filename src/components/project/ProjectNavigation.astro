@@ -1,10 +1,14 @@
 ---
-import {getRelatedProjects, projectHref, type ProjectRecord} from '../../data/projects';
+import {getRelatedProjects, projectHref, workIndexProjects, type ProjectRecord} from '../../data/projects';
 interface Props { project: ProjectRecord }
 const {project} = Astro.props;
-const next = getRelatedProjects(project)[0];
+const index = workIndexProjects.findIndex(item => item.id === project.id);
+const related = getRelatedProjects(project)[0];
+const previous = index > 0 ? workIndexProjects[index - 1] : undefined;
+const next = index >= 0 ? workIndexProjects[index + 1] : undefined;
 ---
-<nav class="project-navigation wrap" aria-label="More project work">
+<nav class="project-navigation wrap" aria-label="Project navigation">
+  {previous && <a class="project-navigation-item" href={`/work/${previous.slug}/`}><span class="eyebrow">Previous project</span><span class="project-navigation-title">{previous.title}</span></a>}
   <a class="project-navigation-item" href="/work/"><span class="eyebrow">Project index</span><span class="project-navigation-title">Back to work</span></a>
-  {next && <a class="project-navigation-item" href={projectHref(next)}><span class="eyebrow">Related project</span><span class="project-navigation-title">{next.title}</span></a>}
+  {project.navigation === 'related' && related ? <a class="project-navigation-item" href={projectHref(related)}><span class="eyebrow">Related project</span><span class="project-navigation-title">{related.title}</span></a> : next && <a class="project-navigation-item" href={`/work/${next.slug}/`}><span class="eyebrow">Next project</span><span class="project-navigation-title">{next.title}</span></a>}
 </nav>

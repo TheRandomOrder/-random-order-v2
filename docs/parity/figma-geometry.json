@@ -1,0 +1,4894 @@
+[
+  {
+    "id": "1351:2283",
+    "name": "ssuperlative",
+    "width": 1920,
+    "height": 8196.958984375,
+    "body": {
+      "id": "1351:2286",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 7296.95947265625,
+      "children": [
+        {
+          "id": "1432:1639",
+          "name": "Frame",
+          "x": 287,
+          "y": 96,
+          "width": 1346,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1473:965",
+          "name": "Copy / SSUPERLATIVE / PROJECT ALICE",
+          "x": 288,
+          "y": 948,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1408:4741",
+          "name": "Group 378",
+          "x": 288.00030517578125,
+          "y": 1176,
+          "width": 1343.9993896484375,
+          "height": 658,
+          "visible": true
+        },
+        {
+          "id": "1473:970",
+          "name": "Copy / READING RHYTHM",
+          "x": 288,
+          "y": 1930,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1408:4549",
+          "name": "1.43",
+          "x": 294,
+          "y": 2158,
+          "width": 1332,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1408:4528",
+          "name": "1.46",
+          "x": 288,
+          "y": 3010,
+          "width": 1344,
+          "height": 499,
+          "visible": true
+        },
+        {
+          "id": "1446:963",
+          "name": "2.0",
+          "x": 295,
+          "y": 3605,
+          "width": 1330,
+          "height": 748,
+          "visible": true
+        },
+        {
+          "id": "1423:1775",
+          "name": "Group 39909",
+          "x": 305.00048828125,
+          "y": 4449,
+          "width": 1309.9990234375,
+          "height": 521.95947265625,
+          "visible": true
+        },
+        {
+          "id": "1351:2302",
+          "name": "Copy / FROM DATA TO DESIGN",
+          "x": 288,
+          "y": 5066.95947265625,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1545:1318",
+          "name": "Frame",
+          "x": 287,
+          "y": 5261.95947265625,
+          "width": 1346,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1351:2305",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 6113.95947265625,
+          "width": 1344,
+          "height": 330,
+          "visible": true
+        },
+        {
+          "id": "1351:2309",
+          "name": "Copy / RECOVERY AS A RECORD",
+          "x": 288,
+          "y": 6539.95947265625,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1351:2310",
+          "name": "Copy / AN EVOLVING PRACTICE",
+          "x": 288,
+          "y": 6734.95947265625,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1351:2311",
+          "name": "Divider",
+          "x": 288,
+          "y": 6929.95947265625,
+          "width": 1344,
+          "height": 1,
+          "visible": true
+        },
+        {
+          "id": "1351:2312",
+          "name": "Case Navigation",
+          "x": 288,
+          "y": 7026.95947265625,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        },
+        {
+          "id": "1351:2313",
+          "name": "Group 5",
+          "x": 1199,
+          "y": 3679,
+          "width": 1,
+          "height": 1,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1432:1603",
+        "name": "Video",
+        "width": 1350.359375,
+        "height": 785.5934448242188,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "35756c8f29acc9045348c078dc7280112d5fd7c8",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1685",
+        "name": "IMG_6804 1",
+        "width": 2237,
+        "height": 2351.267822265625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "52e59d2bedde2b2c36023530da4d9805b6978c29",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.5449560880661011,
+                0,
+                0.2474278062582016
+              ],
+              [
+                0,
+                0.4295945167541504,
+                0.23502519726753235
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1432:1610",
+        "name": "Image (SSUPERLATIVE)",
+        "width": 69.4866943359375,
+        "height": 54.342159271240234,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8ab85cc5a1464065a2239a9a21fa7574c1ae98dc",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9849845767021179,
+                0,
+                0.006162235513329506
+              ],
+              [
+                0,
+                1.0138843059539795,
+                -0.007813436910510063
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1408:4532",
+        "name": "hotel_28553_A_hyper-realistic_photograph_of_an_physician_in_a_39d77669-1c9e-4917-ace2-81bf18934b9a_3 1",
+        "width": 1854.3768310546875,
+        "height": 1039.2662353515625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "36d3f7b1b29988fa2cfa6ec17f9e08ff37d3be2e",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1408:4548",
+        "name": "55D134D0-1A16-43C2-A1E3-F3F3C9051EBB_1_102_o 1",
+        "width": 481.5908508300781,
+        "height": 513.3673706054688,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "e9fcd9f350a0f9c76b131054fafc0455b16b1a73",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9511855244636536,
+                0,
+                0.04881450533866882
+              ],
+              [
+                0,
+                0.9952541589736938,
+                0.0003194564487785101
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1446:964",
+        "name": "HTL_1 1",
+        "width": 1920,
+        "height": 1080,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "311d4b82a4a27722413236dbfc7a102c9f1189bf",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1783",
+        "name": "hylton_run_top 1",
+        "width": 2218.904296875,
+        "height": 1223.346923828125,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "93ec86a633bfb965730f9ccaf92f2a34e62c7c24",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1784",
+        "name": "Screenshot 2025-05-29 at 15.21.35 1",
+        "width": 680,
+        "height": 585,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "129bc59f0fa5f52c200cc624b318bf70cb472be3",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9565684795379639,
+                0,
+                0.04343150556087494
+              ],
+              [
+                0,
+                0.9315343499183655,
+                -0.0002199156442657113
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1809",
+        "name": "hylton_run_top 1",
+        "width": 633.5341186523438,
+        "height": 509.2597351074219,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "93ec86a633bfb965730f9ccaf92f2a34e62c7c24",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.34022247791290283,
+                0,
+                0.25540459156036377
+              ],
+              [
+                0,
+                0.800809919834137,
+                0.0004628180176950991
+              ]
+            ],
+            "opacity": 0.30000001192092896
+          }
+        ]
+      },
+      {
+        "id": "1545:1320",
+        "name": "Video",
+        "width": 1350.359375,
+        "height": 785.5934448242188,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1321",
+        "name": "Container",
+        "width": 1350.359375,
+        "height": 785.5934448242188,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1322",
+        "name": "Container",
+        "width": 0.6248771548271179,
+        "height": 785.5934448242188,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1323",
+        "name": "Container",
+        "width": 0.6248771548271179,
+        "height": 785.5934448242188,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1324",
+        "name": "ReportHero",
+        "width": 1151.344482421875,
+        "height": 70.5972900390625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1326",
+        "name": "Image (SSUPERLATIVE)",
+        "width": 69.4866943359375,
+        "height": 54.342159271240234,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8ab85cc5a1464065a2239a9a21fa7574c1ae98dc",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9849845767021179,
+                0,
+                0.006162235513329506
+              ],
+              [
+                0,
+                1.0138843059539795,
+                -0.007813436910510063
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1545:1329",
+        "name": "ReportHero",
+        "width": 1151.344482421875,
+        "height": 679.6871337890625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8f48e31d95f0280f348a3ce71df980df692584e6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1351:2159",
+    "name": "Hotel Atelier",
+    "width": 1920,
+    "height": 13439,
+    "body": {
+      "id": "1351:2162",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 11191,
+      "children": [
+        {
+          "id": "1480:1883",
+          "name": "981413_10151718830150815_2091294245_o 1",
+          "x": 292,
+          "y": 96,
+          "width": 1336,
+          "height": 1561,
+          "visible": true
+        },
+        {
+          "id": "1476:969",
+          "name": "Copy / HOTEL ATELIER",
+          "x": 288,
+          "y": 1753,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1351:2181",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 1948,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1351:2185",
+          "name": "Copy / FRAGMENTED PORTRAITS",
+          "x": 288,
+          "y": 2264,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1423:1861",
+          "name": "Frame 480961812",
+          "x": -73.500244140625,
+          "y": 2459,
+          "width": 2067.00048828125,
+          "height": 890.0009765625,
+          "visible": true
+        },
+        {
+          "id": "1351:2186",
+          "name": "Copy / AN IMAGE IN SPACE",
+          "x": 288,
+          "y": 3445.0009765625,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1480:1026",
+          "name": "// Experiments\u2028 in optics, identity\u2028 & perception.",
+          "x": 539,
+          "y": 3640.0009765625,
+          "width": 842,
+          "height": 340,
+          "visible": true
+        },
+        {
+          "id": "1423:1872",
+          "name": "Frame 480961813",
+          "x": 235,
+          "y": 4076.0009765625,
+          "width": 1450,
+          "height": 1213,
+          "visible": true
+        },
+        {
+          "id": "1423:1881",
+          "name": "svool r zn yly gsv kvzi",
+          "x": 264,
+          "y": 5385.0009765625,
+          "width": 1392,
+          "height": 864,
+          "visible": true
+        },
+        {
+          "id": "1443:956",
+          "name": "Frame 480961811",
+          "x": 288,
+          "y": 6345.0009765625,
+          "width": 1344,
+          "height": 973,
+          "visible": true
+        },
+        {
+          "id": "1518:1303",
+          "name": "Frame 480961822",
+          "x": 423.49993896484375,
+          "y": 7414.0009765625,
+          "width": 1073.0001220703125,
+          "height": 543,
+          "visible": true
+        },
+        {
+          "id": "1458:1437",
+          "name": "Frame 480961816",
+          "x": 265,
+          "y": 8053.0009765625,
+          "width": 1390,
+          "height": 1052,
+          "visible": true
+        },
+        {
+          "id": "1536:3670",
+          "name": "02 / Short story / removable modules",
+          "x": 287.83349609375,
+          "y": 9201.0009765625,
+          "width": 1344.3330078125,
+          "height": 1346,
+          "visible": true
+        },
+        {
+          "id": "1476:974",
+          "name": "Copy / FROM DRAWING TO OBJECT",
+          "x": 288,
+          "y": 10643.0009765625,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1480:1883",
+        "name": "981413_10151718830150815_2091294245_o 1",
+        "width": 1336,
+        "height": 1561,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "c46ffd38692da165ff2a80a38ad3d331ca9dce0a",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                9.503997588922175e-10
+              ],
+              [
+                0,
+                1,
+                0.08975158631801605
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1851",
+        "name": "468695790_10162822361860815_620197756457007903_n 2",
+        "width": 454,
+        "height": 453,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "840115dc1e290b4902ea4da6b5438075066024e7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1854",
+        "name": "Lenticular 1",
+        "width": 450,
+        "height": 453,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0b0e385ebdee1950ed48442d2cf1c5e8297d7ee1",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9502002000808716,
+                0,
+                1.3775622392131481e-05
+              ],
+              [
+                0,
+                0.6257396340370178,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1532:3667",
+        "name": "Artboard 1@4x 4",
+        "width": 581.667236328125,
+        "height": 482.50048828125,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "35f9b28e5d90db512068c44b8b890b88a1da8e46",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.8092490434646606,
+                0,
+                0.09938034415245056
+              ],
+              [
+                0,
+                0.509382963180542,
+                0.04838697984814644
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1532:3668",
+        "name": "Artboard 1@4x 3",
+        "width": 590.0006103515625,
+        "height": 388.3337707519531,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "35f9b28e5d90db512068c44b8b890b88a1da8e46",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9602974653244019,
+                0,
+                0.023179812356829643
+              ],
+              [
+                0,
+                0.48003849387168884,
+                0.5127747654914856
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1855",
+        "name": "468816168_10162886093540815_5003087482333710790_n 2",
+        "width": 450,
+        "height": 453,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "993565e9ddabd150bce397b274e0d9953648d8c8",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.5412256121635437,
+                0,
+                0.06795009225606918
+              ],
+              [
+                0,
+                0.9751473069190979,
+                -0.00010335823753848672
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1423:1874",
+        "name": "whiterabbit1983_monumental_Brutal_Lenticular_art_installation_9eabb464-f996-4a13-80a0-faff0115beb3_0 1",
+        "width": 949,
+        "height": 1193,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "f728db3bf56017330509e773f61afc96c4219c69",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1443:956",
+        "name": "Frame 480961811",
+        "width": 1344,
+        "height": 973,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "6335a8cc4bc483780d73cde4df7e076310c051b7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.3825136721134186,
+                0,
+                0.3087431788444519
+              ],
+              [
+                0,
+                0.9998218417167664,
+                8.907503797672689e-05
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1518:1301",
+        "name": "42092149_10156909829055815_3373603498548527104_n 1",
+        "width": 543.0000610351562,
+        "height": 542.9999389648438,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "88eb1dddea783603eed5adcca1ae1481594a2b80",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1518:1302",
+        "name": "41176033_10156883412495815_4230782054893092864_n 1",
+        "width": 434,
+        "height": 543,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "ebe3dda50058d3ac95ab6a760f3b65adcbe020f2",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1518:1300",
+        "name": "468620168_10162895768665815_803677915623767039_n 1",
+        "width": 1390,
+        "height": 583,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "523269623e8f470d150be63e7d43f1ed0b4369c0",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.26214030385017395,
+                0.00035215969546698034
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1536:3676;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 885,
+        "height": 664,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "4602ce277d17fbadae9b6eaeda73d35a8cdc59b8",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1277:14558",
+    "name": "MACHINE",
+    "width": 1920,
+    "height": 9892,
+    "body": {
+      "id": "1277:14563",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 8992,
+      "children": [
+        {
+          "id": "1342:2421",
+          "name": "Frame 480961806",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 438,
+          "visible": true
+        },
+        {
+          "id": "1277:14564",
+          "name": "Frame 480961788",
+          "x": 288,
+          "y": 734,
+          "width": 1344,
+          "height": 973,
+          "visible": true
+        },
+        {
+          "id": "1342:2337",
+          "name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 1",
+          "x": 289.5,
+          "y": 1803,
+          "width": 1341,
+          "height": 288,
+          "visible": true
+        },
+        {
+          "id": "1342:2338",
+          "name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 2",
+          "x": 289.5,
+          "y": 2187,
+          "width": 1341,
+          "height": 438,
+          "visible": true
+        },
+        {
+          "id": "1539:1298",
+          "name": "Frame 480961824",
+          "x": 288,
+          "y": 2721,
+          "width": 1344,
+          "height": 409,
+          "visible": true
+        },
+        {
+          "id": "1429:1970",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 3226,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1539:1307",
+          "name": "Copy / THE CONCEPT",
+          "x": 288,
+          "y": 3542,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1429:1950",
+          "name": "Frame 480961789",
+          "x": 288,
+          "y": 3770,
+          "width": 1344,
+          "height": 364,
+          "visible": true
+        },
+        {
+          "id": "1277:14566",
+          "name": "Gallery media",
+          "x": 288,
+          "y": 4230,
+          "width": 1344,
+          "height": 346.6916809082031,
+          "visible": true
+        },
+        {
+          "id": "1342:2384",
+          "name": "Group 39905",
+          "x": 289.5,
+          "y": 4672.69189453125,
+          "width": 1341,
+          "height": 573.3828125,
+          "visible": true
+        },
+        {
+          "id": "1277:14613",
+          "name": "Copy / THE WORDMARK",
+          "x": 288,
+          "y": 5342.07470703125,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1349:2198",
+          "name": "0_2 copy 1",
+          "x": 288,
+          "y": 5537.07470703125,
+          "width": 1344,
+          "height": 1078,
+          "visible": true
+        },
+        {
+          "id": "1429:2803",
+          "name": "Hero / editable editorial content",
+          "x": 288,
+          "y": 6711.07470703125,
+          "width": 1344,
+          "height": 302,
+          "visible": true
+        },
+        {
+          "id": "1277:14611",
+          "name": "0_2 1",
+          "x": 288,
+          "y": 7109.07470703125,
+          "width": 1344,
+          "height": 912.5925903320312,
+          "visible": true
+        },
+        {
+          "id": "1277:14614",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 8117.66748046875,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1277:14618",
+          "name": "Copy / TWO EXPRESSIONS",
+          "x": 288,
+          "y": 8433.66796875,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1277:14619",
+          "name": "Copy / CONCEPT STUDIES",
+          "x": 288,
+          "y": 8628.66796875,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1277:14620",
+          "name": "Divider",
+          "x": 288,
+          "y": 8823.66796875,
+          "width": 1344,
+          "height": 1,
+          "visible": true
+        },
+        {
+          "id": "1277:14621",
+          "name": "Case Navigation",
+          "x": 288,
+          "y": 8920.66796875,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        },
+        {
+          "id": "1277:14622",
+          "name": "Group 5",
+          "x": 1199,
+          "y": 3679,
+          "width": 1,
+          "height": 1,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1342:1883",
+        "name": "image 346",
+        "width": 462,
+        "height": 438,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "818a4fd0c0c56ad74b176b62185362a2dd8c9178",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0.0010822510812431574
+              ],
+              [
+                0,
+                0.948051929473877,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1277:14564",
+        "name": "Frame 480961788",
+        "width": 1344,
+        "height": 973,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "87339d30455b37350fbe977800173c9dd8519549",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9828559160232544,
+                0,
+                0.01703518256545067
+              ],
+              [
+                0,
+                0.9297462105751038,
+                0.03512689471244812
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2337",
+        "name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 1",
+        "width": 1341,
+        "height": 288,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "a64e928039ce82316e478cdd96e1181c512f9e00",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9995527267456055,
+                0,
+                0.00022361359151545912
+              ],
+              [
+                0,
+                0.27906978130340576,
+                0.3604651093482971
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2338",
+        "name": "whiterabbit1983_minimalist_translucent_black_glass_gin_bottle_7e91dcb2-2975-4091-898e-8c6958396b41_1 2",
+        "width": 1341,
+        "height": 438,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "a64e928039ce82316e478cdd96e1181c512f9e00",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9995527267456055,
+                0,
+                0.00022361359151545912
+              ],
+              [
+                0,
+                0.4244185984134674,
+                0.5754060745239258
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2415",
+        "name": "machine-5",
+        "width": 687.2841796875,
+        "height": 1135.736328125,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "56b40ad8901f89533226b8a4b3bb9637de42f20a",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2417",
+        "name": "machine-3",
+        "width": 105.18888092041016,
+        "height": 302.9439697265625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8ccc0c6bf8ff91752c20090535c452ba29733685",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2418",
+        "name": "machine-5",
+        "width": 446.32452392578125,
+        "height": 737.2931518554688,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "56b40ad8901f89533226b8a4b3bb9637de42f20a",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1342:2386",
+        "name": "machine-2 1",
+        "width": 834.8146362304688,
+        "height": 573,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "60e3cb9c15cc99485dd7682c14e84164cdf0cbb0",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                4.610194804376946e-33,
+                0.0008960573468357325
+              ],
+              [
+                3.3583403405252425e-33,
+                0.8754845857620239,
+                0.062210407108068466
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1349:2198",
+        "name": "0_2 copy 1",
+        "width": 1344,
+        "height": 1078,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "7f778bf0f573d51f53a441b472908f899ed71100",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9838945269584656,
+                0,
+                0.008052756078541279
+              ],
+              [
+                0,
+                1.009096622467041,
+                -0.021735459566116333
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1277:14611",
+        "name": "0_2 1",
+        "width": 1344,
+        "height": 912.5925903320312,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "6a45b0ecb001e3be7060c5c7160c9405a07ac354",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1.0021206140518188,
+                0,
+                -0.007340040989220142
+              ],
+              [
+                0,
+                1.034225344657898,
+                -0.017247315496206284
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1429:2058",
+    "name": "MUSO",
+    "width": 1920,
+    "height": 7279,
+    "body": {
+      "id": "1429:2065",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 6179,
+      "children": [
+        {
+          "id": "1429:2075",
+          "name": "Copy / MUSO / BRAND DESIGN",
+          "x": 288.00006103515625,
+          "y": 102.47344970703125,
+          "width": 1343.9998779296875,
+          "height": 105,
+          "visible": true
+        },
+        {
+          "id": "1429:2080",
+          "name": "Copy / WHO\u2019S THE JOLLY ROGER NOW?",
+          "x": 288.00006103515625,
+          "y": 309.9468688964844,
+          "width": 1343.999755859375,
+          "height": 140,
+          "visible": true
+        },
+        {
+          "id": "1429:2071",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 552.4202880859375,
+          "width": 1344,
+          "height": 250.6702423095703,
+          "visible": true
+        },
+        {
+          "id": "1429:2087",
+          "name": "28",
+          "x": 293,
+          "y": 905.56396484375,
+          "width": 1334,
+          "height": 854.9849243164062,
+          "visible": true
+        },
+        {
+          "id": "1480:1260",
+          "name": "29",
+          "x": 293,
+          "y": 1863.0223388671875,
+          "width": 1334,
+          "height": 854.9849243164062,
+          "visible": true
+        },
+        {
+          "id": "1429:2121",
+          "name": "Divider",
+          "x": 288,
+          "y": 2820.480712890625,
+          "width": 1344,
+          "height": 1.139410138130188,
+          "visible": true
+        },
+        {
+          "id": "1429:2122",
+          "name": "Frame 480961810",
+          "x": 314.13555908203125,
+          "y": 2924.093505859375,
+          "width": 1291.7288818359375,
+          "height": 1045.8916015625,
+          "visible": true
+        },
+        {
+          "id": "1429:2134",
+          "name": "Group 39906",
+          "x": 288,
+          "y": 4072.45849609375,
+          "width": 1344,
+          "height": 861.3941040039062,
+          "visible": true
+        },
+        {
+          "id": "1429:2967",
+          "name": "Creative Future23",
+          "x": 307.4202880859375,
+          "y": 5036.326171875,
+          "width": 1305.159423828125,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1476:979",
+          "name": "Copy / MAKING INFORMATION READABLE",
+          "x": 288,
+          "y": 5894.7998046875,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1480:1178",
+        "name": "24",
+        "width": 1920,
+        "height": 1090,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8fea1918103fbb4dbb78d47283e617bba5600e54",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.8789352774620056,
+                0,
+                0.060532353818416595
+              ],
+              [
+                0,
+                0.8882424831390381,
+                0.055878739804029465
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1429:2125",
+        "name": "JollyRoger 1",
+        "width": 463.477294921875,
+        "height": 94.60343170166016,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "107960a2c0857f74141fe665df15455683338483",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9990736842155457,
+                0,
+                0.00046320122783072293
+              ],
+              [
+                0,
+                0.15393035113811493,
+                0.3682553470134735
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1429:2126",
+        "name": "JollyRoger 2",
+        "width": 463.477294921875,
+        "height": 94.60343170166016,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "107960a2c0857f74141fe665df15455683338483",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9990736842155457,
+                0,
+                0.00046320122783072293
+              ],
+              [
+                0,
+                0.15393035113811493,
+                0.4994667172431946
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1429:2127",
+        "name": "JollyRoger 3",
+        "width": 463.477294921875,
+        "height": 48.49419403076172,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "107960a2c0857f74141fe665df15455683338483",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9990736842155457,
+                0,
+                0.00046320122783072293
+              ],
+              [
+                0,
+                0.07890547811985016,
+                0.7653601765632629
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1429:2130",
+        "name": "whiterabbit1983_London_street_at_blue_hour_supplied_digital_b_531be95e-ef74-467d-b330-115addb25e51_0  1",
+        "width": 734.2490234375,
+        "height": 1045.7486572265625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "d69994195ba8f6d7ae924e348be1f8c0d9e834c7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1432:1992",
+    "name": "GOLDS GYM",
+    "width": 1920,
+    "height": 8594,
+    "body": {
+      "id": "1432:1993",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 6997.515625,
+      "children": [
+        {
+          "id": "1432:1994",
+          "name": "Frame 480961444",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 760,
+          "visible": true
+        },
+        {
+          "id": "1432:1997",
+          "name": "Gallery / Press study",
+          "x": 288,
+          "y": 1056,
+          "width": 1344,
+          "height": 1346,
+          "visible": true
+        },
+        {
+          "id": "1432:1998",
+          "name": "2.1.6",
+          "x": 1608,
+          "y": 2498,
+          "width": 1296,
+          "height": 729,
+          "visible": true
+        },
+        {
+          "id": "1432:2001",
+          "name": "Copy / GOLD\u2019S GYM / IMAGE STUDIES",
+          "x": 288,
+          "y": 3323,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1497:1023",
+          "name": "Frame 480961820",
+          "x": 312,
+          "y": 3485,
+          "width": 1296,
+          "height": 558,
+          "visible": true
+        },
+        {
+          "id": "1497:1027",
+          "name": "Frame 480961821",
+          "x": 312,
+          "y": 4139,
+          "width": 1296,
+          "height": 1551,
+          "visible": true
+        },
+        {
+          "id": "1432:2003",
+          "name": "Frame 480961802",
+          "x": 312,
+          "y": 5786,
+          "width": 1296,
+          "height": 845.5155029296875,
+          "visible": true
+        },
+        {
+          "id": "1432:2002",
+          "name": "Project navigation / Work + The Shed",
+          "x": 288,
+          "y": 6727.515625,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1432:1996",
+        "name": "hotel_28553_An_ethereal_collection_of_fitness_fashion-forward_i_aa2f6008-c0bb-463c-bfe1-a66376052a3f 1",
+        "width": 1448,
+        "height": 1093,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "228d84448586f4c68677cb29ee931a3e9cbf4232",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1432:1997",
+        "name": "Gallery / Press study",
+        "width": 1344,
+        "height": 1346,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "c2e3c727c0bdaaa9e7817b9e1a9bf55de9d299a2",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.7543677687644958,
+                0.24084433913230896
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1432:2000",
+        "name": "hotel_28553_httpss.mj.rundHCw0Xy_Pbk_ar169_--v_6.1_68771171-661a-43d0-8861-e08acab71f46_1 1",
+        "width": 2015,
+        "height": 2015,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "9abc6e51d113eaae96a19d015f7611484d8f5ed9",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1497:1014",
+        "name": "3888015244180529795social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_8049e2c6-f02c-460b-aa1d-ad54400d5df4_1 1",
+        "width": 516,
+        "height": 558,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "d1dfbe3f7d3b1af6d4ac50045de6b13134f3e380",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.5728394985198975,
+                0,
+                0.2271604984998703
+              ],
+              [
+                0,
+                0.9296296238899231,
+                0.035185184329748154
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1497:1010",
+        "name": "Frame 480961805",
+        "width": 684,
+        "height": 558,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "68663cc94a3c572bc4a26a31034ecd39092664ed",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.5089285373687744,
+                0,
+                0
+              ],
+              [
+                0,
+                0.23154190182685852,
+                0.38422906398773193
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1497:1033",
+        "name": "-7759528984293724263social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_d545d961-7bc8-48d9-bc58-07170984edbf_3 2 1",
+        "width": 1296,
+        "height": 1551,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "c93c004e6c5271491c3cd7a76f7b0412f98f0e3e",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9729729890823364,
+                0,
+                0
+              ],
+              [
+                0,
+                0.7762762904167175,
+                0.0840020552277565
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1270:14172",
+    "name": "HALLYS",
+    "width": 1920,
+    "height": 7963.49462890625,
+    "body": {
+      "id": "1270:14181",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 7063.49462890625,
+      "children": [
+        {
+          "id": "1270:14182",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 0,
+          "width": 1344,
+          "height": 684,
+          "visible": true
+        },
+        {
+          "id": "1273:14404",
+          "name": "Body large",
+          "x": 288,
+          "y": 780,
+          "width": 930,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1273:14406",
+          "name": "Frame 480961789",
+          "x": 288,
+          "y": 1041,
+          "width": 1357.763916015625,
+          "height": 701.4944458007812,
+          "visible": true
+        },
+        {
+          "id": "1270:14196",
+          "name": "Copy / A TANGLE OF MOMENTS",
+          "x": 288,
+          "y": 1838.494384765625,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1270:14199",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 2000.494384765625,
+          "width": 1344,
+          "height": 396,
+          "visible": true
+        },
+        {
+          "id": "1270:14214",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 2492.494384765625,
+          "width": 1344,
+          "height": 3711,
+          "visible": true
+        },
+        {
+          "id": "1270:14228",
+          "name": "RO / Work Detail / Copy Block / SIX YEARS OF EVOLUTION",
+          "x": 288,
+          "y": 6299.494140625,
+          "width": 1344,
+          "height": 19,
+          "visible": true
+        },
+        {
+          "id": "1270:14234",
+          "name": "Copy / ACROSS THE EVERYDAY",
+          "x": 288,
+          "y": 6414.494140625,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1270:14235",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 6675.494140625,
+          "width": 1344,
+          "height": 22,
+          "visible": true
+        },
+        {
+          "id": "1270:14238",
+          "name": "RO / Work Detail / Project Navigation / Desktop",
+          "x": 288,
+          "y": 6793.494140625,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1270:14350",
+        "name": "hero-tangle.jpg",
+        "width": 1344,
+        "height": 684,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "72579903e32bfe5ddd0b8f3dca375c300732c579",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14411",
+        "name": "menu.jpg",
+        "width": 659.3819580078125,
+        "height": 438.49444580078125,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "930c8726a155714abe2951da223d22ce6f786321",
+            "scaleMode": "FIT",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14414",
+        "name": "menu.jpg",
+        "width": 825.1217651367188,
+        "height": 438.345947265625,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "666dd307906cc80c6555f163e43cc69ac8ce6d3b",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1.2084447145462036,
+                0,
+                0.013126439414918423
+              ],
+              [
+                0,
+                0.9629794955253601,
+                0.01851026713848114
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14442",
+        "name": "Media / Gold\u2019s Gym / Motion and identity",
+        "width": 396,
+        "height": 396,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "2417d07aa069473c47ab32dd5d3d3b2186930d94",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.29473015666007996,
+                0,
+                0.3824194669723511
+              ],
+              [
+                0,
+                0.5238094925880432,
+                0.25753316283226013
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14445",
+        "name": "Frame 480961792",
+        "width": 396,
+        "height": 396,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "71c72ede0faa4232494c1b1d9e90b461c3166c23",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.8052372932434082,
+                0,
+                0.12414074689149857
+              ],
+              [
+                0,
+                0.6069476008415222,
+                0.1965261995792389
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14452",
+        "name": "Media / Gold\u2019s Gym / Motion and identity",
+        "width": 396,
+        "height": 542,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "300f5584302cd3d044e88331e8c8cee15881fada",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14467",
+        "name": "poster.jpg",
+        "width": 1344,
+        "height": 1246,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "7228533f7ac070c30a0476d6877c9597b7b50e00",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9998844265937805,
+                0,
+                5.777565820608288e-05
+              ],
+              [
+                0,
+                1.0586235523223877,
+                -0.00041983058326877654
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1273:14469",
+        "name": "illustration-totebag.jpg",
+        "width": 1344,
+        "height": 1204,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "60f8b9961501011617a37973c385c5673b1e9e9e",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9776159524917603,
+                0,
+                0.01119199488312006
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1206:1212",
+    "name": "Cozy Heaven",
+    "width": 1920,
+    "height": 14007.923828125,
+    "body": {
+      "id": "1206:1222",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 13107.923828125,
+      "children": [
+        {
+          "id": "1477:3117",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 760,
+          "visible": true
+        },
+        {
+          "id": "1477:3155",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 1056,
+          "width": 1344,
+          "height": 753.9515380859375,
+          "visible": true
+        },
+        {
+          "id": "1265:13952",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 1905.9515380859375,
+          "width": 1344,
+          "height": 760,
+          "visible": true
+        },
+        {
+          "id": "1206:1225",
+          "name": "Copy / A STORY ABOUT CARE",
+          "x": 288,
+          "y": 2761.95166015625,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1206:1238",
+          "name": "Frame 480961790",
+          "x": 288,
+          "y": 2923.95166015625,
+          "width": 1344,
+          "height": 1042,
+          "visible": true
+        },
+        {
+          "id": "1277:14756",
+          "name": "Group 39863",
+          "x": 288,
+          "y": 4061.95166015625,
+          "width": 1319.8311767578125,
+          "height": 659.9718627929688,
+          "visible": true
+        },
+        {
+          "id": "1477:3012",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 4817.92333984375,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1477:3029",
+          "name": "Case Block / The Approach",
+          "x": 288,
+          "y": 5133.92333984375,
+          "width": 1344,
+          "height": 320,
+          "visible": true
+        },
+        {
+          "id": "1477:3035",
+          "name": "Frame 480961799",
+          "x": 288,
+          "y": 5549.92333984375,
+          "width": 1344,
+          "height": 571,
+          "visible": true
+        },
+        {
+          "id": "1477:3060",
+          "name": "Case Block / The System, Flexing",
+          "x": 288,
+          "y": 6216.92333984375,
+          "width": 1344,
+          "height": 170,
+          "visible": true
+        },
+        {
+          "id": "1265:13986",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 6482.92333984375,
+          "width": 1344,
+          "height": 1562,
+          "visible": true
+        },
+        {
+          "id": "1206:1226",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 8140.92333984375,
+          "width": 1344,
+          "height": 1558,
+          "visible": true
+        },
+        {
+          "id": "1501:1062",
+          "name": "whiterabbit1983_httpss.mj.runk9J5clGYjv8_httpss.mj.runkXbB8bP_2ff312ef-a228-4e54-8738-958d2afe79ae_3 1",
+          "x": 288,
+          "y": 9794.923828125,
+          "width": 1344,
+          "height": 754,
+          "visible": true
+        },
+        {
+          "id": "1206:1242",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 10644.923828125,
+          "width": 1344,
+          "height": 790,
+          "visible": true
+        },
+        {
+          "id": "1206:1229",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 11530.923828125,
+          "width": 1344,
+          "height": 586,
+          "visible": true
+        },
+        {
+          "id": "1265:14031",
+          "name": "Die einzigartigen Vorteile von Lyocell Bettw\u00e4sche.",
+          "x": 288,
+          "y": 12212.923828125,
+          "width": 1219,
+          "height": 40,
+          "visible": true
+        },
+        {
+          "id": "1206:1240",
+          "name": "Copy / WHERE THE DAY BEGINS",
+          "x": 288,
+          "y": 12348.923828125,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1206:1241",
+          "name": "Copy / A CONSISTENT VISUAL WORLD",
+          "x": 288,
+          "y": 12576.923828125,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1206:1245",
+          "name": "RO / Work Detail / Project Navigation / Desktop",
+          "x": 288,
+          "y": 12837.923828125,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1477:3119",
+        "name": "Gallery media",
+        "width": 1344,
+        "height": 760,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "b47b1930f66b26d709f72ed21be69b31efa833c8",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3177",
+        "name": "whiterabbit1983_Luxury_editorial_campaign_photography_capturi_57d0213d-86d4-45ee-be1b-e8d4af5ae644_1 1",
+        "width": 1344,
+        "height": 753.2307739257812,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0363a91928edc23c6c8948a68d28c8dc1915b113",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1265:13952",
+        "name": "Supporting sequence / Bar and press",
+        "width": 1344,
+        "height": 760,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "07f551c190a02f95d577b66b3a5c6f523489f327",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.9439620971679688,
+                0,
+                0
+              ],
+              [
+                0,
+                0.8904032707214355,
+                0.0857783854007721
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1265:13979",
+        "name": "RO / Work Detail / Gallery Row",
+        "width": 1344,
+        "height": 760,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "07f551c190a02f95d577b66b3a5c6f523489f327",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.9439620971679688,
+                0,
+                0
+              ],
+              [
+                0,
+                0.8904032707214355,
+                0.0857783854007721
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1265:13982;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "07f551c190a02f95d577b66b3a5c6f523489f327",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.31720778346061707,
+                0,
+                0.4973682165145874
+              ],
+              [
+                0,
+                0.8317937850952148,
+                0.08235480636358261
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1206:1239",
+        "name": "Screenshot 2026-08-31 at 13.43.35 1",
+        "width": 1344,
+        "height": 1042,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "a713b578a460f276bc4a2fda0149455be015d741",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.9775967001914978,
+                0,
+                0.011201653629541397
+              ],
+              [
+                0,
+                0.687639594078064,
+                0.11640040576457977
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3088",
+        "name": "Media / Wine grapes from Sussex",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "7a18389cd66f2ca020cbb6f97b4f1ad3cefc2b7c",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.4877980053424835,
+                0,
+                0.0006260306108742952
+              ],
+              [
+                0,
+                0.870384693145752,
+                0.04647165909409523
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3090",
+        "name": "whiterabbit1983_Award-winning_editorial_lifestyle_photography_858c3527-2166-48fc-bd3d-8cce0603ca28_0 1",
+        "width": 1516.5,
+        "height": 792.75,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "35be89f30ae9739a533d0ef942e4f6395c30077e",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3094",
+        "name": "Media / Vintage typewriter",
+        "width": 324,
+        "height": 325,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "7a18389cd66f2ca020cbb6f97b4f1ad3cefc2b7c",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.4877980053424835,
+                0,
+                0.0006260306108742952
+              ],
+              [
+                0,
+                0.870384693145752,
+                0.04647165909409523
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3099",
+        "name": "Image Container",
+        "width": 498,
+        "height": 332,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "75d12d31179492e98f6123d8c71973b419be2245",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.9867695569992065,
+                0,
+                0.006615214981138706
+              ],
+              [
+                0,
+                0.4960452616214752,
+                0.1746036410331726
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3103",
+        "name": "Media / Sussex triangular wordmark",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "07f551c190a02f95d577b66b3a5c6f523489f327",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.31720778346061707,
+                0,
+                0.4973682165145874
+              ],
+              [
+                0,
+                0.8317937850952148,
+                0.08235480636358261
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3109",
+        "name": "whiterabbit1983_An_extraordinary_fashion_editorial_photograph_c4eb2d02-5e39-43e6-aa29-7d00986cd0de_1 4",
+        "width": 544,
+        "height": 720,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0150443690bc265f21c9be932116578d7e0ec23a",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                0.6668547987937927,
+                0,
+                0.13443954288959503
+              ],
+              [
+                0,
+                0.728411853313446,
+                0.08077990263700485
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1477:3110",
+        "name": "Media / Animated Sussex wordmark / logo-animation.gif",
+        "width": 704,
+        "height": 720,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "cd81b835c173914534e40bbe35a8284a25abc81c",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1265:13990;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "bdafa68be21bd521fa882af8d4bba8cf01f270bd",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1206:1227;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "28ed5c680c8911b1ba98238e181ee9c8da08bce3",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1501:1060",
+        "name": "whiterabbit1983_An_extraordinary_contemporary_bedroom_immerse_029998f0-8da4-4332-836e-9aa507d53a2a_0 1",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "7e82710135ed56c26b8ad6505d2e99ac377a14b8",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1501:1062",
+        "name": "whiterabbit1983_httpss.mj.runk9J5clGYjv8_httpss.mj.runkXbB8bP_2ff312ef-a228-4e54-8738-958d2afe79ae_3 1",
+        "width": 1344,
+        "height": 754,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "4b8548125fa6a6fee4d8ae0d810909b3ab9b57c1",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1130:735",
+    "name": "SUPERBALIST",
+    "width": 1920,
+    "height": 13233.9833984375,
+    "body": {
+      "id": "1130:758",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 12333.9833984375,
+      "children": [
+        {
+          "id": "1501:1057",
+          "name": "\"I've never experienced a partnership like it. Jason listened intently, interpreted it perfectly and delivered on it immediately. Taking the brand into territory we had only dreamt of. His vision. His creativity. His delivery of the creativity and his deep understanding of human nature are just some of his super powers.\"",
+          "x": 288,
+          "y": 200,
+          "width": 804,
+          "height": 1152,
+          "visible": true
+        },
+        {
+          "id": "1291:14902",
+          "name": "Closing visual / Rope",
+          "x": 288,
+          "y": 1448,
+          "width": 1344,
+          "height": 1080,
+          "visible": true
+        },
+        {
+          "id": "1130:764",
+          "name": "Copy / SIX YEARS AT SUPERBALIST",
+          "x": 288,
+          "y": 2624,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1130:782",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 2786,
+          "width": 1344,
+          "height": 790,
+          "visible": true
+        },
+        {
+          "id": "1126:5172",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 3672,
+          "width": 1344,
+          "height": 1354,
+          "visible": true
+        },
+        {
+          "id": "1146:852",
+          "name": "Copy / FROM SCREENS TO SYSTEMS",
+          "x": 288,
+          "y": 5122,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1146:857",
+          "name": "Copy / REVISITING THE ARCHIVE",
+          "x": 288,
+          "y": 5350,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1153:5790",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 5611,
+          "width": 1344,
+          "height": 22,
+          "visible": true
+        },
+        {
+          "id": "1262:13277",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 5729,
+          "width": 1344,
+          "height": 790,
+          "visible": true
+        },
+        {
+          "id": "1262:13280",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 6615,
+          "width": 1344,
+          "height": 790,
+          "visible": true
+        },
+        {
+          "id": "1262:13283",
+          "name": "Copy / THE ORDER OF INFORMATION",
+          "x": 288,
+          "y": 7501,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1262:13284",
+          "name": "Group 39862",
+          "x": 288,
+          "y": 7762,
+          "width": 1344,
+          "height": 810,
+          "visible": true
+        },
+        {
+          "id": "1262:13434",
+          "name": "Copy / A SHARED VOCABULARY",
+          "x": 288,
+          "y": 8668,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1262:13435",
+          "name": "Frame 480961796",
+          "x": 288,
+          "y": 8929,
+          "width": 1344,
+          "height": 1335.3375244140625,
+          "visible": true
+        },
+        {
+          "id": "1262:13441",
+          "name": "Group 39904",
+          "x": 288,
+          "y": 10360.337890625,
+          "width": 1344,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1347:2194",
+          "name": "Group 39904",
+          "x": 288,
+          "y": 11212.337890625,
+          "width": 1343.3707275390625,
+          "height": 755.6460571289062,
+          "visible": true
+        },
+        {
+          "id": "1130:792",
+          "name": "RO / Work Detail / Project Navigation / Desktop",
+          "x": 288,
+          "y": 12063.984375,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "I1291:14906;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1920,
+        "height": 1080,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "510b8dd3d5bf7d146dcedaeaef4ad71af46ec0ae",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1130:783;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "e8cb4ee3760a4600f5049ad3efbaf74888e41b43",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1126:5173;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "6965bbe6e770e56bd41a74f798fcae84bb1ccbbb",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.7631601691246033,
+                0,
+                0.18652155995368958
+              ],
+              [
+                0,
+                0.7472465634346008,
+                0.2182542234659195
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1262:13278;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "deda0f6b01770ee202ad3f1aa27d05bc2fdab691",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.375,
+                0.07814730703830719
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1262:13281;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "deda0f6b01770ee202ad3f1aa27d05bc2fdab691",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.375,
+                0.5185562372207642
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:13320",
+        "name": "original 19",
+        "width": 69.28167724609375,
+        "height": 99.48138427734375,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "1500748eeaef549b19c7be1b925642a6f52e53cc",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:13390",
+        "name": "image",
+        "width": 81.72794342041016,
+        "height": 118.4007339477539,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "bda227059b669b5b088a94654d24ea32b92dbf52",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:13400",
+        "name": "image",
+        "width": 173.93382263183594,
+        "height": 251.99449157714844,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "bda227059b669b5b088a94654d24ea32b92dbf52",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:13437",
+        "name": "Stitch_Visual Language Presentation_Iter130",
+        "width": 1791.9998779296875,
+        "height": 1007.9998779296875,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8e0b2728dd26fb2986ef3436dcbeefec718062b5",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:13440",
+        "name": "5",
+        "width": 1064.901123046875,
+        "height": 755.0366821289062,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "e7c6c32362067efcd5e67105bd65b99072322aee",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1347:2195",
+        "name": "2.4",
+        "width": 1343.3707275390625,
+        "height": 755.6460571289062,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "f53643807a482e3b2d9498e6cfc6e9467203ceaa",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1183:940",
+    "name": "ADIDAS",
+    "width": 1920,
+    "height": 6759,
+    "body": {
+      "id": "1183:950",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 5859,
+      "children": [
+        {
+          "id": "1183:951",
+          "name": "Supporting sequence / Bar and press",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 908,
+          "visible": true
+        },
+        {
+          "id": "1183:953",
+          "name": "Copy / ADIDAS \u00d7 I ART JOBURG",
+          "x": 288,
+          "y": 1204,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1183:957",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 1366,
+          "width": 1344,
+          "height": 1354,
+          "visible": true
+        },
+        {
+          "id": "1183:966",
+          "name": "Frame 480961790",
+          "x": 288,
+          "y": 2816,
+          "width": 1344,
+          "height": 1042,
+          "visible": true
+        },
+        {
+          "id": "1265:13876",
+          "name": "Copy / OUTSIDE AND INSIDE",
+          "x": 288,
+          "y": 3954,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1265:13871",
+          "name": "Key moment / Branded composition",
+          "x": 288,
+          "y": 4182,
+          "width": 1344,
+          "height": 396,
+          "visible": true
+        },
+        {
+          "id": "1265:13870",
+          "name": "Copy / COLLABORATION",
+          "x": 288,
+          "y": 4674,
+          "width": 1344,
+          "height": 66,
+          "visible": true
+        },
+        {
+          "id": "1265:13877",
+          "name": "MEDIA / replace fill",
+          "x": 288,
+          "y": 4836,
+          "width": 1344,
+          "height": 396,
+          "visible": true
+        },
+        {
+          "id": "1265:13878",
+          "name": "Copy / A CHANGE OF SCALE",
+          "x": 288,
+          "y": 5328,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1183:973",
+          "name": "RO / Work Detail / Project Navigation / Desktop",
+          "x": 288,
+          "y": 5589,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "I1183:952;1116:469;1183:978;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "268a074c6ab5bc40c72a41458581f86dffe22d38",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.4444444477558136,
+                0.1710372120141983
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1183:964;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "5d200e4ab13c2a93b40cfe1e480c493bd300a521",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1183:967",
+        "name": "Screenshot 2026-08-31 at 13.43.35 1",
+        "width": 1344,
+        "height": 1042,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "5521d34b627353bb2a0901c9976069ec7d487b43",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1265:13872",
+        "name": "Media / Gold\u2019s Gym / Motion and identity",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0be7163c57fafe42518700d7a48abab21966b04b",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1265:13873",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 396,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0be7163c57fafe42518700d7a48abab21966b04b",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.4419642686843872,
+                0.078125
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1265:13877",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 396,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0be7163c57fafe42518700d7a48abab21966b04b",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.4419642686843872,
+                0.5395404696464539
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1262:12026",
+    "name": "BSTN x LAB",
+    "width": 1920,
+    "height": 7465,
+    "body": {
+      "id": "1262:12031",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 6565,
+      "children": [
+        {
+          "id": "1262:12032",
+          "name": "Frame 480961788",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 760,
+          "visible": true
+        },
+        {
+          "id": "1262:12034",
+          "name": "Gallery media",
+          "x": 288,
+          "y": 1056,
+          "width": 1344,
+          "height": 896,
+          "visible": true
+        },
+        {
+          "id": "1262:12036",
+          "name": "Frame 480961787",
+          "x": 288,
+          "y": 2048,
+          "width": 1344,
+          "height": 698,
+          "visible": true
+        },
+        {
+          "id": "1262:12040",
+          "name": "Frame 480961802",
+          "x": 312,
+          "y": 2842,
+          "width": 1296,
+          "height": 375,
+          "visible": true
+        },
+        {
+          "id": "1262:12079",
+          "name": "0_2 1",
+          "x": 288,
+          "y": 3313,
+          "width": 1344,
+          "height": 896,
+          "visible": true
+        },
+        {
+          "id": "1262:12080",
+          "name": "0_3 1",
+          "x": 288,
+          "y": 4305,
+          "width": 1344,
+          "height": 896,
+          "visible": true
+        },
+        {
+          "id": "1262:12081",
+          "name": "Copy / SNEAKER LAB \u00d7 BSTN",
+          "x": 288,
+          "y": 5297,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1262:12082",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 5492,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1262:12086",
+          "name": "Copy / THINKING UNITY",
+          "x": 288,
+          "y": 5808,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1262:12087",
+          "name": "Copy / FROM COURT TO CARTON",
+          "x": 288,
+          "y": 6003,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1262:12088",
+          "name": "Divider",
+          "x": 288,
+          "y": 6198,
+          "width": 1344,
+          "height": 1,
+          "visible": true
+        },
+        {
+          "id": "1262:12089",
+          "name": "Case Navigation",
+          "x": 288,
+          "y": 6295,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        },
+        {
+          "id": "1262:12090",
+          "name": "Group 5",
+          "x": 1199,
+          "y": 3679,
+          "width": 1,
+          "height": 1,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1262:12033",
+        "name": "Gallery media",
+        "width": 1344,
+        "height": 760,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "28be4ae12125dd28f442f3d616cbbd38d3319923",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12035",
+        "name": "whiterabbit1983_Candid_high_end_basketball_streetwear_editori_985af7c0-4b7d-4d08-a4cc-9a1e7e642242_3 1",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "1e95e4c73d0b1371a4add284d06ec9977a4455ad",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1262:12038;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 624,
+        "height": 698,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "b0844d4eedc5ba93b2820f8f7509a365a5de04ed",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                6.031799041503208e-17,
+                0.6732525825500488,
+                0.025955824181437492
+              ],
+              [
+                -0.9850674867630005,
+                4.122483215379323e-17,
+                0.9925337433815002
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12039",
+        "name": "Rectangle 2218",
+        "width": 624,
+        "height": 698,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "71c1e83ebf73a138e6a6c903a2ef558f9c51434e",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                1,
+                0,
+                -3.552713678800501e-15
+              ],
+              [
+                0,
+                0.4888368546962738,
+                0.49988600611686707
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12042",
+        "name": "Rectangle 2220",
+        "width": 600,
+        "height": 375,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "5dc5d3127b25c7de32c2bab68d4922a30e5e2dd6",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12045",
+        "name": "Mood_2@3x 2",
+        "width": 354,
+        "height": 414,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "675b50623d46ecdb32fc816dbc6ce9c75fae2847",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.44585320353507996,
+                0,
+                0.05647129938006401
+              ],
+              [
+                0,
+                0.12214332818984985,
+                0.6581162810325623
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12079",
+        "name": "0_2 1",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "0adb623531de92816e407f75b8a89547a8f74962",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1262:12080",
+        "name": "0_3 1",
+        "width": 1344,
+        "height": 896,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "8dcebbecfbc6de016b6392f6bc42d2d46b774fa2",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1088:1758",
+    "name": "EARNT",
+    "width": 1920,
+    "height": 12716,
+    "body": {
+      "id": "1088:1781",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 11816,
+      "children": [
+        {
+          "id": "1486:2073",
+          "name": "MEDIA / replace fill",
+          "x": 288,
+          "y": 200,
+          "width": 1344,
+          "height": 668,
+          "visible": true
+        },
+        {
+          "id": "1303:1405",
+          "name": "MEDIA / replace fill",
+          "x": 288,
+          "y": 964,
+          "width": 1344,
+          "height": 668,
+          "visible": true
+        },
+        {
+          "id": "1486:2079",
+          "name": "website-home 1",
+          "x": 288,
+          "y": 1728,
+          "width": 1344,
+          "height": 728,
+          "visible": true
+        },
+        {
+          "id": "1486:2095",
+          "name": "Frame 480961818",
+          "x": 472.5,
+          "y": 2552,
+          "width": 975,
+          "height": 258,
+          "visible": true
+        },
+        {
+          "id": "1114:612",
+          "name": "Copy / THE CHALLENGE",
+          "x": 288,
+          "y": 2906,
+          "width": 1344,
+          "height": 165,
+          "visible": true
+        },
+        {
+          "id": "1114:687",
+          "name": "Rationale / Four Terms / EARNT",
+          "x": 288,
+          "y": 3167,
+          "width": 1344,
+          "height": 390,
+          "visible": true
+        },
+        {
+          "id": "1114:617",
+          "name": "Copy / NATURAL RESISTANCE",
+          "x": 288,
+          "y": 3653,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1486:2091",
+          "name": "Frame 480961804",
+          "x": 288,
+          "y": 3881,
+          "width": 1344,
+          "height": 497,
+          "visible": true
+        },
+        {
+          "id": "1114:622",
+          "name": "Copy / THE DIGITAL EXPERIENCE",
+          "x": 288,
+          "y": 4474,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1126:5134",
+          "name": "Media / EARNT / Campaign",
+          "x": 288,
+          "y": 4669,
+          "width": 1344,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "id": "1088:1827",
+          "name": "H1",
+          "x": 288,
+          "y": 5565,
+          "width": 1344,
+          "height": 273,
+          "visible": true
+        },
+        {
+          "id": "1126:5132",
+          "name": "MEDIA / replace fill",
+          "x": 288,
+          "y": 5934,
+          "width": 1344,
+          "height": 1328,
+          "visible": true
+        },
+        {
+          "id": "1088:1832",
+          "name": "Media / EARNT / Oasis reference",
+          "x": 288,
+          "y": 7358,
+          "width": 1344,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1088:1875",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 8210,
+          "width": 1344,
+          "height": 220,
+          "visible": true
+        },
+        {
+          "id": "1114:486",
+          "name": "Media / EARNT / Motion",
+          "x": 288,
+          "y": 8526,
+          "width": 1344,
+          "height": 720,
+          "visible": true
+        },
+        {
+          "id": "1088:1907",
+          "name": "Pull Quote",
+          "x": 288,
+          "y": 9342,
+          "width": 1344,
+          "height": 430,
+          "visible": true
+        },
+        {
+          "id": "1124:4199",
+          "name": "Media / EARNT / Oasis reference",
+          "x": 288,
+          "y": 9868,
+          "width": 1344,
+          "height": 756,
+          "visible": true
+        },
+        {
+          "id": "1114:627",
+          "name": "Copy / TEAM EARNT",
+          "x": 288,
+          "y": 10720,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1088:2000",
+          "name": "Media / EARNT / approved merchandise asset pending",
+          "x": 288,
+          "y": 10915,
+          "width": 1344,
+          "height": 520,
+          "visible": true
+        },
+        {
+          "id": "1114:632",
+          "name": "Copy / THE BRAND WORLD",
+          "x": 288,
+          "y": 11531,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1088:2006",
+          "name": "Campaign language / Natural Resistance",
+          "x": 288,
+          "y": 11759,
+          "width": 1344,
+          "height": 650,
+          "visible": true
+        },
+        {
+          "id": "1114:637",
+          "name": "Copy / EARN YOUR STRIPES",
+          "x": 288,
+          "y": 12505,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1088:2018",
+          "name": "Media / EARNT / Closing Image",
+          "x": 288,
+          "y": 12700,
+          "width": 1344,
+          "height": 800,
+          "visible": true
+        },
+        {
+          "id": "1114:642",
+          "name": "Copy / A CONNECTED DIRECTION",
+          "x": 288,
+          "y": 13596,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1114:647",
+          "name": "Case Block / Client",
+          "x": 288,
+          "y": 13791,
+          "width": 1344,
+          "height": 80,
+          "visible": true
+        },
+        {
+          "id": "1088:2061",
+          "name": "Divider",
+          "x": 288,
+          "y": 13967,
+          "width": 1344,
+          "height": 1,
+          "visible": true
+        },
+        {
+          "id": "1114:739",
+          "name": "Case Navigation",
+          "x": 288,
+          "y": 14064,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        },
+        {
+          "id": "1088:2107",
+          "name": "Group 5",
+          "x": 1199,
+          "y": 3679,
+          "width": 1,
+          "height": 1,
+          "visible": true
+        }
+      ]
+    },
+    "media": [
+      {
+        "id": "1486:2073",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 668,
+        "visible": true,
+        "fills": [
+          {
+            "type": "VIDEO",
+            "videoHash": "8b4a9372d05cdbc819cce5fc35cde28cd4b531ee",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1303:1405",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 668,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "e428f754bdafdd137e0ddff100f637d1c571a888",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.8474335074424744,
+                0,
+                0.07628325372934341
+              ],
+              [
+                0,
+                0.5030120015144348,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1486:2079",
+        "name": "website-home 1",
+        "width": 1344,
+        "height": 728,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "b9a42ee6447e386da504307e712df7d3e5f8be35",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:687;1112:499;1114:694",
+        "name": "Media / Wine grapes from Sussex",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "4358101576f50c89da9bf8a6c94049d1f1cf53a1",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.138888880610466,
+                0,
+                0.162222221493721
+              ],
+              [
+                0,
+                0.3041362464427948,
+                0.2031630128622055
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:687;1112:500;1114:699",
+        "name": "Media / County flag / six martlets",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "4358101576f50c89da9bf8a6c94049d1f1cf53a1",
+            "scaleMode": "CROP",
+            "transform": [
+              [
+                0.138888880610466,
+                0,
+                0.3409125506877899
+              ],
+              [
+                0,
+                0.3041362464427948,
+                0.2031630128622055
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:687;1112:501;1114:704",
+        "name": "Media / Vintage typewriter",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "3977cde3dd780a66653b160fa00146aa0a7078dd",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:687;1112:502;1114:709",
+        "name": "Media / Sussex triangular wordmark",
+        "width": 324,
+        "height": 324,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "ffb3fd774cd603f69305d32b247e2be6ab913be7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1126:5135",
+        "name": "whiterabbit1983_An_extraordinary_fashion_editorial_photograph_c4eb2d02-5e39-43e6-aa29-7d00986cd0de_1 4",
+        "width": 1344,
+        "height": 800,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "3977cde3dd780a66653b160fa00146aa0a7078dd",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1126:5132",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 1328,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "e428f754bdafdd137e0ddff100f637d1c571a888",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                -4.440892098500626e-16
+              ],
+              [
+                0,
+                0.5274608135223389,
+                0.11262067407369614
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1088:1832",
+        "name": "Media / EARNT / Oasis reference",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "ffb3fd774cd603f69305d32b247e2be6ab913be7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:489;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1774,
+        "height": 1183,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "6cdb47c31f22abfcd1dff16924992aa244cf45f1",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1114:486;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1344,
+        "height": 720,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "692cdaff2fd7c8c6f8f050aaff2e64666088deaf",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1124:4199",
+        "name": "Media / EARNT / Oasis reference",
+        "width": 1344,
+        "height": 756,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "ffb3fd774cd603f69305d32b247e2be6ab913be7",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "I1124:4238;960:267",
+        "name": "MEDIA / replace fill",
+        "width": 1774,
+        "height": 1183,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "6cdb47c31f22abfcd1dff16924992aa244cf45f1",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1
+          }
+        ]
+      },
+      {
+        "id": "1126:4999",
+        "name": "whiterabbit1983_An_extraordinary_fashion_editorial_photograph_c4eb2d02-5e39-43e6-aa29-7d00986cd0de_1 4",
+        "width": 1920,
+        "height": 899,
+        "visible": true,
+        "fills": [
+          {
+            "type": "IMAGE",
+            "imageHash": "3977cde3dd780a66653b160fa00146aa0a7078dd",
+            "scaleMode": "FILL",
+            "transform": [
+              [
+                1,
+                0,
+                -4.440892098500626e-16
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1532:1835",
+    "name": "ssuperlative",
+    "width": 1920,
+    "height": 7087.60595703125,
+    "body": {
+      "id": "1532:1858",
+      "x": 0,
+      "y": 900,
+      "width": 1920,
+      "height": 6187.60595703125,
+      "children": [
+        {
+          "id": "1532:1885",
+          "name": "Copy / SSUPERLATIVE / PROJECT ALICE",
+          "x": 288,
+          "y": 96,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1532:3648",
+          "name": "2.16",
+          "x": 288,
+          "y": 324,
+          "width": 1344,
+          "height": 756.3939208984375,
+          "visible": true
+        },
+        {
+          "id": "1532:2318",
+          "name": "2.5",
+          "x": 288,
+          "y": 1176.3939208984375,
+          "width": 1344,
+          "height": 668,
+          "visible": true
+        },
+        {
+          "id": "1545:1640",
+          "name": "Group 39914",
+          "x": 0,
+          "y": 1940.3939208984375,
+          "width": 1920,
+          "height": 1188.60595703125,
+          "visible": true
+        },
+        {
+          "id": "1532:2212",
+          "name": "Group 39912",
+          "x": 288,
+          "y": 3225,
+          "width": 1344,
+          "height": 613.60595703125,
+          "visible": true
+        },
+        {
+          "id": "1532:1938",
+          "name": "Copy / READING RHYTHM",
+          "x": 288,
+          "y": 3934.60595703125,
+          "width": 1344,
+          "height": 132,
+          "visible": true
+        },
+        {
+          "id": "1545:1895",
+          "name": "2.5",
+          "x": 288,
+          "y": 4162.60595703125,
+          "width": 1344,
+          "height": 551,
+          "visible": true
+        },
+        {
+          "id": "1532:2111",
+          "name": "Copy / FROM DATA TO DESIGN",
+          "x": 288,
+          "y": 4809.60595703125,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1532:2112",
+          "name": "Brand Story",
+          "x": 288,
+          "y": 5004.60595703125,
+          "width": 1344,
+          "height": 330,
+          "visible": true
+        },
+        {
+          "id": "1532:2116",
+          "name": "Copy / RECOVERY AS A RECORD",
+          "x": 288,
+          "y": 5430.60595703125,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1532:2117",
+          "name": "Copy / AN EVOLVING PRACTICE",
+          "x": 288,
+          "y": 5625.60595703125,
+          "width": 1344,
+          "height": 99,
+          "visible": true
+        },
+        {
+          "id": "1532:2118",
+          "name": "Divider",
+          "x": 288,
+          "y": 5820.60595703125,
+          "width": 1344,
+          "height": 1,
+          "visible": true
+        },
+        {
+          "id": "1532:2119",
+          "name": "Case Navigation",
+          "x": 288,
+          "y": 5917.60595703125,
+          "width": 1344,
+          "height": 150,
+          "visible": true
+        },
+        {
+          "id": "1532:2120",
+          "name": "Group 5",
+          "x": 1199,
+          "y": 3679,
+          "width": 1,
+          "height": 1,
+          "visible": true
+        }
+      ]
+    },
+    "media": []
+  }
+]

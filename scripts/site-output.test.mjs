@@ -38,7 +38,7 @@ function parseDocument(file) {
   const route = relative === 'index.html' ? '/' : relative.endsWith('/index.html') ? `/${relative.slice(0, -10)}` : `/${relative}`;
   const html = fs.readFileSync(file, 'utf8');
   const source = html.replace(/<!--[\s\S]*?-->/g, '').replace(/(<script\b[^>]*>)[\s\S]*?<\/script\s*>/gi, '$1</script>').replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '');
-  const tags = [...source.matchAll(/<([a-z][\w:-]*)\b([^<>]*?)>/gi)].map(match => ({tag:match[1].toLowerCase(), attrs:attributes(match[2])}));
+  const tags = [...source.matchAll(/<([a-z][\w:-]*)\b((?:"[^"]*"|'[^']*'|[^'"<>])*)>/gi)].map(match => ({tag:match[1].toLowerCase(), attrs:attributes(match[2])}));
   const ids = tags.flatMap(({tag, attrs}) => attrs.id ? [attrs.id] : tag === 'a' && attrs.name ? [attrs.name] : []);
   return {file, relative, route, html, tags, ids:new Set(ids), duplicateIds:ids.filter((id, index) => ids.indexOf(id) !== index)};
 }

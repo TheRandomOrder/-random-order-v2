@@ -1,0 +1,1323 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/c34f0925-90dd-4679-a79c-70cf42a4cb50";
+import { ShaderEffect } from "./lib/custom-effect-runtime/index";
+import { setup as setupCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364, render as renderCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364, manifest as manifestCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364 } from "./lib/custom-effects/CodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364";
+const imgLine351 = `${assetPathPrefix}/8ae4e.svg`;
+const imgLine352 = `${assetPathPrefix}/2dc6f.svg`;
+const imgLine358 = `${assetPathPrefix}/cd224.svg`;
+const imgLine372 = `${assetPathPrefix}/a32bd.svg`;
+const imgLine359 = `${assetPathPrefix}/19d44.svg`;
+const imgLine374 = `${assetPathPrefix}/deb74.svg`;
+const imgLine356 = `${assetPathPrefix}/eee25.svg`;
+const imgVector1 = `${assetPathPrefix}/5afb5.svg`;
+const imgDivider = `${assetPathPrefix}/6854e.svg`;
+const imgGroup5 = `${assetPathPrefix}/316e5.svg`;
+
+type RoWorkDetailProjectNavigationDesktopProps = {
+  className?: string;
+  nextLabel?: string;
+  nextTitle?: string;
+  previousLabel?: string;
+  previousTitle?: string;
+};
+
+function RoWorkDetailProjectNavigationDesktop({ className, nextLabel = "NEXT PROJECT", nextTitle = "THE FAT BADGER", previousLabel = "PREVIOUS", previousTitle = "HALLY’S" }: RoWorkDetailProjectNavigationDesktopProps) {
+  return (
+    <div className={className || "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap"} data-node-id="1112:503" data-name="RO / Work Detail / Project Navigation / Desktop">
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:504" data-name="Previous">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:505">
+          {previousLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:506">
+          {previousTitle}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:507" data-name="Next">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:508">
+          {nextLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:509">
+          {nextTitle}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function Ssuperlative() {
+  return (
+    <div className="bg-black content-stretch flex flex-col items-start relative size-full" data-node-id="1532:1835" data-name="ssuperlative">
+      <div className="content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]" data-node-id="1532:1836" data-name="Case Hero / Pinned Reference">
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]" data-node-id="1532:1837" data-name="Hero Body">
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[13px] text-black w-[600px]" data-node-id="1532:1838">
+            BRAND STRATEGY · ART DIRECTION · SYSTEM
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-black w-[1000px]" data-node-id="1545:1366">
+            HEMSLEY FRASER
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]" data-node-id="1532:1840">
+            Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.
+          </p>
+          <div className="content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]" data-node-id="1532:1841" data-name="Case Meta">
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1532:1842" data-name="Meta / CLIENT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1532:1843" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1532:1844">
+                CLIENT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1532:1845">
+                Cozy Heaven
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1532:1846" data-name="Meta / SCOPE">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1532:1847" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1532:1848">
+                SCOPE
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1532:1849">
+                Brand Strategy, Art Direction, Photography, Packaging, Digital
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1532:1850" data-name="Meta / BASED">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1532:1851" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1532:1852">
+                BASED
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1532:1853">
+                DACH / Europe
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1532:1854" data-name="Meta / CONCEPT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1532:1855" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1532:1856">
+                CONCEPT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1532:1857">
+                Care, Made Visible
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[96px] items-center overflow-clip pb-[120px] pt-[96px] px-[288px] relative shrink-0 w-[1920px]" data-node-id="1532:1858" data-name="Case Body">
+        <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-[1344px]" data-node-id="1532:1885" data-name="Copy / SSUPERLATIVE / PROJECT ALICE">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1532:1885;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1532:1885;1112:494">
+              SSUPERLATIVE / PROJECT ALICE
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1532:1885;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1532:1885;1112:496">
+              Six years of personal exploration connect design, data and self-understanding. Project Alice is the latest reporting chapter: a synthetic publication bringing evidence, sleep, mood and functional change into a single reading experience. It sits within a wider body of journals, drawings and product experiments.
+            </p>
+          </div>
+        </div>
+        <div className="h-[756.394px] overflow-clip relative shrink-0 w-full" data-node-id="1532:3648" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1344 756.39' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-99.925 37.459 -37.44 -99.977 534.8 440.53)'><stop stop-color='rgba(193,193,193,1)' offset='0.23079'/><stop stop-color='rgba(247,247,247,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="2.16">
+          <div className="absolute contents inset-[-92.45px_-264.04px_-39.22px_-63.03px]" data-node-id="1532:3649" data-name="Type Image">
+            <div className="absolute content-stretch flex flex-col inset-[-92.45px_-264.04px_-39.22px_-63.03px] items-start" data-node-id="1532:3650" data-name="Type Frame">
+              <p className="[word-break:break-word] font-['Euclid_Circular_A:Bold'] leading-[0.69] not-italic relative shrink-0 text-[322.168px] text-[color:var(--brand\/black,#2b2b2b)] tracking-[22.5517px] uppercase w-full" data-node-id="1532:3651">
+                abcdefghijklmnopqrstvwxy
+              </p>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%+0.35px)] top-0 w-[1344.7px]" data-node-id="1532:3652" data-name="Header">
+            <div className="h-[67.235px] relative shrink-0 w-full" data-node-id="1532:3653" data-name="Header bar">
+              <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.7px] border-solid h-[67.235px] left-0 top-0 w-[1344.7px]" data-node-id="1532:3654" data-name="Line" />
+              <div className="absolute content-stretch flex h-[14.007px] items-center justify-center left-[78.44px] top-[26.61px]" data-node-id="1532:3655" data-name="Text">
+                <div className="content-stretch flex items-center relative shrink-0 w-[743.087px]" data-node-id="1532:3656" data-name="Logo">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:3657" data-name="Text">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1532:3658" data-name="Tilte">
+                      <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-[0] relative shrink-0 text-[12.607px] text-white tracking-[1.0085px] w-[689.859px]" data-node-id="1532:3659">
+                        <span className="font-['Space_Grotesk:Bold'] font-bold leading-[1.4]">{`HTLxRANDOM ORDER `}</span>
+                        <span className="leading-[1.4]">{`— Case Study #1 — AI WEB FRAMEWORKS & MODEL TRAINING`}</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute bg-[#c1c1c1] content-stretch flex items-center justify-center left-0 pb-[78.441px] pt-[36.419px] px-[22.412px] top-[173.69px] w-[460.14px]" data-node-id="1532:3660" data-name="Heading">
+            <ol className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] block font-['Roobert:SemiBold'] leading-[0] list-decimal not-italic relative shrink-0 text-[112.058px] text-[color:var(--brand\/white,white)] tracking-[-2.2412px] whitespace-nowrap" data-node-id="1532:3661" start="2">
+              <li className="ms-[168.08700000000002px]">
+                <span className="leading-none">Type</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div className="h-[668px] overflow-clip relative shrink-0 w-[1344px]" data-node-id="1532:2318" data-name="2.5">
+          <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%+0.35px)] top-[-88px] w-[1344.7px]" data-node-id="1532:2319" data-name="Header">
+            <div className="h-[67.235px] relative shrink-0 w-full" data-node-id="1532:2320" data-name="Header bar">
+              <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.7px] border-solid h-[67.235px] left-0 top-0 w-[1344.7px]" data-node-id="1532:2321" data-name="Line" />
+              <div className="absolute content-stretch flex h-[14.007px] items-center justify-center left-[78.44px] top-[26.61px]" data-node-id="1532:2322" data-name="Text">
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:2323" data-name="Logo">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:2324" data-name="Text">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1532:2325" data-name="Tilte">
+                      <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[0] relative shrink-0 text-[12.607px] text-[color:var(--brand\/black,#2b2b2b)] tracking-[1.0085px] whitespace-nowrap" data-node-id="1532:2326">
+                        <span className="leading-[1.4]">{`HTLxRANDOM ORDER `}</span>
+                        <span className="font-['Space_Grotesk:Regular'] font-normal leading-[1.4]">{`— Case Study #1 — AI WEB FRAMEWORKS & MODEL TRAINING`}</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Sacramento:Regular'] leading-[0] left-[78.44px] not-italic text-[33.618px] text-black top-[29.66px] tracking-[1.6809px] uppercase w-[1446.953px]" data-node-id="1532:2412">
+            <span className="font-['Space_Grotesk:Bold'] font-bold leading-[0.79]">{`The Framework Effect — `}</span>
+            <span className="font-['Space_Grotesk:Bold'] font-bold leading-[0.79] text-[#9747ff]">{`Human + `}</span>
+            <span className="font-['Space_Grotesk:Light'] font-light leading-[0.79] text-[#9747ff]">{`AI Collaboration `}</span>
+          </p>
+          <div className="absolute content-stretch flex flex-col items-start left-[483.94px] top-[770.39px] w-[952.126px]" data-node-id="1532:2512" data-name="Header">
+            <div className="h-[47.606px] relative shrink-0 w-full" data-node-id="1532:2513" data-name="Header bar">
+              <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.496px] border-solid h-[47.606px] left-0 top-0 w-[952.126px]" data-node-id="1532:2514" data-name="Line" />
+              <div className="absolute content-stretch flex h-[9.918px] items-center justify-center left-[55.54px] top-[18.84px]" data-node-id="1532:2515" data-name="Text">
+                <div className="content-stretch flex items-center relative shrink-0 w-[526.149px]" data-node-id="1532:2516" data-name="Logo">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:2517" data-name="Text">
+                    <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1532:2518" data-name="Tilte">
+                      <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-[0] relative shrink-0 text-[8.926px] text-white tracking-[0.7141px] w-[488.46px]" data-node-id="1532:2519">
+                        <span className="font-['Space_Grotesk:Bold'] font-bold leading-[1.4]">{`HTLxRANDOM ORDER `}</span>
+                        <span className="leading-[1.4]">{`— Case Study #1 — AI WEB FRAMEWORKS & MODEL TRAINING`}</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents left-0 top-[-766px]" data-node-id="1532:2521" data-name="Colour Image">
+            <div className="absolute content-stretch flex flex-col gap-[63.742px] h-[1489.027px] items-start leading-[0] left-0 top-[-766px] w-[1480.853px]" data-node-id="1532:2522" data-name="Colour System">
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1532:2523">
+                <div className="col-1 flex items-center justify-center ml-[1234.05px] mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2524">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#111] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-[246.81px] mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2525">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#712cfd] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-[493.63px] mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2526">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#e4ff19] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2527">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#250c66] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-[740.44px] mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2528">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[var(--grey\/200,#c7cdcb)] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-[987.23px] mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2529">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[var(--grey\/700,#252525)] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[24.69px] mt-[18.51px] relative row-1 text-[10.798px] text-white w-[131.888px] whitespace-nowrap" data-node-id="1532:2530">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2531">
+                    PRIMARY DARK PURPLE
+                  </p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2532">
+                    #250C66
+                  </p>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[265.33px] mt-[18.51px] relative row-1 text-[10.798px] text-white w-[138.059px] whitespace-nowrap" data-node-id="1532:2533">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2534">{` PRIMARY LIGHT PURPLE`}</p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2535">
+                    #712CFD
+                  </p>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[512.14px] mt-[18.51px] relative row-1 text-[#252525] text-[10.798px] w-[182.021px] whitespace-nowrap" data-node-id="1532:2536">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2537">
+                    PRIMARY ACCENT ZING YELLOW
+                  </p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2538">
+                    #E4FF19
+                  </p>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[758.94px] mt-[18.51px] relative row-1 text-[10.798px] text-white w-[60.931px] whitespace-nowrap" data-node-id="1532:2539">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2540">
+                    NEUTRAL 2
+                  </p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2541">
+                    #303030
+                  </p>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[1005.75px] mt-[18.51px] relative row-1 text-[10.798px] text-white w-[60.931px] whitespace-nowrap" data-node-id="1532:2542">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2543">
+                    NEUTRAL 3
+                  </p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2544">
+                    #252525
+                  </p>
+                </div>
+                <div className="[word-break:break-word] col-1 content-stretch flex flex-col gap-[6.17px] h-[27.766px] items-start leading-none ml-[1252.55px] mt-[18.51px] relative row-1 text-[10.798px] text-white w-[63.245px] whitespace-nowrap" data-node-id="1532:2545">
+                  <p className="font-['Gilroy:Bold'] not-italic relative shrink-0 tracking-[0.8638px]" data-node-id="1532:2546">
+                    BLACK
+                  </p>
+                  <p className="font-['Space_Grotesk:Regular'] font-normal relative shrink-0 tracking-[2.5915px]" data-node-id="1532:2547">
+                    #000000
+                  </p>
+                </div>
+              </div>
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1532:2548">
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[246.82px] mt-0 place-items-start relative row-1" data-node-id="1532:2549">
+                  <div className="col-1 flex h-[246.809px] items-center justify-center ml-0 mt-0 relative row-1 w-[740.426px]" data-node-id="1532:2550">
+                    <div className="-rotate-90 flex-none">
+                      <div className="bg-gradient-to-b from-[#712cfd] h-[740.426px] relative to-[#a2a2a2] w-[246.809px]" data-name="4.0" />
+                    </div>
+                  </div>
+                  <div className="col-1 flex h-[246.809px] items-center justify-center ml-[740.32px] mt-0 relative row-1 w-[493.618px]" data-node-id="1532:2551">
+                    <div className="flex-none rotate-90">
+                      <div className="bg-gradient-to-b from-[#111] h-[493.618px] relative to-[#252525] w-[246.809px]" data-name="4.0" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2552">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#712cfd] relative size-[246.809px]" />
+                  </div>
+                </div>
+              </div>
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1532:2553">
+                <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2554">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#ff088f] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[246.81px] mt-0 relative row-1 w-[740.426px]" data-node-id="1532:2555">
+                  <div className="-rotate-90 flex-none">
+                    <div className="bg-gradient-to-b from-[#ff088f] h-[740.426px] relative to-[#a2a2a2] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[987.24px] mt-0 relative row-1 w-[493.618px]" data-node-id="1532:2556">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-gradient-to-b from-[#111] h-[493.618px] relative to-[#252525] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+              </div>
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1532:2557">
+                <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2558">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#ff088f] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[246.81px] mt-0 relative row-1 w-[740.426px]" data-node-id="1532:2559">
+                  <div className="-rotate-90 flex-none">
+                    <div className="bg-gradient-to-b from-[#ff088f] h-[740.426px] relative to-[#712cfd] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[987.24px] mt-0 relative row-1 w-[493.618px]" data-node-id="1532:2560">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-gradient-to-b from-[#111] h-[493.618px] relative to-[#252525] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+              </div>
+              <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1532:2561">
+                <div className="col-1 flex items-center justify-center ml-0 mt-0 relative row-1 size-[246.809px]" data-node-id="1532:2562">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-[#16bfbf] relative size-[246.809px]" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[246.81px] mt-[0.01px] relative row-1 w-[740.426px]" data-node-id="1532:2563">
+                  <div className="-rotate-90 flex-none">
+                    <div className="bg-gradient-to-b from-[#16bfbf] h-[740.426px] relative to-[#712cfd] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+                <div className="col-1 flex h-[246.809px] items-center justify-center ml-[987.24px] mt-0 relative row-1 w-[493.618px]" data-node-id="1532:2564">
+                  <div className="flex-none rotate-90">
+                    <div className="bg-gradient-to-b from-[#111] h-[493.618px] relative to-[#252525] w-[246.809px]" data-name="4.0" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1545:1640">
+          <div className="col-1 content-stretch flex flex-col h-[1188.606px] items-start ml-0 mt-0 relative row-1 w-[1920px]" data-node-id="1545:1641" data-name="Colour System">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid mb-[-3.865px] place-items-start relative shrink-0" data-node-id="1545:1642">
+              <div className="col-1 flex h-[223.833px] items-center justify-center ml-0 mt-[0.49px] relative row-1 w-[320.067px]" data-node-id="1545:1643">
+                <div className="flex-none rotate-90">
+                  <div className="bg-[#ff088f] h-[320.067px] relative w-[223.833px]" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[224.082px] items-center justify-center ml-[319.35px] mt-0 relative row-1 w-[1181.743px]" data-node-id="1545:1644">
+                <div className="-rotate-90 flex-none">
+                  <div className="bg-gradient-to-b from-[#ff088f] h-[1181.743px] relative to-[#a2a2a2] w-[224.082px]" data-name="4.0" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[224.082px] items-center justify-center ml-[1501.1px] mt-[0.25px] relative row-1 w-[418.901px]" data-node-id="1545:1645">
+                <div className="flex-none rotate-90">
+                  <div className="bg-gradient-to-b from-[#111] h-[418.901px] relative to-[#252525] w-[224.082px]" data-name="4.0" />
+                </div>
+              </div>
+            </div>
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid mb-[-3.865px] place-items-start relative shrink-0" data-node-id="1545:1646">
+              <div className="col-1 flex h-[223.833px] items-center justify-center ml-0 mt-0 relative row-1 w-[185.265px]" data-node-id="1545:1647">
+                <div className="flex-none rotate-90">
+                  <div className="bg-[#ff088f] h-[185.265px] relative w-[223.833px]" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[223.833px] items-center justify-center ml-[185.27px] mt-0 relative row-1 w-[555.797px]" data-node-id="1545:1648">
+                <div className="-rotate-90 flex-none">
+                  <div className="bg-gradient-to-b from-[#ff088f] h-[555.797px] relative to-[#712cfd] w-[223.833px]" data-name="4.0" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[223.054px] items-center justify-center ml-[741.2px] mt-[0.29px] relative row-1 w-[1178.805px]" data-node-id="1545:1649">
+                <div className="flex-none rotate-90">
+                  <div className="bg-gradient-to-b from-[#111] h-[1178.805px] relative to-[#252525] w-[223.054px]" data-name="4.0" />
+                </div>
+              </div>
+            </div>
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="1545:1650">
+              <div className="col-1 flex h-[748.322px] items-center justify-center ml-0 mt-0 relative row-1 w-[320px]" data-node-id="1545:1651">
+                <div className="flex-none rotate-90">
+                  <div className="bg-[#16bfbf] h-[320px] relative w-[748.322px]" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[748.322px] items-center justify-center ml-[320px] mt-[0.03px] relative row-1 w-[959.999px]" data-node-id="1545:1652">
+                <div className="-rotate-90 flex-none">
+                  <div className="bg-gradient-to-b from-[#16bfbf] h-[959.999px] relative to-[#712cfd] w-[748.322px]" data-name="4.0" />
+                </div>
+              </div>
+              <div className="col-1 flex h-[748.322px] items-center justify-center ml-[1280px] mt-0 relative row-1 w-[639.999px]" data-node-id="1545:1653">
+                <div className="flex-none rotate-90">
+                  <div className="bg-gradient-to-b from-[#111] h-[639.999px] relative to-[#252525] w-[748.322px]" data-name="4.0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1532:2212">
+          <div className="col-1 h-[613.606px] ml-0 mt-0 overflow-clip relative row-1 w-[1344px]" data-node-id="1532:2213" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1344 613.61' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-99.96 -4.9094e-15 8.3779e-14 -81.132 494.9 613.61)'><stop stop-color='rgba(0,0,0,1)' offset='0.23079'/><stop stop-color='rgba(11,11,11,1)' offset='0.4231'/><stop stop-color='rgba(22,22,22,1)' offset='0.6154'/><stop stop-color='rgba(43,43,43,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="2.6">
+            <div className="absolute bg-white h-[77px] left-[-105px] top-[159px] w-[479px]" data-node-id="1532:2214" />
+            <div className="absolute bg-gradient-to-r from-[#0a0a0a] h-[77px] left-[-105px] to-[#0a0a0a] top-[244px] w-[815px]" data-node-id="1532:2215" />
+            <div className="absolute bg-gradient-to-r from-[#0a0a0a] h-[77px] left-[-105px] to-[#0a0a0a] top-[322px] w-[1102px]" data-node-id="1532:2216" />
+            <div className="absolute bg-gradient-to-r from-[#0a0a0a] h-[77px] left-[-105px] to-[#0a0a0a] top-[400px] w-[1154px]" data-node-id="1532:2217" />
+            <p className="[word-break:break-word] absolute font-['Space_Grotesk:Bold'] font-bold h-[232px] leading-[0] left-[-105px] text-[96px] text-white top-[162.61px] uppercase w-[1154px]" data-node-id="1532:2218">
+              <span className="leading-[0.83] text-black">OUTCOME:</span>
+              <span className="leading-[0.83]">{` 70 % fewer inconsistencies, accelerated delivery, lasting design clarity.`}</span>
+            </p>
+            <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%+0.5px)] top-[-168px] w-[1920px]" data-node-id="1532:2219" data-name="Header">
+              <div className="h-[96px] relative shrink-0 w-full" data-node-id="1532:2220" data-name="Header bar">
+                <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b border-solid h-[96px] left-0 top-0 w-[1920px]" data-node-id="1532:2221" data-name="Line" />
+                <div className="absolute content-stretch flex h-[20px] items-center justify-center left-[112px] top-[38px]" data-node-id="1532:2222" data-name="Text">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:2223" data-name="Logo">
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="1532:2224" data-name="Text">
+                      <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1532:2225" data-name="Tilte">
+                        <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[0] relative shrink-0 text-[18px] text-white tracking-[1.44px] whitespace-nowrap" data-node-id="1532:2226">
+                          <span className="leading-[1.4]">{`HTLxRANDOM ORDER `}</span>
+                          <span className="font-['Space_Grotesk:Regular'] font-normal leading-[1.4]">{`— Case Study #1 — AI WEB FRAMEWORKS & MODEL TRAINING`}</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute contents left-[calc(83.33%-22px)] top-[162.61px]" data-node-id="1532:2243">
+              <div className="absolute border-[2.293px] border-solid border-white content-stretch flex flex-col h-[55.554px] items-center justify-center left-[calc(83.33%-22px)] p-[9.171px] top-[162.61px] w-[209.977px]" data-node-id="1532:2238">
+                <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-none relative shrink-0 text-[18.342px] text-white w-[158px] whitespace-pre-wrap" data-node-id="1532:2239">{`↓ IMPACT  `}</p>
+              </div>
+              <div className="absolute border-[2.293px] border-solid border-white content-stretch flex flex-col h-[262.069px] items-center justify-center left-[calc(83.33%-22px)] p-[9.171px] top-[214.54px] w-[209.977px]" data-node-id="1532:2240">
+                <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[0] relative shrink-0 text-[0px] text-white w-[158px]" data-node-id="1532:2241">
+                  <p className="mb-0 text-[20.635px]">
+                    <span className="leading-none">40%</span>
+                    <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">{` faster prototyping`}</span>
+                  </p>
+                  <p className="mb-0 text-[20.635px]">
+                    <span className="leading-none">70%</span>
+                    <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">
+                      {` fewer inconsistencies`}
+                      <br aria-hidden />
+                    </span>
+                    <span className="leading-none">{`30% `}</span>
+                    <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">time reclaimed</span>
+                  </p>
+                  <p className="text-[20.635px]">
+                    <span className="leading-none">{`<48h `}</span>
+                    <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">component turnaround</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] h-[132px] items-start relative shrink-0 w-[1344px]" data-node-id="1532:1938" data-name="Copy / READING RHYTHM">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1532:1938;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1532:1938;1112:494">
+              READING RHYTHM
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1532:1938;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1532:1938;1112:496">
+              Actigraphy and circadian rhythm studies explore rest, activity and change over time. Sleep and heart-rate variability appear alongside drawings of circadian chaos, moving between numerical records and the patterns used to make sense of them.
+            </p>
+          </div>
+        </div>
+        <ShaderEffect className="h-[551px] mix-blend-luminosity relative shrink-0 w-[1344px]" data-node-id="1545:1895" shaders={[{ setup: setupCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364, render: renderCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364, params: { falloff: 0, offset: -100, transform: { x: 50, y: 50, radius: 100, angle: 0 }, smoothness: 0 }, manifest: manifestCodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364 }]}>
+          <div className="bg-[var(--#F4F4F4,#f4f4f4)] h-[551px] overflow-clip relative w-[1344px]" data-name="2.5">
+            <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%+0.35px)] top-[-205px] w-[1344.7px]" data-node-id="1545:1896" data-name="Header">
+              <div className="h-[67.235px] relative shrink-0 w-full" data-node-id="1545:1897" data-name="Header bar">
+                <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.7px] border-solid h-[67.235px] left-0 top-0 w-[1344.7px]" data-node-id="1545:1898" data-name="Line" />
+                <div className="absolute content-stretch flex h-[14.007px] items-center justify-center left-[78.44px] top-[26.61px]" data-node-id="1545:1899" data-name="Text">
+                  <div className="content-stretch flex items-center relative shrink-0" data-node-id="1545:1900" data-name="Logo">
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="1545:1901" data-name="Text">
+                      <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1545:1902" data-name="Tilte">
+                        <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[0] relative shrink-0 text-[12.607px] text-[color:var(--brand\/black,#2b2b2b)] tracking-[1.0085px] whitespace-nowrap" data-node-id="1545:1903">
+                          <span className="leading-[1.4]">{`HTLxRANDOM ORDER `}</span>
+                          <span className="font-['Space_Grotesk:Regular'] font-normal leading-[1.4]">{`— Case Study #1 — AI WEB FRAMEWORKS & MODEL TRAINING`}</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-black border-[5.603px] border-black border-solid content-stretch flex items-center justify-center left-[calc(25%+123.44px)] p-[7.004px] top-[63.94px] w-[168.088px]" data-node-id="1545:1904">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-white whitespace-pre" data-node-id="1545:1905">
+                {`Discovery `}
+                <br aria-hidden />
+                {`Workshop `}
+              </p>
+            </div>
+            <div className="absolute bg-[#9747ff] content-stretch flex items-center justify-center left-[calc(41.67%+89.94px)] p-[7.004px] top-[0.21px] w-[186.997px]" data-node-id="1545:1906">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[22.412px] text-white whitespace-nowrap" data-node-id="1545:1907">
+                Ideation Runs
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[121.163px] items-center justify-center left-[79.14px] p-[7.004px] top-[172.5px] w-[168.088px]" data-node-id="1545:1908">
+              <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-[0] not-italic relative shrink-0 text-[11.206px] text-black w-[161.784px]" data-node-id="1545:1909">
+                <ul className="list-disc mb-0">
+                  <li className="mb-0 ms-[16.808999999999997px]">
+                    <span className="leading-none">Visually striking</span>
+                  </li>
+                  <li className="mb-0 ms-[16.808999999999997px]">
+                    <span className="leading-none">Conversion oriented</span>
+                  </li>
+                  <li className="mb-0 ms-[16.808999999999997px]">
+                    <span className="leading-none">SEO-optimized</span>
+                  </li>
+                  <li className="mb-0 ms-[16.808999999999997px]">
+                    <span className="leading-none">Empower internal teams</span>
+                  </li>
+                  <li className="mb-0 ms-[16.808999999999997px]">
+                    <span className="leading-none">Streamlined navigation</span>
+                  </li>
+                  <li className="ms-[16.808999999999997px]">
+                    <span className="leading-none">E-commerce ready</span>
+                  </li>
+                </ul>
+                <p className="leading-none">​</p>
+              </div>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[151.279px] items-center justify-center left-[calc(25%+123.44px)] p-[11.206px] top-[168.29px] w-[168.088px]" data-node-id="1545:1910">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-[0] relative shrink-0 text-[0px] text-black w-[144.275px]" data-node-id="1545:1911">
+                <span className="font-['Space_Grotesk:Bold'] font-bold leading-none text-[9.805px]">{`Focus: `}</span>
+                <span className="leading-none text-[9.805px]">Align strategy, structure, and emotion. We identified three pillars driving user experience —</span>
+                <span className="font-['Space_Grotesk:Bold'] font-bold leading-none text-[9.805px]">{` Color, Typography, and Imagery`}</span>
+                <span className="leading-none text-[9.805px]">{` — each shaping perception and clarity. The audit revealed visual overload, weak hierarchy, and disjointed tone. Our goal: rebuild cohesion through restraint — color as function, type as voice, imagery as emotion`}</span>
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[151.979px] items-center justify-center left-[calc(41.67%+93.44px)] p-[7.004px] top-[168.29px] w-[145.676px]" data-node-id="1545:1912">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[11.206px] text-black w-[113.459px]" data-node-id="1545:1913">
+                Synthesizing all the information collected along through the process and developing a creative concept to be presented back to the client.
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[151.979px] items-center justify-center left-[calc(58.33%+30.52px)] p-[7.004px] top-[168.29px] w-[145.676px]" data-node-id="1545:1914">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[11.206px] text-black w-[131.669px]" data-node-id="1545:1915">
+                Our Figma framework was built on Tailwind and fully tokenised — purpose-built for HubSpot implementations, enabling token-based automation and direct JSON export to development.
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[104.354px] items-center justify-center left-[calc(8.33%+157.64px)] p-[7.004px] top-[180.9px] w-[167.387px]" data-node-id="1545:1916">
+              <ol className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] block font-['Space_Mono:Regular'] leading-[0] list-decimal not-italic relative shrink-0 text-[19.61px] text-black w-[140.773px]" data-node-id="1545:1917" start="1">
+                <li className="mb-0 ms-[29.415px]">
+                  <span className="leading-none">Simply</span>
+                </li>
+                <li className="mb-0 ms-[29.415px]">
+                  <span className="leading-none">Clarify</span>
+                </li>
+                <li className="mb-0 ms-[29.415px]">
+                  <span className="leading-none">Engage</span>
+                </li>
+                <li className="ms-[29.415px]">
+                  <span className="leading-none">Convert</span>
+                </li>
+              </ol>
+            </div>
+            <div className="absolute bg-black border-[5.603px] border-black border-solid content-stretch flex items-center justify-center left-[calc(41.67%+94.14px)] p-[7.004px] top-[63.94px] w-[133.069px]" data-node-id="1545:1918">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-white whitespace-pre" data-node-id="1545:1919">
+                {`Creative `}
+                <br aria-hidden />
+                Concept
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[calc(58.33%+36.13px)] p-[7.004px] top-[63.94px] w-[123.965px]" data-node-id="1545:1920">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-pre" data-node-id="1545:1921">
+                {`Atomic `}
+                <br aria-hidden />
+                DS Build
+              </p>
+            </div>
+            <div className="absolute border-[#9747ff] border-[2.801px] border-solid content-stretch flex h-[33.618px] items-center justify-center left-[calc(41.67%+95.54px)] p-[7.004px] top-[331.48px] w-[303.258px]" data-node-id="1545:1922">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[#9747ff] text-[11.206px] w-[183.496px]" data-node-id="1545:1923">
+                AI INTERGRATION *
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-[var(--blue-colbolt,#5100ff)] border-solid content-stretch flex h-[33.618px] items-center justify-center left-[78.44px] p-[7.004px] top-[100.36px] w-[168.088px]" data-node-id="1545:1924">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[#9747ff] text-[9.805px] w-[149.878px] whitespace-pre-wrap" data-node-id="1545:1925">
+                {`AI-assisted synthesis `}
+                <br aria-hidden />
+                of goals + content.
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-[var(--blue-colbolt,#5100ff)] border-solid content-stretch flex h-[33.618px] items-center justify-center left-[calc(8.33%+156.94px)] p-[7.004px] top-[100.36px] w-[168.088px]" data-node-id="1545:1926">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[#9747ff] text-[9.805px] w-[156.882px]" data-node-id="1545:1927">
+                AI identifies content gaps + UX inconsistencies.
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[calc(8.33%+156.94px)] p-[7.004px] top-[144.48px] w-[167.387px]" data-node-id="1545:1928">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1929">
+                VL—GUI—UX
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[79.14px] p-[7.004px] top-[147.28px] w-[168.088px]" data-node-id="1545:1930">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1931">
+                GOALS
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[calc(41.67%+93.44px)] p-[7.004px] top-[143.08px] w-[145.676px]" data-node-id="1545:1932">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1933">
+                The Beauty
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[calc(25%+123.44px)] p-[7.004px] top-[143.08px] w-[168.088px]" data-node-id="1545:1934">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1935">
+                Collaboration
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[calc(58.33%+30.52px)] p-[7.004px] top-[143.08px] w-[145.676px]" data-node-id="1545:1936">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1937">
+                Token FW
+              </p>
+            </div>
+            <div className="absolute border-[#9747ff] border-[2.801px] border-solid content-stretch flex items-center justify-center left-[calc(41.67%+94.84px)] p-[7.004px] top-[381.91px] w-[303.958px]" data-node-id="1545:1938">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-[0] not-italic relative shrink-0 text-[#9747ff] text-[9.805px] w-[294.854px]" data-node-id="1545:1939">
+                <span className="font-['Space_Mono:Bold'] leading-none">— Training Phase</span>
+                <span className="leading-none">
+                  <br aria-hidden />
+                  The model was trained to read wireframes like a designer: identifying H1s, H2s, paragraphs, and image blocks.From this, it generated contextual copy and visual prompts for each section — transforming empty wireframes into believable prototypes.This allowed creative concepts to be presented with realistic content, not placeholders.
+                </span>
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[47.625px] items-center justify-center left-[calc(66.67%+45.99px)] p-[7.004px] top-[63.94px] w-[91.748px]" data-node-id="1545:1940">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1941">
+                Dev
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[47.625px] items-center justify-center left-[calc(75%+22.94px)] p-[7.004px] top-[63.94px] w-[81.943px]" data-node-id="1545:1942">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1943">
+                Q/A
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[47.625px] items-center justify-center left-[calc(83.33%+8.99px)] p-[7.004px] top-[63.94px] w-[95.25px]" data-node-id="1545:1944">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1945">
+                GoLive
+              </p>
+            </div>
+            <div className="absolute bg-black border-[5.603px] border-black border-solid content-stretch flex items-center justify-center left-[calc(8.33%+156.94px)] p-[7.004px] top-[63.94px] w-[167.387px]" data-node-id="1545:1946">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-white whitespace-nowrap" data-node-id="1545:1947">
+                Design Audit
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex items-center justify-center left-[78.44px] p-[7.004px] top-[63.94px] w-[168.088px]" data-node-id="1545:1948">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[19.61px] text-black whitespace-nowrap" data-node-id="1545:1949">{` PM BRIEF(S)`}</p>
+            </div>
+            <div className="absolute bg-[#9747ff] content-stretch flex items-center justify-center left-[calc(33.33%+42.96px)] p-[7.004px] top-[0.21px] w-[146.376px]" data-node-id="1545:1950">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[22.412px] text-white whitespace-nowrap" data-node-id="1545:1951">
+                Adaptation
+              </p>
+            </div>
+            <div className="absolute bg-[#9747ff] content-stretch flex items-center justify-center left-[76.34px] p-[7.004px] top-[0.21px] w-[400.609px]" data-node-id="1545:1952">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[22.412px] text-white whitespace-nowrap" data-node-id="1545:1953">
+                Iterative Sprints including
+              </p>
+            </div>
+            <div className="absolute bg-[#9747ff] content-stretch flex items-center justify-center left-[calc(58.33%+61.34px)] p-[7.004px] top-[0.21px] w-[159.683px]" data-node-id="1545:1954">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-none not-italic relative shrink-0 text-[22.412px] text-white whitespace-nowrap" data-node-id="1545:1955">
+                Sleep [REM]
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex flex-col h-[34.318px] items-center justify-center left-[calc(75%-24.69px)] p-[11.206px] top-[133.98px] w-[282.247px]" data-node-id="1545:1956">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-none relative shrink-0 text-[22.412px] text-black w-full whitespace-pre-wrap" data-node-id="1545:1957">{`↓ IMPACT  `}</p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex flex-col h-[199.604px] items-center justify-center left-[calc(75%-24.69px)] p-[11.206px] top-[165.49px] w-[282.247px]" data-node-id="1545:1958">
+              <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[0] relative shrink-0 text-[0px] text-black w-full" data-node-id="1545:1959">
+                <p className="mb-0 text-[25.213px]">
+                  <span className="leading-none">40%</span>
+                  <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">{` faster prototyping`}</span>
+                </p>
+                <p className="mb-0 text-[25.213px]">
+                  <span className="leading-none">70%</span>
+                  <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">
+                    {` fewer inconsistencies`}
+                    <br aria-hidden />
+                  </span>
+                  <span className="leading-none">{`30% `}</span>
+                  <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">time reclaimed</span>
+                </p>
+                <p className="text-[25.213px]">
+                  <span className="leading-none">{`<48h `}</span>
+                  <span className="[word-break:break-word] font-['Space_Grotesk:Regular'] font-normal leading-none">component turnaround</span>
+                </p>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(41.67%+70.33px)] top-[80.75px] w-[23.112px]" data-node-id="1545:1960">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-0 relative w-[23.112px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine351} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(41.67%+66.13px)] top-[210.32px] w-[23.112px]" data-node-id="1545:1961">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-0 relative w-[23.112px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine351} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(58.33%+2.51px)] top-[80.75px] w-[32.217px]" data-node-id="1545:1962">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-0 relative w-[32.217px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine352} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(50%+9.45px)] top-[111.56px] w-0" data-node-id="1545:1963">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(66.67%-39.46px)] top-[111.56px] w-0" data-node-id="1545:1964">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(33.33%+72.37px)] top-[111.56px] w-0" data-node-id="1545:1965">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-0 left-[calc(8.33%+138.73px)] top-[330.08px] w-[20.311px]" data-node-id="1545:1966">
+              <div className="absolute inset-[-4.04px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine372} />
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(50%+50.08px)] top-[111.56px] w-0" data-node-id="1545:1967">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(66.67%+1.17px)] top-[111.56px] w-0" data-node-id="1545:1968">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[28.015px] items-center justify-center left-[calc(41.67%+0.99px)] top-[111.56px] w-0" data-node-id="1545:1969">
+              <div className="-rotate-90 flex-none">
+                <div className="h-0 relative w-[28.015px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine358} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-0 left-[calc(8.33%+138.73px)] top-[372.1px] w-[20.311px]" data-node-id="1545:1970">
+              <div className="absolute inset-[-4.04px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine372} />
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(50%-672px)] top-0 w-0" data-node-id="1545:1971">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(66.67%-896px)] top-0 w-0" data-node-id="1545:1972">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(33.33%-448px)] top-0 w-0" data-node-id="1545:1973">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(8.33%-112px)] top-0 w-[20.311px]" data-node-id="1545:1974">
+              <div className="flex-none rotate-180">
+                <div className="h-0 relative w-[20.311px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine374} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(50%-672px)] top-0 w-0" data-node-id="1545:1975">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(66.67%-896px)] top-0 w-0" data-node-id="1545:1976">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[27.314px] items-center justify-center left-[calc(41.67%-560px)] top-0 w-0" data-node-id="1545:1977">
+              <div className="flex-none rotate-90">
+                <div className="h-0 relative w-[27.314px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine359} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(8.33%-112px)] top-0 w-[20.311px]" data-node-id="1545:1978">
+              <div className="flex-none rotate-180">
+                <div className="h-0 relative w-[20.311px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine374} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(8.33%-112px)] top-0 w-[20.311px]" data-node-id="1545:1979">
+              <div className="flex-none rotate-180">
+                <div className="h-0 relative w-[20.311px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine356} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(25%-336px)] top-0 w-[20.311px]" data-node-id="1545:1980">
+              <div className="flex-none rotate-180">
+                <div className="h-0 relative w-[20.311px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine356} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-0 items-center justify-center left-[calc(25%-336px)] top-0 w-[20.311px]" data-node-id="1545:1981">
+              <div className="flex-none rotate-180">
+                <div className="h-0 relative w-[20.311px]">
+                  <div className="absolute inset-[-4.04px_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgLine356} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="[word-break:break-word] absolute border-[2.801px] border-black border-solid content-stretch flex flex-col gap-[7.004px] h-[156.882px] items-center justify-center leading-[0] left-[calc(8.33%+157.64px)] not-italic p-[7.004px] text-[0px] text-black top-[282.45px] w-[167.387px]" data-node-id="1545:1982">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] font-['Sacramento:Regular'] h-[47.625px] relative shrink-0 w-[147.077px] whitespace-pre-wrap" data-node-id="1545:1983">
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid font-['Space_Grotesk:Bold'] font-bold leading-none text-[11.206px] underline">{`Understanding `}</span>
+                <span className="font-['Space_Grotesk:Bold'] font-bold leading-none text-[11.206px]">{`the problem `}</span>
+                <span className="font-['Space_Grotesk:Regular'] font-normal leading-none text-[11.206px]">{`and reaching towards a clearly  defined set of key goals.`}</span>
+              </p>
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] font-['Space_Mono:Regular'] relative shrink-0 w-[147.077px]" data-node-id="1545:1984">
+                <span className="font-['Space_Mono:Bold'] leading-[1.4] text-[5.603px]">Application</span>
+                <span className="leading-[1.4] text-[5.603px]">{` Digital Products — Web, Social. `}</span>
+                <span className="font-['Space_Mono:Bold'] leading-[1.4] text-[5.603px]">Visual Language</span>
+                <span className="leading-[1.4] text-[5.603px]">{` Logo, Word-mark, Monogram, Typography, Symbols, Icons, Colour Palette, Photography, Voice and Tone. `}</span>
+                <span className="font-['Space_Mono:Bold'] leading-[1.4] text-[5.603px]">{`Foundations — `}</span>
+                <span className="leading-[1.4] text-[5.603px]">{`Line, Shape, Form, Value, Tone, Texture, Pattern, Colour, Scale, Space, Composition. `}</span>
+                <span className="font-['Space_Mono:Bold'] leading-[1.4] text-[5.603px]">{`Principles — `}</span>
+                <span className="leading-[1.4] text-[5.603px]">{`Similarity, Proximity, Closure, Figure/Ground, Continuity, Symmetry, Order (Prägnanz), Common Fate. `}</span>
+                <span className="font-['Space_Mono:Bold'] leading-[1.4] text-[5.603px]">{`Core Pattern `}</span>
+                <span className="leading-[1.4] text-[5.603px]">The premise of everything.</span>
+              </p>
+            </div>
+            <div className="absolute border-[#9747ff] border-[2.801px] border-solid content-stretch flex h-[196.803px] items-center justify-center left-[79.14px] p-[7.004px] top-[304.17px] w-[168.088px]" data-node-id="1545:1985">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] h-[177.192px] leading-[0] not-italic relative shrink-0 text-[#9747ff] text-[0px] w-[149.878px] whitespace-pre-wrap" data-node-id="1545:1986">
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid font-['Space_Mono:Bold'] leading-none text-[11.206px] underline">
+                  AI Integration from Day One
+                  <br aria-hidden />
+                </span>
+                <span className="leading-[1.4] text-[5.603px]">
+                  <br aria-hidden />
+                </span>
+                <span className="leading-[1.4] text-[8.404px]">From the outset, AI was embedded in the process — not added later. GPT distilled complex project data into clear, actionable insights, streamlining every phase from audit to delivery. The model read wireframes, generated contextual copy and imagery, and our tokenised system exported JSON directly to development — closing the loop between design and code.</span>
+              </p>
+            </div>
+            <div className="absolute border-[2.801px] border-black border-solid content-stretch flex h-[148.477px] items-center justify-center left-[calc(25%+123.44px)] p-[7.004px] top-[332.88px] w-[168.088px]" data-node-id="1545:1987">
+              <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Mono:Regular'] leading-[0] not-italic relative shrink-0 text-[0px] text-black w-[149.878px] whitespace-pre-wrap" data-node-id="1545:1988">
+                <p className="font-['Space_Grotesk:Regular'] font-normal leading-none mb-0 text-[8.404px]">
+                  Post Audit: The problem—
+                  <br aria-hidden />
+                  <br aria-hidden />
+                </p>
+                <p className="font-['Space_Grotesk:Bold'] font-bold leading-none text-[20.311px]">“Fragmented, content-heavy UX lacking clarity and resonance.”</p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Sacramento:Regular'] leading-[0] left-[78.44px] not-italic text-[33.618px] text-black top-[-87.34px] tracking-[1.6809px] uppercase w-[1446.953px]" data-node-id="1545:1989">
+              <span className="font-['Space_Grotesk:Bold'] font-bold leading-[0.79]">{`The Framework Effect — `}</span>
+              <span className="font-['Space_Grotesk:Bold'] font-bold leading-[0.79] text-[#9747ff]">{`Human + `}</span>
+              <span className="font-['Space_Grotesk:Light'] font-light leading-[0.79] text-[#9747ff]">{`AI Collaboration `}</span>
+            </p>
+            <div className="absolute h-0 left-[calc(25%+123.44px)] top-[362.3px] w-[165.986px]" data-node-id="1545:1990">
+              <div className="absolute inset-[-0.7px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgVector1} />
+              </div>
+            </div>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Space_Grotesk:Light'] font-light leading-[1.2] left-[79.84px] text-[12.607px] text-black top-[-41.11px] w-[984.013px]" data-node-id="1545:1991">
+              This stage shows the modular design system introducing AI across the workflow increased efficiency and creative clarity.
+            </p>
+          </div>
+        </ShaderEffect>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1532:2111" data-name="Copy / FROM DATA TO DESIGN">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1532:2111;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1532:2111;1112:494">
+              FROM DATA TO DESIGN
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1532:2111;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1532:2111;1112:496">
+              Sleep, movement and journal entries became material for design. Timelines, dashboards and early sketches bring those records into view, asking how an interface might help someone recognise patterns in their own experience.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] h-[330px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]" data-node-id="1532:2112" data-name="Brand Story">
+          <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1532:2113" data-name="Divider">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+          </div>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[500px]" data-node-id="1532:2114">
+            SSUPERLATIVE / 2025
+          </p>
+          <a className="[word-break:break-word] block font-['Bebas_Neue:Regular'] leading-[0] min-w-full not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] w-[min-content]" href="https://www.figma.com/proto/p70OWKTTS9XAdOhK1l2Q3B/HTL-x-COLLECTION?node-id=4365-2334&viewport=1024%2C542%2C0.05&t=xGTSgpCc9gnMwrPs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4365%3A2334&page-id=4365%3A2283" data-node-id="1532:2115" target="_blank">
+            <p className="cursor-pointer leading-[1.05]">THE HUMAN SYSTEM — A RECORD OF RECOVERY</p>
+          </a>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1532:2116" data-name="Copy / RECOVERY AS A RECORD">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1532:2116;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1532:2116;1112:494">
+              RECOVERY AS A RECORD
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1532:2116;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1532:2116;1112:496">
+              The 2025 chapter follows a period of recovery through voice journals, running, sleep and daily observation. Personal records become a visual account of change, connecting the measured rhythms of the body with the experience of living through them.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1532:2117" data-name="Copy / AN EVOLVING PRACTICE">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1532:2117;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1532:2117;1112:494">
+              AN EVOLVING PRACTICE
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1532:2117;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1532:2117;1112:496">
+              Drawings, patterns, data studies and product experiments belong to the same ongoing practice. SSUPERLATIVE uses design to give form to a personal archive, leaving room for uncertainty, reflection and the next iteration.
+            </p>
+          </div>
+        </div>
+        <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1532:2118" data-name="Divider">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+        </div>
+        <RoWorkDetailProjectNavigationDesktop className="[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap" nextLabel="RELATED PROJECT" nextTitle="SUPERBALIST" previousLabel="BACK TO" previousTitle="WORK" />
+        <div className="absolute left-[1199px] size-px top-[3679px]" data-node-id="1532:2120">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex h-[96px] items-center justify-between left-[3px] mix-blend-difference px-[var(--gap\/large,48px)] top-px w-[1920px]" data-node-id="1532:2122" data-name="RO / Navigation / Desktop / Difference">
+        <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[25px] leading-[33.28px] not-italic relative shrink-0 text-[20.8px] text-[color:var(--#FFFFFF,white)] tracking-[0.624px] uppercase w-[105.813px]" data-node-id="I1532:2122;973:95">
+          Random Order
+        </p>
+        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="I1532:2122;973:96" data-name="Navigation links">
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1532:2122;973:97" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1532:2122;973:97;973:91">
+              <p className="leading-none">Work</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1532:2122;973:98" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1532:2122;973:98;973:91">
+              <p className="leading-none">Edit</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1532:2122;973:99" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1532:2122;973:99;973:91">
+              <p className="leading-none">About</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1532:2122;973:100" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1532:2122;973:100;973:91">
+              <p className="leading-none">Contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Eyebrow: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 8), Body/Large: Font(family: "Hanken Grotesk", style: Regular, size: font-size/lg, weight: 400, lineHeight: 1.5, letterSpacing: 0), Radial Gradient [BG] Mono: , Radial Gradient BG: , Display/Desktop/H2: Font(family: "Bebas Neue", style: Regular, size: 68, weight: 400, lineHeight: 1.0499999523162842, letterSpacing: 1), Label/Meta: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 6), RO V2/Display/Title Mobile: Font(family: "Bebas Neue", style: Regular, size: 32, weight: 400, lineHeight: 36, letterSpacing: 0), Nav/Link: Font(family: "Hanken Grotesk", style: Regular, size: font-size/body, weight: 400, lineHeight: 1, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## RO / Work Detail / Copy Block / Desktop
+**Node ID:** 1112:497
+
+Label and narrative copy in the existing 330 / 60 / 954 desktop composition. Editable text properties; instance height preserves the project-specific editorial rhythm. Labels and body use existing shared styles. Content remains source-authored.
+
+## RO / Work Detail / Project Navigation / Desktop
+**Node ID:** 1112:503
+
+Editable previous/next project navigation, replacing duplicated outlined labels. Keep project order sourced from the approved Work sequence. Each half uses the shared metadata style and Bebas display family.
+
+## RO / Navigation / Desktop / Difference
+**Node ID:** 973:94
+
+V2-local navigation master cloned from the established RO white + DIFFERENCE navigation; includes responsive editorial link structure.
+
+## RO / Navigation Link / Desktop
+**Node ID:** 973:89
+
+White navigation label. Default and underline hover; 44px target. Parent navigation applies Difference blending. Provide equivalent keyboard focus in production.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+IMPORTANT: This design contains authored shader fills and/or effects. Implementing these shaders is part of the requested task, including static, subtle, and decorative shaders. Do NOT omit them, approximate them with CSS or other techniques, or ask whether the user wants them implemented later.
+
+The <ShaderEffect> and <ShaderFill> components require the Figma shader runtime library. Before implementing the shader-backed elements:
+1. Read the shader-runtime-index MCP resource at file://shader-runtime-index.json/.
+2. For EVERY filename returned, read file:///shader-runtime/{filename} using the shader-runtime-file MCP resource template. Preserve the THREE slashes after file:. Example: file:///shader-runtime/components/ShaderFill.tsx. shader-runtime-file is a template name, NOT a URI path.
+3. Copy the runtime and each of the following design-specific shader source files VERBATIM, preserving their paths and resolving all imports.
+4. Keep <ShaderFill> and <ShaderEffect> connected to the rendered component, preserving shader parameters, opacity, and effect order.
+
+If a resource read fails, rediscover its exact URI with resources/list or resources/templates/list and retry. Do NOT infer that resource reads are unsupported from a failed request to a guessed URI. If a required file remains unavailable, report the exact blocked resource without substituting an approximation.
+
+HTML-in-Canvas is a browser API that lets a canvas capture rendered DOM elements as input to graphics rendering. The supplied <ShaderEffect> runtime uses it to apply WebGPU shaders to HTML content. <ShaderFill> renders a shader-generated fill using WebGPU and does NOT require HTML-in-Canvas. The supplied runtime already implements the integration: copy it verbatim and use the provided components; you do not need to recreate it. API specification: https://github.com/WICG/html-in-canvas. If the target browser lacks a required API, preserve the shader implementation and explain the compatibility limitation. Do NOT replace it with CSS or omit it.
+
+Before declaring completion, verify that the provided runtime and shader modules exist, are imported, and are used by the rendered component.
+
+// lib/custom-effects/CodeComponentId_bcf847d8dac91b67a18bfebb5c1c1edac01b9709_8364.ts
+// @ts-nocheck
+
+// Property metadata is only used in Figma Design, so this is a no-op.
+function defineProperties(
+  _component: unknown,
+  _properties: unknown,
+): void {}
+
+export default function Effect() { }
+export function setup(device, frame) {
+    var wgsl = `
+diagnostic(off,derivative_uniformity);
+struct Uniforms {
+  inputDimsData: vec4f,
+  transform: vec4f,
+  pars: vec4f,
+};
+@group(0) @binding(0) var<uniform> u: Uniforms;
+@group(0) @binding(1) var samp: sampler;
+@group(0) @binding(2) var inputTex: texture_2d<f32>;
+
+struct VsIn {
+  @location(0) pos: vec2f,
+  @location(1) uv: vec2f,
+};
+struct VsOut {
+  @builtin(position) position: vec4f,
+  @location(0) uv: vec2f,
+};
+
+fn sampleInput(p: vec2f) -> vec4f {
+  return textureSampleLevel(inputTex, samp, p, 0.0);
+}
+
+fn sampleInputOrZero(p: vec2f) -> vec4f {
+  if (any(p < vec2f(0.0)) || any(p > vec2f(1.0))) {
+    return vec4f(0.0);
+  }
+  return sampleInput(p);
+}
+
+fn rot(angle: f32) -> mat2x2<f32> {
+  let c = cos(angle);
+  let s = sin(angle);
+  return mat2x2<f32>(c, s, -s, c);
+}
+
+fn smin(a: f32, b: f32, k: f32) -> f32 {
+  let h = clamp(0.5 + 0.5 * (b - a) / k, 0.0, 1.0);
+  return mix(b, a, h) - k * h * (1.0 - h);
+}
+
+fn linearstep(a: f32, b: f32, t: f32) -> f32 {
+  return clamp((t - a) / (b - a), 0.0, 1.0);
+}
+
+fn stretch(localPos: vec2f, centerUv: vec2f, dist: f32, rot_rad: f32, offset: f32, smoothK: f32) -> vec3f {
+  let halfDist = max(abs(dist), 0.001) * 0.5;
+  let rotation = rot(rot_rad);
+  var p = localPos - centerUv;
+  p = rotation * p;
+  p.x += offset * halfDist;
+  var v = linearstep(-halfDist, halfDist, p.x);
+  p.x = smin(halfDist - abs(p.x), 0.0, halfDist * smoothK + 0.001) * -sign(p.x);
+  p = transpose(rotation) * p;
+  p += centerUv;
+  return vec3f(p.x, p.y, v);
+}
+
+@vertex fn vs_main(in: VsIn) -> VsOut {
+  var out: VsOut;
+  out.position = vec4f(in.pos, 0.0, 1.0);
+  out.uv = in.uv;
+  return out;
+}
+
+@fragment fn fs_main(@location(0) outputUv_in: vec2f) -> @location(0) vec4f {
+  let outputUv = outputUv_in;
+  let inputDims = max(u.inputDimsData.xy, vec2f(1.0));
+  let centerPos = u.transform.xy;
+  let distance = u.transform.z;
+  let rotation = -u.transform.w;
+  let offset = u.pars.x;
+  let smoothness = u.pars.y;
+  let falloff = u.pars.z;
+  let localP = outputUv * inputDims;
+  let localCenter = centerPos * 0.01 * inputDims;
+  let s = stretch(localP, localCenter, distance, rotation, offset, smoothness);
+  let p = s.xy;
+  var color = sampleInputOrZero(p / inputDims);
+  if (falloff != 0.0) {
+    let start = 1.0 - abs(falloff);
+    let end = 1.0;
+    let t = select(1.0-s.z, s.z, falloff > 0.0);
+    let alpha = 1.0 - smoothstep(start, end, t);
+    color *= alpha;
+  }
+  return color;
+}
+`;
+    frame.state.module = device.createShaderModule({ code: wgsl });
+    frame.state.pipeline = null;
+    frame.state.pipelineFormat = null;
+    frame.state.quad = device.createBuffer({
+        size: 6 * 4 * 4,
+        usage: GPUBufferUsage.VERTEX,
+        mappedAtCreation: true,
+    });
+    new Float32Array(frame.state.quad.getMappedRange()).set([
+        -1, -1, 0, 1, 1, -1, 1, 1, -1, 1, 0, 0,
+        -1, 1, 0, 0, 1, -1, 1, 1, 1, 1, 1, 0,
+    ]);
+    frame.state.quad.unmap();
+    frame.state.uniformBuf = device.createBuffer({
+        size: 48,
+        usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST,
+    });
+    frame.state.sampler = device.createSampler({
+        magFilter: "linear",
+        minFilter: "linear",
+        addressModeU: "clamp-to-edge",
+        addressModeV: "clamp-to-edge",
+    });
+    frame.state.placeholder = device.createTexture({
+        size: [1, 1, 1],
+        format: "rgba8unorm",
+        usage: GPUTextureUsage.TEXTURE_BINDING | GPUTextureUsage.COPY_DST,
+    });
+    device.queue.writeTexture({ texture: frame.state.placeholder }, new Uint8Array([0, 0, 0, 0]), { bytesPerRow: 4 }, { width: 1, height: 1, depthOrArrayLayers: 1 });
+}
+export function render(device, frame) {
+    var params = frame.params || {};
+    function finiteNumber(value, fallback) {
+        var num = Number(value);
+        return Number.isFinite(num) ? num : fallback;
+    }
+    function numberParam(name, fallback) {
+        return finiteNumber(params[name], fallback);
+    }
+    function pointAngleRadiusParam(name, fallback) {
+        var p = params[name];
+        if (p && typeof p === "object") {
+            return [
+                finiteNumber(p.x, fallback[0]),
+                finiteNumber(p.y, fallback[1]),
+                finiteNumber(p.radius, fallback[2]),
+                finiteNumber(p.angle, fallback[3]),
+            ];
+        }
+        return fallback;
+    }
+    var output = frame.output || {};
+    var width = Math.max(1, finiteNumber(output.physicalWidth ?? output.width, 1) / frame.renderScale);
+    var height = Math.max(1, finiteNumber(output.physicalHeight ?? output.height, 1) / frame.renderScale);
+    var inputWidth = width;
+    var inputHeight = height;
+    var t = pointAngleRadiusParam("transform", [50, 50, 100, 0]);
+    device.queue.writeBuffer(frame.state.uniformBuf, 0, new Float32Array([
+        inputWidth, inputHeight, 0, 0,
+        t[0], t[1], t[2], (t[3] * 3.14159265358979) / 180.0,
+        numberParam("offset", -100) * 0.01,
+        numberParam("smoothness", 0) * 0.01,
+        numberParam("falloff", 0.0) * 0.01,
+        0,
+    ]));
+    var inputView = frame.input != null
+        ? frame.input.createView()
+        : frame.state.placeholder.createView();
+    var outputFormat = frame.output.format;
+    if (frame.state.pipeline == null || frame.state.pipelineFormat !== outputFormat) {
+        frame.state.pipeline = device.createRenderPipeline({
+            layout: "auto",
+            vertex: {
+                module: frame.state.module,
+                entryPoint: "vs_main",
+                buffers: [{
+                        arrayStride: 16,
+                        attributes: [
+                            { shaderLocation: 0, format: "float32x2", offset: 0 },
+                            { shaderLocation: 1, format: "float32x2", offset: 8 },
+                        ],
+                    }],
+            },
+            fragment: {
+                module: frame.state.module,
+                entryPoint: "fs_main",
+                targets: [{ format: outputFormat }],
+            },
+            primitive: { topology: "triangle-list" },
+        });
+        frame.state.pipelineFormat = outputFormat;
+    }
+    var bindGroup = device.createBindGroup({
+        layout: frame.state.pipeline.getBindGroupLayout(0),
+        entries: [
+            { binding: 0, resource: { buffer: frame.state.uniformBuf } },
+            { binding: 1, resource: frame.state.sampler },
+            { binding: 2, resource: inputView },
+        ],
+    });
+    var encoder = device.createCommandEncoder();
+    var pass = encoder.beginRenderPass({
+        colorAttachments: [{
+                view: frame.output.createView(),
+                loadOp: "clear",
+                clearValue: { r: 0, g: 0, b: 0, a: 0 },
+                storeOp: "store",
+            }],
+    });
+    pass.setPipeline(frame.state.pipeline);
+    pass.setBindGroup(0, bindGroup);
+    pass.setVertexBuffer(0, frame.state.quad);
+    pass.draw(6);
+    pass.end();
+    device.queue.submit([encoder.finish()]);
+}
+defineProperties(Effect, {
+    offset: {
+        type: "number",
+        label: "Offset",
+        defaultValue: -100,
+        control: "slider",
+        min: -100,
+        max: 100,
+        step: 1,
+        unit: "%",
+    },
+    smoothness: {
+        type: "number",
+        label: "Smoothness",
+        defaultValue: 0,
+        control: "slider",
+        min: 0,
+        max: 100,
+        step: 1,
+        unit: "%",
+    },
+    falloff: {
+        type: "number",
+        label: "Falloff",
+        defaultValue: 0,
+        control: "slider",
+        min: -100,
+        max: 100,
+        step: 1,
+        unit: "%",
+    },
+    transform: {
+        type: "point-angle-radius",
+        label: "Transform",
+        defaultValue: { x: 50, y: 50, radius: 100, angle: 0 },
+        positionUnit: "%",
+    },
+});
+
+export const manifest = {
+  "name": "Pixel stretch",
+  "version": 3,
+  "isAnimated": false,
+  "usesMouse": false,
+  "renderScaleAware": true
+}
+

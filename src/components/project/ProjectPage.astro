@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import type {ProjectRecord} from '../../data/projects';
 import ProjectHeader from './ProjectHeader.astro';
 import EditorialBlocks from './EditorialBlocks.astro';
+import FigmaEditorial from './FigmaEditorial.astro';
 import ProjectNavigation from './ProjectNavigation.astro';
 import '../../styles/projects.css';
 interface Props { project: ProjectRecord }
@@ -11,7 +12,7 @@ const {project} = Astro.props;
 <Base title={`${project.title} — Random Order`} description={project.intro ?? `${project.title}: selected work by Random Order.`} noindex={project.status !== 'published'}>
   <article class:list={['project-page', `project-presentation-${project.presentation}`, project.mode && `project-mode-${project.mode}`]} style={`--editorial-top:${project.editorialTop ?? 0}px;${project.headerHeight ? `--project-header-height:${project.headerHeight}px;` : ''}${project.headerTop !== undefined ? `--project-header-top:${project.headerTop}px;` : ''}`} data-project={project.id}>
     <ProjectHeader project={project} />
-    <EditorialBlocks blocks={project.blocks} />
+    {project.sourceComposition ? <FigmaEditorial frame={project.sourceComposition} /> : <EditorialBlocks blocks={project.blocks} />}
     <ProjectNavigation project={project} />
   </article>
 </Base>

@@ -31,3 +31,27 @@
 .project-palette li{aspect-ratio:1;background:var(--swatch-color)}
 @media(max-width:1100px){.project-header{min-height:var(--project-header-height,800px)}.project-header-large-title h1{font-size:108px}}
 @media(max-width:767px){.project-header{min-height:0}.project-header-large-title h1{font-size:clamp(56px,14vw,80px);line-height:1}.project-editorial>.project-section{margin-block-start:calc(min(var(--space-before,56px),56px) - 56px)}.project-gallery-authored{grid-template-columns:1fr;gap:24px}.project-gallery-authored .project-gallery-item{grid-column:1/-1}}
+
+/* A compact typographic index, aligned to the same grid as the case studies. */
+.work-list { padding-top: clamp(150px, 14vw, 250px); padding-bottom: clamp(100px, 12vw, 200px); }
+.index-intro { max-width: 885px; margin-block: var(--space-md); font-size: clamp(18px, 1.6vw, 22px); line-height: 1.46; }
+.index-cover { display: block; margin-bottom: var(--space-xl); }
+.index-cover .project-media-surface { aspect-ratio: 1344 / 650; }
+.index-cover img { object-position: center; }
+.work-list h2 { margin-block: var(--space-lg) var(--space-md); }
+.work-list-reference, .work-list-rows a { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.work-list-rows { padding: 0; margin: 0; list-style: none; border-top: 1px solid var(--color-ink); }
+.work-list-rows li { border-bottom: 1px solid var(--color-border); }
+.work-list-reference, .work-list-rows a { align-items: baseline; padding: 23px 0; color: inherit; text-decoration: none; }
+.work-list-rows a:hover .work-list-title { opacity: .55; }
+.work-list-rows a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.work-list-title { font-family: var(--font-display); font-size: clamp(28px, 3vw, 48px); line-height: 1; text-transform: uppercase; }
+.work-list-discipline { font-size: 13px; line-height: 1.5; text-transform: uppercase; }
+@media (max-width: 600px) {
+ .index-cover { margin-bottom: var(--space-lg); }
+ .work-list-reference, .work-list-rows a { grid-template-columns: 1fr; gap: 8px; }
+}
+
+@media (min-width: 1101px) {
+  [data-project="publicis-machine"] .project-intro { max-width: var(--container-max); min-height: 0; font-size: 24px; line-height: 1.45; }
+}

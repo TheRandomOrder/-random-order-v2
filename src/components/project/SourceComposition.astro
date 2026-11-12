@@ -1,0 +1,7 @@
+---
+interface Props { width:number; height:number; spaceBefore:number; sourceNode:string; wide?:boolean; align?:string }
+const {width,height,spaceBefore,sourceNode,wide=false,align='center'}=Astro.props;
+---
+<section class:list={['source-composition',{'source-composition-wide':wide,'source-composition-left':align==='left'}]} style={`--source-width:${width}px;--source-height:${height}px;--source-space:${spaceBefore}px`} data-source-section={sourceNode}>
+  <div class="source-composition-canvas"><slot /></div>
+</section>

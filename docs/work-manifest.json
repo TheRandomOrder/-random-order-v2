@@ -1,0 +1,238 @@
+[
+  {
+    "slug": "golds-gym",
+    "title": "Gold’s Gym",
+    "disciplines": [
+      "Art Direction",
+      "Image Exploration"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "1262:12370",
+      "7738:678"
+    ],
+    "assets": [
+      "golds-m09-opening",
+      "golds-m09-opening",
+      "golds-m09-press"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/golds-gym/"
+  },
+  {
+    "slug": "the-shed",
+    "title": "The Shed",
+    "disciplines": [
+      "Identity"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "7738:684"
+    ],
+    "assets": [
+      "shed-photo",
+      "shed-logo",
+      "shed-photo"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/the-shed/"
+  },
+  {
+    "slug": "orchard-on-long",
+    "title": "Orchard on Long",
+    "disciplines": [
+      "Identity"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "7738:680"
+    ],
+    "assets": [
+      "orchard-apple-form",
+      "orchard-logo",
+      "orchard-apple-form",
+      "orchard-apple-texture"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/orchard-on-long/"
+  },
+  {
+    "slug": "hallys",
+    "title": "Hally’s",
+    "disciplines": [
+      "Rebrand",
+      "Illustration",
+      "Website"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "7738:682"
+    ],
+    "assets": [
+      "hallys-film",
+      "hallys-film",
+      "hallys-hero-tangle",
+      "hallys-photo-2",
+      "hallys-menu",
+      "hallys-photo-3",
+      "hallys-photo-4",
+      "hallys-photo-5",
+      "hallys-illustration-storefront",
+      "hallys-illustration-glass",
+      "hallys-illustration-diver",
+      "hallys-illustration-avocado",
+      "hallys-illustration-birdcage",
+      "hallys-poster",
+      "hallys-illustration-totebag"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/hallys/"
+  },
+  {
+    "slug": "earnt",
+    "title": "EARNT",
+    "disciplines": [
+      "Brand Direction",
+      "Website",
+      "Art Direction"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "7738:686"
+    ],
+    "assets": [
+      "earnt-film",
+      "earnt-film",
+      "earnt-website-home",
+      "earnt-website-rebels",
+      "earnt-website-collaboration",
+      "earnt-twill-cap",
+      "earnt-tshirt",
+      "earnt-apparel-track-jacket-board",
+      "earnt-apparel-track-jacket-lifestyle",
+      "earnt-river-cafe-keyring-cad",
+      "earnt-river-cafe-cup-keyring",
+      "earnt-river-cafe-door-keyring",
+      "earnt-team-earnt-tiger"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/earnt/"
+  },
+  {
+    "slug": "cozy-heaven",
+    "title": "Cozy Heaven",
+    "disciplines": [
+      "Brand Direction",
+      "Website"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "1206:1212"
+    ],
+    "assets": [
+      "cozy-poster",
+      "cozy-m09-soft-cozy-campaign",
+      "cozy-m09-joy-campaign",
+      "cozy-m09-textile",
+      "cozy-m09-fibre",
+      "cozy-m09-fabric-ritual",
+      "cozy-m09-forest-bedroom",
+      "cozy-m09-day-begins"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/cozy-heaven/"
+  },
+  {
+    "slug": "sussex",
+    "title": "Sussex",
+    "disciplines": [
+      "Identity",
+      "Typography"
+    ],
+    "year": null,
+    "sourceFrames": [],
+    "assets": [
+      "sussex-poster"
+    ],
+    "contentStatus": "published",
+    "route": null
+  },
+  {
+    "slug": "sneaker-lab",
+    "title": "BSTN × Sneaker LAB",
+    "disciplines": [
+      "Packaging Concept",
+      "Art Direction"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "1262:12026",
+      "7554:902"
+    ],
+    "assets": [
+      "sneaker-m09-court-group",
+      "sneaker-m09-court-group",
+      "sneaker-m09-basketball-editorial",
+      "sneaker-m09-court-geometry",
+      "sneaker-m09-monochrome",
+      "sneaker-m09-orange-box",
+      "sneaker-m09-care-kit",
+      "sneaker-m09-pack-black",
+      "sneaker-m09-pack-white"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/sneaker-lab/"
+  },
+  {
+    "slug": "superbalist",
+    "title": "Superbalist",
+    "disciplines": [
+      "Product Design",
+      "Identity",
+      "Systems"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "1130:735"
+    ],
+    "assets": [
+      "superbalist-mobile",
+      "superbalist-m09-fashion",
+      "superbalist-m09-phone-study",
+      "superbalist-m09-navigation",
+      "superbalist-m09-s-studies",
+      "superbalist-m09-wordmark",
+      "superbalist-m09-phone-upper",
+      "superbalist-m09-phone-lower",
+      "superbalist-m09-order-specification",
+      "superbalist-m09-icon-construction",
+      "superbalist-m09-icon-library",
+      "superbalist-m09-mobile-archive",
+      "superbalist-m09-visual-language"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/superbalist/"
+  },
+  {
+    "slug": "adidas",
+    "title": "Adidas",
+    "disciplines": [
+      "Art Direction",
+      "Packaging"
+    ],
+    "year": null,
+    "sourceFrames": [
+      "1183:940"
+    ],
+    "assets": [
+      "adidas-portrait",
+      "adidas-portrait",
+      "adidas-tissue",
+      "adidas-open-box",
+      "adidas-packaging-concept",
+      "adidas-packaging-details"
+    ],
+    "contentStatus": "ready",
+    "route": "/work/adidas/"
+  }
+]

@@ -1,24 +1,33 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Hero from '../../components/Hero.astro';
-import Container from '../../components/Container.astro';
-import WorkCard from '../../components/WorkCard.astro';
-import {featuredProjects,archiveProjects,projectHref} from '../../data/projects';
+import MediaFigure from '../../components/project/MediaFigure.astro';
+import {workIndexProjects, projectHref} from '../../data/projects';
 import '../../styles/projects.css';
-const featured=featuredProjects.filter(p=>projectHref(p));
-const archive=archiveProjects.filter(p=>projectHref(p));
-const filters=[['all','All'],['brand','Brand'],['product','Product / Digital'],['art','Art Direction'],['identity','Identity / Marks']];
+
+const opening = workIndexProjects[0];
+const legacy = new Set(['the-shed', 'orchard-on-long']);
+const sections = [
+  {title: 'Magazine', projects: workIndexProjects.filter(project => !legacy.has(project.id))},
+  {title: 'Further work', projects: workIndexProjects.filter(project => legacy.has(project.id))},
+];
 ---
-<Base title="Work — Random Order" description="Brand identities, digital products, collaborations and constructed worlds.">
- <Hero title="Brands we’ve" emphasis="built lately." description="Brand identities, digital products, collaborations and constructed worlds." mediaId="work-hero" actions={[{label:'See the work',href:'#selected'},{label:'Start a project',href:'/contact/'}]} />
- <Container>
-  <div class="work-filters" role="group" aria-label="Filter projects">{filters.map(([id,label])=><button type="button" data-work-filter={id} aria-pressed={id==='all'} hidden>{label}</button>)}</div>
-  <p class="work-result-count" role="status" data-work-count>{featured.length+archive.length} selected projects</p>
-  <section class="work-index-featured work-index-group" id="selected" aria-label="Featured projects" data-work-group>{featured.map(p=><WorkCard project={p} variant="featured" />)}</section>
-  <section class="work-index-archive work-index-group" id="archive" aria-labelledby="archive-title" data-work-group><h2 class="eyebrow" id="archive-title">From the archive</h2><div class="work-index-archive-grid">{archive.map(p=><WorkCard project={p} variant="archive" />)}</div></section>
- </Container>
- <script>
- const buttons=[...document.querySelectorAll<HTMLButtonElement>('[data-work-filter]')],cards=[...document.querySelectorAll<HTMLElement>('[data-work-card]')];
- buttons.forEach(button=>{button.hidden=false;button.addEventListener('click',()=>{const selected=button.dataset.workFilter!;cards.forEach(card=>card.hidden=!card.dataset.categories?.split(' ').includes(selected));buttons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));document.querySelectorAll<HTMLElement>('[data-work-group]').forEach(group=>group.hidden=![...group.querySelectorAll<HTMLElement>('[data-work-card]')].some(card=>!card.hidden));const count=document.querySelector('[data-work-count]');if(count)count.textContent=`${cards.filter(card=>!card.hidden).length} ${cards.filter(card=>!card.hidden).length===1?'project':'projects'} shown`;});});
- </script>
+<Base title="Work Index — Random Order" description="Selected work spanning brand identity, product design, creative direction, visual systems and experimentation.">
+  <section class="work-list wrap" aria-labelledby="work-list-title">
+    <h1 class="eyebrow" id="work-list-title">01 / Selected index</h1>
+    <p class="index-intro">A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.</p>
+    {opening?.heroMediaId && <a class="index-cover" href={projectHref(opening)} aria-label={`Read ${opening.title}`}>
+      <MediaFigure mediaId={opening.heroMediaId} preview eager showCaption={false} />
+    </a>}
+    {sections.map(section => <section>
+      <h2 class="work-list-title" id={section.title === 'Further work' ? 'archive' : undefined}>{section.title}</h2>
+      <ul class="work-list-rows">
+        {section.projects.map(project => <><li><a href={projectHref(project)}>
+          <span class="work-list-title">{project.title}</span>
+          <span class="work-list-discipline">{project.disciplines.join(' / ')}</span>
+        </a></li>
+        {project.id === 'hotel-atelier' && <li class="work-list-reference"><span class="work-list-title">Design Systems</span><span class="work-list-discipline">Design systems / Methodology</span></li>}
+        </>)}
+      </ul>
+    </section>)}
+  </section>
 </Base>

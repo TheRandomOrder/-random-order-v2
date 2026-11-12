@@ -1,0 +1,431 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/5d189418-3d06-4315-a922-eeb415508110";
+const imgMediaReplaceFill = `${assetPathPrefix}/96b91.png`;
+const imgWebsiteHome1 = `${assetPathPrefix}/40c41.png`;
+const imgWhiterabbit1983AnExtraordinaryFashionEditorialPhotographC4Eb2D025E3943E6Aa297D00986Cd0De14 = `${assetPathPrefix}/5c6f4.png`;
+const imgMediaReplaceFill1 = `${assetPathPrefix}/6d0ca.png`;
+const imgMediaSussexTriangularWordmark = `${assetPathPrefix}/5c492.png`;
+const imgMediaReplaceFill2 = `${assetPathPrefix}/b48bd.png`;
+const imgMediaReplaceFill3 = `${assetPathPrefix}/490a0.png`;
+const imgWhiterabbit1983AnExtraordinaryFashionEditorialPhotographC4Eb2D025E3943E6Aa297D00986Cd0De15 = `${assetPathPrefix}/4aac9.png`;
+const imgMediaLabel = `${assetPathPrefix}/79594.svg`;
+const imgDivider = `${assetPathPrefix}/6854e.svg`;
+const imgMediaLabel1 = `${assetPathPrefix}/80511.svg`;
+const imgGroup5 = `${assetPathPrefix}/316e5.svg`;
+
+type RoWorkDetailProjectNavigationDesktopProps = {
+  className?: string;
+  nextLabel?: string;
+  nextTitle?: string;
+  previousLabel?: string;
+  previousTitle?: string;
+};
+
+function RoWorkDetailProjectNavigationDesktop({ className, nextLabel = "NEXT PROJECT", nextTitle = "THE FAT BADGER", previousLabel = "PREVIOUS", previousTitle = "HALLY’S" }: RoWorkDetailProjectNavigationDesktopProps) {
+  return (
+    <div className={className || "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap"} data-node-id="1112:503" data-name="RO / Work Detail / Project Navigation / Desktop">
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:504" data-name="Previous">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:505">
+          {previousLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:506">
+          {previousTitle}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:507" data-name="Next">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:508">
+          {nextLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:509">
+          {nextTitle}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+type RoWorkDetailCopyBlockDesktopProps = {
+  className?: string;
+  copy?: string;
+  label?: string;
+};
+
+function RoWorkDetailCopyBlockDesktop({ className, copy = "EARNT already had a visual identity and a genuinely good idea — rewarding people for environmentally conscious acts with exclusive, one-of-a-kind experiences. What it didn’t have yet was a way to say that felt as bold as the idea itself.", label = "THE CHALLENGE" }: RoWorkDetailCopyBlockDesktopProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[60px] items-start relative w-[1344px]"} data-node-id="1112:497" data-name="RO / Work Detail / Copy Block / Desktop">
+      <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[330px]" data-node-id="1112:493" data-name="Label">
+        <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="1112:494">
+          {label}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[954px]" data-node-id="1112:495" data-name="Copy">
+        <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="1112:496">
+          {copy}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+type RoWorkDetailFormulaFourTermsProps = {
+  className?: string;
+  term1?: React.ReactNode | null;
+  term2?: React.ReactNode | null;
+  term3?: React.ReactNode | null;
+  term4?: React.ReactNode | null;
+};
+
+function RoWorkDetailFormulaFourTerms({ className, term1 = null, term2 = null, term3 = null, term4 = null }: RoWorkDetailFormulaFourTermsProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[16px] h-[390px] items-start relative w-[1344px]"} data-node-id="1112:498" data-name="RO / Work Detail / Formula / Four Terms">
+      <div className="h-[390px] relative shrink-0 w-[324px]" data-node-id="1112:499" data-name="Term 1">
+        {term1}
+      </div>
+      <div className="h-[390px] relative shrink-0 w-[324px]" data-node-id="1112:500" data-name="Term 2">
+        {term2}
+      </div>
+      <div className="h-[390px] relative shrink-0 w-[324px]" data-node-id="1112:501" data-name="Term 3">
+        {term3}
+      </div>
+      <div className="h-[390px] relative shrink-0 w-[324px]" data-node-id="1112:502" data-name="Term 4">
+        {term4}
+      </div>
+    </div>
+  );
+}
+
+export default function Earnt() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-node-id="1088:1758" data-name="EARNT">
+      <div className="bg-black content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]" data-node-id="1480:1814" data-name="Case Hero / Pinned Reference">
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]" data-node-id="1480:1815" data-name="Hero Body">
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]" data-node-id="1480:1816">
+            BRAND STRATEGY · ART DIRECTION · SYSTEM
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]" data-node-id="1480:1817">
+            EARNT
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]" data-node-id="1480:1818">
+            Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.
+          </p>
+          <div className="content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]" data-node-id="1480:1819" data-name="Case Meta">
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1820" data-name="Meta / CLIENT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1821" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1822">
+                CLIENT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1823">
+                Cozy Heaven
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1824" data-name="Meta / SCOPE">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1825" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1826">
+                SCOPE
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1827">
+                Brand Strategy, Art Direction, Photography, Packaging, Digital
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1828" data-name="Meta / BASED">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1829" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1830">
+                BASED
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1831">
+                DACH / Europe
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1832" data-name="Meta / CONCEPT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1833" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1834">
+                CONCEPT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1835">
+                Care, Made Visible
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[96px] h-[11816px] items-center overflow-clip pb-[120px] pt-[200px] px-[288px] relative shrink-0" data-node-id="1088:1781" data-name="Case Body">
+        <div className="h-[668px] relative shrink-0 w-full" data-node-id="1486:2073" data-name="MEDIA / replace fill" />
+        <div className="h-[668px] mix-blend-luminosity relative shrink-0 w-full" data-node-id="1303:1405" data-name="MEDIA / replace fill">
+          <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgMediaReplaceFill} />
+        </div>
+        <div className="aspect-[1800/976] relative shrink-0 w-full" data-node-id="1486:2079" data-name="website-home 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWebsiteHome1} />
+        </div>
+        <div className="content-stretch flex flex-col items-start py-[50px] relative shrink-0" data-node-id="1486:2095">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center relative shrink-0 uppercase whitespace-nowrap" data-node-id="1486:2090">
+            <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--#2E42E0,#2e42e0)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px]" data-node-id="1486:2088">
+              BRAND STORY
+            </p>
+            <p className="font-['Instrument_Serif:Italic'] italic leading-[123px] relative shrink-0 text-[125px] text-[color:var(--#161616,#161616)]" data-node-id="1486:2081">
+              Natural Resistance
+            </p>
+          </div>
+        </div>
+        <RoWorkDetailCopyBlockDesktop
+          className="content-stretch flex gap-[60px] items-start min-h-[132px] relative shrink-0 w-[1344px]"
+          copy="Two lines became our compass: the brand line 'a revolution in consumption,' and the logo rationale, 'the world as your playground.' We built the visual direction at the intersection of revolution-era poster art, street and activewear culture, and lush, unmistakably green nature — campaign energy, not brochure earnestness.
+"
+          label="THE APPROACH"
+        />
+        <RoWorkDetailFormulaFourTerms
+          className="content-stretch flex gap-[16px] h-[390px] items-start relative shrink-0 w-[1344px]"
+          term1={
+            <div className="content-stretch flex flex-col gap-[14px] h-[395px] items-start relative shrink-0" data-node-id="1114:693" data-name="Rationale / Wine Grapes">
+              <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[324px]" data-node-id="1114:694" data-name="Media / Wine grapes from Sussex">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[328.8%] left-[-116.8%] max-w-none top-[-66.8%] w-[720%]" src={imgMediaWineGrapesFromSussex} />
+                </div>
+                <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#f4f4f4] text-[208px] tracking-[2.08px] uppercase whitespace-nowrap" data-node-id="1114:695">{`+ `}</p>
+              </div>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] min-w-full relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[min-content]" data-node-id="1114:696">{`REVOLUTION `}</p>
+            </div>
+          }
+          term2={
+            <div className="content-stretch flex flex-col gap-[14px] h-[380px] items-start relative shrink-0 w-[324px]" data-node-id="1114:698" data-name="Rationale / The Sussex Flag">
+              <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[324px]" data-node-id="1114:699" data-name="Media / County flag / six martlets">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[328.8%] left-[-245.46%] max-w-none top-[-66.8%] w-[720%]" src={imgMediaWineGrapesFromSussex} />
+                </div>
+                <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#f4f4f4] text-[208px] tracking-[2.08px] uppercase whitespace-nowrap" data-node-id="1114:700">{`+ `}</p>
+              </div>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[260px]" data-node-id="1114:701">
+                STREET CULTURE
+              </p>
+            </div>
+          }
+          term3={
+            <div className="content-stretch flex flex-col gap-[14px] h-[380px] items-start relative shrink-0 w-[324px]" data-node-id="1114:703" data-name="Rationale / Typewriter Type">
+              <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[324px]" data-node-id="1114:704" data-name="Media / Vintage typewriter">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaVintageTypewriter} />
+                <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#f4f4f4] text-[208px] tracking-[2.08px] uppercase whitespace-nowrap" data-node-id="1114:705">
+                  +
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[260px]" data-node-id="1114:706">
+                NATURE
+              </p>
+            </div>
+          }
+          term4={
+            <div className="content-stretch flex flex-col gap-[14px] h-[380px] items-start relative shrink-0 w-[324px]" data-node-id="1114:708" data-name="Rationale / The Wordmark">
+              <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[324px]" data-node-id="1114:709" data-name="Media / Sussex triangular wordmark">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaSussexTriangularWordmark} />
+                <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#f4f4f4] text-[208px] tracking-[2.08px] uppercase whitespace-nowrap" data-node-id="1114:710">
+                  =
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[260px]" data-node-id="1114:711">
+                EARNT
+              </p>
+            </div>
+          }
+        />
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[132px] relative shrink-0 w-[1344px]" copy="The direction brings together revolutionary poster art, street and activewear culture, and lush green nature. Direct language and strong compositions give the environmental idea the presence of a campaign." label="NATURAL RESISTANCE" />
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1486:2091">
+          <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="1486:2092">
+            <div className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[0] not-italic relative shrink-0 text-[68px] text-black text-center tracking-[0.68px] w-[1344px]" data-node-id="1486:2093">
+              <p className="leading-[1.05] mb-0">{`"I've never experienced a partnership like it. Jason listened intently, interpreted it perfectly and delivered on it immediately. Taking the brand into territory we had only dreamt of. His vision. His creativity. His delivery of the creativity and his deep understanding of human nature are just some of his super powers."`}</p>
+              <p className="leading-[1.05]">​</p>
+            </div>
+          </div>
+        </div>
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" copy="The website brings the proposition into one place: what EARNT stands for, how people take part and what participation makes possible. The design carries the campaign’s energy into a clear introduction to the platform." label="THE DIGITAL EXPERIENCE" />
+        <div className="content-stretch flex h-[800px] items-start relative shrink-0 w-full" data-node-id="1126:5134" data-name="Media / EARNT / Campaign">
+          <div className="h-[800px] relative shrink-0 w-[1344px]" data-node-id="1126:5135" data-name="whiterabbit1983_An_extraordinary_fashion_editorial_photograph_c4eb2d02-5e39-43e6-aa29-7d00986cd0de_1 4">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="800" src={imgWhiterabbit1983AnExtraordinaryFashionEditorialPhotographC4Eb2D025E3943E6Aa297D00986Cd0De14} width="1344" />
+          </div>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Bebas_Neue:Regular'] leading-[0.95] left-[calc(50%+0.5px)] not-italic text-[96px] text-center text-white top-[354px] whitespace-nowrap" data-node-id="1126:5136">
+            EARNT x CAUSES
+          </p>
+        </div>
+        <div className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[0] min-w-full not-italic relative shrink-0 text-[#2b4d16] text-[96px] text-center w-[min-content]" data-node-id="1088:1827">
+          <p className="leading-[0.95] mb-0">A community of change-makers who believe actions speak louder than money.</p>
+          <p className="leading-[0.95]">​</p>
+        </div>
+        <div className="h-[1328px] mix-blend-luminosity relative shrink-0 w-full" data-node-id="1126:5132" data-name="MEDIA / replace fill">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaReplaceFill1} />
+        </div>
+        <div className="content-stretch flex flex-col h-[756px] items-center justify-center overflow-clip relative shrink-0 w-[1344px]" data-node-id="1088:1832" data-name="Media / EARNT / Oasis reference">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaSussexTriangularWordmark} />
+          <div className="h-[12.025px] relative shrink-0 w-[292.458px]" data-node-id="1088:1833" data-name="Media label">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMediaLabel} />
+          </div>
+          <div className="h-[1183px] overflow-clip relative shrink-0 w-[1774px]" data-node-id="1114:489" data-name="oasisstill_a4647534 1">
+            <div className="absolute inset-0" data-node-id="I1114:489;960:267" data-name="MEDIA / replace fill">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaReplaceFill2} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex font-['Inter:Regular'] font-normal items-center justify-between leading-[normal] left-[78px] not-italic text-[#f4f4f4] text-[12px] top-[368.01px] w-[1188px] whitespace-nowrap" data-node-id="1088:1872">
+            <p className="relative shrink-0" data-node-id="1088:1873">
+              OASIS ‘DON’T LOOK BACK IN ANGER’
+            </p>
+            <p className="relative shrink-0" data-node-id="1088:1874">
+              EARNT.CO.UK
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] h-[220px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]" data-node-id="1088:1875" data-name="Brand Story">
+          <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1088:1876" data-name="Divider">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+          </div>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[500px]" data-node-id="1088:1877">
+            BRAND STORY
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] leading-[1.05] not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] w-[1180px]" data-node-id="1088:1878">
+            NATURAL RESISTANCE
+          </p>
+        </div>
+        <div className="h-[720px] overflow-clip relative shrink-0 w-[1344px]" data-node-id="1114:486" data-name="Media / EARNT / Motion">
+          <div className="absolute inset-0" data-node-id="I1114:486;960:267" data-name="MEDIA / replace fill">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaReplaceFill3} />
+          </div>
+        </div>
+        <div className="[word-break:break-word] bg-[#0a0a0a] content-stretch flex flex-col gap-[24px] h-[430px] items-start overflow-clip px-[70px] py-[80px] relative shrink-0 text-[#f4f4f4] uppercase w-[1344px]" data-node-id="1088:1907" data-name="Pull Quote">
+          <p className="font-['Bebas_Neue:Regular'] leading-[1.08] not-italic relative shrink-0 text-[52px] tracking-[0.52px] w-[1180px]" data-node-id="1088:1908">
+            “MAKE EARNT FEEL LIKE IT’S FOR EVERYONE, EVERYWHERE, WITHOUT LOSING CLARITY OR COOL — AND COMMUNICATE A TOTALLY NEW IDEA.”
+          </p>
+          <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] w-[600px]" data-node-id="1088:1909">
+            LAUREN SCOTT-HARRIS · FOUNDER, EARNT
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col h-[756px] items-center justify-center overflow-clip relative shrink-0 w-[1344px]" data-node-id="1124:4199" data-name="Media / EARNT / Oasis reference">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaSussexTriangularWordmark} />
+          <div className="h-[12.025px] relative shrink-0 w-[292.458px]" data-node-id="1124:4200" data-name="Media label">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMediaLabel} />
+          </div>
+          <div className="h-[1183px] overflow-clip relative shrink-0 w-[1774px]" data-node-id="1124:4238" data-name="oasisstill_a4647534 1">
+            <div className="absolute inset-0" data-node-id="I1124:4238;960:267" data-name="MEDIA / replace fill">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMediaReplaceFill2} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex font-['Inter:Regular'] font-normal items-center justify-between leading-[normal] left-[78px] not-italic text-[#f4f4f4] text-[12px] top-[368.01px] w-[1188px] whitespace-nowrap" data-node-id="1124:4239">
+            <p className="relative shrink-0" data-node-id="1124:4240">
+              OASIS ‘DON’T LOOK BACK IN ANGER’
+            </p>
+            <p className="relative shrink-0" data-node-id="1124:4241">
+              EARNT.CO.UK
+            </p>
+          </div>
+        </div>
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" copy="The tiger motif gives “earn your stripes” a visual form. Developed for event merchandise, it connects the identity with participation and the sense of belonging to a team." label="TEAM EARNT" />
+        <div className="h-[520px] relative shrink-0 w-[1344px]" data-node-id="1088:2000" data-name="Media / EARNT / approved merchandise asset pending" />
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[132px] relative shrink-0 w-[1344px]" copy="Poster-like compositions, fashion references and botanical imagery establish the direction. Their relationship carries the idea: collective action with cultural energy and an unmistakable connection to nature." label="THE BRAND WORLD" />
+        <div className="bg-[#f4f4f4] content-stretch flex flex-col gap-[28px] h-[650px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]" data-node-id="1088:2006" data-name="Campaign language / Natural Resistance">
+          <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1088:2007" data-name="Divider">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+          </div>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[500px]" data-node-id="1088:2008">
+            CAMPAIGN LANGUAGE — NATURAL RESISTANCE
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.1] relative shrink-0 text-[#0a0a0a] text-[36px] w-[1100px]" data-node-id="1088:2009">
+            A revolution in consumption.
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/body,16px)] w-[1180px]" data-node-id="1088:2010">
+            THE WORLD AS YOUR PLAYGROUND · EARN YOUR STRIPES · ACTIONS SPEAK LOUDER THAN MONEY
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/lg,22px)] w-[920px]" data-node-id="1088:2011">
+            The type and image language borrowed the urgency of activist posters without becoming didactic. Strong composition, direct statements and culturally familiar styling gave a serious environmental mission the energy of a movement people could choose to join.
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[0.9] relative shrink-0 text-[#0a0a0a] text-[160px] w-[400px]" data-node-id="1088:2012">
+            Aa
+          </p>
+        </div>
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" copy="Merchandise was conceived as a reward for taking part. The tiger becomes a sign of participation, extending the campaign beyond the screen into something people can wear." label="EARN YOUR STRIPES" />
+        <div className="bg-[#c7c7bf] content-stretch flex flex-col h-[800px] items-center justify-center overflow-clip relative shrink-0 w-[1344px]" data-node-id="1088:2018" data-name="Media / EARNT / Closing Image">
+          <div className="h-[12.025px] relative shrink-0 w-[257.204px]" data-node-id="1088:2019" data-name="Media label">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMediaLabel1} />
+          </div>
+        </div>
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" copy="The work brings website design, pitch materials, flyers and event merchandise into a shared visual language. Each application carries the same invitation: take part, contribute and earn the experience." label="A CONNECTED DIRECTION" />
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] h-[80px] items-start relative shrink-0 w-[1344px]" copy="Lauren Scott-Harris, Founder, EARNT" label="CLIENT" />
+        <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1088:2061" data-name="Divider">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+        </div>
+        <RoWorkDetailProjectNavigationDesktop className="[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap" />
+        <div className="absolute left-[1199px] size-px top-[3679px]" data-node-id="1088:2107">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+        </div>
+      </div>
+      <div className="absolute h-[899px] left-0 mix-blend-luminosity opacity-20 top-0 w-[1920px]" data-node-id="1126:4999" data-name="whiterabbit1983_An_extraordinary_fashion_editorial_photograph_c4eb2d02-5e39-43e6-aa29-7d00986cd0de_1 4">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="899" src={imgWhiterabbit1983AnExtraordinaryFashionEditorialPhotographC4Eb2D025E3943E6Aa297D00986Cd0De15} width="1920" />
+      </div>
+      <div className="absolute content-stretch flex h-[96px] items-center justify-between left-[3px] mix-blend-difference px-[var(--gap\/large,48px)] top-px w-[1920px]" data-node-id="1486:1994" data-name="RO / Navigation / Desktop / Difference">
+        <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[25px] leading-[33.28px] not-italic relative shrink-0 text-[20.8px] text-[color:var(--#FFFFFF,white)] tracking-[0.624px] uppercase w-[105.813px]" data-node-id="I1486:1994;973:95">
+          Random Order
+        </p>
+        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="I1486:1994;973:96" data-name="Navigation links">
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1486:1994;973:97" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1486:1994;973:97;973:91">
+              <p className="leading-none">Work</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1486:1994;973:98" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1486:1994;973:98;973:91">
+              <p className="leading-none">Edit</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1486:1994;973:99" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1486:1994;973:99;973:91">
+              <p className="leading-none">About</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1486:1994;973:100" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1486:1994;973:100;973:91">
+              <p className="leading-none">Contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Eyebrow: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 8), Body/Large: Font(family: "Hanken Grotesk", style: Regular, size: font-size/lg, weight: 400, lineHeight: 1.5, letterSpacing: 0), Display/Desktop/H2: Font(family: "Bebas Neue", style: Regular, size: 68, weight: 400, lineHeight: 1.0499999523162842, letterSpacing: 1), Body/Base: Font(family: "Hanken Grotesk", style: Regular, size: font-size/body, weight: 400, lineHeight: 1.600000023841858, letterSpacing: 0), Label/Meta: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 6), RO V2/Display/Title Mobile: Font(family: "Bebas Neue", style: Regular, size: 32, weight: 400, lineHeight: 36, letterSpacing: 0), Nav/Link: Font(family: "Hanken Grotesk", style: Regular, size: font-size/body, weight: 400, lineHeight: 1, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## RO / Work Detail / Copy Block / Desktop
+**Node ID:** 1112:497
+
+Label and narrative copy in the existing 330 / 60 / 954 desktop composition. Editable text properties; instance height preserves the project-specific editorial rhythm. Labels and body use existing shared styles. Content remains source-authored.
+
+## RO / Work Detail / Formula / Four Terms
+**Node ID:** 1112:498
+
+Four editable content slots for the original This + This + This = That structure. Slots retain each project’s artwork, operators and captions. Fixed 16px spacing preserves the existing four-column composition; do not create a variant for each project.
+
+## RO / Media Slot / Editorial
+**Node ID:** 960:266
+
+Neutral editable Editorial media slot. Replace the MEDIA fill with approved image/video. Show media hides imagery for structural review; Show slot label is optional. Stretch constraints preserve coverage when resized.
+
+## RO / Work Detail / Project Navigation / Desktop
+**Node ID:** 1112:503
+
+Editable previous/next project navigation, replacing duplicated outlined labels. Keep project order sourced from the approved Work sequence. Each half uses the shared metadata style and Bebas display family.
+
+## RO / Navigation / Desktop / Difference
+**Node ID:** 973:94
+
+V2-local navigation master cloned from the established RO white + DIFFERENCE navigation; includes responsive editorial link structure.
+
+## RO / Navigation Link / Desktop
+**Node ID:** 973:89
+
+White navigation label. Default and underline hover; 44px target. Parent navigation applies Difference blending. Provide equivalent keyboard focus in production.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

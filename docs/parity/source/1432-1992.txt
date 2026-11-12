@@ -1,0 +1,188 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/4429e7e0-3987-4d02-a0a4-814365132f8a";
+const imgGalleryPressStudy = `${assetPathPrefix}/9cb78.png`;
+const imgHotel28553HttpssMjRundHCw0XyPbkAr169V6168771171661A43D08861E08Acab71F4611 = `${assetPathPrefix}/f60b7.png`;
+
+type RoWorkDetailProjectNavigationDesktopProps = {
+  className?: string;
+  nextLabel?: string;
+  nextTitle?: string;
+  previousLabel?: string;
+  previousTitle?: string;
+};
+
+function RoWorkDetailProjectNavigationDesktop({ className, nextLabel = "NEXT PROJECT", nextTitle = "THE FAT BADGER", previousLabel = "PREVIOUS", previousTitle = "HALLY’S" }: RoWorkDetailProjectNavigationDesktopProps) {
+  return (
+    <div className={className || "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap"} data-node-id="1112:503" data-name="RO / Work Detail / Project Navigation / Desktop">
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:504" data-name="Previous">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:505">
+          {previousLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:506">
+          {previousTitle}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:507" data-name="Next">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:508">
+          {nextLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:509">
+          {nextTitle}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+type RoWorkDetailCopyBlockDesktopProps = {
+  className?: string;
+  copy?: string;
+  label?: string;
+};
+
+function RoWorkDetailCopyBlockDesktop({ className, copy = "EARNT already had a visual identity and a genuinely good idea — rewarding people for environmentally conscious acts with exclusive, one-of-a-kind experiences. What it didn’t have yet was a way to say that felt as bold as the idea itself.", label = "THE CHALLENGE" }: RoWorkDetailCopyBlockDesktopProps) {
+  return (
+    <div className={className || "content-stretch flex gap-[60px] items-start relative w-[1344px]"} data-node-id="1112:497" data-name="RO / Work Detail / Copy Block / Desktop">
+      <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[330px]" data-node-id="1112:493" data-name="Label">
+        <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="1112:494">
+          {label}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0 w-[954px]" data-node-id="1112:495" data-name="Copy">
+        <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="1112:496">
+          {copy}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function GoldsGym() {
+  return (
+    <div className="bg-[var(--bg,white)] content-stretch flex flex-col items-center relative size-full" data-node-id="1432:1992" data-name="GOLDS GYM">
+      <div className="bg-black content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]" data-node-id="1480:1699" data-name="Case Hero / Pinned Reference">
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]" data-node-id="1480:1700" data-name="Hero Body">
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]" data-node-id="1480:1701">
+            BRAND STRATEGY · ART DIRECTION · SYSTEM
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]" data-node-id="1480:1702">
+            GOLD’S GYM SOCAL
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]" data-node-id="1480:1703">
+            Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.
+          </p>
+          <div className="content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]" data-node-id="1480:1704" data-name="Case Meta">
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1705" data-name="Meta / CLIENT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1706" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1707">
+                CLIENT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1708">
+                Cozy Heaven
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1709" data-name="Meta / SCOPE">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1710" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1711">
+                SCOPE
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1712">
+                Brand Strategy, Art Direction, Photography, Packaging, Digital
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1713" data-name="Meta / BASED">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1714" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1715">
+                BASED
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1716">
+                DACH / Europe
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1717" data-name="Meta / CONCEPT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1718" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1719">
+                CONCEPT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1720">
+                Care, Made Visible
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[96px] items-center overflow-clip pb-[120px] pt-[200px] px-[288px] relative shrink-0 w-[1920px]" data-node-id="1432:1993" data-name="Editorial / Gold’s Gym">
+        <div className="bg-[var(--brand\/grey-200,#e0e0e0)] h-[760px] overflow-clip relative shrink-0 w-full" data-node-id="1432:1994">
+          <div className="absolute bg-[#d9d9d9] h-[760px] left-0 top-0 w-[903px]" data-node-id="1432:1995" />
+          <div className="absolute h-[1093px] left-[-89px] top-[-185px] w-[1448px]" data-node-id="1432:1996" data-name="hotel_28553_An_ethereal_collection_of_fitness_fashion-forward_i_aa2f6008-c0bb-463c-bfe1-a66376052a3f 1" />
+        </div>
+        <div className="aspect-[1344/1346] relative shrink-0 w-full" data-node-id="1432:1997" data-name="Gallery / Press study">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[132.56%] left-0 max-w-none top-[-31.93%] w-full" src={imgGalleryPressStudy} />
+          </div>
+        </div>
+        <div className="flex items-center justify-center relative shrink-0" data-node-id="1432:1998">
+          <div className="-scale-y-100 flex-none rotate-180">
+            <div className="bg-[var(--surface\/primary,white)] h-[729px] overflow-clip relative w-[1296px]" data-name="2.1.6">
+              <div className="absolute bg-[var(--surface\/primary,white)] h-[1080px] left-[-311.5px] overflow-clip top-[-175.54px] w-[1919px]" data-node-id="1432:1999" data-name="2.1.3">
+                <div className="absolute left-[-64px] size-[2015px] top-[-312px]" data-node-id="1432:2000" data-name="hotel_28553_httpss.mj.rundHCw0Xy_Pbk_ar169_--v_6.1_68771171-661a-43d0-8861-e08acab71f46_1 1">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHotel28553HttpssMjRundHCw0XyPbkAr169V6168771171661A43D08861E08Acab71F4611} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <RoWorkDetailCopyBlockDesktop className="content-stretch flex gap-[60px] items-start min-h-[66px] relative shrink-0 w-[1344px]" copy="Warm gold, hard light and close framing connect these fitness studies. The sequence moves between effort and stillness, using colour and atmosphere to hold the images together." label="GOLD’S GYM / IMAGE STUDIES" />
+        <div className="content-stretch flex gap-[96px] items-start justify-center relative shrink-0 w-[1296px]" data-node-id="1497:1023">
+          <div className="content-stretch flex items-center relative shrink-0" data-node-id="1497:1022">
+            <div className="h-[558px] relative shrink-0 w-[516px]" data-node-id="1497:1014" data-name="3888015244180529795social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_8049e2c6-f02c-460b-aa1d-ad54400d5df4_1 1" />
+          </div>
+          <div className="h-[558px] relative shrink-0 w-[684px]" data-node-id="1497:1010" />
+        </div>
+        <div className="content-stretch flex items-start justify-center relative shrink-0 w-[1296px]" data-node-id="1497:1027">
+          <div className="aspect-[1296/1551] flex-[1_0_0] min-w-px relative" data-node-id="1497:1033" data-name="-7759528984293724263social_hotel_28553_an_ethereal_collection_of_fitness_fashion-forward_d545d961-7bc8-48d9-bc58-07170984edbf_3 2 1" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[96px] items-start relative shrink-0" data-node-id="1432:2003">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[1296px]" data-node-id="1432:2004">
+            <div className="content-stretch flex gap-[85.863px] items-start relative shrink-0" data-node-id="1432:2005">
+              <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2006" />
+              <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2007" />
+              <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2008" />
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[85.863px] items-start relative shrink-0 w-[1296px]" data-node-id="1432:2009">
+            <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2010" />
+            <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2011" />
+            <div className="bg-[#d9d9d9] relative shrink-0 size-[374.758px]" data-node-id="1432:2012" />
+          </div>
+        </div>
+        <RoWorkDetailProjectNavigationDesktop className="[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap" nextLabel="RELATED PROJECT" nextTitle="THE SHED" previousLabel="BACK TO" previousTitle="WORK" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Eyebrow: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 8), Body/Large: Font(family: "Hanken Grotesk", style: Regular, size: font-size/lg, weight: 400, lineHeight: 1.5, letterSpacing: 0), Label/Meta: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 6), RO V2/Display/Title Mobile: Font(family: "Bebas Neue", style: Regular, size: 32, weight: 400, lineHeight: 36, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## RO / Work Detail / Copy Block / Desktop
+**Node ID:** 1112:497
+
+Label and narrative copy in the existing 330 / 60 / 954 desktop composition. Editable text properties; instance height preserves the project-specific editorial rhythm. Labels and body use existing shared styles. Content remains source-authored.
+
+## RO / Work Detail / Project Navigation / Desktop
+**Node ID:** 1112:503
+
+Editable previous/next project navigation, replacing duplicated outlined labels. Keep project order sourced from the approved Work sequence. Each half uses the shared metadata style and Bebas display family.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

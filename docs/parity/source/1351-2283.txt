@@ -1,0 +1,921 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/40dc0a22-7b6b-49e5-bd1a-fc41efcb87cd";
+const imgImg68041 = `${assetPathPrefix}/c51db.png`;
+const imgImageSsuperlative = `${assetPathPrefix}/962ea.png`;
+const imgHotel28553AHyperRealisticPhotographOfAnPhysicianInA39D776691C9E4917Ace281Bf18934B9A31 = `${assetPathPrefix}/c478e.png`;
+const img55D134D01A1643C2A1E3F3F3C9051Ebb1102O1 = `${assetPathPrefix}/b9375.png`;
+const imgHyltonRunTop1 = `${assetPathPrefix}/862d4.png`;
+const imgScreenshot20250529At1521351 = `${assetPathPrefix}/79d02.png`;
+const imgVideo = `${assetPathPrefix}/24514.png`;
+const imgGroup3 = `${assetPathPrefix}/77cce.svg`;
+const imgGroup4 = `${assetPathPrefix}/e34ec.svg`;
+const imgGroup100 = `${assetPathPrefix}/60c83.svg`;
+const imgHtlLogo = `${assetPathPrefix}/56a9c.svg`;
+const imgLine = `${assetPathPrefix}/e939c.svg`;
+const imgGroup105 = `${assetPathPrefix}/3fb0a.svg`;
+const imgGroup106 = `${assetPathPrefix}/8bec2.svg`;
+const imgLine3 = `${assetPathPrefix}/16ab2.svg`;
+const imgLine1 = `${assetPathPrefix}/69c4b.svg`;
+const imgDivider = `${assetPathPrefix}/6854e.svg`;
+const imgGroup5 = `${assetPathPrefix}/316e5.svg`;
+
+type RoWorkDetailProjectNavigationDesktopProps = {
+  className?: string;
+  nextLabel?: string;
+  nextTitle?: string;
+  previousLabel?: string;
+  previousTitle?: string;
+};
+
+function RoWorkDetailProjectNavigationDesktop({ className, nextLabel = "NEXT PROJECT", nextTitle = "THE FAT BADGER", previousLabel = "PREVIOUS", previousTitle = "HALLY’S" }: RoWorkDetailProjectNavigationDesktopProps) {
+  return (
+    <div className={className || "[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap"} data-node-id="1112:503" data-name="RO / Work Detail / Project Navigation / Desktop">
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:504" data-name="Previous">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:505">
+          {previousLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:506">
+          {previousTitle}
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/8,8px)] h-[70px] items-start overflow-clip relative shrink-0 w-[672px]" data-node-id="1112:507" data-name="Next">
+        <p className="font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[length:var(--font-size\/xs,12px)] tracking-[0.72px] uppercase" data-node-id="1112:508">
+          {nextLabel}
+        </p>
+        <p className="font-['Bebas_Neue:Regular'] leading-[36px] not-italic relative shrink-0 text-[32px]" data-node-id="1112:509">
+          {nextTitle}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function Ssuperlative() {
+  return (
+    <div className="bg-black content-stretch flex flex-col items-start relative size-full" data-node-id="1351:2283" data-name="ssuperlative">
+      <div className="content-stretch flex flex-col h-[900px] items-center justify-center overflow-clip relative shrink-0 w-[1920px]" data-node-id="1480:1885" data-name="Case Hero / Pinned Reference">
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip pt-[135px] relative shrink-0 w-[1344px]" data-node-id="1480:1886" data-name="Hero Body">
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[21px] leading-[1.2] relative shrink-0 text-[#878787] text-[13px] w-[600px]" data-node-id="1480:1887">
+            BRAND STRATEGY · ART DIRECTION · SYSTEM
+          </p>
+          <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[137px] leading-[0.95] not-italic relative shrink-0 text-[108px] text-white w-[1000px]" data-node-id="1480:1888">
+            SSUPERLATIVE
+          </p>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[92px] leading-[1.45] relative shrink-0 text-[24px] text-white w-[800px]" data-node-id="1480:1889">
+            Building a premium bedding brand around care — and the art direction required to make that feeling coherent across every touchpoint.
+          </p>
+          <div className="content-stretch flex gap-[32px] h-[170px] items-start overflow-clip pt-[48px] relative shrink-0 w-[1344px]" data-node-id="1480:1890" data-name="Case Meta">
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1891" data-name="Meta / CLIENT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1892" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1893">
+                CLIENT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1894">
+                Cozy Heaven
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1895" data-name="Meta / SCOPE">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1896" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1897">
+                SCOPE
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[56px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1898">
+                Brand Strategy, Art Direction, Photography, Packaging, Digital
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1899" data-name="Meta / BASED">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1900" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1901">
+                BASED
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1902">
+                DACH / Europe
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] h-[120px] items-start overflow-clip relative shrink-0 w-[312px]" data-node-id="1480:1903" data-name="Meta / CONCEPT">
+              <div className="bg-[#3b3b3b] h-px relative shrink-0 w-[312px]" data-node-id="1480:1904" data-name="Divider" />
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold h-[18px] leading-[1.1] relative shrink-0 text-[#878787] text-[12px] w-[280px]" data-node-id="1480:1905">
+                CONCEPT
+              </p>
+              <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal h-[28px] leading-[1.3] relative shrink-0 text-[16px] text-white w-[280px]" data-node-id="1480:1906">
+                Care, Made Visible
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[96px] items-center overflow-clip pb-[120px] pt-[96px] px-[288px] relative shrink-0 w-[1920px]" data-node-id="1351:2286" data-name="Case Body">
+        <div className="bg-white h-[756px] overflow-clip relative shrink-0 w-[1346px]" data-node-id="1432:1639" data-name="Frame">
+          <div className="absolute contents left-0 top-[-30px]" data-node-id="1432:1638">
+            <div className="absolute h-[785.593px] left-0 top-[-30px] w-[1350.359px]" data-node-id="1432:1603" data-name="Video" />
+            <div className="absolute bg-[rgba(0,0,0,0.15)] h-[785.593px] left-0 top-[-30px] w-[1350.359px]" data-node-id="1432:1604" data-name="Container">
+              <div className="absolute bg-[var(--surface\/primary,white)] h-[1080px] left-[-284px] overflow-clip top-[-147px] w-[1919px]" data-node-id="1545:1683" data-name="1.4">
+                <div className="absolute contents left-[-159px] top-[-806px]" data-node-id="1545:1684">
+                  <div className="absolute h-[2351.268px] left-[-159px] rounded-[1591px] top-[-806px] w-[2237px]" data-node-id="1545:1685" data-name="IMG_6804 1">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[1591px]">
+                      <img alt="" className="absolute h-[232.78%] left-[-45.4%] max-w-none top-[-54.71%] w-[183.5%]" src={imgImg68041} />
+                    </div>
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[calc(50%+0.5px)] top-0 w-[1920px]" data-node-id="1545:1686" data-name="Header">
+                  <div className="h-[96px] relative shrink-0 w-full" data-node-id="1545:1687" data-name="Header bar">
+                    <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b border-solid h-[96px] left-0 top-0 w-[1920px]" data-node-id="1545:1688" data-name="Line" />
+                    <div className="absolute content-stretch flex h-[20px] items-center justify-center left-[112px] top-[38px]" data-node-id="1545:1689" data-name="Text">
+                      <div className="content-stretch flex items-center relative shrink-0" data-node-id="1545:1690" data-name="Logo">
+                        <div className="content-stretch flex gap-[18px] items-center relative shrink-0" data-node-id="1545:1691" data-name="Text">
+                          <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="1545:1692" data-name="Tilte">
+                            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[1.4] relative shrink-0 text-[18px] text-white tracking-[1.44px] w-[524px]" data-node-id="1545:1693">
+                              HTLxRANDOM ORDER
+                            </p>
+                          </div>
+                          <div className="h-[13px] relative shrink-0 w-[463px]" data-node-id="1545:1694" data-name="Sub Title" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[rgba(255,255,255,0.2)] h-[785.593px] left-[337.59px] top-[-30px] w-[0.625px]" data-node-id="1432:1605" data-name="Container" />
+            <div className="absolute bg-[rgba(255,255,255,0.2)] h-[785.593px] left-[1012.77px] top-[-30px] w-[0.625px]" data-node-id="1432:1606" data-name="Container" />
+            <div className="absolute border-[rgba(255,255,255,0.5)] border-b-[0.692px] border-solid content-stretch flex h-[70.597px] items-start justify-between left-[100.24px] pb-[16.255px] top-[-14.44px] w-[1151.344px]" data-node-id="1432:1608" data-name="ReportHero">
+              <div className="relative shrink-0" data-node-id="1432:1609" data-name="Container">
+                <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[15.563px] items-center relative size-full">
+                  <div className="h-[54.342px] relative shrink-0 w-[69.487px]" data-node-id="1432:1610" data-name="Image (SSUPERLATIVE)">
+                    <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-[98.63%] left-[-0.63%] max-w-none top-[0.77%] w-[101.52%]" src={imgImageSsuperlative} />
+                    </div>
+                  </div>
+                  <div className="relative shrink-0" data-node-id="1432:1611" data-name="TypographyRole">
+                    <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
+                      <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[14.526px] not-italic relative shrink-0 text-[12.105px] text-white tracking-[0.9684px] uppercase whitespace-nowrap" data-node-id="1432:1612">
+                        SSUPERLATIVE / ALICE / 05.00
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[679.687px] left-[100.24px] top-[55.42px] w-[1151.344px]" data-node-id="1432:1623" data-name="ReportHero">
+              <div className="absolute content-stretch flex flex-col gap-[69.171px] items-start left-0 top-[112.59px] w-[1057.863px]" data-node-id="1432:1624" data-name="Stack">
+                <div className="border-l-[2.767px] border-solid border-white relative shrink-0 w-[549.267px]" data-node-id="1432:1625" data-name="Container">
+                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24.21px] items-start pl-[26.977px] relative size-full">
+                    <div className="relative shrink-0" data-node-id="1432:1626" data-name="TypographyRole">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
+                        <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[14.526px] not-italic relative shrink-0 text-[12.105px] text-[rgba(255,255,255,0.7)] tracking-[0.9684px] uppercase whitespace-nowrap" data-node-id="1432:1627">
+                          00 / recovery report / 0.7.0
+                        </p>
+                      </div>
+                    </div>
+                    <div className="relative shrink-0" data-node-id="1432:1628" data-name="TypographyRole">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
+                        <p className="[word-break:break-word] font-['Space_Grotesk:Bold'] font-bold leading-[94.418px] relative shrink-0 text-[89.922px] text-white tracking-[-6.7442px] whitespace-nowrap" data-node-id="1432:1629">
+                          project alice
+                        </p>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24.704px] not-italic relative shrink-0 text-[15.44px] text-white w-[524.897px]" data-node-id="1432:1630">
+                      A confidential synthetic recovery publication exploring evidence, work capacity, sleep, mood, and functional change through Project Alice.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-black border-[0.692px] border-solid border-white relative shrink-0 w-[122.938px]" data-node-id="1432:1631" data-name="ReportHero">
+                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start px-[14.526px] py-[11.068px] relative size-full">
+                    <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[16.601px] not-italic relative shrink-0 text-[10.376px] text-white tracking-[0.83px] uppercase whitespace-nowrap" data-node-id="1432:1632">
+                      Begin report
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute border-[rgba(255,255,255,0.5)] border-solid border-t-[0.692px] font-['Space_Mono:Regular'] h-[33.307px] leading-[13.834px] left-0 not-italic text-[8.646px] text-[rgba(255,255,255,0.7)] top-[600.3px] tracking-[0.6917px] uppercase w-[1156.023px] whitespace-nowrap" data-node-id="1432:1633" data-name="Container">
+                <p className="absolute left-0 top-[17.3px]" data-node-id="1432:1634">
+                  SYS / LONGITUDINAL
+                </p>
+                <p className="absolute left-[292.52px] top-[17.3px]" data-node-id="1432:1635">
+                  STATE / SYNTHETIC
+                </p>
+                <p className="absolute left-[585.04px] top-[17.3px]" data-node-id="1432:1636">
+                  GRID / 12 COL
+                </p>
+                <p className="-translate-x-full absolute left-[1164.04px] text-right top-[17.3px]" data-node-id="1432:1637">
+                  JHB / 26°12′S
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-[1344px]" data-node-id="1473:965" data-name="Copy / SSUPERLATIVE / PROJECT ALICE">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1473:965;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1473:965;1112:494">
+              SSUPERLATIVE / PROJECT ALICE
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1473:965;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1473:965;1112:496">
+              Six years of personal exploration connect design, data and self-understanding. Project Alice is the latest reporting chapter: a synthetic publication bringing evidence, sleep, mood and functional change into a single reading experience. It sits within a wider body of journals, drawings and product experiments.
+            </p>
+          </div>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1408:4741">
+          <div className="bg-black col-1 h-[658px] ml-0 mt-0 overflow-clip relative row-1 w-[1343.999px]" data-node-id="1408:4742" data-name="Flo-1">
+            <div className="absolute contents left-[137.7px] top-[116.57px]" data-node-id="1408:4743">
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[278.012px] left-[137.7px] rounded-[70.494px] to-[#a966ff] top-[614.26px] w-[71.199px]" data-node-id="1408:4744" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[352.967px] left-[227.22px] rounded-[70.494px] to-[#a966ff] top-[617.08px] w-[71.904px]" data-node-id="1408:4745" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[421.107px] left-[317.46px] rounded-[70.494px] to-[#a966ff] top-[626.25px] w-[71.199px]" data-node-id="1408:4746" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[425.195px] left-[406.98px] rounded-[70.494px] to-[#a966ff] top-[575.5px] w-[71.199px]" data-node-id="1408:4747" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[550.573px] left-[496.51px] rounded-[70.494px] to-[#a966ff] top-[414.06px] w-[71.904px]" data-node-id="1408:4748" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[681.403px] left-[586.74px] rounded-[70.494px] to-[#a966ff] top-[254.74px] w-[71.199px]" data-node-id="1408:4749" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[600.997px] left-[676.27px] rounded-[70.494px] to-[#a966ff] top-[318.89px] w-[71.199px]" data-node-id="1408:4750" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[550.573px] left-[765.8px] rounded-[70.494px] to-[#a966ff] top-[356.96px] w-[71.904px]" data-node-id="1408:4751" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[613.262px] left-[856.03px] rounded-[70.494px] to-[#a966ff] top-[116.57px] w-[71.199px]" data-node-id="1408:4752" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[429.284px] left-[945.56px] rounded-[70.494px] to-[#a966ff] top-[462.73px] w-[71.199px]" data-node-id="1408:4753" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[626.89px] left-[1035.09px] rounded-[70.494px] to-[#a966ff] top-[265.12px] w-[71.904px]" data-node-id="1408:4754" />
+              <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[476.982px] left-[1125.32px] rounded-[70.494px] to-[#a966ff] top-[415.03px] w-[71.199px]" data-node-id="1408:4755" />
+            </div>
+            <div className="absolute contents left-[137.7px] top-[395.01px]" data-node-id="1408:4756">
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[368.474px] left-[1125.32px] rounded-[70.494px] to-[#a966ff] top-[395.01px] w-[71.199px]" data-node-id="1408:4757" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[134.902px] left-[137.7px] rounded-[70.494px] to-[#a966ff] top-[501.88px] w-[71.199px]" data-node-id="1408:4758" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[449.474px] left-[586.74px] rounded-[70.494px] to-[#a966ff] top-[486.95px] w-[71.199px]" data-node-id="1408:4759" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[370.085px] left-[676.27px] rounded-[70.494px] to-[#a966ff] top-[421.88px] w-[71.199px]" data-node-id="1408:4760" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[234.586px] left-[765.8px] rounded-[70.494px] to-[#a966ff] top-[557.38px] w-[71.904px]" data-node-id="1408:4761" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[253.613px] left-[856.03px] rounded-[70.494px] to-[#a966ff] top-[479.55px] w-[71.199px]" data-node-id="1408:4762" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[209.047px] left-[945.56px] rounded-[70.494px] to-[#a966ff] top-[554.44px] w-[71.199px]" data-node-id="1408:4763" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[194.804px] left-[1035.09px] rounded-[70.494px] to-[#a966ff] top-[503.44px] w-[71.904px]" data-node-id="1408:4764" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[155.794px] left-[227.22px] rounded-[70.494px] to-[#a966ff] top-[498.89px] w-[71.904px]" data-node-id="1408:4765" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[315.179px] left-[317.46px] rounded-[70.494px] to-[#a966ff] top-[421.66px] w-[71.199px]" data-node-id="1408:4766" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[173.104px] left-[406.98px] rounded-[70.494px] to-[#a966ff] top-[547.84px] w-[71.199px]" data-node-id="1408:4767" />
+              <div className="absolute bg-gradient-to-b from-[#fad967] h-[222.648px] left-[496.51px] rounded-[70.494px] to-[#a966ff] top-[486.95px] w-[71.904px]" data-node-id="1408:4768" />
+            </div>
+            <div className="absolute contents left-[32.66px] top-[121.51px]" data-node-id="1408:4769">
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[696.74px] uppercase whitespace-nowrap" data-node-id="1408:4770" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                2
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[798.26px] uppercase whitespace-nowrap" data-node-id="1408:4771" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                0
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[595.23px] uppercase whitespace-nowrap" data-node-id="1408:4772" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                4
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[493.72px] uppercase whitespace-nowrap" data-node-id="1408:4773" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                6
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[392.21px] uppercase whitespace-nowrap" data-node-id="1408:4774" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                8
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[290.7px] uppercase whitespace-nowrap" data-node-id="1408:4775" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                10
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[11.279px] left-[32.66px] text-[9.869px] text-white top-[189.18px] uppercase whitespace-nowrap" data-node-id="1408:4776" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                12
+              </p>
+              <div className="absolute contents left-[59.44px] top-[196.23px]" data-node-id="1408:4777">
+                <div className="absolute h-[812.095px] left-[59.44px] mix-blend-hard-light top-[196.23px] w-[1242.108px]" data-node-id="1408:4778">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[0] left-[35.48px] text-[16.919px] text-white top-[121.51px] tracking-[1.3535px] uppercase whitespace-nowrap" data-node-id="1408:4788">
+                <span className="leading-[33.837px] tracking-[1.28px]">SLEEP</span>
+                <span className="leading-[33.837px]">{` WITH HRV OVERLAY | `}</span>
+                <span className="font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[33.837px] tracking-[1.28px]">JAN - MID JUNE</span>
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[33.837px] left-[1059.76px] text-[11.279px] text-white top-[121.51px] tracking-[0.9023px] uppercase whitespace-nowrap" data-node-id="1408:4789">
+                AWAKE
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[33.837px] left-[1138.71px] text-[#a966ff] text-[11.279px] top-[121.51px] tracking-[0.9023px] uppercase whitespace-nowrap" data-node-id="1408:4790">
+                REM
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[33.837px] left-[1269.13px] text-[#a966ff] text-[11.279px] top-[121.51px] tracking-[0.9023px] uppercase whitespace-nowrap" data-node-id="1408:4791">
+                DEEP
+              </p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[33.837px] left-[1198.63px] text-[#a966ff] text-[11.279px] top-[121.51px] tracking-[0.9023px] uppercase whitespace-nowrap" data-node-id="1408:4792">
+                LIGHT
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] h-[132px] items-start relative shrink-0 w-[1344px]" data-node-id="1473:970" data-name="Copy / READING RHYTHM">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1473:970;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1473:970;1112:494">
+              READING RHYTHM
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1473:970;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1473:970;1112:496">
+              Actigraphy and circadian rhythm studies explore rest, activity and change over time. Sleep and heart-rate variability appear alongside drawings of circadian chaos, moving between numerical records and the patterns used to make sense of them.
+            </p>
+          </div>
+        </div>
+        <div className="h-[756px] overflow-clip relative shrink-0 w-[1332px]" data-node-id="1408:4549" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1332 756' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-99.067 -6.0487e-15 8.3031e-14 -99.96 490.48 756)'><stop stop-color='rgba(0,0,0,1)' offset='0.23079'/><stop stop-color='rgba(11,11,11,1)' offset='0.4231'/><stop stop-color='rgba(22,22,22,1)' offset='0.6154'/><stop stop-color='rgba(43,43,43,1)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="1.43">
+          <div className="absolute bg-[var(--surface\/primary,white)] h-[756.394px] left-[-6px] top-[0.08px] w-[1344px]" data-node-id="1408:4550" data-name="5.4" />
+          <div className="absolute content-stretch flex flex-col gap-[33.618px] items-start left-[72.44px] top-[117.74px] w-[201.705px]" data-node-id="1408:4551" data-name="Textblock">
+            <div className="content-stretch flex flex-col gap-[22.412px] items-start relative shrink-0 w-full" data-node-id="1408:4552" data-name="Headings">
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1408:4553" data-name="Title">
+                <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4554" data-name="Heading">
+                  <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex-[1_0_0] font-['Roobert:SemiBold'] leading-[0] min-w-px not-italic relative text-[0px] text-[color:var(--brand\/black,#2b2b2b)]" data-node-id="1408:4555">
+                    <span className="font-['Plus_Jakarta_Sans:Light'] font-light leading-none text-[33.618px]">{`4.3 `}</span>
+                    <span className="leading-none text-[33.618px]">From Data to Design Thinking</span>
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4556" data-name="Sub Heading">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roobert:Regular'] leading-[1.2] min-w-px not-italic relative text-[22.412px] text-[color:var(--brand\/black,#2b2b2b)]" data-node-id="1408:4557">
+                  Designing a Feedback Loop — Building Systems Around the Self
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4558" data-name="Body">
+              <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex-[1_0_0] font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[0] min-w-px relative text-[12.607px] text-[color:var(--brand\/black,#2b2b2b)] whitespace-pre-wrap" data-node-id="1408:4559">
+                <p className="leading-[1.4] mb-0">{`As a product designer, I saw patterns where others saw symptoms. My data wasn't just feedback—it became interface. With GPT, I analysed tone, sentiment, and pacing across daily journals to uncover cognitive and emotional drift. I was building a real-time mood engine—trained not on users, but on me. `}</p>
+                <p className="leading-[1.4]">Design became the structure for awareness. This wasn’t about diagnosis; it was about systematising understanding. GPT became the bridge between chaos and clarity—insight delivered through interface.</p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents left-[calc(50%-10.86px)] top-[117.74px]" data-node-id="1408:4560">
+            <div className="absolute bg-black h-[585.616px] left-[calc(50%-10.86px)] overflow-clip top-[117.74px] w-[683.556px]" data-node-id="1408:4561" data-name="Flo-1">
+              <div className="absolute contents left-[70.03px] top-[59.29px]" data-node-id="1408:4562">
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[141.397px] left-[70.03px] rounded-[35.853px] to-[#a966ff] top-[312.41px] w-[36.212px]" data-node-id="1408:4563" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[179.518px] left-[115.56px] rounded-[35.853px] to-[#a966ff] top-[313.85px] w-[36.57px]" data-node-id="1408:4564" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[214.174px] left-[161.46px] rounded-[35.853px] to-[#a966ff] top-[318.51px] w-[36.212px]" data-node-id="1408:4565" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[216.254px] left-[206.99px] rounded-[35.853px] to-[#a966ff] top-[292.7px] w-[36.212px]" data-node-id="1408:4566" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[280.021px] left-[252.52px] rounded-[35.853px] to-[#a966ff] top-[210.59px] w-[36.57px]" data-node-id="1408:4567" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[346.56px] left-[298.42px] rounded-[35.853px] to-[#a966ff] top-[129.56px] w-[36.212px]" data-node-id="1408:4568" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[305.666px] left-[343.95px] rounded-[35.853px] to-[#a966ff] top-[162.19px] w-[36.212px]" data-node-id="1408:4569" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[280.021px] left-[389.48px] rounded-[35.853px] to-[#a966ff] top-[181.55px] w-[36.57px]" data-node-id="1408:4570" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[311.904px] left-[435.38px] rounded-[35.853px] to-[#a966ff] top-[59.29px] w-[36.212px]" data-node-id="1408:4571" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[218.333px] left-[480.91px] rounded-[35.853px] to-[#a966ff] top-[235.34px] w-[36.212px]" data-node-id="1408:4572" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[318.835px] left-[526.44px] rounded-[35.853px] to-[#a966ff] top-[134.84px] w-[36.57px]" data-node-id="1408:4573" />
+                <div className="absolute bg-gradient-to-b from-[rgba(119,21,245,0.2)] h-[242.592px] left-[572.33px] rounded-[35.853px] to-[#a966ff] top-[211.08px] w-[36.212px]" data-node-id="1408:4574" />
+              </div>
+              <div className="absolute contents left-[70.03px] top-[200.9px]" data-node-id="1408:4575">
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[187.405px] left-[572.33px] rounded-[35.853px] to-[#a966ff] top-[200.9px] w-[36.212px]" data-node-id="1408:4576" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[68.611px] left-[70.03px] rounded-[35.853px] to-[#a966ff] top-[255.25px] w-[36.212px]" data-node-id="1408:4577" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[228.602px] left-[298.42px] rounded-[35.853px] to-[#a966ff] top-[247.66px] w-[36.212px]" data-node-id="1408:4578" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[188.224px] left-[343.95px] rounded-[35.853px] to-[#a966ff] top-[214.57px] w-[36.212px]" data-node-id="1408:4579" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[119.31px] left-[389.48px] rounded-[35.853px] to-[#a966ff] top-[283.48px] w-[36.57px]" data-node-id="1408:4580" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[128.987px] left-[435.38px] rounded-[35.853px] to-[#a966ff] top-[243.9px] w-[36.212px]" data-node-id="1408:4581" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[106.321px] left-[480.91px] rounded-[35.853px] to-[#a966ff] top-[281.99px] w-[36.212px]" data-node-id="1408:4582" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[99.077px] left-[526.44px] rounded-[35.853px] to-[#a966ff] top-[256.05px] w-[36.57px]" data-node-id="1408:4583" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[79.236px] left-[115.56px] rounded-[35.853px] to-[#a966ff] top-[253.73px] w-[36.57px]" data-node-id="1408:4584" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[160.299px] left-[161.46px] rounded-[35.853px] to-[#a966ff] top-[214.46px] w-[36.212px]" data-node-id="1408:4585" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[88.04px] left-[206.99px] rounded-[35.853px] to-[#a966ff] top-[278.63px] w-[36.212px]" data-node-id="1408:4586" />
+                <div className="absolute bg-gradient-to-b from-[#fad967] h-[113.238px] left-[252.52px] rounded-[35.853px] to-[#a966ff] top-[247.66px] w-[36.57px]" data-node-id="1408:4587" />
+              </div>
+              <div className="absolute contents left-[16.61px] top-[61.8px]" data-node-id="1408:4588">
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[354.36px] uppercase whitespace-nowrap" data-node-id="1408:4589" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  2
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[405.99px] uppercase whitespace-nowrap" data-node-id="1408:4590" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  0
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[302.73px] uppercase whitespace-nowrap" data-node-id="1408:4591" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  4
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[251.11px] uppercase whitespace-nowrap" data-node-id="1408:4592" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  6
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[199.48px] uppercase whitespace-nowrap" data-node-id="1408:4593" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  8
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[147.85px] uppercase whitespace-nowrap" data-node-id="1408:4594" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  10
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[5.737px] left-[16.61px] text-[5.019px] text-white top-[96.22px] uppercase whitespace-nowrap" data-node-id="1408:4595" style={{ fontFeatureSettings: '"lnum" 1, "tnum" 1' }}>
+                  12
+                </p>
+                <div className="absolute contents left-[30.23px] top-[99.8px]" data-node-id="1408:4596">
+                  <div className="absolute h-[413.031px] left-[30.23px] mix-blend-hard-light top-[99.8px] w-[631.734px]" data-node-id="1408:4597">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                  </div>
+                </div>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[0] left-[18.04px] text-[8.605px] text-white top-[61.8px] tracking-[0.6884px] uppercase whitespace-nowrap" data-node-id="1408:4607">
+                  <span className="leading-[17.21px] tracking-[1.28px]">SLEEP</span>
+                  <span className="leading-[17.21px]">{` WITH HRV OVERLAY | `}</span>
+                  <span className="font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[17.21px] tracking-[1.28px]">JAN - MID JUNE</span>
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[17.21px] left-[538.99px] text-[5.737px] text-white top-[61.8px] tracking-[0.4589px] uppercase whitespace-nowrap" data-node-id="1408:4608">
+                  AWAKE
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[17.21px] left-[579.15px] text-[#a966ff] text-[5.737px] top-[61.8px] tracking-[0.4589px] uppercase whitespace-nowrap" data-node-id="1408:4609">
+                  REM
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[17.21px] left-[645.48px] text-[#a966ff] text-[5.737px] top-[61.8px] tracking-[0.4589px] uppercase whitespace-nowrap" data-node-id="1408:4610">
+                  DEEP
+                </p>
+                <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[17.21px] left-[609.62px] text-[#a966ff] text-[5.737px] top-[61.8px] tracking-[0.4589px] uppercase whitespace-nowrap" data-node-id="1408:4611">
+                  LIGHT
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute contents inset-[15.57%_52.5%_6.98%_22.74%]" data-node-id="1408:4612">
+            <div className="absolute bg-[var(--brand\/black-jet,black)] inset-[15.57%_52.5%_6.98%_22.74%] overflow-clip" data-node-id="1408:4613" data-name="Concept">
+              <div className="absolute content-stretch flex gap-[21.393px] items-center left-[11.21px] top-[33.15px] w-[417.369px]" data-node-id="1408:4614" data-name="Top Navigation">
+                <div className="h-[15.822px] relative shrink-0 w-[21.982px]" data-node-id="1408:4615">
+                  <div className="absolute inset-[-8.75%_-6.3%]">
+                    <img alt="" className="block max-w-none size-full" src={imgGroup100} />
+                  </div>
+                </div>
+                <div className="flex flex-row items-center self-stretch" data-node-id="1408:4624">
+                  <div className="content-stretch flex h-full items-center relative shrink-0">
+                    <div className="content-stretch flex gap-[20.134px] h-full items-center justify-end relative shrink-0 w-[315.439px]" data-node-id="1408:4625">
+                      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1408:4626" data-name="component/link">
+                        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1408:4626;158:429">
+                          <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#a966ff] text-[3.17px] tracking-[0.1268px] whitespace-nowrap" data-node-id="I1408:4626;158:429;158:415">
+                            <p className="leading-[4.223px]">THE STORY</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1408:4627" data-name="component/link">
+                        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1408:4627;158:429">
+                          <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#a966ff] text-[3.17px] tracking-[0.1268px] whitespace-nowrap" data-node-id="I1408:4627;158:429;158:415">
+                            <p className="leading-[4.223px]">RESEARCH</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1408:4628" data-name="component/link">
+                        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1408:4628;158:429">
+                          <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#a966ff] text-[3.17px] tracking-[0.1268px] whitespace-nowrap" data-node-id="I1408:4628;158:429;158:415">
+                            <p className="leading-[4.223px]">IDEATION</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="1408:4629" data-name="component/link">
+                        <div className="content-stretch flex items-start relative shrink-0" data-node-id="I1408:4629;158:429">
+                          <div className="[word-break:break-word] flex flex-col font-['Plus_Jakarta_Sans:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#a966ff] text-[3.17px] tracking-[0.1268px] whitespace-nowrap" data-node-id="I1408:4629;158:429;158:415">
+                            <p className="leading-[4.223px]">EXPERIMENTAL LAB</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Flink_Neue_Test:Bold'] h-[44.823px] leading-[30.202px] left-[98.05px] not-italic text-[67.115px] text-white top-[132.37px] w-[164.586px]" data-node-id="1408:4630">{`data `}</p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:SemiBold'] font-semibold leading-[1.6] left-[102.95px] text-[7.55px] text-white top-[230.3px] w-[155.203px]" data-node-id="1408:4631">{`This is the initial aggregation of data which i’ve been collecting for the past 5 years. I have started to introduce new metrics along the way but these are the core elements I’ve become very interest in through my training protocol. `}</p>
+              <p className="[word-break:break-word] absolute font-['Plus_Jakarta_Sans:ExtraLight'] font-extralight leading-[1.6] left-[102.94px] text-[7.55px] text-white top-[338.98px] w-[154.364px] whitespace-pre-wrap" data-node-id="1408:4632">{` Here we have heart rate data, paired pharmacology data, which is an important part of the research. I’m looking at how to reduce the  dosage (amount) of medication and look at the impacts it has on training specifically. Also in parallel how does the training protocol affect my mood(s) and the propensity and direction of them.`}</p>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute h-[67.235px] left-[calc(50%+0.35px)] top-[0.08px] w-[1344.7px]" data-node-id="1408:4633" data-name="Header bar">
+            <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.7px] border-solid h-[67.235px] left-0 top-0 w-[1344.7px]" data-node-id="I1408:4633;4041:21215" data-name="Line" />
+            <div className="absolute content-stretch flex h-[14.007px] items-center justify-center left-[78.44px] top-[26.61px]" data-node-id="I1408:4633;4139:28098" data-name="Text">
+              <div className="content-stretch flex gap-[5.603px] items-center relative shrink-0" data-node-id="I1408:4633;4139:28099" data-name="Logo">
+                <div className="h-[9.805px] relative shrink-0 w-[18.231px]" data-node-id="I1408:4633;4139:28100" data-name="HTL — Logo">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHtlLogo} />
+                </div>
+                <div className="flex h-[12.607px] items-center justify-center relative shrink-0 w-0" data-node-id="I1408:4633;4139:28101">
+                  <div className="flex-none rotate-90">
+                    <div className="h-0 relative w-[12.607px]" data-name="Line">
+                      <div className="absolute inset-[-0.7px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[12.607px] items-center relative shrink-0" data-node-id="I1408:4633;4139:28102" data-name="Text">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I1408:4633;4139:28103" data-name="Tilte">
+                    <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[12.61px] text-[color:var(--brand\/black-jet,black)] whitespace-nowrap" data-node-id="I1408:4633;4139:28104">
+                      Intrinsic
+                    </p>
+                  </div>
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I1408:4633;4139:28105" data-name="Sub Title">
+                    <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--brand\/black-jet,black)] whitespace-nowrap" data-node-id="I1408:4633;4139:28106">
+                      <span className="font-['Roobert:Bold'] leading-[1.4] text-[18px]">{`Chapter 4 `}</span>
+                      <span className="font-['Roobert:Light'] leading-[1.4] text-[18px] text-black">{`— Always Thinking / Personal Endeavors (1983–Present) `}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col items-start left-[calc(91.67%-66.5px)] px-[9.431px] top-[11.99px]" data-node-id="1408:4634">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1408:4635">
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1408:4636">
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1408:4637">
+                  <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1408:4638">
+                    <div className="col-1 h-[43.184px] ml-0 mt-0 relative row-1 w-[58.352px]" data-node-id="1408:4639">
+                      <div className="absolute inset-[-3.88%_-2.87%]">
+                        <img alt="" className="block max-w-none size-full" src={imgGroup105} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--surface\/primary,white)] h-[499px] overflow-clip relative shrink-0 w-[1344px]" data-node-id="1408:4528" data-name="1.46">
+          <div className="absolute contents left-[-169.04px] top-[-245.39px]" data-node-id="1408:4529" data-name="AI Assist — 0">
+            <div className="-translate-x-1/2 absolute flex h-[924.619px] items-center justify-center left-[calc(58.33%-25.86px)] top-[-188.03px] w-[1643.769px]" data-node-id="1408:4530">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="content-stretch flex flex-col h-[924.619px] items-center opacity-0 relative w-[1643.769px]" data-name="Header Banner">
+                  <div className="h-[148.477px] relative shrink-0 w-full" data-node-id="1408:4531" data-name="Image" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[1039.266px] items-center justify-center left-[-169.04px] top-[-245.39px] w-[1854.377px]" data-node-id="1408:4532">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[1039.266px] opacity-0 relative w-[1854.377px]" data-name="hotel_28553_A_hyper-realistic_photograph_of_an_physician_in_a_39d77669-1c9e-4917-ace2-81bf18934b9a_3 1">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHotel28553AHyperRealisticPhotographOfAnPhysicianInA39D776691C9E4917Ace281Bf18934B9A31} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute h-[67.235px] left-[calc(50%+0.35px)] top-[-103.92px] w-[1344.7px]" data-node-id="1408:4533" data-name="Header bar">
+            <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.7px] border-solid h-[67.235px] left-0 top-0 w-[1344.7px]" data-node-id="I1408:4533;4041:21215" data-name="Line" />
+            <div className="absolute content-stretch flex h-[14.007px] items-center justify-center left-[78.44px] top-[26.61px]" data-node-id="I1408:4533;4139:28098" data-name="Text">
+              <div className="content-stretch flex gap-[5.603px] items-center relative shrink-0" data-node-id="I1408:4533;4139:28099" data-name="Logo">
+                <div className="h-[9.805px] relative shrink-0 w-[18.231px]" data-node-id="I1408:4533;4139:28100" data-name="HTL — Logo">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHtlLogo} />
+                </div>
+                <div className="flex h-[12.607px] items-center justify-center relative shrink-0 w-0" data-node-id="I1408:4533;4139:28101">
+                  <div className="flex-none rotate-90">
+                    <div className="h-0 relative w-[12.607px]" data-name="Line">
+                      <div className="absolute inset-[-0.7px_0_0_0]">
+                        <img alt="" className="block max-w-none size-full" src={imgLine} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[12.607px] items-center relative shrink-0" data-node-id="I1408:4533;4139:28102" data-name="Text">
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I1408:4533;4139:28103" data-name="Tilte">
+                    <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Plus_Jakarta_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[12.61px] text-[color:var(--brand\/black-jet,black)] whitespace-nowrap" data-node-id="I1408:4533;4139:28104">
+                      Intrinsic
+                    </p>
+                  </div>
+                  <div className="content-stretch flex items-center justify-center relative shrink-0" data-node-id="I1408:4533;4139:28105" data-name="Sub Title">
+                    <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--brand\/black-jet,black)] whitespace-nowrap" data-node-id="I1408:4533;4139:28106">
+                      <span className="font-['Roobert:Bold'] leading-[1.4] text-[18px]">{`Chapter 4 `}</span>
+                      <span className="font-['Roobert:Light'] leading-[1.4] text-[18px] text-black">{`— Always Thinking / Personal Endeavors (1983–Present) `}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[33.618px] items-start left-[78.44px] top-[13.74px] w-[280.146px]" data-node-id="1408:4534" data-name="Textblock">
+            <div className="content-stretch flex flex-col gap-[22.412px] items-start relative shrink-0 w-full" data-node-id="1408:4535" data-name="Headings">
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="1408:4536" data-name="Title">
+                <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4537" data-name="Heading">
+                  <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex-[1_0_0] font-['Roobert:SemiBold'] leading-[0] min-w-px not-italic relative text-[0px] text-[color:var(--brand\/black,#2b2b2b)]" data-node-id="1408:4538">
+                    <span className="font-['Plus_Jakarta_Sans:Light'] font-light leading-none text-[33.618px]">{`4.4 — `}</span>
+                    <span className="leading-none text-[33.618px]">Actigraphy and Circadian Rhythm Modelling</span>
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4539" data-name="Sub Heading">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Roobert:Regular'] leading-[1.2] min-w-px not-italic relative text-[22.412px] text-[color:var(--brand\/black,#2b2b2b)]" data-node-id="1408:4540">
+                  Tracking Sleep to Track Stability — Using Wearables as Mood Predictors
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="1408:4541" data-name="Body">
+              <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex-[1_0_0] font-['Plus_Jakarta_Sans:Regular'] font-normal leading-[1.4] min-w-px relative text-[12.607px] text-[color:var(--brand\/black,#2b2b2b)]" data-node-id="1408:4542">
+                I brought in wearables—Garmin, Strava—to passively capture sleep, heart rate variability, and daily rhythm. Over time, patterns emerged. Bipolar shifts weren’t random—they followed circadian drift. Actigraphy gave me the missing layer: foresight. Paired with AI, I began building visual timelines that aligned physical, cognitive, and emotional states. This allowed for predictive logic—seeing destabilisation before it struck. Where medication had failed to prevent episodes, data offered clarity.
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute contents leading-[0] left-[calc(66.67%-10.74px)] text-[color:var(--brand\/black,#2b2b2b)] top-[-12.87px]" data-node-id="1408:4543">
+            <a className="absolute block cursor-pointer font-['Big_Shoulders_Display:Black'] font-black h-[20.696px] left-[calc(66.67%+27.78px)] text-[41.915px] top-[-12.87px] uppercase w-[272.45px]" href="https://en.wikipedia.org/wiki/Actigraphy" data-node-id="1408:4544" target="_blank">
+              <p className="leading-[35.628px] mb-0">​</p>
+              <p className="leading-[35.628px]">​</p>
+            </a>
+            <div className="absolute font-['Helvetica_Neue:Regular'] h-[21.011px] left-[calc(66.67%-10.74px)] not-italic text-[0px] top-[11.64px] w-[465.743px]" data-node-id="1408:4545">
+              <p className="mb-0 text-[5.603px]">
+                <span className="leading-[1.2]">{`Actigraphy is a non-invasive method of monitoring human rest/activity cycles. A small actigraph unit, also called an actimetry sensor, is worn for a week or more to measure gross motor activity. The unit is usually in a wristwatch-like package worn on the wrist. `}</span>
+                <a className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] cursor-pointer decoration-from-font decoration-solid font-['Helvetica_Neue:Regular'] leading-[1.2] not-italic text-[#2b2b2b] underline" href="https://en.wikipedia.org/wiki/Actigraphy" target="_blank">
+                  <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://en.wikipedia.org/wiki/Actigraphy" target="_blank">
+                    Wikipedia
+                  </span>
+                </a>
+              </p>
+              <p className="leading-[1.2] text-[5.603px]">​</p>
+            </div>
+            <p className="absolute font-['Gilroy:Regular'] left-[calc(66.67%-6.54px)] not-italic text-[11.171px] top-[360.42px] w-[477.649px]" data-node-id="1408:4546">
+              <span className="leading-[12.575px]">{`Understanding the intricate relationship between sleep patterns and mood fluctuations is crucial in the realm of mental health. As a researcher or healthcare professional, utilizing actigraphy data becomes instrumental in unraveling the complex dynamics of these interconnected aspects. Actigraphy, a non-invasive method of monitoring sleep-wake cycles, provides a wealth of information that extends beyond merely tracking sleep duration. In this context, my motivation to leverage actigraphy data stems from a profound desire to gain deep insights into mood patterns. This innovative approach is made possible through the groundbreaking contributions of `}</span>
+              <span className="leading-[12.575px]">SSUPERLATIVE®</span>
+              <span className="leading-[12.575px]">{`, a pioneering company that is the brainchild behind the integration of actigraphy into mental health research and patient care. By employing this technology, we aim to proactively assist and support patients, potentially intervening early or even preventing episodes altogether. This integration of actigraphy into mental health research and patient care, driven by `}</span>
+              <span className="leading-[12.575px]">SSUPERLATIVE</span>
+              <span className="leading-[12.575px]">’s visionary ideas, represents a promising avenue for enhancing our understanding and, ultimately, improving the overall well-being of individuals facing mood-related challenges.</span>
+            </p>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Big_Shoulders_Display:Black'] font-black h-[284.348px] leading-[47.625px] left-[calc(66.67%-6.54px)] text-[56.029px] text-[color:var(--brand\/black-jet,black)] top-[49.46px] uppercase w-[467.143px]" data-node-id="1408:4547">{`UNDERSTANDING intricate relationship between sleep patterns and mood fluctuations `}</p>
+          <div className="absolute h-[513.367px] left-[calc(25%+45px)] top-[17.24px] w-[481.591px]" data-node-id="1408:4548" data-name="55D134D0-1A16-43C2-A1E3-F3F3C9051EBB_1_102_o 1">
+            <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={img55D134D01A1643C2A1E3F3F3C9051Ebb1102O1} />
+          </div>
+        </div>
+        <div className="bg-white h-[748px] overflow-clip relative shrink-0 w-[1330px]" data-node-id="1446:963" data-name="2.0">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[1080px] left-1/2 top-1/2 w-[1920px]" data-node-id="1446:964" data-name="HTL_1 1" />
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1423:1775">
+          <div className="col-1 content-stretch flex flex-col gap-[27.848px] h-[518px] items-start ml-0 mt-[3.96px] relative row-1 w-[644px]" data-node-id="1423:1776">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1423:1777">
+              <div className="bg-[var(--surface\/primary,white)] col-1 h-[518px] ml-0 mt-0 overflow-clip relative row-1 w-[643.977px]" data-node-id="1423:1778" data-name="1.3">
+                <div className="absolute bg-white h-[980.133px] left-[-360.86px] overflow-clip top-[-159.29px] w-[1567.44px]" data-node-id="1423:1779" data-name="4920">
+                  <div className="absolute flex h-[218.602px] items-center justify-center left-[-410.81px] top-[210.55px] w-[219.881px]" data-node-id="1423:1780">
+                    <div className="-rotate-90 flex-none">
+                      <div className="bg-[#a67c52] h-[219.881px] relative rounded-[181.581px] w-[218.602px]" />
+                    </div>
+                  </div>
+                  <div className="absolute flex h-[218.602px] items-center justify-center left-[-190.93px] top-[210.55px] w-[219.881px]" data-node-id="1423:1781">
+                    <div className="-rotate-90 flex-none">
+                      <div className="bg-[#c69c6d] h-[219.881px] relative rounded-[181.581px] w-[218.602px]" />
+                    </div>
+                  </div>
+                  <div className="absolute content-stretch flex h-[21.781px] items-start justify-between left-[calc(25%+57.28px)] top-[65.34px] w-[1539.166px]" data-node-id="1423:1782" />
+                  <div className="absolute h-[1223.347px] left-[-219.6px] top-[-23.6px] w-[2218.904px]" data-node-id="1423:1783" data-name="hylton_run_top 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHyltonRunTop1} />
+                  </div>
+                  <div className="absolute h-[585px] left-[calc(16.67%+84.62px)] top-[116.29px] w-[680px]" data-node-id="1423:1784" data-name="Screenshot 2025-05-29 at 15.21.35 1">
+                    <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgScreenshot20250529At1521351} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 absolute contents left-[26.4px] top-[-20.67px]" data-node-id="1423:1785" data-name="Header">
+                  <div className="absolute contents left-[-591.81px] top-[-20.67px]" data-node-id="1423:1786">
+                    <div className="-translate-x-1/2 absolute h-[60.701px] left-[26.4px] top-[-20.67px] w-[1236.436px]" data-node-id="1423:1787" data-name="Header bar">
+                      <div className="absolute border-[var(--brand\/grey-300,#c1c1c1)] border-b-[0.649px] border-solid h-[62.336px] left-0 top-0 w-[1246.724px]" data-node-id="1423:1788" data-name="Line" />
+                    </div>
+                    <div className="absolute bg-[rgba(255,255,255,0)] content-stretch flex flex-col items-start left-[calc(91.67%-81.23px)] px-[8.672px] top-[16.72px]" data-node-id="1423:1789">
+                      <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="1423:1790">
+                        <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1423:1791">
+                          <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1423:1792">
+                            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="1423:1793">
+                              <div className="col-1 h-[39.706px] ml-0 mt-0 relative row-1 w-[53.655px]" data-node-id="1423:1794">
+                                <div className="absolute inset-[-3.88%_-2.87%]">
+                                  <img alt="" className="block max-w-none size-full" src={imgGroup106} />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-[family-name:var(--fontfamily,'Plus_Jakarta_Sans:Regular')] font-normal leading-[0] left-[-527.13px] text-[0px] text-white top-[5.62px] w-[670.901px]" data-node-id="1423:1803">
+                    <span className="font-['Plus_Jakarta_Sans:ExtraBold'] font-extrabold leading-none text-[13.007px] text-black">Exhibit |</span>
+                    <span className="font-['Plus_Jakarta_Sans:Bold'] font-bold leading-none text-[13.007px] text-black">{` SSUPERLATIVE® Memoir Series | Liver Failure`}</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[102px] relative shrink-0 w-full" data-node-id="1423:1804" />
+          </div>
+          <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[676.47px] mt-0 place-items-start relative row-1" data-node-id="1423:1807">
+            <div className="col-1 h-[518.785px] ml-[0.76px] mt-[3.18px] relative row-1 w-[632.374px]" data-node-id="1423:1808" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 632.37 518.78' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-47.033 -4.1508e-15 3.9419e-14 -68.595 232.86 518.78)'><stop stop-color='rgba(0,0,0,1)' offset='0.23079'/><stop stop-color='rgba(11,11,11,1)' offset='0.4231'/><stop stop-color='rgba(22,22,22,1)' offset='0.6154'/><stop stop-color='rgba(43,43,43,1)' offset='1'/></radialGradient></defs></svg>\")" }} />
+            <div className="col-1 h-[509.26px] ml-0 mt-[3.18px] relative row-1 w-[633.534px]" data-node-id="1423:1809" data-name="hylton_run_top 1">
+              <div className="absolute inset-0 opacity-30 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[124.87%] left-[-75.07%] max-w-none top-[-0.06%] w-[293.93%]" src={imgHyltonRunTop1} />
+              </div>
+            </div>
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[49.47px] mt-0 place-items-start relative row-1" data-node-id="1423:1810">
+              <p className="[word-break:break-word] col-1 font-['Big_Shoulders_Display:Black'] font-black h-[126.415px] leading-[230.823px] ml-0 mt-[192.25px] relative row-1 text-[112.597px] text-white w-[366px]" data-node-id="1423:1811">
+                3334km
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Big_Shoulders_Display:Black'] font-black h-[126.415px] leading-[230.823px] ml-0 mt-[98.59px] relative row-1 text-[112.597px] text-white w-[449px]" data-node-id="1423:1812">
+                256h 28m
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Big_Shoulders_Display:Black'] font-black h-[126.415px] leading-[230.823px] ml-[7.32px] mt-0 relative row-1 text-[112.597px] text-white w-[451px]" data-node-id="1423:1813">
+                128900km
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Big_Shoulders_Display:Black'] font-black h-[126.415px] leading-[230.823px] ml-[7.32px] mt-[284.06px] relative row-1 text-[112.597px] text-white w-[443px]" data-node-id="1423:1814">
+                6 382 969
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Big_Shoulders_Display:Black'] font-black h-[126.415px] leading-[230.823px] ml-[7.32px] mt-[386.35px] relative row-1 text-[112.597px] text-white w-[367px]" data-node-id="1423:1815">
+                250 000
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[7.32px] mt-[19.72px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[133.177px]" data-node-id="1423:1816">
+                DISTANCE RUN [2019 - ]
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[7.32px] mt-[120.77px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[126.328px]" data-node-id="1423:1817">
+                YEAR TO DATE [ 2023 ]
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[7.32px] mt-[303.78px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[83.711px]" data-node-id="1423:1818">
+                TOTAL ANNUAL
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[461.08px] mt-[361.7px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[43.378px]" data-node-id="1423:1819">
+                6619 KM
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[7.32px] mt-[214.43px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[126.328px]" data-node-id="1423:1820">
+                YEAR TO DATE [ 2023 ]
+              </p>
+              <p className="[word-break:break-word] col-1 font-['Gilroy:Regular'] h-[9.995px] leading-[18.015px] ml-[7.32px] mt-[406.07px] not-italic relative row-1 text-[10.134px] text-white tracking-[1.216px] w-[191.014px]" data-node-id="1423:1821">
+                MEANINGFUL WORDS JOURNALED
+              </p>
+              <div className="col-1 h-0 ml-[0.56px] mt-[300.7px] relative row-1 w-[503.871px]" data-node-id="1423:1822">
+                <div className="absolute inset-[-1.13px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine3} />
+                </div>
+              </div>
+              <div className="col-1 h-0 ml-[0.56px] mt-[105.98px] relative row-1 w-[503.871px]" data-node-id="1423:1823">
+                <div className="absolute inset-[-9.01px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                </div>
+              </div>
+              <div className="col-1 h-0 ml-[0.56px] mt-[203.34px] relative row-1 w-[503.871px]" data-node-id="1423:1824">
+                <div className="absolute inset-[-1.13px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine3} />
+                </div>
+              </div>
+              <div className="col-1 h-0 ml-[0.56px] mt-[402.99px] relative row-1 w-[503.871px]" data-node-id="1423:1825">
+                <div className="absolute inset-[-1.13px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine3} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1351:2302" data-name="Copy / FROM DATA TO DESIGN">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1351:2302;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1351:2302;1112:494">
+              FROM DATA TO DESIGN
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1351:2302;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[length:var(--font-size\/lg,22px)] text-black w-[930px]" data-node-id="I1351:2302;1112:496">
+              Sleep, movement and journal entries became material for design. Timelines, dashboards and early sketches bring those records into view, asking how an interface might help someone recognise patterns in their own experience.
+            </p>
+          </div>
+        </div>
+        <div className="bg-white h-[756px] overflow-clip relative shrink-0 w-[1346px]" data-node-id="1545:1318" data-name="Frame">
+          <div className="absolute contents left-0 top-[-30px]" data-node-id="1545:1319">
+            <div className="absolute h-[785.593px] left-0 top-[-30px] w-[1350.359px]" data-node-id="1545:1320" data-name="Video">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+            </div>
+            <div className="absolute h-[785.593px] left-0 top-[-28px] w-[1350.359px]" data-node-id="1545:1321" data-name="Container">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+            </div>
+            <div className="absolute h-[785.593px] left-[337.59px] top-[-30px] w-[0.625px]" data-node-id="1545:1322" data-name="Container">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+            </div>
+            <div className="absolute h-[785.593px] left-[1012.77px] top-[-30px] w-[0.625px]" data-node-id="1545:1323" data-name="Container">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+            </div>
+            <div className="absolute content-stretch flex h-[70.597px] items-start justify-between left-[100.24px] pb-[15.563px] top-[-14.44px] w-[1151.344px]" data-node-id="1545:1324" data-name="ReportHero">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+              <div className="relative shrink-0" data-node-id="1545:1325" data-name="Container">
+                <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[15.563px] items-center relative size-full">
+                  <div className="h-[54.342px] relative shrink-0 w-[69.487px]" data-node-id="1545:1326" data-name="Image (SSUPERLATIVE)">
+                    <div className="absolute bg-clip-padding border-0 border-[transparent] border-solid inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-[98.63%] left-[-0.63%] max-w-none top-[0.77%] w-[101.52%]" src={imgImageSsuperlative} />
+                    </div>
+                  </div>
+                  <div className="relative shrink-0" data-node-id="1545:1327" data-name="TypographyRole">
+                    <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
+                      <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[14.526px] not-italic relative shrink-0 text-[12.105px] text-white tracking-[0.9684px] uppercase whitespace-nowrap" data-node-id="1545:1328">
+                        SSUPERLATIVE / ALICE / 05.00
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[679.687px] left-[100.23px] top-[57.42px] w-[1151.344px]" data-node-id="1545:1329" data-name="ReportHero">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgVideo} />
+              <div className="absolute content-stretch flex flex-col gap-[69.171px] items-start left-0 top-[112.59px] w-[1057.863px]" data-node-id="1545:1330" data-name="Stack">
+                <div className="border-l-[2.767px] border-solid border-white relative shrink-0 w-[549.267px]" data-node-id="1545:1331" data-name="Container">
+                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24.21px] items-start pl-[26.977px] relative size-full">
+                    <div className="relative shrink-0" data-node-id="1545:1332" data-name="TypographyRole">
+                      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
+                        <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[14.526px] not-italic relative shrink-0 text-[12.105px] text-[rgba(255,255,255,0.7)] tracking-[0.9684px] uppercase whitespace-nowrap" data-node-id="1545:1333">
+                          00 / recovery report / 0.7.0
+                        </p>
+                      </div>
+                    </div>
+                    <div className="h-[95px] relative shrink-0 w-[461px]" data-node-id="1545:1334" data-name="TypographyRole" />
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24.704px] not-italic relative shrink-0 text-[15.44px] text-white w-[524.897px]" data-node-id="1545:1336">
+                      A confidential synthetic recovery publication exploring evidence, work capacity, sleep, mood, and functional change through Project Alice.
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-black border-[0.692px] border-solid border-white relative shrink-0 w-[122.938px]" data-node-id="1545:1337" data-name="ReportHero">
+                  <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start px-[14.526px] py-[11.068px] relative size-full">
+                    <p className="[word-break:break-word] font-['Space_Mono:Regular'] leading-[16.601px] not-italic relative shrink-0 text-[10.376px] text-white tracking-[0.83px] uppercase whitespace-nowrap" data-node-id="1545:1338">
+                      Begin report
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute border-[rgba(255,255,255,0.5)] border-solid border-t-[0.692px] font-['Space_Mono:Regular'] h-[33.307px] leading-[13.834px] left-0 not-italic text-[8.646px] text-[rgba(255,255,255,0.7)] top-[600.3px] tracking-[0.6917px] uppercase w-[1156.023px] whitespace-nowrap" data-node-id="1545:1339" data-name="Container">
+                <p className="absolute left-0 top-[17.3px]" data-node-id="1545:1340">
+                  SYS / LONGITUDINAL
+                </p>
+                <p className="absolute left-[292.52px] top-[17.3px]" data-node-id="1545:1341">
+                  STATE / SYNTHETIC
+                </p>
+                <p className="absolute left-[585.04px] top-[17.3px]" data-node-id="1545:1342">
+                  GRID / 12 COL
+                </p>
+                <p className="-translate-x-full absolute left-[1164.04px] text-right top-[17.3px]" data-node-id="1545:1343">
+                  JHB / 26°12′S
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] h-[330px] items-start overflow-clip py-[64px] relative shrink-0 w-[1344px]" data-node-id="1351:2305" data-name="Brand Story">
+          <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1351:2306" data-name="Divider">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+          </div>
+          <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[#0a0a0a] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[500px]" data-node-id="1351:2307">
+            SSUPERLATIVE / 2025
+          </p>
+          <a className="[word-break:break-word] block font-['Bebas_Neue:Regular'] leading-[0] min-w-full not-italic relative shrink-0 text-[#0a0a0a] text-[68px] tracking-[0.68px] w-[min-content]" href="https://www.figma.com/proto/p70OWKTTS9XAdOhK1l2Q3B/HTL-x-COLLECTION?node-id=4365-2334&viewport=1024%2C542%2C0.05&t=xGTSgpCc9gnMwrPs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4365%3A2334&page-id=4365%3A2283" data-node-id="1351:2308" target="_blank">
+            <p className="cursor-pointer leading-[1.05]">THE HUMAN SYSTEM — A RECORD OF RECOVERY</p>
+          </a>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1351:2309" data-name="Copy / RECOVERY AS A RECORD">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1351:2309;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1351:2309;1112:494">
+              RECOVERY AS A RECORD
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1351:2309;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1351:2309;1112:496">
+              The 2025 chapter follows a period of recovery through voice journals, running, sleep and daily observation. Personal records become a visual account of change, connecting the measured rhythms of the body with the experience of living through them.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[60px] items-start min-h-[99px] relative shrink-0 w-[1344px]" data-node-id="1351:2310" data-name="Copy / AN EVOLVING PRACTICE">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[330px]" data-node-id="I1351:2310;1112:493" data-name="Label">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Bold'] font-bold leading-[1.6] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/xs,12px)] tracking-[0.96px] uppercase w-[300px]" data-node-id="I1351:2310;1112:494">
+              AN EVOLVING PRACTICE
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[954px]" data-node-id="I1351:2310;1112:495" data-name="Copy">
+            <p className="[word-break:break-word] font-['Hanken_Grotesk:Regular'] font-normal leading-[1.5] relative shrink-0 text-[color:var(--ink,#0a0a0a)] text-[length:var(--font-size\/lg,22px)] w-[930px]" data-node-id="I1351:2310;1112:496">
+              Drawings, patterns, data studies and product experiments belong to the same ongoing practice. SSUPERLATIVE uses design to give form to a personal archive, leaving room for uncertainty, reflection and the next iteration.
+            </p>
+          </div>
+        </div>
+        <div className="h-px relative shrink-0 w-[1344px]" data-node-id="1351:2311" data-name="Divider">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDivider} />
+        </div>
+        <RoWorkDetailProjectNavigationDesktop className="[word-break:break-word] content-stretch flex h-[150px] items-start py-[40px] relative shrink-0 text-[color:var(--ink,#0a0a0a)] w-[1344px] whitespace-nowrap" nextLabel="RELATED PROJECT" nextTitle="SUPERBALIST" previousLabel="BACK TO" previousTitle="WORK" />
+        <div className="absolute left-[1199px] size-px top-[3679px]" data-node-id="1351:2313">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex h-[96px] items-center justify-between left-[3px] mix-blend-difference px-[var(--gap\/large,48px)] top-px w-[1920px]" data-node-id="1429:2569" data-name="RO / Navigation / Desktop / Difference">
+        <p className="[word-break:break-word] font-['Bebas_Neue:Regular'] h-[25px] leading-[33.28px] not-italic relative shrink-0 text-[20.8px] text-[color:var(--#FFFFFF,white)] tracking-[0.624px] uppercase w-[105.813px]" data-node-id="I1429:2569;973:95">
+          Random Order
+        </p>
+        <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="I1429:2569;973:96" data-name="Navigation links">
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1429:2569;973:97" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1429:2569;973:97;973:91">
+              <p className="leading-none">Work</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1429:2569;973:98" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1429:2569;973:98;973:91">
+              <p className="leading-none">Edit</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1429:2569;973:99" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1429:2569;973:99;973:91">
+              <p className="leading-none">About</p>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[44px] items-center px-[var(--space\/8,8px)] relative shrink-0" data-node-id="I1429:2569;973:100" data-name="RO / Navigation Link / Desktop">
+            <div className="[word-break:break-word] flex flex-col font-['Hanken_Grotesk:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[color:var(--#FFFFFF,white)] text-[length:var(--font-size\/body,16px)] text-center whitespace-nowrap" data-node-id="I1429:2569;973:100;973:91">
+              <p className="leading-none">Contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Eyebrow: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 8), Body/Large: Font(family: "Hanken Grotesk", style: Regular, size: font-size/lg, weight: 400, lineHeight: 1.5, letterSpacing: 0), Gradient 1: , Radial Gradient BG: , Display/Desktop/H2: Font(family: "Bebas Neue", style: Regular, size: 68, weight: 400, lineHeight: 1.0499999523162842, letterSpacing: 1), Label/Meta: Font(family: "Hanken Grotesk", style: Bold, size: font-size/xs, weight: 700, lineHeight: 1.600000023841858, letterSpacing: 6), RO V2/Display/Title Mobile: Font(family: "Bebas Neue", style: Regular, size: 32, weight: 400, lineHeight: 36, letterSpacing: 0), Nav/Link: Font(family: "Hanken Grotesk", style: Regular, size: font-size/body, weight: 400, lineHeight: 1, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## RO / Work Detail / Copy Block / Desktop
+**Node ID:** 1112:497
+
+Label and narrative copy in the existing 330 / 60 / 954 desktop composition. Editable text properties; instance height preserves the project-specific editorial rhythm. Labels and body use existing shared styles. Content remains source-authored.
+
+## RO / Work Detail / Project Navigation / Desktop
+**Node ID:** 1112:503
+
+Editable previous/next project navigation, replacing duplicated outlined labels. Keep project order sourced from the approved Work sequence. Each half uses the shared metadata style and Bebas display family.
+
+## RO / Navigation / Desktop / Difference
+**Node ID:** 973:94
+
+V2-local navigation master cloned from the established RO white + DIFFERENCE navigation; includes responsive editorial link structure.
+
+## RO / Navigation Link / Desktop
+**Node ID:** 973:89
+
+White navigation label. Default and underline hover; 44px target. Parent navigation applies Difference blending. Provide equivalent keyboard focus in production.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

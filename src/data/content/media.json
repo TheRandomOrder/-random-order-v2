@@ -2916,5 +2916,80 @@
       "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/?node-id=1262-12378"
     },
     "caption": "AI-assisted fitness image study"
+  },
+  {
+    "id": "machine-court",
+    "type": "image",
+    "src": "/assets/projects/publicis-machine/court.webp",
+    "width": 1344,
+    "height": 1796,
+    "alt": "Players and drinks on a pink tennis court, seen from above.",
+    "variants": [
+      {
+        "src": "/assets/projects/publicis-machine/court-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/publicis-machine/court-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "aspectRatio": "1344 / 1452",
+    "position": "center bottom",
+    "source": {
+      "label": "Machine / V2 Content & Layout",
+      "nodeId": "1567:1204"
+    }
+  },
+  {
+    "id": "machine-glass",
+    "type": "image",
+    "src": "/assets/projects/publicis-machine/glass.webp",
+    "width": 1328,
+    "height": 912,
+    "alt": "Machine Gin bottle on a pink tennis court, with lettering visible through the glass.",
+    "variants": [
+      {
+        "src": "/assets/projects/publicis-machine/glass-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/publicis-machine/glass-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "aspectRatio": "1328 / 912",
+    "position": "center",
+    "source": {
+      "label": "Machine / V2 Content & Layout",
+      "nodeId": "1634:1368"
+    }
+  },
+  {
+    "id": "machine-motion",
+    "type": "image",
+    "src": "/assets/projects/publicis-machine/motion.webp",
+    "width": 1344,
+    "height": 752,
+    "alt": "A tennis player in motion with the court blurred behind them.",
+    "variants": [
+      {
+        "src": "/assets/projects/publicis-machine/motion-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/assets/projects/publicis-machine/motion-960.webp",
+        "width": 960
+      }
+    ],
+    "fit": "cover",
+    "aspectRatio": "1344 / 1078",
+    "position": "center",
+    "source": {
+      "label": "Machine / V2 Content & Layout",
+      "nodeId": "1349:2198"
+    }
   }
 ]

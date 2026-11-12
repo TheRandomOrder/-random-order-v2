@@ -16,6 +16,7 @@ export interface CreditsBlock extends BlockBase { type: 'credits'; items: {label
 export type EditorialBlock = TextBlock | HeadingBlock | MediaBlock | GalleryBlock | FormulaBlock | QuoteBlock | CreditsBlock | PaletteBlock;
 
 export interface ProjectRecord {
+  sourceComposition?: string;
   id: string;
   slug: string;
   title: string;
@@ -49,6 +50,7 @@ export interface ProjectRecord {
   headerMonochrome?: boolean;
   editorialTop?: number;
   relatedIds?: string[];
+  navigation?: 'related';
   metadata?: {label: string; value: string}[];
   blocks: EditorialBlock[];
   sources?: SourceReference[];
@@ -77,3 +79,10 @@ export function getRelatedProjects(project: ProjectRecord): ProjectRecord[] {
     return related && related.id !== project.id && projectHref(related) ? [related] : [];
   });
 }
+
+/** The index and case-study navigation share one explicit editorial order. */
+const workOrder = ['publicis-machine', 'ssuperlative', 'golds-gym', 'muso', 'hotel-atelier', 'hallys', 'cozy', 'superbalist', 'adidas', 'sneaker-lab', 'earnt', 'the-shed', 'orchard-on-long'];
+export const workIndexProjects = workOrder.flatMap(id => {
+  const project = getProject(id);
+  return project?.routeEnabled ? [project] : [];
+});
