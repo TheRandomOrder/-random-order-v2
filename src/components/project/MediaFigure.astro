@@ -15,7 +15,7 @@ const {mediaId, caption, fit, label, eager = false, preview = false, showCaption
 const media = getMedia(mediaId);
 const imageMedia = media.type === 'image' ? media : mediaAssets.find(asset => asset.type === 'image' && asset.src === media.poster);
 const displayCaption = caption ?? media.caption;
-const autoplay = media.motion?.autoplay ?? 'manual';
+const autoplay = 'viewport';
 ---
 <figure class:list={['project-media', className]} data-media-id={media.id}>
   <div class="project-media-surface" style={`--media-ratio:${media.aspectRatio ?? `${media.width} / ${media.height}`};--media-fit:${fit ?? media.fit ?? 'contain'};--media-position:${media.position ?? 'center'};`} data-media={media.type === 'video' && !preview || undefined} data-media-autoplay={media.type === 'video' && !preview ? autoplay : undefined}>

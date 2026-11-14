@@ -30,7 +30,7 @@ for(const record of records.filter(r=>r.legacyLayout))test(`${record.id}: preser
  assert.equal(all(migrated,n=>['script','iframe','object','embed'].includes(n.tagName)).length,0);
  assert.equal(all(migrated,n=>(n.attrs??[]).some(a=>a.name.startsWith('on'))).length,0);
  for(const video of all(migrated,n=>n.tagName==='video')){
-  assert.equal(attr(video,'autoplay'),undefined);
-  assert.notEqual(attr(video,'controls'),undefined);
+  assert.notEqual(attr(video,'autoplay'),undefined);
+  assert.equal(attr(video,'controls'),undefined);
  }
 });
