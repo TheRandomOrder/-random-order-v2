@@ -1,0 +1,30 @@
+---
+const testimonials = [
+ {name:'Lauren Scott-Harris',role:'Founder, EARNT',photo:'lauren-scott-harris',quote:'“I’ve never experienced a creative partnership like it.”'},
+ {name:'Kai Rader',role:'Design Director, Metalab',photo:'kai-rader',quote:'“He’s basically rocket fuel for a project. He comes in with a positive attitude and makes the work better, no matter the scenario.”'},
+ {name:'Greg Cormier',role:'VP Digital & E-Commerce, G Adventures',photo:'greg-cormier',quote:'“Jason was collaborative, he was able to bring our ideas to life, and go above and beyond with a fresh perspective that made the results even better.”'},
+ {name:'Richard Gladwin',role:'CEO, Local & Wild',photo:'richard-gladwin',quote:'“Jason has a real talent for understanding a brand and translating it into a strong visual identity. He has worked with us on a number of our logos, always bringing creativity, thought and a very good eye for detail.”'},
+ {name:'Anna Halliday',role:'Founder, Hally’s',photo:'anna-halliday',quote:'“The visual narrative that he landed on was perfect, unique, tasteful and bold, making us stand out.”'}
+];
+---
+<div class="testimonial-carousel" data-testimonials aria-label="Client testimonials">
+ <div class="testimonial-slides" aria-live="polite">
+  {testimonials.map((item,i)=><figure class:list={['testimonial-slide',{'is-active':i===0}]} aria-hidden={i!==0?'true':undefined} inert={i!==0}>
+   <blockquote>{item.quote}</blockquote>
+   <figcaption><img src={`/assets/testimonials/${item.photo}.png`} alt="" width="200" height="200" loading="lazy" decoding="async" /><span><strong>{item.name}</strong><span>{item.role}</span></span></figcaption>
+  </figure>)}
+ </div>
+ <div class="testimonial-dots" role="group" aria-label="Choose a testimonial">
+  {testimonials.map((item,i)=><button type="button" class:list={['testimonial-dot',{'is-active':i===0}]} data-testimonial-index={i} aria-label={`Show testimonial from ${item.name}`} aria-pressed={i===0?'true':'false'}><span></span></button>)}
+ </div>
+</div>
+<script>
+ document.querySelectorAll<HTMLElement>('[data-testimonials]').forEach(carousel=>{
+  const slides=[...carousel.querySelectorAll<HTMLElement>('.testimonial-slide')];
+  const dots=[...carousel.querySelectorAll<HTMLButtonElement>('.testimonial-dot')];
+  dots.forEach((dot,index)=>dot.addEventListener('click',()=>{
+   slides.forEach((slide,i)=>{const active=i===index;slide.classList.toggle('is-active',active);slide.toggleAttribute('inert',!active);if(active)slide.removeAttribute('aria-hidden');else slide.setAttribute('aria-hidden','true');});
+   dots.forEach((button,i)=>{button.classList.toggle('is-active',i===index);button.setAttribute('aria-pressed',String(i===index));});
+  }));
+ });
+</script>

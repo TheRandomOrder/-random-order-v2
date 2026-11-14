@@ -6,7 +6,9 @@ import type {projects} from '../data/home';
 type Props = typeof projects[number];
 const p=Astro.props;
 ---
-<article class:list={['featured-project',`project-${p.id}`]} aria-labelledby={`project-${p.id}`}>
- <MediaContainer image={p.image} video={p.video} alt={p.alt} label={`${p.title} film`} href={p.href ?? undefined} linkLabel={`View ${p.title} project`} />
+<article data-v1-blur={['hallys','sussex','earnt'].includes(p.id)||undefined} class:list={['featured-project',`project-${p.id}`]} aria-labelledby={`project-${p.id}`}>
+ {p.image ? <MediaContainer image={p.image} sourceSet={p.sourceSet} video={p.video} alt={p.alt} label={`${p.title} film`} href={p.href ?? undefined} linkLabel={`View ${p.title} project`} /> : <div class="media-container" aria-hidden="true"></div>}
  <ProjectCardText variant="home" id={p.id} number={p.number} tags={p.tags} title={p.title} href={p.href} summary={p.summary} />
 </article>
+
+<script>import '../scripts/home-v1-hover.js';</script>

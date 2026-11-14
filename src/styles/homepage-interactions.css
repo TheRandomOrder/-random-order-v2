@@ -1,4 +1,20 @@
 /* Keep card geometry and crops in the existing homepage stylesheet. */
+.home .media-toggle,.home .trusted .logo-motion-toggle { font-size:0; width:44px; padding:0; border-radius:50%; }
+.home .media-toggle::after,.home .trusted .logo-motion-toggle::after { content:'▶'; font-size:14px; }
+.home .media-toggle[aria-pressed='true']::after,.home .trusted .logo-motion-toggle[aria-pressed='true']::after { content:'Ⅱ'; }
+.home .media-toggle:focus-visible,.home .trusted .logo-motion-toggle:focus-visible { outline:3px solid #fff; outline-offset:3px; }
+.trusted { height:auto; min-height:902px; }
+.trusted .location { margin-top:auto; padding-bottom:0; }
+.trusted-statistics { width:100%; padding-block:48px 56px; }
+.trusted-statistics-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; margin:0; }
+.trusted-statistics-list > div { display:flex; flex-direction:column-reverse; gap:12px; min-width:0; }
+.trusted-statistics-list dt { font:400 18px/1.5 var(--font-sans); }
+.trusted-statistics-list dd { margin:0; font:400 clamp(72px,10.4167vw,200px)/1.05 ui-monospace,monospace; }
+@media(max-width:767px) {
+ .trusted-statistics { padding-block:48px 0; }
+ .trusted-statistics-list { grid-template-columns:1fr; gap:32px; }
+ .trusted-statistics-list dd { font-size:clamp(72px,20vw,110px); }
+}
 .featured-project.featured-project .media-container { filter:none; }
 .featured-project .media-container > img,
 .featured-project .media-container > video {
@@ -93,4 +109,62 @@
  .trusted[data-motion-ready='true'] .marks-group-duplicate { display:none; }
  .trusted .logo-motion-toggle { display:none; }
 }
-.media-project-link{position:absolute;inset:0;z-index:1}.media-project-link:focus-visible{outline:3px solid #fff;outline-offset:-6px;box-shadow:inset 0 0 0 8px #111}
+.media-project-link{position:absolute;inset:0;z-index:5}.media-project-link:focus-visible{outline:3px solid #fff;outline-offset:-6px;box-shadow:inset 0 0 0 8px #111}
+
+/* Current Figma homepage type: leave shared case-study tokens unchanged. */
+@font-face{font-family:'Big Shoulders';src:url('/fonts/big-shoulders.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Geist Mono';src:url('/fonts/geist-mono.ttf') format('truetype');font-weight:100 900;font-display:swap}
+.home .hero h1,.home .display,.home .capability .section-title,.home .process .section-title,.home .project-hallys .section-title,.home .footer-pitch p{font-family:'Big Shoulders',sans-serif;font-weight:700}
+.home .hero h1{line-height:1.06}
+.home .display{line-height:1.045}
+.home .section-title{line-height:1.18}
+.home .trusted-statistics-list dd{font-family:'Geist Mono',monospace}
+/* The exported poster already contains the Figma dark overlay. */
+.home .hero>.media-container img{opacity:1;filter:none}
+.home .hero>.media-container:has(video[data-playing]) img{visibility:hidden}
+/* Restrained version of the live site's neighbouring-card emphasis. */
+.home .featured-project{transition:opacity 220ms ease}
+@media(hover:hover) and (pointer:fine){
+ .home .work-list:has(.featured-project:hover) .featured-project:not(:hover){opacity:.65}
+}
+.home .work-list:focus-within .featured-project:not(:focus-within){opacity:1}
+
+.trusted .location{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.city-scroll{display:flex;align-items:center;gap:32px}
+.city-scroll-label{color:#b4b4b6;font:400 14px/1.3 var(--font-sans)}
+.city-scroll-window{height:128px;width:190px;overflow:hidden;mask-image:linear-gradient(transparent,#000 35%,#000 65%,transparent)}
+.city-scroll-track{display:flex;flex-direction:column}
+.city-scroll-item{height:64px;display:flex;align-items:center;font:400 40px/1 var(--font-display);text-transform:uppercase;white-space:nowrap}
+@media(max-width:767px){.trusted .location{flex-direction:column;align-items:flex-start}.city-scroll-window{height:96px}.city-scroll-item{height:48px;font-size:30px}}
+@media(prefers-reduced-motion:reduce){.city-scroll-window{height:auto;mask-image:none}.city-scroll-track{transform:none!important}.city-scroll-item{display:none}.city-scroll-item:first-child{display:block}}
+
+.trusted .marks-group > img.logo-invert{filter:invert(1)}
+.trusted .marks-group > img.logo-screen{width:calc(var(--mark-height) * 2);object-fit:cover;object-position:center bottom;mix-blend-mode:screen}
+
+@media(hover:hover) and (pointer:fine){
+ .home .featured-project[data-v1-blur] .media-container>img{filter:grayscale(1)}
+ .home .featured-project[data-v1-blur] .media-container>canvas,
+ .home .featured-project[data-v1-colour] .media-container>canvas{pointer-events:none}
+}
+
+.home-project-cursor{position:fixed;z-index:90;pointer-events:none;opacity:0;transform:translate(10px,10px);padding:8px 14px;border-radius:999px;background:#0a0a0a;color:#fff;font:600 13px/1.2 var(--font-sans);transition:opacity .2s ease;white-space:nowrap}
+.home-project-cursor.is-visible{opacity:1}
+@media(pointer:coarse),(prefers-reduced-motion:reduce){.home-project-cursor{display:none}}
+.home .project-media-link:hover img{transform:none}
+.testimonial-carousel{width:100%}
+.testimonial-slides{display:grid;align-items:start}
+.testimonial-slide{grid-area:1/1;margin:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity 240ms ease}
+.testimonial-slide.is-active{opacity:1;visibility:visible;pointer-events:auto}
+.testimonial-slide blockquote{margin:0;max-width:1060px}
+.testimonial-slide figcaption{display:flex;align-items:center;gap:16px;margin-top:40px;font-size:14px;line-height:1.45}
+.testimonial-slide figcaption img{width:56px;height:56px;flex:none;object-fit:cover;border-radius:50%;filter:grayscale(1)}
+.testimonial-slide figcaption>span{display:flex;flex-direction:column;gap:2px}
+.testimonial-slide figcaption strong{font-weight:700}
+.testimonial-dots{display:flex;align-items:center;gap:4px;margin-top:32px}
+.testimonial-dot{display:grid;place-items:center;width:36px;height:36px;padding:0;border:0;background:transparent;cursor:pointer}
+.testimonial-dot span{display:block;width:7px;height:7px;border-radius:50%;background:#aaa;transition:background 180ms ease,transform 180ms ease}
+.testimonial-dot.is-active span{background:#0a0a0a;transform:scale(1.4)}
+.testimonial-dot:focus-visible{outline:2px solid #0a0a0a;outline-offset:2px}
+@media(max-width:767px){.testimonial-slide figcaption{margin-top:28px}.testimonial-dots{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){.testimonial-slide,.testimonial-dot span{transition:none}}
+.home .project-hallys .media-container>img,.home .project-hallys .media-container>video,.home .project-hallys:hover .media-container>img,.home .project-hallys:hover .media-container>video,.home .project-hallys:focus-within .media-container>img,.home .project-hallys:focus-within .media-container>video{filter:grayscale(1)}

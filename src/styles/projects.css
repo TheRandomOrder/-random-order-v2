@@ -57,3 +57,6 @@
 @media (min-width: 1101px) {
   [data-project="publicis-machine"] .project-intro { max-width: var(--container-max); min-height: 0; font-size: 24px; line-height: 1.45; }
 }
+
+@media(hover:hover) and (pointer:fine){.work-list-rows:has(a:hover) li:not(:hover) a{opacity:.55}.work-list-rows a{transition:opacity .22s var(--ease-out)}}
+.work-list-rows a:focus-visible{opacity:1!important}
