@@ -32,36 +32,31 @@ const clients = [
    </div>)}
   </div>
  </div>
- <div class="wrap location"><div class="city-scroll"><span class="city-scroll-label">Making brands<br/>memorable in:</span><div class="city-scroll-window"><div class="city-scroll-track">{[false,true].map(duplicate=>['Vancouver','Lisbon','London','Amsterdam','Copenhagen','Baltimore','Toronto','Ontario','Split','Seattle'].map(city=><span class="city-scroll-item" aria-hidden={duplicate?'true':undefined}>{city}</span>))}</div></div></div><span class="location-base">Based in Cape Town servicing clients in Vancouver</span></div>
- <div class="wrap trusted-statistics" data-count-stats aria-label="Studio experience">
+ <div class="wrap trusted-lower"><div class="location"><div class="city-scroll"><span class="city-scroll-label">Making brands<br/>memorable in:</span><div class="city-scroll-window"><div class="city-scroll-track">{[false,true].map(duplicate=>['Vancouver','Lisbon','London','Amsterdam','Copenhagen','Baltimore','Toronto','Ontario','Split','Seattle'].map(city=><span class="city-scroll-item" aria-hidden={duplicate?'true':undefined}>{city}</span>))}</div></div></div><span class="location-base">Based in Cape Town servicing clients in Vancouver</span></div>
+ <div class="trusted-statistics" data-count-stats aria-label="Studio experience">
   <dl class="trusted-statistics-list">
    <div><dt>Brands built</dt><dd>30+</dd></div>
    <div><dt>Years working with founders directly</dt><dd>15</dd></div>
    <div><dt>Person you'll work with, start to finish</dt><dd>01</dd></div>
   </dl>
- </div>
+ </div></div>
 </section>
 <script>
  const cityRow=document.querySelector<HTMLElement>('.trusted .city-scroll');
+ const statRegion=document.querySelector<HTMLElement>('[data-count-stats]');
+ const numbers=statRegion?[...statRegion.querySelectorAll<HTMLElement>('dd')].map(el=>({el,final:el.textContent?.trim()||'',value:parseInt(el.textContent||'0',10)})):[];
  if(cityRow && !matchMedia('(prefers-reduced-motion: reduce)').matches){
   const track=cityRow.querySelector<HTMLElement>('.city-scroll-track');
-  let cycleHeight=0,visible=false,queued=false;
+  let cycleHeight=0,visible=false,queued=false,maxCountProgress=0;
   const measure=()=>{cycleHeight=(track?.firstElementChild as HTMLElement)?.offsetHeight*10||0;};
-  const update=()=>{if(!track||!cycleHeight||!visible)return;const raw=Math.max(0,(innerHeight-cityRow.getBoundingClientRect().top)/(innerHeight*.65));track.style.transform=`translate3d(0,${-((raw*.75)%1)*cycleHeight}px,0)`;};
+  const update=()=>{if(!track||!cycleHeight||!visible)return;const raw=Math.max(0,(innerHeight-cityRow.getBoundingClientRect().top)/(innerHeight*.65));track.style.transform=`translate3d(0,${-((raw*.75)%1)*cycleHeight}px,0)`;
+   maxCountProgress=Math.max(maxCountProgress,Math.min(1,raw/1.5));
+   const eased=1-(1-maxCountProgress)**3;
+   for(const n of numbers)n.el.textContent=maxCountProgress===1?n.final:String(Math.round(n.value*eased)).padStart(n.final.startsWith('0')?2:1,'0')+(n.final.endsWith('+')?'+':'');
+  };
   const onScroll=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;update();});};
   new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible){measure();update();}},{rootMargin:'100% 0px 100% 0px'}).observe(cityRow);
   window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',()=>{measure();update();});document.fonts?.ready.then(()=>{measure();update();});measure();
- }
- const statRegion=document.querySelector<HTMLElement>('[data-count-stats]');
- if(statRegion && !matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window){
-  const numbers=[...statRegion.querySelectorAll<HTMLElement>('dd')].map(el=>({el,final:el.textContent?.trim()||'',value:parseInt(el.textContent||'0',10)}));
-  new IntersectionObserver((entries,observer)=>{if(!entries[0]?.isIntersecting)return;observer.disconnect();
-   const start=performance.now(),duration=1200;
-   const frame=(now:number)=>{const t=Math.min(1,(now-start)/duration),ease=1-(1-t)**3;
-    for(const n of numbers)n.el.textContent=t===1?n.final:String(Math.round(n.value*ease)).padStart(n.final.startsWith('0')?2:1,'0')+(n.final.endsWith('+')?'+':'');
-    if(t<1)requestAnimationFrame(frame);
-   };requestAnimationFrame(frame);
-  },{threshold:.2}).observe(statRegion);
  }
  const preference=matchMedia('(prefers-reduced-motion: reduce)');
  document.querySelectorAll<HTMLElement>('[data-logo-slider]').forEach(slider=>{

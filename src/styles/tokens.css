@@ -1,6 +1,6 @@
 /* V2 canonical baseline: Figma 989:13. Fluid values reach the 1920 / 390 references. */
 :root {
- --color-bg:#fff; --color-bg-alt:#f2f2f2; --color-ink:#0a0a0a; --color-ink-soft:#4a4a4c; --color-border:#e3e3e3;
+ --color-bg:#fff; --color-bg-alt:#f2f2f2; --color-ink:#0a0a0a; --color-ink-soft:#4a4a4c; --color-border:#e3e3e3; --color-brand-blue:#9fb1ff;
  --font-display:'Bebas Neue',sans-serif; --font-sans:'Hanken Grotesk',sans-serif; --font-accent:'Instrument Serif',Georgia,serif;
  --text-hero:clamp(56px,36.627px + 4.9673vw,132px); --text-h1:clamp(48px,37.804px + 2.6144vw,88px); --text-h2:clamp(32px,28.941px + .7843vw,44px);
  --space-xs:12px; --space-sm:20px; --space-md:32px; --space-lg:56px; --space-xl:88px; --space-2xl:136px;

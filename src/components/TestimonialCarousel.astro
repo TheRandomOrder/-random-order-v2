@@ -10,21 +10,33 @@ const testimonials = [
 <div class="testimonial-carousel" data-testimonials aria-label="Client testimonials">
  <div class="testimonial-slides" aria-live="polite">
   {testimonials.map((item,i)=><figure class:list={['testimonial-slide',{'is-active':i===0}]} aria-hidden={i!==0?'true':undefined} inert={i!==0}>
-   <blockquote>{item.quote}</blockquote>
    <figcaption><img src={`/assets/testimonials/${item.photo}.png`} alt="" width="200" height="200" loading="lazy" decoding="async" /><span><strong>{item.name}</strong><span>{item.role}</span></span></figcaption>
+   <blockquote>{item.quote}</blockquote>
   </figure>)}
  </div>
- <div class="testimonial-dots" role="group" aria-label="Choose a testimonial">
+ <div class="testimonial-navigation"><button class="testimonial-arrow" type="button" data-testimonial-previous aria-label="Previous testimonial">←</button><div class="testimonial-dots" role="group" aria-label="Choose a testimonial">
   {testimonials.map((item,i)=><button type="button" class:list={['testimonial-dot',{'is-active':i===0}]} data-testimonial-index={i} aria-label={`Show testimonial from ${item.name}`} aria-pressed={i===0?'true':'false'}><span></span></button>)}
- </div>
+ </div><button class="testimonial-arrow" type="button" data-testimonial-next aria-label="Next testimonial">→</button></div>
 </div>
 <script>
  document.querySelectorAll<HTMLElement>('[data-testimonials]').forEach(carousel=>{
   const slides=[...carousel.querySelectorAll<HTMLElement>('.testimonial-slide')];
   const dots=[...carousel.querySelectorAll<HTMLButtonElement>('.testimonial-dot')];
-  dots.forEach((dot,index)=>dot.addEventListener('click',()=>{
-   slides.forEach((slide,i)=>{const active=i===index;slide.classList.toggle('is-active',active);slide.toggleAttribute('inert',!active);if(active)slide.removeAttribute('aria-hidden');else slide.setAttribute('aria-hidden','true');});
-   dots.forEach((button,i)=>{button.classList.toggle('is-active',i===index);button.setAttribute('aria-pressed',String(i===index));});
-  }));
+  let current=0,startX=0,startY=0,tracking=false,lastWheel=0;
+  const show=(index:number)=>{
+   current=(index+slides.length)%slides.length;
+   slides.forEach((slide,i)=>{const active=i===current;slide.classList.toggle('is-active',active);slide.toggleAttribute('inert',!active);if(active)slide.removeAttribute('aria-hidden');else slide.setAttribute('aria-hidden','true');});
+   dots.forEach((button,i)=>{button.classList.toggle('is-active',i===current);button.setAttribute('aria-pressed',String(i===current));});
+  };
+  dots.forEach((dot,index)=>dot.addEventListener('click',()=>show(index)));
+  carousel.querySelector<HTMLButtonElement>('[data-testimonial-previous]')?.addEventListener('click',()=>show(current-1));
+  carousel.querySelector<HTMLButtonElement>('[data-testimonial-next]')?.addEventListener('click',()=>show(current+1));
+  carousel.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();show(current+(event.key==='ArrowRight'?1:-1));}});
+  const surface=carousel.querySelector<HTMLElement>('.testimonial-slides')!;
+  surface.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse' && event.button!==0)return;startX=event.clientX;startY=event.clientY;tracking=true;surface.setPointerCapture(event.pointerId);});
+  surface.addEventListener('pointerup',event=>{if(!tracking)return;tracking=false;const dx=event.clientX-startX,dy=event.clientY-startY;if(Math.abs(dx)>48&&Math.abs(dx)>Math.abs(dy)*1.2)show(current+(dx<0?1:-1));});
+  surface.addEventListener('pointercancel',()=>{tracking=false;});
+  surface.addEventListener('wheel',event=>{if(Math.abs(event.deltaX)<20||Math.abs(event.deltaX)<=Math.abs(event.deltaY)||performance.now()-lastWheel<450)return;event.preventDefault();lastWheel=performance.now();show(current+(event.deltaX>0?1:-1));},{passive:false});
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window){const observer=new IntersectionObserver(([entry])=>{if(!entry.isIntersecting)return;observer.disconnect();carousel.classList.add('is-cued');},{threshold:.45});observer.observe(carousel);}
  });
 </script>
