@@ -13,7 +13,9 @@ function initBlurHover() {
   const MAX_BLUR = 7; // halved from the 14px in the comparison version
 
   function hexToRgb(hex) {
-    const m = hex.replace('#', '').match(/.{1,2}/g);
+    const value = hex.replace('#', '');
+    const normalized = value.length === 3 ? [...value].map(char => char + char).join('') : value;
+    const m = normalized.match(/.{2}/g);
     return m ? [parseInt(m[0], 16), parseInt(m[1], 16), parseInt(m[2], 16)] : [0, 0, 0];
   }
   function thresholdToBW(ctx, w, h, bg, ink) {
@@ -69,7 +71,7 @@ function initBlurHover() {
     if (video) video.style.zIndex = '2';
     const ctx = canvas.getContext('2d');
 
-    let dots = [], crop = null, elapsed = 0, raf = null, mode = 'idle';
+    let dots = [], crop = null, elapsed = 0, raf = null, mode = 'idle', hovering = false;
 
     function buildLuminanceCover(w, h) {
       const c = document.createElement('canvas');
@@ -126,14 +128,11 @@ function initBlurHover() {
 
     function applyPhoto(p, blurP) {
       if (blurP === undefined) blurP = p;
-      if (video?.hasAttribute('data-playing')) {
-        img.style.opacity = '0';
-        video.style.opacity = String(1 - p);
-        canvas.style.opacity = String(p);
-      } else {
-        img.style.opacity = String(1 - p);
-        if (video) canvas.style.opacity = '1';
-      }
+      // While hovered, reveal the dot artwork over the approved poster. A
+      // playing film underneath the fading canvas caused the red flash.
+      const filmIdle = !!video?.hasAttribute('data-playing') && !hovering && mode === 'idle';
+      img.style.opacity = filmIdle ? '0' : String(1 - p);
+      if (video) { video.style.opacity = filmIdle ? '1' : '0'; canvas.style.opacity = filmIdle ? '0' : '1'; }
       img.style.filter = 'grayscale(1) blur(' + (blurP * MAX_BLUR).toFixed(2) + 'px)';
     }
 
@@ -154,7 +153,8 @@ function initBlurHover() {
     function startEnter() {
       if (!dots.length) return;
       if (raf) cancelAnimationFrame(raf);
-      mode = 'enter';
+      hovering = true; mode = 'enter';
+      applyPhoto(progressAt(elapsed));
       const t0 = performance.now() - elapsed;
       function step(now) {
         if (mode !== 'enter') return;
@@ -175,7 +175,7 @@ function initBlurHover() {
     function startLeave() {
       if (!dots.length) return;
       if (raf) cancelAnimationFrame(raf);
-      mode = 'leave';
+      hovering = false; mode = 'leave';
       const snapMs = Math.min(elapsed, TOTAL_DUR);
       const snapProgress = progressAt(snapMs);
       const snapRadii = dots.map((d) => dotRadiusAt(d, snapMs));
@@ -185,10 +185,11 @@ function initBlurHover() {
         const raw = Math.min(1, (now - t0) / LEAVE_DUR);
         const k = 1 - easeInOutCubic(raw);
         const blurK = k * k * k;
+        elapsed = snapMs * k;
         drawDots((d, i) => snapRadii[i] * k);
         applyPhoto(snapProgress * k, snapProgress * blurK);
         if (raw < 1) raf = requestAnimationFrame(step);
-        else elapsed = 0;
+        else { elapsed = 0; mode = 'idle'; applyPhoto(0); }
       }
       raf = requestAnimationFrame(step);
     }
@@ -196,9 +197,10 @@ function initBlurHover() {
     function init() {
       let ok = false;
       try { ok = setup(); } catch (err) { console.warn('Blur hover disabled for this tile:', err); }
-      if (!ok) return;
+      if (!ok) { canvas.remove(); img.style.position=''; img.style.inset=''; img.style.zIndex=''; if(video) video.style.zIndex=''; return; }
       link.addEventListener('mouseenter', startEnter);
       link.addEventListener('mouseleave', startLeave);
+      if (tile.matches(':hover')) startEnter();
       if (video) {
         video.addEventListener('play', () => applyPhoto(progressAt(elapsed)));
         video.addEventListener('pause', () => applyPhoto(progressAt(elapsed)));
@@ -363,6 +365,7 @@ function initColorBlurHover() {
         const raw = Math.min(1, (now - t0) / LEAVE_DUR);
         const k = 1 - easeInOutCubic(raw);
         const blurK = k * k * k;
+        elapsed = snapMs * k;
         drawDots((d, i) => snapRadii[i] * k);
         applyPhoto(snapProgress * k, snapProgress * blurK);
         if (raw < 1) raf = requestAnimationFrame(step);
@@ -374,9 +377,10 @@ function initColorBlurHover() {
     function init() {
       let ok = false;
       try { ok = setup(); } catch (err) { console.warn('Colour blur hover disabled for this tile:', err); }
-      if (!ok) return;
+      if (!ok) { canvas.remove(); img.style.position=''; img.style.inset=''; img.style.zIndex=''; return; }
       link.addEventListener('mouseenter', startEnter);
       link.addEventListener('mouseleave', startLeave);
+      if (tile.matches(':hover')) startEnter();
     }
 
     if (img.complete && img.naturalWidth) init();
