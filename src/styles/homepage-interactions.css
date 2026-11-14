@@ -169,17 +169,23 @@
 @media(prefers-reduced-motion:reduce){.testimonial-slide,.testimonial-dot span{transition:none}}
 .home .project-hallys .media-container>img,.home .project-hallys .media-container>video,.home .project-hallys:hover .media-container>img,.home .project-hallys:hover .media-container>video,.home .project-hallys:focus-within .media-container>img,.home .project-hallys:focus-within .media-container>video{filter:grayscale(1)}
 /* Keep the V1 city message and smaller statistics in one horizontal band. */
-.trusted{min-height:760px}
-.trusted-lower{display:grid;grid-template-columns:minmax(0,1fr) minmax(400px,500px);align-items:end;gap:64px;width:100%;margin-top:auto;padding-block:56px 64px}
+.trusted{min-height:902px}
+.trusted-divider{display:block;width:min(1344px,calc(100% - 2*var(--gutter)));max-width:100%;height:1px;margin:42px auto 0;object-fit:fill}
+.trusted-lower{display:grid;grid-template-columns:minmax(0,510px) minmax(0,1fr);align-items:center;gap:clamp(36px,3.3vw,63px);width:100%;margin-top:auto;padding-block:72px 108px}
 .trusted .trusted-lower .location{display:flex;flex-direction:column;align-items:flex-start;gap:20px;margin:0;padding:0;min-width:0}
 .trusted .trusted-lower .location-base{font-size:12px;font-weight:400;line-height:1.4}
 .trusted .trusted-lower .trusted-statistics{width:auto;padding:0;min-width:0}
-.trusted .trusted-lower .trusted-statistics-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-.trusted .trusted-lower .trusted-statistics-list>div{flex-direction:column;gap:10px}
-.trusted .trusted-lower .trusted-statistics-list dd{font-size:clamp(44px,3.55vw,68px);line-height:1;color:var(--color-brand-blue);font-variant-numeric:tabular-nums}
-.trusted .trusted-lower .trusted-statistics-list dt{font-size:12px;line-height:1.35;color:#b4b4b6}
-@media(max-width:1100px){.trusted-lower{grid-template-columns:minmax(0,1fr) minmax(340px,420px);gap:32px}.trusted .trusted-lower .trusted-statistics-list{gap:14px}}
-@media(max-width:767px){.trusted{min-height:0}.trusted-lower{grid-template-columns:1fr;gap:40px;padding-block:32px 48px}.trusted .trusted-lower .trusted-statistics-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.trusted .trusted-lower .trusted-statistics-list dd{font-size:clamp(42px,12vw,56px)}.trusted .trusted-lower .trusted-statistics-list dt{font-size:11px}}
+.trusted .trusted-lower .city-scroll{gap:33px}
+.trusted .trusted-lower .city-scroll-label{width:150px;flex:none;color:#f4f4f4;font-size:18px;line-height:1.5}
+.trusted .trusted-lower .city-scroll-window{width:min(306px,100%);height:229px;mask-image:linear-gradient(#0000 2%,#000 35%,#000 65%,#0000 98%)}
+.trusted .trusted-lower .city-scroll-item{height:81.5px;font-family:'Big Shoulders',var(--font-display);font-size:44px;font-weight:700}
+.trusted .trusted-lower .trusted-statistics-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,40px)}
+.trusted .trusted-lower .trusted-statistics-list>div{flex-direction:column;gap:12px}
+.trusted .trusted-lower .trusted-statistics-list dd{font-family:'Big Shoulders',var(--font-display);font-size:clamp(72px,5.5vw,100px);font-weight:800;line-height:1;color:var(--color-brand-blue);font-variant-numeric:tabular-nums}
+.trusted .trusted-lower .trusted-statistics-list dt{font-size:clamp(12px,1.05vw,16px);font-weight:700;line-height:1.5;color:#f4f4f4}
+@media(max-width:1279px){.trusted-lower{grid-template-columns:minmax(0,40%) minmax(0,1fr);gap:28px}.trusted .trusted-lower .city-scroll-label{width:110px;font-size:15px}.trusted .trusted-lower .city-scroll{gap:16px}.trusted .trusted-lower .trusted-statistics-list{gap:14px}.trusted .trusted-lower .trusted-statistics-list dd{font-size:clamp(58px,6vw,76px)}}
+@media(max-width:900px){.trusted-lower{grid-template-columns:1fr;gap:44px;padding-block:60px 72px}.trusted .trusted-lower .trusted-statistics-list dd{font-size:clamp(66px,9vw,90px)}}
+@media(max-width:767px){.trusted{min-height:0}.trusted-divider{margin-top:28px}.trusted-lower{gap:32px;padding-block:36px 52px}.trusted .trusted-lower .city-scroll-label{width:110px;font-size:15px}.trusted .trusted-lower .city-scroll-window{height:126px}.trusted .trusted-lower .city-scroll-item{height:48px;font-size:30px}.trusted .trusted-lower .trusted-statistics-list{gap:12px}.trusted .trusted-lower .trusted-statistics-list dd{font-size:clamp(42px,12vw,56px)}.trusted .trusted-lower .trusted-statistics-list dt{font-size:11px}}
 /* Profiles stay in a fixed column while the quotes crossfade in place. */
 .testimonial-carousel{max-width:1344px}
 .testimonial-slides{min-height:300px;touch-action:pan-y;cursor:grab}
