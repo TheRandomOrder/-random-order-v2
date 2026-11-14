@@ -47,6 +47,18 @@ const outputFiles = filesUnder(output);
 const documents = outputFiles.filter(file => file.endsWith('.html')).map(parseDocument);
 const documentsByFile = new Map(documents.map(document => [document.file, document]));
 
+test('contact form is detectable by Netlify and retains an email fallback', () => {
+  const contact = documents.find(document => document.route === '/contact/');
+  assert.ok(contact);
+  const form = contact.tags.find(({tag, attrs}) => tag === 'form' && attrs.name === 'project-enquiry');
+  assert.equal(form?.attrs['data-netlify'], 'true');
+  assert.equal(form?.attrs['netlify-honeypot'], 'bot-field');
+  assert.equal(form?.attrs.method?.toLowerCase(), 'post');
+  assert.ok(contact.tags.some(({tag, attrs}) => tag === 'input' && attrs.name === 'form-name' && attrs.value === 'project-enquiry'));
+  assert.ok(contact.tags.some(({tag, attrs}) => tag === 'input' && attrs.name === 'bot-field'));
+  assert.ok(contact.tags.some(({tag, attrs}) => tag === 'a' && attrs.href === 'mailto:studio@therandomorder.com'));
+});
+
 function localURL(value, route) {
   if (!value || /^(?:[a-z][a-z\d+.-]*:|\/\/)/i.test(value)) return undefined;
   return new URL(value, `${origin}${route}`);
