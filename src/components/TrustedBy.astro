@@ -1,19 +1,26 @@
 ---
 import Container from './Container.astro';
 import '../styles/homepage-interactions.css';
+// Extend this manifest with approved logo files and intrinsic dimensions.
 const clients = [
- {id:'adidas',name:'Adidas',width:517,height:503,scale:1.8},
- {id:'gadventures',name:'G Adventures',width:1218,height:277,scale:1},
- {id:'gladwin-brothers',name:'Gladwin Brothers',width:796,height:278,scale:1},
- {id:'earnt',name:'EARNT',width:1799,height:457,scale:.8},
- {id:'scott',name:'Scott USA',width:642,height:409,scale:2},
- {id:'ogilvy',name:'Ogilvy',width:1364,height:533,scale:1},
- {id:'metalab',name:'Metalab',width:1048,height:240,scale:1},
- {id:'autonomous',name:'Autonomous Health',width:1353,height:153,scale:.5},
- {id:'faria',name:'Faria Education Group',width:901,height:413,scale:1},
- {id:'nobl',name:'NOBL',width:656,height:224,scale:.9},
- {id:'pureterra',name:'PureTerra Ventures',width:716,height:546,scale:2},
- {id:'rew',name:'REW',width:239,height:56,scale:1}
+ {id:'adidas',src:'/assets/logos/adidas.png',name:'Adidas',width:517,height:503,scale:1.8},
+ {id:'gadventures',src:'/assets/logos/g-adventures.png',name:'G Adventures',width:1218,height:277,scale:1},
+ {id:'gladwin-brothers',src:'/assets/logos/gladwin-brothers.png',name:'Gladwin Brothers',width:796,height:278,scale:1},
+ {id:'earnt',src:'/assets/logos/earnt.png',name:'EARNT',width:1799,height:457,scale:.8},
+ {id:'scott',src:'/assets/logos/scott-usa.png',name:'Scott USA',width:642,height:409,scale:2},
+ {id:'ogilvy',src:'/assets/logos/ogilvy.png',name:'Ogilvy',width:1364,height:533,scale:1},
+ {id:'metalab',src:'/assets/logos/metalab.png',name:'Metalab',width:1048,height:240,scale:1},
+ {id:'autonomous',src:'/assets/logos/autonomous-health.png',name:'Autonomous Health',width:1353,height:153,scale:.5},
+ {id:'faria',src:'/assets/logos/faria.png',name:'Faria Education Group',width:901,height:413,scale:1},
+ {id:'nobl',src:'/assets/logos/nobl.png',name:'NOBL',width:656,height:224,scale:.9},
+ {id:'pureterra',src:'/assets/logos/pure-terra.png',name:'PureTerra Ventures',width:716,height:546,scale:2},
+ {id:'rew',src:'/assets/logos/rew.png',name:'REW',width:239,height:56,scale:1},
+ {id:'golds-gym',name:'Gold’s Gym',src:'/assets/logos/golds-gym.svg',width:389,height:389,scale:1.5,invert:true},
+ {id:'superbalist',name:'Superbalist',src:'/assets/logos/superbalist.svg',width:708,height:132,scale:1.2,invert:true},
+ {id:'tbwa',name:'TBWA',src:'/assets/logos/tbwa.png',width:4096,height:1463,scale:1.1,invert:true},
+ {id:'virgin-active',name:'Virgin Active',src:'/assets/logos/virgin-active.svg',width:336,height:160,scale:1.2,invert:true},
+ {id:'publicis-machine',name:'Publicis Machine',src:'/assets/logos/publicis-machine.png',width:280,height:280,scale:2.3,screen:true},
+ {id:'kyp-amsterdam',name:'KYP Amsterdam',src:'/assets/logos/kyp-amsterdam.svg',width:80,height:24,scale:1.2}
 ];
 ---
 <section class="trusted" aria-labelledby="trusted-title" data-node-id="1017:1523" data-logo-slider>
@@ -21,13 +28,41 @@ const clients = [
  <div id="client-marks" class="marks-strip" tabindex="0" role="region" aria-label="Selected client logos">
   <div class="marks-track">
    {[false,true].map(duplicate=><div class:list={['marks-group',{'marks-group-duplicate':duplicate}]} aria-hidden={duplicate?'true':undefined}>
-    {clients.map(client=><img src={`/assets/clients/${client.id}-white.png`} alt={duplicate?'':client.name} width={client.width} height={client.height} loading="lazy" decoding="async" style={`--mark-height:clamp(${22*client.scale}px,${2.6*client.scale}vw,${34*client.scale}px)`} />)}
+    {clients.map(client=><img class:list={{'logo-invert':client.invert,'logo-screen':client.screen}} src={client.src ?? `/assets/clients/${client.id}-white.png`} alt={duplicate?'':client.name} width={client.width} height={client.height} loading="lazy" decoding="async" style={`--mark-height:clamp(${22*client.scale}px,${2.6*client.scale}vw,${34*client.scale}px)`} />)}
    </div>)}
   </div>
  </div>
- <div class="wrap location">Based in Cape Town servicing clients in Vancouver</div>
+ <div class="wrap location"><div class="city-scroll"><span class="city-scroll-label">Making brands<br/>memorable in:</span><div class="city-scroll-window"><div class="city-scroll-track">{[false,true].map(duplicate=>['Vancouver','Lisbon','London','Amsterdam','Copenhagen','Baltimore','Toronto','Ontario','Split','Seattle'].map(city=><span class="city-scroll-item" aria-hidden={duplicate?'true':undefined}>{city}</span>))}</div></div></div><span class="location-base">Based in Cape Town servicing clients in Vancouver</span></div>
+ <div class="wrap trusted-statistics" data-count-stats aria-label="Studio experience">
+  <dl class="trusted-statistics-list">
+   <div><dt>Brands built</dt><dd>30+</dd></div>
+   <div><dt>Years working with founders directly</dt><dd>15</dd></div>
+   <div><dt>Person you'll work with, start to finish</dt><dd>01</dd></div>
+  </dl>
+ </div>
 </section>
 <script>
+ const cityRow=document.querySelector<HTMLElement>('.trusted .city-scroll');
+ if(cityRow && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const track=cityRow.querySelector<HTMLElement>('.city-scroll-track');
+  let cycleHeight=0,visible=false,queued=false;
+  const measure=()=>{cycleHeight=(track?.firstElementChild as HTMLElement)?.offsetHeight*10||0;};
+  const update=()=>{if(!track||!cycleHeight||!visible)return;const raw=Math.max(0,(innerHeight-cityRow.getBoundingClientRect().top)/(innerHeight*.65));track.style.transform=`translate3d(0,${-((raw*.75)%1)*cycleHeight}px,0)`;};
+  const onScroll=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;update();});};
+  new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;if(visible){measure();update();}},{rootMargin:'100% 0px 100% 0px'}).observe(cityRow);
+  window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',()=>{measure();update();});document.fonts?.ready.then(()=>{measure();update();});measure();
+ }
+ const statRegion=document.querySelector<HTMLElement>('[data-count-stats]');
+ if(statRegion && !matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window){
+  const numbers=[...statRegion.querySelectorAll<HTMLElement>('dd')].map(el=>({el,final:el.textContent?.trim()||'',value:parseInt(el.textContent||'0',10)}));
+  new IntersectionObserver((entries,observer)=>{if(!entries[0]?.isIntersecting)return;observer.disconnect();
+   const start=performance.now(),duration=1200;
+   const frame=(now:number)=>{const t=Math.min(1,(now-start)/duration),ease=1-(1-t)**3;
+    for(const n of numbers)n.el.textContent=t===1?n.final:String(Math.round(n.value*ease)).padStart(n.final.startsWith('0')?2:1,'0')+(n.final.endsWith('+')?'+':'');
+    if(t<1)requestAnimationFrame(frame);
+   };requestAnimationFrame(frame);
+  },{threshold:.2}).observe(statRegion);
+ }
  const preference=matchMedia('(prefers-reduced-motion: reduce)');
  document.querySelectorAll<HTMLElement>('[data-logo-slider]').forEach(slider=>{
   const button=slider.querySelector<HTMLButtonElement>('.logo-motion-toggle');
