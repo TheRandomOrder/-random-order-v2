@@ -1,0 +1,33 @@
+/* Jason’s live About composition, retaining V2 content and components. */
+.about-page{background:#0a0a0a;color:#f4f4f4}
+.about-hero{min-height:100svh;padding-block:128px 88px}
+.about-hero .wrap{max-width:688px}
+.about-hero .eyebrow,.about-body .eyebrow{color:#9fb1ff}
+.about-hero .eyebrow::before{content:'';display:inline-block;vertical-align:middle;width:18px;height:1px;background:currentColor;margin-right:8px}
+.about-hero h1{font:400 clamp(44px,24px + 5.5vw,108px)/.98 var(--font-display);text-transform:uppercase;letter-spacing:.01em;margin-block:32px}
+.about-hero em,.about-page .page-cta em{font-family:var(--font-accent);font-weight:400}
+.about-lead{font-size:22px;line-height:1.5;color:#b4b4b6;max-width:650px}
+.about-body{position:relative;background:#0a0a0a}
+.about-body .page-content{padding-top:0;gap:0}
+.about-body .studio-story{position:relative;isolation:isolate;padding-block:88px;color:#0a0a0a;gap:32px}
+.about-body .studio-story::before{content:'';position:absolute;inset:0 calc((min(1344px,100vw - 2 * var(--gutter)) - 100vw)/2);background:#fff;z-index:-1}
+.about-body .studio-story .eyebrow{color:#2e42e0}
+.about-body .studio-story figure{width:100%;max-width:none}
+.about-body .studio-story .project-media-surface{aspect-ratio:4/5}
+.about-body .studio-story img{height:100%;object-fit:cover;filter:grayscale(1)}
+.about-body .page-content>section:not(.studio-story){padding-block:88px}
+.about-body .studio-principles h3{font-size:26px}
+.about-body .studio-principles p,.about-body .capability p{color:#b4b4b6}
+.about-body .capability,.about-body .page-cta{border-color:#262626}
+.about-body .page-cta .display{font-size:clamp(36px,22px + 3.5vw,68px)}
+.about-page .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 28px;border:1px solid #f4f4f4;border-radius:999px;background:#f4f4f4;color:#0a0a0a;font-size:14px;font-weight:700;transition:background .2s,color .2s,transform .2s}
+.about-page .btn--ghost{background:transparent;color:#f4f4f4;border-color:#555}
+.about-page .btn:hover,.about-page .btn:focus-visible{background:#9fb1ff;color:#0a0a0a;transform:translateY(-2px)}
+@media(min-width:768px) and (prefers-reduced-motion:no-preference){.about-hero{position:sticky;top:0}}
+@media(max-width:767px){
+ .about-hero{padding-top:136px;min-height:100svh}
+ .about-hero h1{font-size:clamp(44px,11.5vw,76px)}
+ .about-lead{font-size:18px}
+ .about-body .studio-story{gap:40px;padding-block:56px}
+ .about-body .page-content>section:not(.studio-story){padding-block:56px}
+}

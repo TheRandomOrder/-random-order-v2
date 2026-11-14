@@ -8,6 +8,6 @@ const {title,emphasis,description='Identity, strategy, and systems for founders 
 const asset=mediaId?getMedia(mediaId):undefined;
 ---
 <section class:list={['hero',{'hero-editorial':!!title}]} id={id} aria-labelledby="hero-title" data-node-id={title?undefined:'1017:679'}>
- {media && <MediaContainer hero image={asset?(asset.type==='video'?asset.poster!:asset.src):'/assets/earnt-poster.webp'} video={asset?(asset.type==='video'?asset.src:undefined):'/assets/earnt.mp4'} width={asset?.width} height={asset?.height} sourceSet={asset&&asset.type==='image'?imageSourceSet(asset):undefined} alt="" label="hero film" />}
+ {media && <MediaContainer hero image={asset?(asset.type==='video'?asset.poster!:asset.src):'/assets/home-v2/hero-poster.png'} video={asset?(asset.type==='video'?asset.src:undefined):'/assets/home-v2/hero.mp4'} width={asset?.width} height={asset?.height} sourceSet={asset&&asset.type==='image'?imageSourceSet(asset):undefined} alt="" label="hero film" />}
  <Container><Eyebrow>{eyebrow}</Eyebrow><h1 id="hero-title" data-editorial-reveal>{title?<>{title}{emphasis&&<em>{emphasis}</em>}</>:<>For <br class="mobile-break"/>brands <br class="mobile-break"/>with<em>Stories <br class="mobile-break"/>to tell.</em></>}</h1><p class="hero-sub">{description}</p><div class="hero-actions">{actions.map((action,i)=><>{i>0&&<span aria-hidden="true">/</span>}<a class="text-link" href={action.href}>{action.label}</a></>)}</div></Container>
 </section>
