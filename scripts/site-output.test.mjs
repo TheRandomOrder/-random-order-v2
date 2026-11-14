@@ -47,6 +47,22 @@ const outputFiles = filesUnder(output);
 const documents = outputFiles.filter(file => file.endsWith('.html')).map(parseDocument);
 const documentsByFile = new Map(documents.map(document => [document.file, document]));
 
+test('sitemap, robots and social previews cover the public pages', () => {
+  const sitemap = fs.readFileSync(path.join(output, 'sitemap.xml'), 'utf8');
+  const robots = fs.readFileSync(path.join(output, 'robots.txt'), 'utf8');
+  assert.match(robots, /Sitemap: https:\/\/therandomorder\.com\/sitemap\.xml/);
+  assert.doesNotMatch(sitemap, /\/lab\/|\/404/);
+  for (const route of ['/', '/work/', '/about/', '/contact/', '/logos/']) {
+    assert.ok(sitemap.includes(`<loc>https://therandomorder.com${route}</loc>`));
+  }
+  for (const document of documents.filter(({route}) => !route.startsWith('/lab/') && route !== '/404.html')) {
+    const image = document.tags.find(({tag,attrs}) => tag === 'meta' && attrs.property === 'og:image')?.attrs.content;
+    assert.equal(image, 'https://therandomorder.com/assets/home-v2/hero-poster.png');
+    assert.ok(document.tags.some(({tag,attrs}) => tag === 'meta' && attrs.name === 'twitter:card' && attrs.content === 'summary_large_image'));
+    if (document.route.startsWith('/work/')) assert.ok(sitemap.includes(`<loc>https://therandomorder.com${document.route}</loc>`));
+  }
+});
+
 test('contact form is detectable by Netlify and retains an email fallback', () => {
   const contact = documents.find(document => document.route === '/contact/');
   assert.ok(contact);
