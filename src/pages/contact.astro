@@ -39,8 +39,8 @@ import Container from '../components/Container.astro';
   const show=(message:string,error=false)=>{feedback.textContent=message;feedback.dataset.error=String(error);feedback.hidden=false;feedback.focus();};
   fallback.hidden=true;
   if(!field('name')||!field('email')||!field('message')){show('Please complete the required fields before sending.',true);return;}
-  if(['localhost','127.0.0.1'].includes(location.hostname)){
-   show('The form can only be delivered on the hosted site. You can send this enquiry by email now.',true);
+  if(['localhost','127.0.0.1'].includes(location.hostname)||location.hostname.endsWith('.vercel.app')){
+   show('Please send this enquiry by email using the draft below.',true);
    fallback.hidden=false;
    return;
   }
