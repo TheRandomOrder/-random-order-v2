@@ -1762,6 +1762,20 @@
     }
   },
   {
+    "id": "superbalist-figma-hero-film",
+    "type": "video",
+    "src": "/assets/projects/superbalist/figma-hero.mov",
+    "poster": "/assets/projects/superbalist/figma-hero-poster.png",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Superbalist motion study",
+    "source": {
+      "label": "SUPERBALIST B / Figma original video fill",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/BRAND-OS-x-RANDOM-ORDER?node-id=2172-5967",
+      "nodeId": "2172:5967"
+    }
+  },
+  {
     "id": "superbalist-mobile",
     "type": "image",
     "src": "/assets/projects/superbalist/mobile.webp",
@@ -4159,6 +4173,18 @@
     "source": {
       "label": "Published Random Order original",
       "url": "https://therandomorder.com/images/work/ham/instagram.jpg"
+    }
+  },
+  {
+    "id": "scottusa-header-film",
+    "type": "video",
+    "src": "/assets/projects/scottusa/hero.mp4",
+    "poster": "/assets/projects/scottusa/hero-poster.jpg",
+    "width": 1456,
+    "height": 816,
+    "alt": "Snowboarder wearing Scott goggles in the mountains",
+    "source": {
+      "label": "Figma Scott USA frame 1907:1253, original local video"
     }
   },
   {

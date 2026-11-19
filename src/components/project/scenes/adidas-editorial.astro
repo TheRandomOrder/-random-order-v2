@@ -1,0 +1,81 @@
+---
+const asset = '/assets/parity/1183-940-';
+---
+<div class="adidas-editorial">
+  <figure class="adidas-editorial__opening">
+    <img src={`${asset}69cd3.png`} alt="Adidas × I ART JOBURG apparel study" width="1024" height="1536" loading="lazy" decoding="async" />
+    <figcaption>AI image study</figcaption>
+  </figure>
+
+  <div class="adidas-editorial__copy">
+    <p class="adidas-editorial__label">Adidas × I ART JOBURG</p>
+    <p>A press-pack concept connects packaging with Johannesburg’s street-art event. An ordinary cardboard box becomes the surface for a graphic intervention.</p>
+  </div>
+
+  <section class="adidas-editorial__story" aria-labelledby="adidas-story-title">
+    <div class="adidas-editorial__story-heading">
+      <p class="adidas-editorial__label">Adidas × I ART JOBURG / Press pack</p>
+      <h2 id="adidas-story-title">From city walls to a cardboard box.</h2>
+    </div>
+    <div class="adidas-editorial__copy">
+      <p class="adidas-editorial__label">The box as a surface</p>
+      <p>Working alongside /ANDPEOPLE, the concept used laser engraving to apply a South African-inspired pattern to the box. The untreated cardboard echoes the buildings transformed by the event’s murals.</p>
+    </div>
+    <figure>
+      <img src={`${asset}67a8c.png`} alt="Adidas and I ART JOBURG marks printed across tissue paper" width="1536" height="1024" loading="lazy" decoding="async" />
+      <figcaption>AI image study / Existing Workbench composition</figcaption>
+    </figure>
+  </section>
+
+  <figure class="adidas-editorial__box">
+    <img src={`${asset}11251.png`} alt="Open kraft box with Adidas × I ART JOBURG printed tissue" width="1536" height="1024" loading="lazy" decoding="async" />
+  </figure>
+  <div class="adidas-editorial__copy">
+    <p class="adidas-editorial__label">Outside and inside</p>
+    <p>The engraved exterior introduces the idea before the box opens. Printed tissue and the contents continue the visual sequence, turning a simple container into a presentation of the event.</p>
+  </div>
+
+  <figure class="adidas-editorial__board adidas-editorial__board--top">
+    <img src={`${asset}f07e8.png`} alt="Adidas × I ART JOBURG press-pack design board and engraved box" width="1536" height="1024" loading="lazy" decoding="async" />
+    <figcaption>AI image study / Existing Workbench composition</figcaption>
+  </figure>
+  <div class="adidas-editorial__copy">
+    <p class="adidas-editorial__label">Collaboration</p>
+    <p>Kim Terri Smith curated the contents and designed the booklet and broadsheet. The packaging concept was developed alongside /ANDPEOPLE.</p>
+  </div>
+  <figure class="adidas-editorial__board adidas-editorial__board--bottom">
+    <img src={`${asset}f07e8.png`} alt="Close-up studies of the laser-cut packaging and printed marks" width="1536" height="1024" loading="lazy" decoding="async" />
+  </figure>
+  <div class="adidas-editorial__copy">
+    <p class="adidas-editorial__label">A change of scale</p>
+    <p>The city supplies the starting point: a surface transformed through an artist’s intervention. At the scale of a press pack, the box carries that relationship between raw material and graphic expression.</p>
+  </div>
+
+  <nav class="adidas-editorial__navigation" aria-label="Project navigation">
+    <a href="/work/"><span class="adidas-editorial__label">Back to</span><strong>Work</strong></a>
+    <a href="/work/the-shed/"><span class="adidas-editorial__label">Related project</span><strong>The Shed</strong></a>
+  </nav>
+</div>
+<style>
+  .adidas-editorial{width:calc(100% - 2 * var(--gutter));max-width:1344px;margin:0 auto;padding:200px 0 120px;display:flex;flex-direction:column;gap:96px;color:#0a0a0a}
+  .adidas-editorial figure{margin:0;min-width:0}
+  .adidas-editorial img{display:block;width:100%}
+  .adidas-editorial figcaption{font-size:14px;line-height:1.6;color:#4a4a4d;margin-top:12px}
+  .adidas-editorial__opening img{height:min(67vw,908px);object-fit:cover;object-position:center 35%}
+  .adidas-editorial__copy{display:grid;grid-template-columns:330px minmax(0,1fr);gap:60px;min-height:66px}
+  .adidas-editorial__copy>p:last-child{font-size:22px;line-height:1.5;max-width:930px}
+  .adidas-editorial__label{font-size:12px;line-height:1.6;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .adidas-editorial__story{display:flex;flex-direction:column;gap:96px}
+  .adidas-editorial__story-heading{border-top:1px solid #e3e3e3;padding-top:64px}
+  .adidas-editorial__story-heading h2{font:400 clamp(44px,5vw,68px)/1.05 var(--font-display);text-transform:uppercase;letter-spacing:.01em;margin-top:18px}
+  .adidas-editorial__story figure img{aspect-ratio:1344/756;object-fit:cover}
+  .adidas-editorial__box img{aspect-ratio:1344/1042;object-fit:cover}
+  .adidas-editorial__board img{height:min(30vw,396px);object-fit:cover;object-position:center top}
+  .adidas-editorial__board--bottom img{object-position:center bottom}
+  .adidas-editorial__navigation{display:grid;grid-template-columns:1fr 1fr;gap:32px;border-top:1px solid #e3e3e3;padding-top:40px}
+  .adidas-editorial__navigation a{display:flex;flex-direction:column;gap:8px;color:inherit;text-decoration:none}
+  .adidas-editorial__navigation strong{font:400 32px/36px var(--font-display);text-transform:uppercase}
+  .adidas-editorial__navigation a:hover strong{text-decoration:underline;text-underline-offset:5px}
+  .adidas-editorial__navigation a:focus-visible{outline:2px solid #4e5fe8;outline-offset:4px}
+  @media(max-width:767px){.adidas-editorial{padding:64px 0;gap:56px}.adidas-editorial__opening img{height:auto;aspect-ratio:3/2}.adidas-editorial__copy{grid-template-columns:1fr;gap:16px}.adidas-editorial__copy>p:last-child{font-size:18px}.adidas-editorial__story{gap:48px}.adidas-editorial__story-heading{padding-top:32px}.adidas-editorial__story-heading h2{font-size:44px;white-space:normal}.adidas-editorial__board img{height:auto;aspect-ratio:1344/396}.adidas-editorial__navigation{padding-top:32px}}
+</style>

@@ -6,14 +6,26 @@ import EditorialBlocks from './EditorialBlocks.astro';
 import FigmaEditorial from './FigmaEditorial.astro';
 import LegacyEditorial from './LegacyEditorial.astro';
 import ProjectNavigation from './ProjectNavigation.astro';
+import AdidasEditorial from './scenes/adidas-editorial.astro';
 import '../../styles/projects.css';
 interface Props { project: ProjectRecord }
 const {project} = Astro.props;
+const displayProject = project.id === 'adidas' ? {
+  ...project,
+  headerMediaId: undefined,
+  category: 'Art Direction · Packaging',
+  metadata: [
+    {label:'Client',value:'Adidas'},
+    {label:'Scope',value:'Art Direction, Packaging'},
+    {label:'Project',value:'Adidas × I ART JOBURG'},
+    {label:'Collaboration',value:'/ANDPEOPLE'},
+  ],
+} : project;
 ---
 <Base title={`${project.title} — Random Order`} description={project.intro ?? `${project.title}: selected work by Random Order.`} noindex={project.status !== 'published'}>
   <article class:list={['project-page', `project-presentation-${project.presentation}`, project.mode && `project-mode-${project.mode}`]} style={`--editorial-top:${project.editorialTop ?? 0}px;${project.headerHeight ? `--project-header-height:${project.headerHeight}px;` : ''}${project.headerTop !== undefined ? `--project-header-top:${project.headerTop}px;` : ''}`} data-project={project.id}>
-    <ProjectHeader project={project} />
-    {project.legacyLayout ? <LegacyEditorial id={project.id} /> : project.sourceComposition ? <FigmaEditorial frame={project.sourceComposition} /> : <EditorialBlocks blocks={project.blocks} />}
-    <ProjectNavigation project={project} />
+    <ProjectHeader project={displayProject} />
+    {project.id === 'adidas' ? <AdidasEditorial /> : project.legacyLayout ? <LegacyEditorial id={project.id} /> : project.sourceComposition ? <FigmaEditorial frame={project.sourceComposition} /> : <EditorialBlocks blocks={project.blocks} />}
+    {project.id !== 'adidas' && <ProjectNavigation project={project} />}
   </article>
 </Base>

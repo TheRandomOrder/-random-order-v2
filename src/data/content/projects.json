@@ -1152,6 +1152,7 @@
     ],
     "intro": "Six years. One evolving digital ecosystem. From identity to interface, from components to systems.",
     "heroMediaId": "superbalist-mobile",
+    "headerMediaId": "superbalist-figma-hero-film",
     "headerStyle": "plain",
     "metadata": [
       {
@@ -1362,11 +1363,11 @@
     "id": "ssuperlative",
     "slug": "ssuperlative",
     "title": "SSUPERLATIVE",
-    "intro": "Making Experience Legible. Project Alice is one evolving expression of an ongoing investigation into lived experience, information and the systems we create to understand ourselves.",
+    "intro": "An independent investigation into language, identity and human experience, evolving through research, visual systems and product design.",
     "disciplines": [
-      "Research",
-      "Visual Systems",
-      "Editorial Design"
+      "Personal Research",
+      "Product Design",
+      "Data Visualisation"
     ],
     "client": "SSUPERLATIVE",
     "presentation": "narrative",
@@ -1386,18 +1387,26 @@
         "value": "SSUPERLATIVE"
       },
       {
-        "label": "Scope",
-        "value": "Research, Visual Systems, Editorial Design"
+        "label": "Disciplines",
+        "value": "Research, Product Design, Information Systems, Visualisation"
+      },
+      {
+        "label": "Status",
+        "value": "Ongoing / Independent"
+      },
+      {
+        "label": "Focus",
+        "value": "The Human System"
       }
     ],
-    "sourceComposition": "1351-2283",
-    "headerHeight": 900,
+    "sourceComposition": "1836-2917",
+    "headerHeight": 1080,
     "headerTop": 271.5,
     "sources": [
       {
-        "label": "Current production work slot / 2026-11-05",
-        "nodeId": "1351:2283",
-        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/RANDOM-ORDER-X-HA?node-id=1351-2283"
+        "label": "Revised editorial / 2026-11-09",
+        "nodeId": "1836:2917",
+        "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ/BRAND-OS-x-RANDOM-ORDER?node-id=1836-2917"
       }
     ]
   },
@@ -2148,6 +2157,7 @@
     "id": "scottusa",
     "slug": "scottusa",
     "title": "Scott USA",
+    "headerMediaId": "scottusa-header-film",
     "presentation": "narrative",
     "classification": "archive",
     "routeEnabled": true,

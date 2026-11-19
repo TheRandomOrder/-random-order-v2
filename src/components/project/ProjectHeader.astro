@@ -13,7 +13,7 @@ const metadata = project.metadata ?? [
 ];
 ---
 <header class:list={['project-header', `project-header-${project.headerStyle ?? 'plain'}`, {'project-header-large-title':project.headerTitleScale === 'large'}]}>
-  {background && <img class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.type === 'video' ? background.poster : background.src} srcset={background.type==='image'?imageSourceSet(background):undefined} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />}
+  {background && (background.type === 'video' ? <video class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.src} poster={background.poster} autoplay muted loop playsinline aria-hidden="true" preload="metadata" /> : <img class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.src} srcset={imageSourceSet(background)} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />)}
   <Container>
     <div class="project-header-body">
       <a class="project-back eyebrow" href="/work/">← Back to work</a>

@@ -7,11 +7,12 @@ import Scene4 from './scenes/sneaker-lab.astro';
 import Scene5 from './scenes/superbalist.astro';
 import Scene6 from './scenes/adidas.astro';
 import Scene7 from './scenes/ssuperlative.astro';
+import SsuperlativeRevised from './scenes/ssuperlative-revised.astro';
 import Scene8 from './scenes/hotel-atelier.astro';
 import Scene9 from './scenes/publicis-machine.astro';
 import Scene10 from './scenes/muso.astro';
 import '../../styles/parity.css';
-const scenes={'1432-1992':Scene0,'1270-14172':Scene1,'1088-1758':Scene2,'1206-1212':Scene3,'1262-12026':Scene4,'1130-735':Scene5,'1183-940':Scene6,'1351-2283':Scene7,'1351-2159':Scene8,'1277-14558':Scene9,'1429-2058':Scene10};
+const scenes={'1432-1992':Scene0,'1270-14172':Scene1,'1088-1758':Scene2,'1206-1212':Scene3,'1262-12026':Scene4,'1130-735':Scene5,'1183-940':Scene6,'1351-2283':Scene7,'1836-2917':SsuperlativeRevised,'1351-2159':Scene8,'1277-14558':Scene9,'1429-2058':Scene10};
 const {frame}=Astro.props as {frame:keyof typeof scenes};
 const Scene=scenes[frame];
 ---

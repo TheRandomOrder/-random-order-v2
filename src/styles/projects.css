@@ -60,3 +60,6 @@
 
 @media(hover:hover) and (pointer:fine){.work-list-rows:has(a:hover) li:not(:hover) a{opacity:.55}.work-list-rows a{transition:opacity .22s var(--ease-out)}}
 .work-list-rows a:focus-visible{opacity:1!important}
+.project-page[data-project='hallys'] .hallys-work-line-overlay{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;z-index:2}
+.project-page[data-project='hallys'] .hallys-film-cover{position:relative;aspect-ratio:1800/1013;overflow:hidden}
+.project-page[data-project='hallys'] .hallys-film-cover video{display:block;width:100%;height:100%;object-fit:cover}
