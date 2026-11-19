@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import {mediaAssets} from '../../data/media';
+import '../../styles/work-magazine.css';
+const marks = mediaAssets.filter(media=>media.id.startsWith('marks-'));
+---
+<Base title="Magazine — Random Order" description="Selected visual stories and projects from Random Order.">
+  <section class="magazine-v2 wrap" aria-labelledby="magazine-v2-title">
+    <p class="work-v2-eyebrow">Random Order / Magazine</p>
+    <h1 id="magazine-v2-title">Magazine <em>lately.</em></h1>
+    <div class="magazine-v2-leads">
+      <a class="magazine-v2-feature" href="/work/earnt/" aria-label="View EARNT project"><img src="/assets/magazine-v2/earnt.png" alt="Team EARNT tiger illustration" width="1210" height="1218" fetchpriority="high" decoding="async" /><span>EARNT <span aria-hidden="true">↗</span></span><p class="magazine-v2-summary">Environmental action, made visible. An identity built to be worn, shared and noticed.</p></a>
+      <a class="magazine-v2-feature" href="/work/sneaker-lab/" aria-label="View Sneaker Lab × BSTN project"><img src="/assets/magazine-v2/feature-02.png" alt="Sneaker Lab × BSTN box with basketball court artwork" width="1344" height="896" loading="lazy" decoding="async" /><span>Sneaker Lab × BSTN <span aria-hidden="true">↗</span></span><p class="magazine-v2-summary">Basketball, streetwear and sneaker care meet on one surface. A packaging concept that gives two distinct identities a shared visual language.</p></a>
+      <figure class="magazine-v2-feature"><img src="/assets/magazine-v2/feature-03.png" alt="Monochrome editorial artwork with the word Scar" width="2500" height="1000" loading="lazy" decoding="async" /><figcaption>Scar</figcaption><p class="magazine-v2-summary">A stark image held in black and white. Its single word leaves space for the viewer to sit with it.</p></figure>
+    </div>
+    <section class="magazine-v2-stories" aria-labelledby="magazine-v2-stories-title">
+      <h2 id="magazine-v2-stories-title">Words with a point of view.</h2>
+      <div class="magazine-v2-story-grid">
+        <a class="magazine-v2-feature" href="/work/cozy-heaven/" aria-label="View Cozy Heaven project"><img src="/assets/magazine-v2/feature-04.png" alt="Cozy Heaven editorial portrait" width="1456" height="816" loading="lazy" decoding="async" /><span>Cozy Heaven <span aria-hidden="true">↗</span></span><p class="magazine-v2-summary">Care is the starting point. The imagery carries that feeling across a quiet, considered bedding brand.</p></a>
+        <figure class="magazine-v2-feature"><img src="/assets/magazine-v2/feature-05.png" alt="The Grandma portrait study" width="1456" height="816" loading="lazy" decoding="async" /><figcaption>The Grandma</figcaption><p class="magazine-v2-summary">A portrait with room to breathe. Expression and presence carry the frame.</p></figure>
+      </div>
+    </section>
+    <section class="magazine-v2-marks" id="marks" aria-labelledby="magazine-v2-marks-title">
+      <p class="work-v2-eyebrow">Identity / Marks</p>
+      <h2 id="magazine-v2-marks-title">Marks.</h2>
+      <div class="magazine-v2-mark-wall">
+        {marks.map(mark=><figure><img src={mark.src} alt={mark.alt} width={mark.width} height={mark.height} loading="lazy" decoding="async" /></figure>)}
+      </div>
+    </section>
+  </section>
+</Base>

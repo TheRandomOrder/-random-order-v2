@@ -1,33 +1,95 @@
 ---
 import Base from '../../layouts/Base.astro';
-import MediaFigure from '../../components/project/MediaFigure.astro';
-import {workIndexProjects, projectHref} from '../../data/projects';
-import '../../styles/projects.css';
+import {getProject, projectHref, projects} from '../../data/projects';
+import '../../styles/work-magazine.css';
 
-const opening = workIndexProjects[0];
-const legacy = new Set(['tfb','wright','ham','scottusa','gadventures','brandmarks','random-projects','the-shed', 'orchard-on-long']);
-const sections = [
-  {title: 'Magazine', projects: workIndexProjects.filter(project => !legacy.has(project.id))},
-  {title: 'Further work', projects: workIndexProjects.filter(project => legacy.has(project.id))},
-];
+const intro = 'A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.';
+const selected = [
+  {id:'ssuperlative', image:'/assets/work-v2/ssuperlative.png', alt:'Runner above the clouds'},
+  {id:'golds-gym', image:'/assets/work-v2/golds-gym.png', alt:'Gold’s Gym SoCal fitness campaign'},
+  {id:'hallys', image:'/assets/hallys-poster.webp', alt:'Hally’s neighbourhood café'},
+  {id:'hotel-atelier', image:'/assets/work-v2/hotel-atelier.png', alt:'Hotel Atelier portrait study'},
+  {id:'earnt', image:'/assets/work-v2/earnt.png', alt:'Team EARNT illustrated campaign'},
+  {id:'superbalist', image:'/assets/work-v2/superbalist.png', alt:'Superbalist mobile shopping interface'},
+  {id:'adidas', image:'/assets/work-v2/adidas.png', alt:'Adidas portrait campaign'},
+  {id:'publicis-machine', image:'/assets/work-v2/publicis-machine.png', alt:'Publicis Machine visual campaign'},
+  {id:'cozy', image:'/assets/cozy-heaven.webp', alt:'Cozy Heaven editorial image'},
+  {id:'sneaker-lab', image:'/assets/work-v2/sneaker-lab-a.png', alt:'Sneaker Lab basketball campaign'},
+  {id:'sussex', image:'/assets/work-v2/sussex.jpg', alt:'Sussex restaurant'},
+].map(item=>({...item,project:getProject(item.id)!}));
+const figmaListOrder = ['publicis-machine','ssuperlative','golds-gym','muso','hotel-atelier','hallys','cozy','superbalist','adidas','sneaker-lab','earnt'];
+const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a,b)=>{
+  const aIndex = figmaListOrder.indexOf(a.id);
+  const bIndex = figmaListOrder.indexOf(b.id);
+  return (aIndex < 0 ? Infinity : aIndex) - (bIndex < 0 ? Infinity : bIndex);
+});
 ---
-<Base title="Work Index — Random Order" description="Selected work spanning brand identity, product design, creative direction, visual systems and experimentation.">
-  <section class="work-list wrap" aria-labelledby="work-list-title">
-    <h1 class="eyebrow" id="work-list-title">01 / Selected index</h1>
-    <p class="index-intro">A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.</p>
-    {opening?.heroMediaId && <a class="index-cover" href={projectHref(opening)} aria-label={`Read ${opening.title}`}>
-      <MediaFigure mediaId={opening.heroMediaId} preview eager showCaption={false} />
-    </a>}
-    {sections.map(section => <section>
-      <h2 class="work-list-title" id={section.title === 'Further work' ? 'archive' : undefined}>{section.title}</h2>
-      <ul class="work-list-rows">
-        {section.projects.map(project => <><li><a href={projectHref(project)}>
-          <span class="work-list-title">{project.title}</span>
-          <span class="work-list-discipline">{project.disciplines.join(' / ')}</span>
-        </a></li>
-        {project.id === 'hotel-atelier' && <li class="work-list-reference"><span class="work-list-title">Design Systems</span><span class="work-list-discipline">Design systems / Methodology</span></li>}
-        </>)}
-      </ul>
-    </section>)}
+<Base title="Selected Work — Random Order" description={intro}>
+  <section class="work-v2-hero" aria-labelledby="work-v2-hero-title">
+    <h1 id="work-v2-hero-title" class="sr-only">Selected Work</h1>
+    <video class="work-v2-hero-film" src="/assets/work-v2/hero-production.m4v" poster="/assets/work-v2/hero-production.png" muted loop playsinline preload="none" aria-hidden="true"></video>
+  </section>
+
+  <section class="work-v2-selected wrap" aria-labelledby="work-v2-selected-title">
+    <p class="work-v2-eyebrow">01 / Selected index</p>
+    <h2 id="work-v2-selected-title">Selected Work</h2>
+    <p class="work-v2-intro">{intro}</p>
+    <div class="work-v2-view-switch" role="group" aria-label="Work view">
+      <button type="button" class="is-active" data-work-view="visual" aria-pressed="true" aria-controls="work-v2-visual">Visual</button>
+      <button type="button" data-work-view="list" aria-pressed="false" aria-controls="work-v2-list">List</button>
+    </div>
+    <div class="work-v2-cards" id="work-v2-visual">
+      {selected.map(({project,image,alt},index)=><a class="work-v2-card" href={projectHref(project)} aria-label={`View ${project.title} project`}>
+        <span class="work-v2-card-media"><img src={image} alt={alt} width="656" height="394" loading="lazy" decoding="async" /></span>
+        <span class="work-v2-card-copy"><span class="work-v2-eyebrow">{String(index+1).padStart(2,'0')}</span><span class="work-v2-eyebrow work-v2-card-category">{project.disciplines.join(' · ')}</span><strong>{project.title}</strong>{project.intro && <span class="work-v2-card-intro">{project.intro}</span>}</span>
+      </a>)}
+    </div>
+    <div class="work-v2-list" id="work-v2-list" hidden>
+      {listProjects.map(project=><a class="work-v2-list-row" href={projectHref(project)} aria-label={`View ${project.title} project`}>
+        <strong>{project.title}</strong>
+        <span>{project.disciplines.join(' / ')}</span>
+        <span class="work-v2-list-arrow" aria-hidden="true">↗</span>
+      </a>)}
+    </div>
+  </section>
+
+  <section class="work-v2-further wrap" aria-labelledby="work-v2-further-title">
+    <h2 id="work-v2-further-title" class="work-v2-eyebrow">Further Work</h2>
+    <div class="work-v2-further-grid">
+      <figure><img src="/assets/work-v2/radar.png" alt="Radar graphic study" width="427" height="320" loading="lazy" decoding="async" /><figcaption>Radar</figcaption></figure>
+      <figure><img src="/assets/work-v2/lenticular.png" alt="Lenticular portrait study" width="427" height="320" loading="lazy" decoding="async" /><figcaption>Lenticular</figcaption></figure>
+      <a href="/work/hallys/" aria-label="View Hally’s project"><img src="/assets/work-v2/hallys-tangle.png" alt="Hally’s Tangle artwork" width="427" height="320" loading="lazy" decoding="async" /><span>Hally’s Tangle</span></a>
+    </div>
+  </section>
+
+  <section class="work-v2-magazine wrap" aria-labelledby="work-v2-magazine-title">
+    <p class="work-v2-eyebrow">02 / Magazine</p>
+    <h2 id="work-v2-magazine-title">A few things we’ve built lately.</h2>
+    <div class="work-v2-magazine-grid" aria-hidden="true"><img src="/assets/magazine-v2/earnt.png" alt="" width="1210" height="1218" loading="lazy" /><img src="/assets/magazine-v2/feature-02.png" alt="" width="1344" height="896" loading="lazy" /><img src="/assets/magazine-v2/feature-03.png" alt="" width="1344" height="896" loading="lazy" /></div>
+    <a class="work-v2-magazine-link" href="/magazine/">Explore the Magazine <span aria-hidden="true">↗</span></a>
   </section>
 </Base>
+<script>
+  const heroFilm = document.querySelector<HTMLVideoElement>('.work-v2-hero-film');
+  const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const updateHeroMotion = () => {
+    if (!heroFilm) return;
+    if (motionPreference.matches) heroFilm.pause();
+    else void heroFilm.play().catch(() => {});
+  };
+  updateHeroMotion();
+  motionPreference.addEventListener('change', updateHeroMotion);
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-work-view]')];
+  const visual = document.getElementById('work-v2-visual');
+  const list = document.getElementById('work-v2-list');
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    const showList = button.dataset.workView === 'list';
+    if (visual) visual.hidden = showList;
+    if (list) list.hidden = !showList;
+    buttons.forEach(item=>{
+      const active = item === button;
+      item.classList.toggle('is-active',active);
+      item.setAttribute('aria-pressed',String(active));
+    });
+  }));
+</script>

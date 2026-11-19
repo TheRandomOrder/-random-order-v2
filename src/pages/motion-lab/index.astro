@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+const characters = (word:string) => [...word].map((letter,index)=>({letter,index}));
+---
+<Base title="Typography motion studies — Random Order" description="Three typography motion studies for review." noindex>
+  <main class="motion-lab wrap">
+    <p class="motion-lab__eyebrow">Random Order / motion studies</p>
+    <h1>Typography in motion.</h1>
+    <p class="motion-lab__intro">Three restrained treatments for review. Each keeps the original word and layout intact.</p>
+    <section aria-labelledby="motion-a">
+      <p class="motion-lab__eyebrow">A / Variable form</p>
+      <h2 id="motion-a">Magazine masthead</h2>
+      <div class="motion-lab__sample motion-lab__sample--variable" aria-label="Magazine">{characters('MAGAZINE').map(({letter,index})=><span aria-hidden="true" style={`--i:${index}`}>{letter}</span>)}</div>
+    </section>
+    <section aria-labelledby="motion-b">
+      <p class="motion-lab__eyebrow">B / Staggered characters</p>
+      <h2 id="motion-b">Wirebar type</h2>
+      <div class="motion-lab__sample motion-lab__sample--staggered" aria-label="Wirebar">{characters('WIREBAR').map(({letter,index})=><span aria-hidden="true" style={`--i:${index}`}>{letter}</span>)}</div>
+    </section>
+    <section aria-labelledby="motion-c">
+      <p class="motion-lab__eyebrow">C / Continuous wave</p>
+      <h2 id="motion-c">Editorial heading</h2>
+      <div class="motion-lab__sample motion-lab__sample--wave" aria-label="Selected work">{characters('SELECTED WORK').map(({letter,index})=>letter===' '?<span class="motion-lab__space" aria-hidden="true">&nbsp;</span>:<span aria-hidden="true" style={`--i:${index}`}>{letter}</span>)}</div>
+    </section>
+  </main>
+</Base>
+<style>
+  @font-face{font-family:'Big Shoulders';src:url('/fonts/big-shoulders.ttf') format('truetype');font-weight:100 900;font-display:swap}
+  .motion-lab{padding-top:150px;padding-bottom:136px}
+  .motion-lab__eyebrow{font:700 12px/1.6 var(--font-sans);letter-spacing:.08em;text-transform:uppercase}
+  .motion-lab h1{font:400 clamp(56px,8vw,108px)/1 var(--font-display);text-transform:uppercase;margin:16px 0 20px}
+  .motion-lab__intro{font-size:20px;line-height:1.5;max-width:620px}
+  .motion-lab section{border-top:1px solid #d9d9d9;margin-top:96px;padding-top:24px}
+  .motion-lab h2{font:400 24px/1.2 var(--font-display);text-transform:uppercase;margin:12px 0 48px}
+  .motion-lab__sample{min-height:180px;display:flex;align-items:center;white-space:nowrap;font:700 clamp(52px,10vw,144px)/1 'Big Shoulders',var(--font-display);text-transform:uppercase;letter-spacing:-.015em}
+  .motion-lab__sample span{display:inline-block;transform-origin:center bottom;will-change:transform}
+  .motion-lab__sample--variable span{animation:variable-form 4.8s ease-in-out infinite;animation-delay:calc(var(--i)*80ms)}
+  .motion-lab__sample--staggered span{animation:staggered-form 3.8s cubic-bezier(.25,.75,.25,1) infinite;animation-delay:calc(var(--i)*90ms)}
+  .motion-lab__sample--wave span:not(.motion-lab__space){animation:wave-form 4.2s ease-in-out infinite;animation-delay:calc(var(--i)*110ms)}
+  .motion-lab__space{width:.25em}
+  @keyframes variable-form{0%,100%{transform:scaleX(1);font-weight:700}50%{transform:scaleX(.82);font-weight:900}}
+  @keyframes staggered-form{0%,12%,80%,100%{transform:translateY(0) scaleX(1)}30%{transform:translateY(-.12em) scaleX(.9)}50%{transform:translateY(0) scaleX(1)}}
+  @keyframes wave-form{0%,15%,70%,100%{transform:translateY(0) scaleX(1)}38%{transform:translateY(-.07em) scaleX(.93)}}
+  @media(max-width:767px){.motion-lab{padding-top:130px;padding-bottom:80px}.motion-lab section{margin-top:64px}.motion-lab__sample{min-height:100px;font-size:clamp(35px,10vw,72px);letter-spacing:-.025em}.motion-lab h2{margin-bottom:24px}}
+  @media(prefers-reduced-motion:reduce){.motion-lab__sample span{animation:none!important;will-change:auto}}
+</style>

@@ -3,7 +3,7 @@ import {projects} from '../data/projects';
 
 export const GET: APIRoute = ({site}) => {
   const origin = site ?? new URL('https://therandomorder.com');
-  const routes = ['/', '/work/', '/about/', '/contact/', '/logos/', ...projects.filter(project => project.routeEnabled && project.status !== 'draft').map(project => `/work/${project.slug}/`)];
+  const routes = ['/', '/work/', '/magazine/', '/about/', '/contact/', '/logos/', ...projects.filter(project => project.routeEnabled && project.status !== 'draft').map(project => `/work/${project.slug}/`)];
   const urls = [...new Set(routes)].map(route => `  <url><loc>${new URL(route,origin).href}</loc></url>`).join('\n');
   return new Response(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`, {headers:{'Content-Type':'application/xml; charset=utf-8'}});
 };
