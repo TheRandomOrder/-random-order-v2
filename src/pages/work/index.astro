@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import {getProject, projectHref, projects} from '../../data/projects';
+import {projects as homepageCards} from '../../data/home';
 import '../../styles/work-magazine.css';
 
 const intro = 'A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.';
@@ -16,7 +17,10 @@ const selected = [
   {id:'cozy', image:'/assets/cozy-heaven.webp', alt:'Cozy Heaven editorial image'},
   {id:'sneaker-lab', image:'/assets/work-v2/sneaker-lab-a.png', alt:'Sneaker Lab basketball campaign'},
   {id:'sussex', image:'/assets/work-v2/sussex.jpg', alt:'Sussex restaurant'},
-].map(item=>({...item,project:getProject(item.id)!}));
+].map(item=>{
+  const currentCard = homepageCards.find(card=>card.id===item.id);
+  return {...item, image:currentCard?.image??item.image, video:currentCard?.video, alt:currentCard?.alt??item.alt, project:getProject(item.id)!};
+});
 const figmaListOrder = ['publicis-machine','ssuperlative','golds-gym','muso','hotel-atelier','hallys','cozy','superbalist','adidas','sneaker-lab','earnt'];
 const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a,b)=>{
   const aIndex = figmaListOrder.indexOf(a.id);
@@ -39,8 +43,8 @@ const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a
       <button type="button" data-work-view="list" aria-pressed="false" aria-controls="work-v2-list">List</button>
     </div>
     <div class="work-v2-cards" id="work-v2-visual">
-      {selected.map(({project,image,alt},index)=><a class="work-v2-card" href={projectHref(project)} aria-label={`View ${project.title} project`}>
-        <span class="work-v2-card-media"><img src={image} alt={alt} width="656" height="394" loading="lazy" decoding="async" /></span>
+      {selected.map(({project,image,video,alt},index)=><a class:list={['work-v2-card',{'has-card-video':!!video}]} href={projectHref(project)} aria-label={`View ${project.title} project`}>
+        <span class="work-v2-card-media"><img src={image} alt={alt} width="656" height="394" loading="lazy" decoding="async" />{video && <video class="card-hover-video" data-src={video} poster={image} muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>}{project.id==='hallys' && <img class="work-v2-hallys-overlay" src="/assets/projects/hallys/line-overlay.png" alt="" width="656" height="394" loading="lazy" decoding="async" />}</span>
         <span class="work-v2-card-copy"><span class="work-v2-eyebrow">{String(index+1).padStart(2,'0')}</span><span class="work-v2-eyebrow work-v2-card-category">{project.disciplines.join(' · ')}</span><strong>{project.title}</strong>{project.intro && <span class="work-v2-card-intro">{project.intro}</span>}</span>
       </a>)}
     </div>
@@ -92,4 +96,30 @@ const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a
       item.setAttribute('aria-pressed',String(active));
     });
   }));
+  const cursor=document.createElement('span');
+  cursor.className='work-v2-card-cursor';
+  cursor.innerHTML='<strong></strong><span>View Work +</span>';
+  cursor.setAttribute('aria-hidden','true');
+  document.body.append(cursor);
+  document.querySelectorAll<HTMLElement>('.work-v2-card').forEach(card=>{
+    card.addEventListener('pointerenter',event=>{
+      if(event.pointerType==='mouse' && matchMedia('(pointer:fine)').matches){
+        cursor.querySelector('strong')!.textContent=card.querySelector('strong')?.textContent??'';
+        cursor.classList.add('is-visible');
+      }
+    });
+    card.addEventListener('pointermove',event=>{cursor.style.left=`${event.clientX}px`;cursor.style.top=`${event.clientY}px`;});
+    card.addEventListener('pointerleave',()=>cursor.classList.remove('is-visible'));
+    const video=card.querySelector<HTMLVideoElement>('.card-hover-video');
+    if(!video)return;
+    const play=()=>{
+      if(motionPreference.matches || !video.paused)return;
+      if(!video.src)video.src=video.dataset.src??'';
+      video.currentTime=0;
+      void video.play().then(()=>video.setAttribute('data-playing','')).catch(()=>video.removeAttribute('data-playing'));
+    };
+    card.addEventListener('pointerenter',play);
+    card.addEventListener('focusin',play);
+    video.addEventListener('ended',()=>{video.removeAttribute('data-playing');video.currentTime=0;});
+  });
 </script>
