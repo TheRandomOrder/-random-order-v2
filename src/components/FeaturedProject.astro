@@ -6,9 +6,35 @@ import type {projects} from '../data/home';
 type Props = typeof projects[number];
 const p=Astro.props;
 ---
-<article data-v1-blur={['sussex','earnt'].includes(p.id)||undefined} data-v1-colour={!['hallys','sussex','earnt'].includes(p.id)||undefined} class:list={['featured-project',`project-${p.id}`]} aria-labelledby={`project-${p.id}`}>
- {p.image ? <MediaContainer image={p.image} sourceSet={p.sourceSet} video={p.video} alt={p.alt} label={`${p.title} film`} href={p.href ?? undefined} linkLabel={`View ${p.title} project`} /> : <div class="media-container" aria-hidden="true"></div>}
- <ProjectCardText variant="home" id={p.id} number={p.number} tags={p.tags} title={p.title} href={p.href} summary={p.summary} />
+<article class:list={['featured-project',`project-${p.id}`,{'has-card-video':!!p.video}]} aria-labelledby={`project-${p.id}`}>
+ {p.image ? <MediaContainer image={p.image} sourceSet={p.sourceSet} video={p.video} hoverVideo={true} alt={p.alt} /> : <div class="media-container" aria-hidden="true"></div>}
+ {p.id === 'hallys' && <img class="hallys-line-overlay" src="/assets/projects/hallys/line-overlay.png" alt="" width="1672" height="941" loading="lazy" decoding="async" />}
+ <ProjectCardText variant="home" id={p.id} number={p.number} tags={p.tags} title={p.title} href={null} summary={p.summary} />
+ {p.href && <a class="card-full-link" href={p.href} aria-label={`View ${p.title} project`}></a>}
 </article>
 
-<script>import '../scripts/home-v1-hover.js';</script>
+<script>
+ const projectCursor=document.createElement('span');
+ projectCursor.className='home-project-cursor';
+ projectCursor.innerHTML='<strong></strong><span>View Work +</span>';
+ projectCursor.setAttribute('aria-hidden','true');
+ document.body.append(projectCursor);
+ document.querySelectorAll<HTMLElement>('.home .featured-project').forEach(card=>{
+  card.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse'){projectCursor.querySelector('strong')!.textContent=card.querySelector('.section-title')?.textContent?.trim()||'';projectCursor.classList.add('is-visible');}});
+  card.addEventListener('pointermove',event=>{projectCursor.style.left=`${event.clientX}px`;projectCursor.style.top=`${event.clientY}px`;});
+  card.addEventListener('pointerleave',()=>projectCursor.classList.remove('is-visible'));
+ });
+ document.querySelectorAll<HTMLElement>('.home .featured-project.has-card-video').forEach(card=>{
+  const video=card.querySelector<HTMLVideoElement>('.card-hover-video');
+  if(!video)return;
+  const play=()=>{
+   if(matchMedia('(prefers-reduced-motion: reduce)').matches || !video.paused)return;
+   if(!video.src)video.src=video.dataset.src||'';
+   video.currentTime=0;
+   void video.play().then(()=>video.setAttribute('data-playing','')).catch(()=>video.removeAttribute('data-playing'));
+  };
+  card.addEventListener('pointerenter',play);
+  card.addEventListener('focusin',play);
+  video.addEventListener('ended',()=>{video.removeAttribute('data-playing');video.currentTime=0;});
+ });
+</script>

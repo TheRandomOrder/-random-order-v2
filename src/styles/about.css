@@ -10,6 +10,14 @@
 .about-body{position:relative;background:#0a0a0a}
 .about-body .page-content{padding-top:0;gap:0}
 .about-body .studio-story{position:relative;isolation:isolate;padding-block:88px;color:#0a0a0a;gap:32px}
+.about-body .studio-story{grid-template-columns:minmax(0,1fr);gap:96px}
+.about-body .studio-story-copy{display:grid;grid-template-columns:330px minmax(0,1fr);gap:60px}
+.about-body .studio-story-copy p{max-width:930px}
+.about-body .studio-portraits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:49px;width:min(1714px,calc(100vw - 2 * var(--gutter)));max-width:none;position:relative;left:50%;transform:translateX(-50%)}
+.about-body .studio-portraits figure{margin:0;min-width:0}
+.about-body .studio-portraits img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;filter:none}
+.about-body .studio-portraits figcaption{font-size:16px;line-height:1.5;margin-top:24px}
+.about-body .studio-portraits figcaption span{display:block}
 .about-body .studio-story::before{content:'';position:absolute;inset:0 calc((min(1344px,100vw - 2 * var(--gutter)) - 100vw)/2);background:#fff;z-index:-1}
 .about-body .studio-story .eyebrow{color:#2e42e0}
 .about-body .studio-story figure{width:100%;max-width:none}
@@ -29,5 +37,8 @@
  .about-hero h1{font-size:clamp(44px,11.5vw,76px)}
  .about-lead{font-size:18px}
  .about-body .studio-story{gap:40px;padding-block:56px}
+ .about-body .studio-story-copy{grid-template-columns:1fr;gap:24px}
+ .about-body .studio-portraits{gap:16px}
+ .about-body .studio-portraits figcaption{font-size:13px;margin-top:12px}
  .about-body .page-content>section:not(.studio-story){padding-block:56px}
 }

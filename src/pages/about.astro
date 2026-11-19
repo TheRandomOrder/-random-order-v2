@@ -4,7 +4,6 @@ import Button from '../components/Button.astro';
 import '../styles/about.css';
 import Container from '../components/Container.astro';
 import Capabilities from '../components/Capabilities.astro';
-import MediaFigure from '../components/project/MediaFigure.astro';
 import '../styles/projects.css';
 const principles=[['Strategy before style','We start with positioning, so the identity grows from a clear understanding of the business.'],['Systems, not one-offs','The identity needs to work across packaging, signage, digital products and the decisions that follow.'],['Craft in the details','Kerning, materials and the smallest applications all contribute to how considered the brand feels.']];
 ---
@@ -16,7 +15,7 @@ const principles=[['Strategy before style','We start with positioning, so the id
   <p class="about-lead">Good branding isn’t decoration applied at the end: it’s the thinking made visible. We build brands from the strategy up, so every visual decision has a reason behind it.</p>
  </Container></section>
  <div class="about-body"><Container><div class="page-content">
-  <section class="studio-story" aria-labelledby="story-title"><MediaFigure mediaId="about-photo" /><div><h2 id="story-title" class="eyebrow">Our story</h2><p class="lead">Identity is where a business figures out what it is saying. From chaos, comes clarity.</p><p>Random Order works with a small number of clients at a time, mostly independent, founder-led brands in hospitality, retail and wellness. Understanding the business gives the visual work a foundation that can hold together as the brand grows.</p></div></section>
+  <section class="studio-story" aria-labelledby="story-title"><div class="studio-story-copy"><h2 id="story-title" class="eyebrow">Our story</h2><div><p class="lead">Identity is where a business figures out what it is saying. From chaos, comes clarity.</p><p>Random Order works with a small number of clients at a time, mostly independent, founder-led brands in hospitality, retail and wellness. Understanding the business gives the visual work a foundation that can hold together as the brand grows.</p></div></div><div class="studio-portraits"><figure><img src="/assets/about/jason-figma.png" alt="Portrait of Jason De Villiers" width="1024" height="1024" loading="lazy" decoding="async" /><figcaption>Jason De Villiers <span>Creative Director and Founder</span></figcaption></figure><figure><img src="/assets/about/hylton-figma.png" alt="Portrait of Hylton Adam Revell" width="1024" height="1024" loading="lazy" decoding="async" /><figcaption>Hylton Adam Revell</figcaption></figure></div></section>
   <section aria-labelledby="thinking-title"><h2 id="thinking-title" class="eyebrow" style="margin-bottom:40px">How we think</h2><div class="studio-principles">{principles.map(([title,body])=><div><h3>{title}</h3><p>{body}</p></div>)}</div></section>
   <section aria-labelledby="capabilities-title"><h2 id="capabilities-title" class="display" data-editorial-reveal style="margin-bottom:56px">Everything a brand needs<br/>to hold together.</h2><Capabilities /></section>
   <section class="page-cta"><p class="eyebrow">Start a project</p><h2 class="display">Let’s see if we’re <em>a fit</em>.</h2><div class="page-actions"><Button href="/contact/">Get in touch</Button><Button href="/work/" ghost>See the work</Button></div></section>

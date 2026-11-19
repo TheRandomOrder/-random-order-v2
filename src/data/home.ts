@@ -1,6 +1,6 @@
 import {projects as projectCollection,projectHref} from './projects';
 import {getMedia,imageSourceSet} from './media';
-export const navigation = [{label:'Work',href:'/work/'},{label:'Marks',href:'/logos/'},{label:'About',href:'/about/'},{label:'Contact',href:'/contact/'},{label:'Magazine',href:null}];
+export const navigation = [{label:'Work',href:'/work/'},{label:'Magazine',href:'/magazine/'},{label:'About',href:'/about/'},{label:'Contact',href:'/contact/'}];
 // Homepage artwork follows Figma 1017:678 independently of case-study covers.
 const homeArtwork: Record<string, {image:string; video?:string; alt:string}> = {
  'superbalist':{image:'/assets/home-v2/superbalist.png',alt:'Superbalist identity displayed on three mobile screens'},
