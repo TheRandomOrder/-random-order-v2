@@ -1,0 +1,103 @@
+---
+import '../styles/work-hero-carousel.css';
+
+interface Slide {
+  title: string;
+  headline: string;
+  href: string;
+  image: string;
+  video?: string;
+  description?: string;
+  logo?: string;
+}
+
+interface Props { slides: Slide[] }
+const {slides}=Astro.props;
+---
+<section class="work-v2-hero" aria-labelledby="work-v2-hero-title" aria-roledescription="carousel" data-work-carousel>
+  <h1 id="work-v2-hero-title" class="sr-only">Featured Work</h1>
+  <div class="work-v2-hero-slides">
+    {slides.map((slide,index)=><article class="work-v2-hero-slide" data-work-slide data-active={index===0?'true':'false'} aria-hidden={index===0?'false':'true'} inert={index!==0}>
+      <div class="work-v2-hero-media" aria-hidden="true">
+        <img src={index===0?slide.image:undefined} data-src={slide.image} alt="" width="1920" height="803" fetchpriority={index===0?'high':'auto'} loading={index===0?'eager':'lazy'} decoding="async" />
+        {slide.video && <video data-src={slide.video} poster={slide.image} muted loop playsinline preload="none" tabindex="-1"></video>}
+      </div>
+      <div class="work-v2-hero-content wrap">
+        <p class="work-v2-hero-label">Featured case study</p>
+        <h2>{slide.headline}</h2>
+        {slide.description && <p class="work-v2-hero-description">{slide.description}</p>}
+        <a class="work-v2-hero-link" href={slide.href} aria-label={`See ${slide.title} case study`}>See the work</a>
+      </div>
+      <div class="work-v2-hero-brand" aria-hidden="true">{slide.logo?<img src={slide.logo} alt="" width="340" height="64" loading={index===0?'eager':'lazy'} />:<span>{slide.title}</span>}</div>
+    </article>)}
+  </div>
+  <div class="work-v2-hero-controls" aria-label="Featured work controls">
+    <button type="button" class="work-v2-hero-step" data-work-prev aria-label="Previous featured project">←</button>
+    <div class="work-v2-hero-dots" role="group" aria-label="Choose featured project">
+      {slides.map((slide,index)=><button type="button" data-work-dot={index} aria-label={`Show ${slide.title}`} aria-pressed={index===0?'true':'false'}><span></span></button>)}
+    </div>
+    <button type="button" class="work-v2-hero-step" data-work-next aria-label="Next featured project">→</button>
+  </div>
+  <span class="sr-only" aria-live="polite" data-work-announcement></span>
+</section>
+
+<script>
+  const carousel=document.querySelector<HTMLElement>('[data-work-carousel]');
+  if(carousel){
+    const slides=[...carousel.querySelectorAll<HTMLElement>('[data-work-slide]')];
+    const dots=[...carousel.querySelectorAll<HTMLButtonElement>('[data-work-dot]')];
+    const announcement=carousel.querySelector<HTMLElement>('[data-work-announcement]');
+    const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+    let active=0;
+    let touchStart:{x:number;y:number}|null=null;
+    let lastSwipeAt=0;
+
+    const updateVideo=(slide:HTMLElement,shouldPlay:boolean)=>{
+      const video=slide.querySelector<HTMLVideoElement>('video');
+      if(!video)return;
+      if(!shouldPlay||reducedMotion.matches){video.pause();video.removeAttribute('data-playing');return;}
+      if(!video.src)video.src=video.dataset.src??'';
+      void video.play().then(()=>video.setAttribute('data-playing','')).catch(()=>video.removeAttribute('data-playing'));
+    };
+    const show=(next:number,announce=true)=>{
+      const index=(next+slides.length)%slides.length;
+      if(index===active)return;
+      updateVideo(slides[active],false);
+      active=index;
+      slides.forEach((slide,i)=>{
+        const selected=i===active;
+        slide.dataset.active=String(selected);
+        slide.setAttribute('aria-hidden',String(!selected));
+        slide.inert=!selected;
+        if(selected){
+          const image=slide.querySelector<HTMLImageElement>('img[data-src]');
+          if(image&&!image.hasAttribute('src'))image.src=image.dataset.src??'';
+          updateVideo(slide,true);
+        }
+      });
+      dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',String(i===active)));
+      if(announce&&announcement)announcement.textContent=`Featured project ${active+1} of ${slides.length}: ${dots[active].getAttribute('aria-label')?.replace(/^Show /,'')??''}`;
+    };
+    carousel.querySelector('[data-work-prev]')?.addEventListener('click',()=>show(active-1));
+    carousel.querySelector('[data-work-next]')?.addEventListener('click',()=>show(active+1));
+    dots.forEach((dot,i)=>dot.addEventListener('click',()=>show(i)));
+    carousel.addEventListener('keydown',event=>{
+      if(event.key==='ArrowLeft'||event.key==='ArrowRight'){
+        event.preventDefault();
+        show(active+(event.key==='ArrowRight'?1:-1));
+      }
+    });
+    carousel.addEventListener('touchstart',event=>{const t=event.changedTouches[0];touchStart={x:t.clientX,y:t.clientY};},{passive:true});
+    carousel.addEventListener('touchend',event=>{
+      if(!touchStart)return;
+      const t=event.changedTouches[0];
+      const dx=t.clientX-touchStart.x,dy=t.clientY-touchStart.y;
+      touchStart=null;
+      if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.25){lastSwipeAt=Date.now();show(active+(dx<0?1:-1));}
+    },{passive:true});
+    carousel.addEventListener('click',event=>{if(Date.now()-lastSwipeAt<350){event.preventDefault();event.stopPropagation();lastSwipeAt=0;}},true);
+    reducedMotion.addEventListener('change',()=>updateVideo(slides[active],!reducedMotion.matches));
+    document.addEventListener('visibilitychange',()=>updateVideo(slides[active],!document.hidden));
+    updateVideo(slides[0],true);
+  }
+</script>

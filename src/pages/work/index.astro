@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import {getProject, projectHref, projects} from '../../data/projects';
 import {projects as homepageCards} from '../../data/home';
+import WorkHeroCarousel from '../../components/WorkHeroCarousel.astro';
 import '../../styles/work-magazine.css';
 
 const intro = 'A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.';
@@ -21,6 +22,17 @@ const selected = [
   const currentCard = homepageCards.find(card=>card.id===item.id);
   return {...item, image:currentCard?.image??item.image, video:currentCard?.video, alt:currentCard?.alt??item.alt, project:getProject(item.id)!};
 });
+const featuredHeroSlides = ['superbalist','publicis-machine','hallys','golds-gym','ssuperlative','earnt'].map(id=>{
+  const card=selected.find(item=>item.id===id)!;
+  return {
+    title:card.project.title,
+    headline:id==='superbalist'?'The Art of Direction':card.project.title,
+    href:projectHref(card.project)!,
+    image:id==='superbalist'?'/assets/work-v2/hero-superbalist-figma.png':card.image,
+    video:id==='superbalist'?undefined:card.video,
+    logo:id==='superbalist'?'/assets/work-v2/superbalist-hero-logo.svg':undefined
+  };
+});
 const figmaListOrder = ['publicis-machine','ssuperlative','golds-gym','muso','hotel-atelier','hallys','cozy','superbalist','adidas','sneaker-lab','earnt'];
 const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a,b)=>{
   const aIndex = figmaListOrder.indexOf(a.id);
@@ -29,10 +41,7 @@ const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a
 });
 ---
 <Base title="Selected Work — Random Order" description={intro}>
-  <section class="work-v2-hero" aria-labelledby="work-v2-hero-title">
-    <h1 id="work-v2-hero-title" class="sr-only">Selected Work</h1>
-    <video class="work-v2-hero-film" src="/assets/work-v2/hero-production.m4v" poster="/assets/work-v2/hero-production.png" muted loop playsinline preload="none" aria-hidden="true"></video>
-  </section>
+  <WorkHeroCarousel slides={featuredHeroSlides} />
 
   <section class="work-v2-selected wrap" aria-labelledby="work-v2-selected-title">
     <p class="work-v2-eyebrow">01 / Selected index</p>
@@ -74,15 +83,7 @@ const listProjects = [...projects].filter(project=>project.routeEnabled).sort((a
   </section>
 </Base>
 <script>
-  const heroFilm = document.querySelector<HTMLVideoElement>('.work-v2-hero-film');
   const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const updateHeroMotion = () => {
-    if (!heroFilm) return;
-    if (motionPreference.matches) heroFilm.pause();
-    else void heroFilm.play().catch(() => {});
-  };
-  updateHeroMotion();
-  motionPreference.addEventListener('change', updateHeroMotion);
   const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-work-view]')];
   const visual = document.getElementById('work-v2-visual');
   const list = document.getElementById('work-v2-list');
