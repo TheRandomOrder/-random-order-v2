@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import stories from '../../data/content/stories.json';
+import {getProject,projectHref} from '../../data/projects';
+import '../../styles/work-magazine.css';
+export function getStaticPaths(){return stories.map(story=>({params:{slug:story.slug},props:{story}}));}
+const {story}=Astro.props;
+---
+<Base title={`${story.title} — Magazine — Random Order`} description={story.summary}>
+  <article class="magazine-story wrap">
+    <a class="text-link" href="/magazine/">Back to Magazine</a>
+    <p class="work-v2-eyebrow">{story.category.replaceAll('-',' ')} / Notes on the work</p>
+    <h1>{story.title}</h1>
+    <p class="magazine-story-deck">{story.summary}</p>
+    <img class:list={['magazine-story-image', {'is-wordmark':story.slug==='type-with-a-point-of-view'}]} src={story.image} alt={story.alt} width="1344" height="756" fetchpriority="high" />
+    <div class="magazine-story-body">{story.paragraphs.map(paragraph=><p>{paragraph}</p>)}</div>
+    <aside class="magazine-story-related" aria-label="Connected projects"><h2>Follow the thread.</h2><div>{story.related.map(id=>{const project=getProject(id)!;return <a class="work-v2-list-row" href={projectHref(project)}><strong>{project.title}</strong><span>{project.disciplines.join(' · ')}</span></a>;})}</div></aside>
+    <nav class="magazine-story-next" aria-label="More stories"><h2>Keep reading.</h2>{stories.filter(item=>item.slug!==story.slug).map(item=><a class="text-link" href={`/magazine/${item.slug}/`}>{item.title}</a>)}</nav>
+  </article>
+</Base>

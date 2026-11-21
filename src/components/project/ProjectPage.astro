@@ -1,4 +1,5 @@
 ---
+import stories from '../../data/content/stories.json';
 import Base from '../../layouts/Base.astro';
 import type {ProjectRecord} from '../../data/projects';
 import ProjectHeader from './ProjectHeader.astro';
@@ -26,6 +27,7 @@ const displayProject = project.id === 'adidas' ? {
   <article class:list={['project-page', `project-presentation-${project.presentation}`, project.mode && `project-mode-${project.mode}`]} style={`--editorial-top:${project.editorialTop ?? 0}px;${project.headerHeight ? `--project-header-height:${project.headerHeight}px;` : ''}${project.headerTop !== undefined ? `--project-header-top:${project.headerTop}px;` : ''}`} data-project={project.id}>
     <ProjectHeader project={displayProject} />
     {project.id === 'adidas' ? <AdidasEditorial /> : project.legacyLayout ? <LegacyEditorial id={project.id} /> : project.sourceComposition ? <FigmaEditorial frame={project.sourceComposition} /> : <EditorialBlocks blocks={project.blocks} />}
+    {stories.some(story=>story.related.includes(project.id)) && <aside class="wrap" style="padding-block:48px"><p class="eyebrow">In the Magazine</p>{stories.filter(story=>story.related.includes(project.id)).map(story=><a class="text-link" href={`/magazine/${story.slug}/`}>{story.title}</a>)}</aside>}
     {project.id !== 'adidas' && <ProjectNavigation project={project} />}
   </article>
 </Base>

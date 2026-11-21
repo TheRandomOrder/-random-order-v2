@@ -2748,5 +2748,90 @@
     ],
     "legacyLayout": true,
     "legacyNavigation": {}
+  },
+  {
+    "id": "metalab",
+    "slug": "metalab",
+    "title": "Metalab",
+    "presentation": "gallery",
+    "mode": "visual-story",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Illustration"
+    ],
+    "intro": "An illustrated landscape of sculpted islands, quiet water and warm colour.",
+    "heroMediaId": "metalab-study",
+    "headerHeight": 560,
+    "navigation": "related",
+    "relatedIds": [
+      "hallys",
+      "gadventures"
+    ],
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "metalab-study",
+        "fit": "contain"
+      }
+    ]
+  },
+  {
+    "id": "bagme",
+    "slug": "bagme",
+    "title": "BAGME",
+    "presentation": "gallery",
+    "mode": "visual-story",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Identity",
+      "Packaging"
+    ],
+    "intro": "A geometric bag symbol and understated wordmark, brought together on circular tags.",
+    "heroMediaId": "bagme-study",
+    "headerHeight": 560,
+    "navigation": "related",
+    "relatedIds": [
+      "sussex",
+      "brandmarks"
+    ],
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "bagme-study",
+        "fit": "contain"
+      }
+    ]
+  },
+  {
+    "id": "flora-co",
+    "slug": "flora-co",
+    "title": "Flora&Co",
+    "presentation": "gallery",
+    "mode": "visual-story",
+    "classification": "archive",
+    "routeEnabled": true,
+    "status": "ready",
+    "disciplines": [
+      "Art Direction"
+    ],
+    "intro": "A red shoulder bag set against a cosmic backdrop, with bold type and orbiting lines.",
+    "heroMediaId": "flora-co-study",
+    "headerHeight": 560,
+    "navigation": "related",
+    "relatedIds": [
+      "hotel-atelier",
+      "cozy"
+    ],
+    "blocks": [
+      {
+        "type": "media",
+        "mediaId": "flora-co-study",
+        "fit": "contain"
+      }
+    ]
   }
 ]

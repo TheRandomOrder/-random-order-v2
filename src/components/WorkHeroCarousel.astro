@@ -2,6 +2,7 @@
 import '../styles/work-hero-carousel.css';
 
 interface Slide {
+  durationMs?: number;
   title: string;
   headline: string;
   href: string;
@@ -18,7 +19,7 @@ const {slides}=Astro.props;
 <section class="work-v2-hero" aria-labelledby="work-v2-hero-title" aria-roledescription="carousel" data-work-carousel>
   <h1 id="work-v2-hero-title" class="sr-only">Featured Work</h1>
   <div class="work-v2-hero-slides">
-    {slides.map((slide,index)=><article class="work-v2-hero-slide" data-work-slide data-treatment={slide.treatment} data-active={index===0?'true':'false'} aria-hidden={index===0?'false':'true'} inert={index!==0}>
+    {slides.map((slide,index)=><article class="work-v2-hero-slide" data-work-slide data-duration-ms={slide.durationMs ?? 6500} data-treatment={slide.treatment} data-active={index===0?'true':'false'} aria-hidden={index===0?'false':'true'} inert={index!==0}>
       <div class="work-v2-hero-media" aria-hidden="true">
         <img src={index===0?slide.image:undefined} data-src={slide.image} alt="" width="1920" height="803" fetchpriority={index===0?'high':'auto'} loading={index===0?'eager':'lazy'} decoding="async" />
         {slide.video && <video data-src={slide.video} poster={slide.image} muted loop playsinline preload="none" tabindex="-1"></video>}
@@ -33,6 +34,7 @@ const {slides}=Astro.props;
     </article>)}
   </div>
   <div class="work-v2-hero-controls" aria-label="Featured work controls">
+    <button type="button" data-work-pause aria-pressed="false" aria-label="Pause carousel">Pause</button>
     <div class="work-v2-hero-dots" role="group" aria-label="Choose featured project">
       {slides.map((slide,index)=><button type="button" data-work-dot={index} aria-label={`Show ${slide.title}`} aria-pressed={index===0?'true':'false'}><span></span></button>)}
     </div>
@@ -52,24 +54,40 @@ const {slides}=Astro.props;
     let lastSwipeAt=0;
     let timer:number|undefined;
     let inView=true;
-    let interacting=false;
-    const stopTimer=()=>{if(timer!==undefined){clearInterval(timer);timer=undefined;}};
+    let hovered=false;
+    let focused=false;
+    let touching=false;
+    let paused=false;
+    const pauseButton=carousel.querySelector<HTMLButtonElement>('[data-work-pause]');
+    const stopTimer=()=>{if(timer!==undefined){clearTimeout(timer);timer=undefined;}};
     const startTimer=()=>{
       stopTimer();
-      if(reducedMotion.matches||document.hidden||!inView||interacting||slides.length<2)return;
-      timer=window.setInterval(()=>show(active+1,false),6500);
+      if(reducedMotion.matches||document.hidden||!inView||hovered||focused||touching||paused||slides.length<2)return;
+      const slide=slides[active];
+      const video=slide.querySelector<HTMLVideoElement>('video');
+      // Wait for metadata before timing a film; a failed asset falls back to the authored hold.
+      if(video && video.readyState===0 && !video.error)return;
+      const authored=Number(slide.dataset.durationMs);
+      const hold=Number.isFinite(authored)&&authored>0?authored:6500;
+      const film=video && Number.isFinite(video.duration)?video.duration*1000+500:0;
+      timer=window.setTimeout(()=>{show(active+1,false);startTimer();},Math.max(hold,film));
     };
 
     const updateVideo=(slide:HTMLElement,shouldPlay:boolean)=>{
       const video=slide.querySelector<HTMLVideoElement>('video');
       if(!video)return;
-      if(!shouldPlay||reducedMotion.matches){video.pause();video.removeAttribute('data-playing');return;}
+      if(!shouldPlay||reducedMotion.matches||paused||document.hidden||!inView){video.pause();video.removeAttribute('data-playing');return;}
       if(!video.src)video.src=video.dataset.src??'';
       void video.play().then(()=>video.setAttribute('data-playing','')).catch(()=>video.removeAttribute('data-playing'));
     };
     const show=(next:number,announce=true)=>{
       const index=(next+slides.length)%slides.length;
-      if(index===active)return;
+      if(index===active){
+        const video=slides[active].querySelector<HTMLVideoElement>('video');
+        if(video) video.currentTime=0;
+        startTimer();
+        return;
+      }
       updateVideo(slides[active],false);
       active=index;
       slides.forEach((slide,i)=>{
@@ -80,6 +98,8 @@ const {slides}=Astro.props;
         if(selected){
           const image=slide.querySelector<HTMLImageElement>('img[data-src]');
           if(image&&!image.hasAttribute('src'))image.src=image.dataset.src??'';
+          const video=slide.querySelector<HTMLVideoElement>('video');
+          if(video)video.currentTime=0;
           updateVideo(slide,true);
         }
       });
@@ -94,23 +114,36 @@ const {slides}=Astro.props;
         startTimer();
       }
     });
-    carousel.addEventListener('touchstart',event=>{const t=event.changedTouches[0];touchStart={x:t.clientX,y:t.clientY};interacting=true;stopTimer();},{passive:true});
+    carousel.addEventListener('touchstart',event=>{const t=event.changedTouches[0];touchStart={x:t.clientX,y:t.clientY};touching=true;stopTimer();},{passive:true});
     carousel.addEventListener('touchend',event=>{
       if(!touchStart)return;
       const t=event.changedTouches[0];
       const dx=t.clientX-touchStart.x,dy=t.clientY-touchStart.y;
       touchStart=null;
       if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.25){lastSwipeAt=Date.now();show(active+(dx<0?1:-1));}
-      interacting=false;startTimer();
+      touching=false;startTimer();
     },{passive:true});
     carousel.addEventListener('click',event=>{if(Date.now()-lastSwipeAt<350){event.preventDefault();event.stopPropagation();lastSwipeAt=0;}},true);
-    carousel.addEventListener('mouseenter',()=>{interacting=true;stopTimer();});
-    carousel.addEventListener('mouseleave',()=>{interacting=false;startTimer();});
-    carousel.addEventListener('focusin',()=>{interacting=true;stopTimer();});
-    carousel.addEventListener('focusout',event=>{if(!carousel.contains(event.relatedTarget as Node)){interacting=false;startTimer();}});
+    carousel.addEventListener('mouseenter',()=>{hovered=true;stopTimer();});
+    carousel.addEventListener('mouseleave',()=>{hovered=false;startTimer();});
+    carousel.addEventListener('focusin',()=>{focused=true;stopTimer();});
+    carousel.addEventListener('focusout',event=>{if(!carousel.contains(event.relatedTarget as Node)){focused=false;startTimer();}});
+    carousel.addEventListener('touchcancel',()=>{touchStart=null;touching=false;startTimer();},{passive:true});
+    pauseButton?.addEventListener('click',()=>{
+      paused=!paused;
+      pauseButton.setAttribute('aria-pressed',String(paused));
+      pauseButton.setAttribute('aria-label',paused?'Resume carousel':'Pause carousel');
+      pauseButton.textContent=paused?'Play':'Pause';
+      updateVideo(slides[active],!paused);
+      startTimer();
+    });
+    slides.forEach(slide=>{
+      const video=slide.querySelector<HTMLVideoElement>('video');
+      ['loadedmetadata','error'].forEach(event=>video?.addEventListener(event,()=>{if(slide===slides[active])startTimer();}));
+    });
     reducedMotion.addEventListener('change',()=>{updateVideo(slides[active],!reducedMotion.matches);startTimer();});
     document.addEventListener('visibilitychange',()=>{updateVideo(slides[active],!document.hidden);startTimer();});
-    if('IntersectionObserver' in window)new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;startTimer();},{threshold:.15}).observe(carousel);
+    if('IntersectionObserver' in window)new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;updateVideo(slides[active],inView);startTimer();},{threshold:.15}).observe(carousel);
     updateVideo(slides[0],true);
     startTimer();
   }

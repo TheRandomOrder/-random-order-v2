@@ -6239,5 +6239,41 @@
       "label": "Published Random Order original",
       "url": "https://therandomorder.com/images/work/adidas/book.gif"
     }
+  },
+  {
+    "id": "metalab-study",
+    "type": "image",
+    "src": "/assets/work-a/time-illustration.jpg",
+    "width": 832,
+    "height": 464,
+    "alt": "An illustrated landscape of sculpted islands, quiet water and warm colour.",
+    "source": {
+      "label": "Figma Work A",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ?node-id=2395-13828"
+    }
+  },
+  {
+    "id": "bagme-study",
+    "type": "image",
+    "src": "/assets/work-a/bagme-tags.jpg",
+    "width": 1500,
+    "height": 1125,
+    "alt": "A geometric bag symbol and understated wordmark, brought together on circular tags.",
+    "source": {
+      "label": "Figma Work A",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ?node-id=2395-13828"
+    }
+  },
+  {
+    "id": "flora-co-study",
+    "type": "image",
+    "src": "/assets/work-a/flora-co.jpg",
+    "width": 1500,
+    "height": 1000,
+    "alt": "A red shoulder bag set against a cosmic backdrop, with bold type and orbiting lines.",
+    "source": {
+      "label": "Figma Work A",
+      "url": "https://www.figma.com/design/vgYfEWkI3aTN7MXX9GVftJ?node-id=2395-13828"
+    }
   }
 ]

@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "type-with-a-point-of-view",
+    "category": "typography",
+    "title": "Type with a point of view.",
+    "image": "/assets/magazine-v2/random-order-wordmark.svg",
+    "alt": "Random Order bespoke wordmark",
+    "summary": "Finding character in the tension between structure and individuality.",
+    "paragraphs": [
+      "An exploration of typography as both identity and expression. Drawing on the elegance of Art Deco, the experimental spirit of the avant-garde and the timeless geometry of classical letterforms, this bespoke composition finds its character in the tension between structure and individuality.",
+      "Each letter is carefully considered, with unexpected curves, exaggerated proportions and unconventional relationships creating a distinctive visual rhythm. The result is a wordmark that feels simultaneously familiar and unfamiliar, balancing architectural precision with a playful disregard for convention.",
+      "More than an exercise in lettering, it captures something fundamental about Random Order itself: finding beauty in the unexpected, challenging established forms and allowing experimentation to give rise to an identity entirely its own."
+    ],
+    "related": [
+      "sussex",
+      "publicis-machine"
+    ],
+    "source": "Figma 2465:2049; source-authored text"
+  },
+  {
+    "slug": "a-character-to-rally-around",
+    "category": "identity",
+    "title": "A character to rally around.",
+    "image": "/assets/magazine-v2/earnt.png",
+    "alt": "Team EARNT tiger illustration",
+    "summary": "A tiger, a wordmark, a shared presence. Illustration gives an identity something to gather around.",
+    "paragraphs": [
+      "The Team EARNT tiger does more than fill a space. Its bold silhouette and graphic wordmark give the composition an immediate centre of attention. The character is the first thing you read; the name follows.",
+      "Set beside Hally’s tangle of everyday moments, it suggests two different ways an illustration can shape an identity. One concentrates the energy into a single character. The other lets a whole world unfold.",
+      "These are different visual languages, connected by a simple question: what makes a brand recognisable before you read its name?"
+    ],
+    "related": [
+      "earnt",
+      "hallys"
+    ],
+    "source": "Editorial observation of existing Work A and Magazine artwork; no outcome claims"
+  },
+  {
+    "slug": "the-box-as-a-surface",
+    "category": "art-direction",
+    "title": "The box as a surface.",
+    "image": "/assets/magazine-v2/feature-02.png",
+    "alt": "Sneaker LAB × BSTN packaging with basketball court artwork",
+    "summary": "Basketball, streetwear and sneaker care meet on one surface.",
+    "paragraphs": [
+      "A court is already a graphic system: boundaries, circles, lines and blocks of colour. In the Sneaker LAB × BSTN packaging concept, that language becomes a way to bring basketball culture into the object itself.",
+      "The image and the package can be read together. The artwork provides the atmosphere; the edges of the box give it a physical frame. The surface becomes part of the story.",
+      "Follow that relationship into the Adidas project, where Johannesburg imagery and graphic typography meet on a wearable canvas. The format changes, but the conversation between image and object continues."
+    ],
+    "related": [
+      "sneaker-lab",
+      "adidas"
+    ],
+    "source": "Existing Magazine summary and Work A visual descriptions; editorial interpretation"
+  }
+]

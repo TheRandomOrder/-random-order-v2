@@ -1,74 +1,35 @@
 ---
 import Base from '../../layouts/Base.astro';
-import {getProject, projectHref} from '../../data/projects';
+import {workSections} from '../../data/work';
+import CategoryNav from '../../components/CategoryNav.astro';
+import WorkIndexCard from '../../components/WorkIndexCard.astro';
 import WorkHeroCarousel from '../../components/WorkHeroCarousel.astro';
 import '../../styles/work-magazine.css';
 
 const intro = 'A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.';
-const workASections = [
-  {heading:'Storytelling', intro:'Stories take shape through hand-illustrated worlds and generative image experiments. Early explorations for Gold’s Gym tested the possibilities of AI and prompting. As the novelty fades and the visual bar rises, the craft lies in giving each image a clear point of view.', cards:[
-    {id:'metalab', title:'Metalab', category:'Storytelling · Illustration', description:'An illustrated landscape of sculpted islands, quiet water and warm colour.', image:'/assets/work-a/time-illustration.jpg'},
-    {id:'golds-gym', title:'Gold’s Gym', category:'Art Direction · AI Exploration', description:'Early generative image experiments exploring movement, strength and a warm, graphic palette.', image:'/assets/work-v2/golds-gym.png'}
-  ]},
-  {heading:'Brands', cards:[
-    {id:'bagme', title:'BAGME', category:'Identity · Packaging', description:'A geometric bag symbol and understated wordmark, brought together on circular tags.', image:'/assets/work-a/bagme-tags.jpg'},
-    {id:'hallys', title:'Hally’s London', category:'Identity · Illustration · Website', description:'A neighbourhood café rebrand built around a tangle of everyday moments.', image:'/assets/hallys-poster.webp'},
-    {id:'earnt', title:'EARNT', category:'Identity · Illustration', description:'A bold tiger illustration and graphic wordmark give Team EARNT a distinctive presence.', image:'/assets/work-a/earnt-tiger.png'},
-    {id:'sussex', title:'Sussex', category:'Identity · Typography', description:'A wordmark built from a county flag, for the Gladwin Brothers’ flagship restaurant.', image:'/assets/work-a/sussex-exterior.jpg'},
-    {id:'superbalist', title:'Superbalist', category:'Product Design · Visual Systems', description:'A mobile shopping experience bringing fashion, beauty and a flexible brand language together.', image:'/assets/work-v2/superbalist.png'}
-  ]},
-  {heading:'Art Direction', cards:[
-    {id:'hotel-atelier', title:'Hotel Atelier', category:'Art Direction · Image Experiments', description:'Editorial image experiments pairing expressive styling with richly textured interiors.', image:'/assets/work-a/hotel-atelier-editorial.jpg'},
-    {id:'adidas', title:'Adidas', category:'Art Direction · Graphic Design', description:'Johannesburg imagery and graphic typography brought together on a wearable canvas.', image:'/assets/work-a/adidas-editorial.jpg'},
-    {id:'publicis-machine', title:'Publicis Machine', category:'Art Direction · Image Making', description:'Sunlit colour, overhead composition and everyday detail shape a playful visual story.', image:'/assets/work-a/publicis-machine-editorial.jpg'},
-    {id:'flora-co', title:'Flora&Co', category:'Art Direction · Campaign Imagery', description:'A red shoulder bag set against a cosmic backdrop, with bold type and orbiting lines.', image:'/assets/work-a/flora-co.jpg'},
-    {id:'cozy', title:'Cozy Heaven', category:'Creative Direction · Image Making', description:'An intimate monochrome scene exploring character, comfort and the rituals of home.', image:'/assets/cozy-heaven.webp'},
-    {id:'sneaker-lab', title:'Sneaker LAB × BSTN', category:'Art Direction · Packaging', description:'Court-side imagery connects basketball culture, graphic apparel and a collaborative brand world.', image:'/assets/work-a/sneaker-lab-bstn.jpg'}
-  ]}
-];
-const workACards=workASections.flatMap(section=>section.cards).map((card,index)=>{
-  const project=getProject(card.id);
-  return {...card,number:String(index+1).padStart(2,'0'),href:project?projectHref(project):undefined};
-});
 const featuredHeroSlides = [
-  {title:'Superbalist', headline:'The Art of Direction', href:'/work/superbalist/', image:'/assets/work-v2/hero-superbalist-figma.png', description:'Considering every unseen pixel to elevate the product', treatment:'direction'},
-  {title:'Cozy Heaven', headline:'Comfort', href:'/work/cozy-heaven/', image:'/assets/work-a/comfort-forest.jpg', description:'Considering every unseen pixel to elevate the product', treatment:'comfort'},
-  {title:'Metalab', headline:'Time', href:'#project-metalab', image:'/assets/work-a/time-illustration.jpg', description:'Considering every unseen pixel to elevate the product', treatment:'time'}
+  {title:'Superbalist', headline:'The Art of Direction', href:'/work/superbalist/', image:'/assets/work-v2/hero-superbalist-figma.png', description:'Considering every unseen pixel to elevate the product', treatment:'direction', durationMs:8000},
+  {title:'Cozy Heaven', headline:'Comfort', href:'/work/cozy-heaven/', image:'/assets/work-a/comfort-forest.jpg', description:'Considering every unseen pixel to elevate the product', treatment:'comfort', durationMs:9000},
+  {title:'Metalab', headline:'Time', href:'/work/metalab/', image:'/assets/work-a/time-illustration.jpg', description:'Considering every unseen pixel to elevate the product', treatment:'time', durationMs:10000}
 ];
 ---
 <Base title="Selected Work — Random Order" description={intro}>
   <WorkHeroCarousel slides={featuredHeroSlides} />
 
-  <section class="work-v2-selected wrap" aria-labelledby="work-v2-selected-title">
+  <CategoryNav />
+  <section id="all" class="work-v2-selected wrap" aria-labelledby="work-v2-selected-title">
     <div class="work-v2-index-header">
       <h2 id="work-v2-selected-title">A few things we’ve built lately</h2>
       <div class="work-v2-view-switch" role="group" aria-label="Work view">
         <button type="button" class="is-active" data-work-view="visual" aria-pressed="true" aria-controls="work-v2-visual">Grid view</button>
-        <button type="button" data-work-view="list" aria-pressed="false" aria-controls="work-v2-list">List view</button>
+        <button type="button" data-work-view="list" aria-pressed="false" aria-controls="work-v2-visual">List view</button>
       </div>
     </div>
-    <div class="work-v2-cards" id="work-v2-visual">
-      {workASections.map(section=><section class="work-v2-group" aria-label={section.heading}>
-        <h3>{section.heading}</h3>
-        {'intro' in section && section.intro && <p class="work-v2-group-intro">{section.intro}</p>}
-        {section.cards.map(item=>{
-          const card=workACards.find(entry=>entry.id===item.id)!;
-          const Tag=card.href?'a':'article';
-          return <Tag class="work-v2-card" id={`project-${card.id}`} href={card.href} aria-label={card.href?`View ${card.title} project`:undefined}>
-            <span class="work-v2-card-media"><img src={card.image} alt="" width="770" height="394" loading="lazy" decoding="async" /></span>
-            <span class="work-v2-card-copy"><span class="work-v2-eyebrow">{card.number}</span><span class="work-v2-eyebrow work-v2-card-category">{card.category}</span><strong>{card.title}</strong><span class="work-v2-card-intro">{card.description}</span></span>
-          </Tag>;
-        })}
+    <div class="work-v2-cards" id="work-v2-visual" data-work-index data-view="visual">
+      {workSections.map(section=><section class="work-v2-group" id={section.id} data-category-section aria-labelledby={`${section.id}-title`}>
+        <div class="work-section-heading"><h3 id={`${section.id}-title`}>{section.label}</h3><span class="work-v2-eyebrow">{section.cards.length} {section.cards.length===1?'project':'projects'}</span></div>
+        {section.cards.map(card=><WorkIndexCard card={card} />)}
       </section>)}
-    </div>
-    <div class="work-v2-list" id="work-v2-list" hidden>
-      {workACards.map(card=>{
-        const Tag=card.href?'a':'div';
-        return <Tag class="work-v2-list-row" href={card.href} aria-label={card.href?`View ${card.title} project`:undefined}>
-          <strong>{card.title}</strong><span>{card.category}</span>
-          {card.href && <span class="work-v2-list-arrow" aria-hidden="true">↗</span>}
-        </Tag>;
-      })}
     </div>
   </section>
 
@@ -90,17 +51,20 @@ const featuredHeroSlides = [
 </Base>
 <script>
   const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-work-view]')];
-  const visual = document.getElementById('work-v2-visual');
-  const list = document.getElementById('work-v2-list');
-  buttons.forEach(button=>button.addEventListener('click',()=>{
-    const showList = button.dataset.workView === 'list';
-    if (visual) visual.hidden = showList;
-    if (list) list.hidden = !showList;
-    buttons.forEach(item=>{
-      const active = item === button;
-      item.classList.toggle('is-active',active);
-      item.setAttribute('aria-pressed',String(active));
+  const index = document.querySelector<HTMLElement>('[data-work-index]');
+  function setView(view:string){
+    if(index) index.dataset.view=view;
+    buttons.forEach(button=>{
+      const active=button.dataset.workView===view;
+      button.classList.toggle('is-active',active);
+      button.setAttribute('aria-pressed',String(active));
     });
+  }
+  try { setView(localStorage.getItem('ro-work-view')==='list'?'list':'visual'); } catch {}
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    const view=button.dataset.workView!;
+    setView(view);
+    try { localStorage.setItem('ro-work-view',view); } catch {}
   }));
   const cursor=document.createElement('span');
   cursor.className='work-v2-card-cursor';
@@ -109,8 +73,8 @@ const featuredHeroSlides = [
   document.body.append(cursor);
   document.querySelectorAll<HTMLElement>('a.work-v2-card').forEach(card=>{
     card.addEventListener('pointerenter',event=>{
-      if(event.pointerType==='mouse' && matchMedia('(pointer:fine)').matches){
-        cursor.querySelector('strong')!.textContent=card.querySelector('strong')?.textContent??'';
+      if(index?.dataset.view!=='list' && event.pointerType==='mouse' && matchMedia('(pointer:fine)').matches){
+        cursor.querySelector('strong')!.textContent=card.querySelector('h4')?.textContent??'';
         cursor.classList.add('is-visible');
       }
     });

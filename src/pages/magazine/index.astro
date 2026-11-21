@@ -1,18 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
+import CategoryNav from '../../components/CategoryNav.astro';
+import stories from '../../data/content/stories.json';
 import {mediaAssets} from '../../data/media';
 import '../../styles/work-magazine.css';
 const marks = mediaAssets.filter(media=>media.id.startsWith('marks-'));
 ---
 <Base title="Magazine — Random Order" description="Selected visual stories and projects from Random Order.">
-  <section class="magazine-v2 wrap" aria-labelledby="magazine-v2-title">
-    <p class="work-v2-eyebrow">Random Order / Magazine</p>
-    <h1 id="magazine-v2-title">Magazine <em>lately.</em></h1>
-    <div class="magazine-v2-leads">
-      <a class="magazine-v2-feature" href="/work/earnt/" aria-label="View EARNT project"><img src="/assets/magazine-v2/earnt.png" alt="Team EARNT tiger illustration" width="1210" height="1218" fetchpriority="high" decoding="async" /><span>EARNT <span aria-hidden="true">↗</span></span><p class="magazine-v2-summary">Environmental action, made visible. An identity built to be worn, shared and noticed.</p></a>
-      <a class="magazine-v2-feature" href="/work/sneaker-lab/" aria-label="View Sneaker Lab × BSTN project"><img src="/assets/magazine-v2/feature-02.png" alt="Sneaker Lab × BSTN box with basketball court artwork" width="1344" height="896" loading="lazy" decoding="async" /><span>Sneaker Lab × BSTN <span aria-hidden="true">↗</span></span><p class="magazine-v2-summary">Basketball, streetwear and sneaker care meet on one surface. A packaging concept that gives two distinct identities a shared visual language.</p></a>
-      <figure class="magazine-v2-feature"><img src="/assets/magazine-v2/feature-03.png" alt="Monochrome editorial artwork with the word Scar" width="2500" height="1000" loading="lazy" decoding="async" /><figcaption>Scar</figcaption><p class="magazine-v2-summary">A stark image held in black and white. Its single word leaves space for the viewer to sit with it.</p></figure>
+  <div class="magazine-v2-intro wrap"><p class="work-v2-eyebrow">Ideas / Process / Connections</p><h1>Magazine <em>lately.</em></h1><p>Behind the work: the thinking, the experiments and the unexpected connections between them.</p></div>
+  <CategoryNav />
+  <section id="all" class="magazine-v2 wrap" aria-labelledby="magazine-v2-title">
+    <h2 id="magazine-v2-title" class="sr-only">Latest stories</h2>
+    <div class="magazine-editorial-opening">
+      <p class="work-v2-eyebrow">Typography / Studio notes</p>
+      <a href="/magazine/type-with-a-point-of-view/" class="magazine-wordmark"><img src="/assets/magazine-v2/random-order-wordmark.svg" alt="Random Order bespoke wordmark" width="1344" height="652" fetchpriority="high" /></a>
+      <div class="magazine-editorial-copy"><h2>Structure.<br/><em>Individuality.</em></h2><div><p>{stories[0].paragraphs[0]}</p><a class="text-link" href="/magazine/type-with-a-point-of-view/">Read the typography story</a></div></div>
     </div>
+    <section id="brand" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Brand</p><h2>Care, made visible.</h2><p class="magazine-v2-summary">A brand can begin with a feeling. Cozy Heaven explores character, comfort and the rituals of home through a quiet visual world.</p><a class="text-link" href="/work/cozy-heaven/">Explore Cozy Heaven</a></section>
+    <section id="product" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Product</p><h2>From identity to interface.</h2><div class="magazine-editorial-copy"><p>Superbalist brings fashion, beauty and a flexible brand language into a mobile shopping experience. Alongside it, SSUPERLATIVE explores research, product design and data visualisation.</p><div><p>Two ways to think about how information takes shape: through a shopping interface and through a research practice.</p><a class="text-link" href="/work/superbalist/">Explore Superbalist</a><br/><a class="text-link" href="/work/ssuperlative/">Explore SSUPERLATIVE</a></div></div></section>
+    <section id="art-direction" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Art Direction</p><h2>The image and the object.</h2><a class="magazine-v2-feature" href="/magazine/the-box-as-a-surface/"><img src="/assets/magazine-v2/feature-02.png" alt="Sneaker LAB × BSTN box with basketball court artwork" width="1344" height="896" loading="lazy"/><span>The box as a surface · Read story</span><p class="magazine-v2-summary">{stories[2].summary}</p></a></section>
+    <section id="identity" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Identity</p><h2>A character to rally around.</h2><a class="magazine-v2-feature" href="/magazine/a-character-to-rally-around/"><img src="/assets/magazine-v2/earnt.png" alt="Team EARNT tiger illustration" width="1210" height="1218" loading="lazy"/><span>EARNT · Read story</span><p class="magazine-v2-summary">{stories[1].summary}</p></a></section>
     <section class="magazine-v2-stories" aria-labelledby="magazine-v2-stories-title">
       <h2 id="magazine-v2-stories-title">Words with a point of view.</h2>
       <div class="magazine-v2-story-grid">
@@ -20,12 +27,15 @@ const marks = mediaAssets.filter(media=>media.id.startsWith('marks-'));
         <figure class="magazine-v2-feature"><img src="/assets/magazine-v2/feature-05.png" alt="The Grandma portrait study" width="1456" height="816" loading="lazy" decoding="async" /><figcaption>The Grandma</figcaption><p class="magazine-v2-summary">A portrait with room to breathe. Expression and presence carry the frame.</p></figure>
       </div>
     </section>
-    <section class="magazine-v2-marks" id="marks" aria-labelledby="magazine-v2-marks-title">
+    <section data-category-section class="magazine-v2-marks" id="marks" aria-labelledby="magazine-v2-marks-title">
       <p class="work-v2-eyebrow">Identity / Marks</p>
       <h2 id="magazine-v2-marks-title">Marks.</h2>
+      <p class="magazine-v2-summary">An identity reduced to its most recognisable form. Explore the marks, then follow their applications in the project archive.</p><a class="text-link" href="/work/brandmarks/">Explore selected brandmarks</a>
       <div class="magazine-v2-mark-wall">
         {marks.map(mark=><figure><img src={mark.src} alt={mark.alt} width={mark.width} height={mark.height} loading="lazy" decoding="async" /></figure>)}
       </div>
     </section>
+    <section id="typography" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Typography</p><h2>Letters with character.</h2><p class="magazine-v2-summary">Unexpected curves, exaggerated proportions and unconventional relationships. The Random Order wordmark sits between architectural precision and playful experimentation.</p><a class="text-link" href="/magazine/type-with-a-point-of-view/">Read the typography story</a><br/><a class="text-link" href="/work/sussex/">Continue to Sussex</a></section>
+    <section id="illustration" data-category-section class="magazine-topic"><p class="work-v2-eyebrow">Illustration</p><h2>A world in a frame.</h2><a class="magazine-v2-feature" href="/work/metalab/"><img src="/assets/work-a/time-illustration.jpg" alt="Metalab illustrated landscape of sculpted islands and quiet water" width="1920" height="1080" loading="lazy"/><span>Explore Metalab</span></a><p class="magazine-v2-summary">From Metalab’s sculpted islands to Hally’s everyday moments, illustration can make a place feel like its own world.</p><a class="text-link" href="/work/hallys/">Continue to Hally’s</a></section>
   </section>
 </Base>

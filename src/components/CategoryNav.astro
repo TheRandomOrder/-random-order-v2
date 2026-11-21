@@ -1,0 +1,33 @@
+---
+import {categories} from '../data/work';
+---
+<nav class="category-nav" aria-label="Browse by discipline" data-category-nav>
+  <div class="wrap category-nav-links">
+    <a href="#all" aria-current="location">All</a>
+    {categories.map(category=><a href={`#${category.id}`}>{category.label}</a>)}
+  </div>
+</nav>
+<script>
+  const nav=document.querySelector<HTMLElement>('[data-category-nav]');
+  if(nav){
+    const links=[...nav.querySelectorAll<HTMLAnchorElement>('a')];
+    const sections=links.map(link=>document.getElementById(link.hash.slice(1))).filter((node):node is HTMLElement=>!!node);
+    let queued=false;
+    const update=()=>{
+      queued=false;
+      const edge=nav.getBoundingClientRect().bottom+32;
+      const current=sections.filter(section=>section.getBoundingClientRect().top<=edge).at(-1) ?? sections[0];
+      links.forEach(link=>{
+        if(link.hash===`#${current?.id}`) link.setAttribute('aria-current','location');
+        else link.removeAttribute('aria-current');
+      });
+    };
+    window.addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update);}},{passive:true});
+    window.addEventListener('resize',update);
+    links.forEach(link=>link.addEventListener('click',()=>{
+      const target=document.getElementById(link.hash.slice(1));
+      if(target){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}
+    }));
+    update();
+  }
+</script>

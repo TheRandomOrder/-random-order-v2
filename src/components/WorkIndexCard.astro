@@ -1,0 +1,13 @@
+---
+interface Props {card:{id:string;title:string;category:string;description:string;image:string;href:string}}
+const {card}=Astro.props;
+---
+<a class="work-v2-card" id={`project-${card.id}`} href={card.href}>
+  <span class="work-v2-card-media"><img src={card.image} alt="" width="770" height="394" loading="lazy" decoding="async" /></span>
+  <span class="work-v2-card-copy">
+    <span class="work-v2-eyebrow work-v2-card-category">{card.category}</span>
+    <h4>{card.title}</h4>
+    <span class="work-v2-card-intro">{card.description}</span>
+    <span class="work-card-action">See the work</span>
+  </span>
+</a>
