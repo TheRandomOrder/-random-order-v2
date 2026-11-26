@@ -1,0 +1,36 @@
+name: Editorial preview checks
+on:
+  push:
+    branches: [dev/v2-1-editorial-templates]
+    paths:
+      - 'src/**'
+      - 'astro.config.mjs'
+      - 'scripts/editorial-browser.cjs'
+      - '.github/workflows/editorial-preview.yml'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build preview and check route isolation
+        env:
+          VERCEL_ENV: preview
+        run: npm run build && npm run test:site
+      - name: Install isolated browser checks
+        run: |
+          npm install --prefix "$RUNNER_TEMP/qa" playwright@1.56.1 axe-core@4.10.3
+          "$RUNNER_TEMP/qa/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Test desktop, tablet, mobile and keyboard navigation
+        env:
+          NODE_PATH: ${{ runner.temp }}/qa/node_modules
+        run: |
+          python3 -m http.server 4321 --bind 127.0.0.1 --directory dist > "$RUNNER_TEMP/server.log" 2>&1 &
+          node scripts/editorial-browser.cjs
