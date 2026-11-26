@@ -1,0 +1,6 @@
+---
+import Eyebrow from '../../../components/Eyebrow.astro';
+interface Props { eyebrow?: string; text: string }
+const { eyebrow, text } = Astro.props;
+---
+<div class="ed-statement">{eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}<p>{text}</p></div>

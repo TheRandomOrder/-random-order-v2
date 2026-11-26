@@ -1,0 +1,8 @@
+---
+import Eyebrow from '../../../components/Eyebrow.astro';
+import TextBlock from './TextBlock.astro';
+import type { Copy } from '../model';
+interface Props { label: string; copy: Copy }
+const { label, copy } = Astro.props;
+---
+<div class="ed-grid ed-split"><Eyebrow>{label}</Eyebrow><TextBlock {...copy} /></div>

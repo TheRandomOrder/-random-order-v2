@@ -1,0 +1,10 @@
+---
+import Eyebrow from '../../../components/Eyebrow.astro';
+import type { Heading } from '../model';
+interface Props extends Heading { level?: 'h2' | 'h3' }
+const { eyebrow, heading, role = 'editorial', level: Tag = 'h2', divider, narrow } = Astro.props;
+---
+<div class:list={['ed-group', { 'ed-rule': divider }]}>
+  {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
+  <Tag class:list={[`ed-${role}`, { 'ed-narrow': narrow }]}>{heading}</Tag>
+</div>

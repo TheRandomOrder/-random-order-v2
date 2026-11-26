@@ -3,8 +3,12 @@ import type {ProjectRecord} from '../../data/projects';
 import {getMedia,imageSourceSet} from '../../data/media';
 import Container from '../Container.astro';
 import Eyebrow from '../Eyebrow.astro';
-interface Props { project: ProjectRecord }
-const {project} = Astro.props;
+type HeaderContent = Pick<ProjectRecord,
+  'title' | 'disciplines' | 'client' | 'year' | 'category' | 'intro' | 'metadata' |
+  'headerMediaId' | 'headerStyle' | 'headerTitleScale' | 'headerOpacity' | 'headerMonochrome' | 'headerCaption'
+>;
+interface Props { project: HeaderContent; backLink?: { href: string; label: string } | null }
+const {project, backLink = {href: '/work/', label: '← Back to work'}} = Astro.props;
 const background = project.headerMediaId ? getMedia(project.headerMediaId) : undefined;
 const metadata = project.metadata ?? [
   ...(project.client ? [{label:'Client', value:project.client}] : []),
@@ -16,7 +20,7 @@ const metadata = project.metadata ?? [
   {background && (background.type === 'video' ? <video class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.src} poster={background.poster} autoplay muted loop playsinline aria-hidden="true" preload="metadata" /> : <img class="project-header-background" style={`object-position:${background.position ?? 'center'};${project.headerOpacity !== undefined ? `opacity:${project.headerOpacity};` : ''}${project.headerMonochrome ? 'filter:grayscale(1);' : ''}`} src={background.src} srcset={imageSourceSet(background)} sizes="100vw" alt="" width={background.width} height={background.height} fetchpriority="high" decoding="async" />)}
   <Container>
     <div class="project-header-body">
-      <a class="project-back eyebrow" href="/work/">← Back to work</a>
+      {backLink && <a class="project-back eyebrow" href={backLink.href}>{backLink.label}</a>}
       {(project.category || project.disciplines.length > 0) && <Eyebrow>{project.category ?? project.disciplines.join(' · ')}</Eyebrow>}
       <h1 data-editorial-reveal>{project.title}</h1>
       {project.intro && <p class="project-intro">{project.intro}</p>}

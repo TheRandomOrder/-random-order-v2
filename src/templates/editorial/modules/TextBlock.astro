@@ -1,0 +1,12 @@
+---
+import EditorialHeading from './EditorialHeading.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import type { Copy } from '../model';
+interface Props extends Copy { level?: 'h2' | 'h3' }
+const { eyebrow, heading, body, cta, size = 'editorial', level } = Astro.props;
+---
+<div class="ed-group">
+  {heading ? <EditorialHeading {eyebrow} {heading} {level} /> : eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
+  {body?.map(paragraph => <p class={`ed-copy ed-copy-${size}`}>{paragraph}</p>)}
+  {cta && <a class="text-link ed-link" href={cta.href}>{cta.label}</a>}
+</div>

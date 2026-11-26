@@ -1,0 +1,5 @@
+---
+interface Props { text: string; attribution?: string }
+const { text, attribution } = Astro.props;
+---
+<figure class="ed-quote"><blockquote>{text}</blockquote>{attribution && <figcaption class="eyebrow">{attribution}</figcaption>}</figure>

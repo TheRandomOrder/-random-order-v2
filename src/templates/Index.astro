@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import Container from '../components/Container.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import './editorial/study.css';
+
+const studies = [{ title: 'Superbalist', href: '/dev/templates/superbalist/', description: 'Neutral editorial rhythm study' }];
+---
+<Base title="Template index — Random Order" description="Development index for editorial template studies." noindex showFooter={false}>
+  <div class="ed-index">
+    <Container>
+      <Eyebrow>Development / V2.1</Eyebrow>
+      <h1 class="ed-display">Template index</h1>
+      <ul>{studies.map(study => <li><a href={study.href}><span class="ed-card">{study.title}</span><span>{study.description}</span></a></li>)}</ul>
+    </Container>
+  </div>
+</Base>

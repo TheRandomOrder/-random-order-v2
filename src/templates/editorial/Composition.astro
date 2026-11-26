@@ -1,0 +1,31 @@
+---
+import type { Module } from './model';
+import EditorialHeading from './modules/EditorialHeading.astro';
+import TextBlock from './modules/TextBlock.astro';
+import TextGrid from './modules/TextGrid.astro';
+import SplitText from './modules/SplitText.astro';
+import MediaBlock from './modules/MediaBlock.astro';
+import MediaStack from './modules/MediaStack.astro';
+import MediaGrid from './modules/MediaGrid.astro';
+import Statement from './modules/Statement.astro';
+import PullQuote from './modules/PullQuote.astro';
+import ProjectNavigation from './modules/ProjectNavigation.astro';
+interface Props { modules: Module[] }
+const { modules } = Astro.props;
+---
+<div class="ed-flow">
+  {modules.map(module => {
+    switch (module.kind) {
+      case 'heading': return <EditorialHeading {...module} />;
+      case 'text': return <div class="ed-text-pad"><TextBlock {...module} /></div>;
+      case 'textGrid': return <TextGrid {...module} />;
+      case 'splitText': return <SplitText {...module} />;
+      case 'media': return <MediaBlock {...module} />;
+      case 'mediaGrid': return <MediaGrid {...module} />;
+      case 'mediaStack': return <MediaStack {...module} />;
+      case 'statement': return <Statement {...module} />;
+      case 'quote': return <PullQuote {...module} />;
+      case 'navigation': return <ProjectNavigation {...module} />;
+    }
+  })}
+</div>

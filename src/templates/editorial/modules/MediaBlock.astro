@@ -1,0 +1,8 @@
+---
+import type { MediaHeight } from '../model';
+interface Props { height: MediaHeight; width?: number; bleed?: boolean }
+const { height, bleed = false, width = bleed ? 1920 : 1344 } = Astro.props;
+---
+<div class:list={['ed-media', { 'ed-bleed': bleed }]} style={`--ratio:${width} / ${height}`} role="img" aria-label={`Media placeholder, desktop reference height ${height} pixels`}>
+  <span aria-hidden="true">{height}</span>
+</div>

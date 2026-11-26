@@ -1,0 +1,11 @@
+---
+import MediaBlock from './MediaBlock.astro';
+import type { MediaHeight } from '../model';
+interface Props { height: MediaHeight; weights: number[]; inset?: boolean }
+const { height, weights, inset = false } = Astro.props;
+const available = (inset ? 1336 : 1344) - 48 * (weights.length - 1);
+const total = weights.reduce((sum, weight) => sum + weight, 0);
+---
+<div class:list={['ed-grid', 'ed-media-grid', { 'ed-inset': inset }]} style={`--tracks:${weights.map(w => `minmax(0,${w}fr)`).join(' ')}`}>
+  {weights.map(weight => <MediaBlock {height} width={available * weight / total} />)}
+</div>

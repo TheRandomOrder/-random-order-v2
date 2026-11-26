@@ -162,3 +162,19 @@ test('rendered media, lazy video sources, responsive candidates and linked asset
   }
   assert.deepEqual(failures, []);
 });
+
+test('editorial development routes are exclusive to preview builds', () => {
+  const prefix = '/dev/templates/';
+  const previews = documents.filter(page => page.route.startsWith(prefix));
+  const expected = process.env.VERCEL_ENV === 'preview' ? [prefix, prefix + 'superbalist/'] : [];
+  assert.deepEqual(previews.map(page => page.route).sort(), expected);
+  assert.ok(!fs.readFileSync(path.join(output, 'sitemap.xml'), 'utf8').includes(prefix));
+  for (const page of documents) {
+    if (previews.includes(page)) {
+      assert.ok(page.tags.some(({attrs}) => attrs.name === 'robots' && attrs.content === 'noindex'));
+      assert.equal(page.tags.filter(({tag}) => tag === 'h1').length, 1);
+    } else {
+      assert.ok(!page.tags.some(({attrs}) => attrs.href?.startsWith(prefix)), page.route);
+    }
+  }
+});

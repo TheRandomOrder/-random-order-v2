@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import ProjectHeader from '../components/project/ProjectHeader.astro';
+import Composition from './editorial/Composition.astro';
+import { header, modules } from './editorial/superbalist';
+import '../styles/projects.css';
+import './editorial/study.css';
+---
+<Base title="Superbalist rhythm study — Random Order" description="V2.1 development study with synthetic editorial copy." noindex showFooter={false}>
+  <article class="ed-study">
+    <ProjectHeader project={header} backLink={null} />
+    <Composition {modules} />
+    <footer class="wrap ed-end"><a class="text-link ed-link" href="/dev/templates/">Return to template index</a></footer>
+  </article>
+</Base>

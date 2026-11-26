@@ -1,0 +1,13 @@
+---
+import Eyebrow from '../../../components/Eyebrow.astro';
+import TextBlock from './TextBlock.astro';
+import type { Copy } from '../model';
+interface Props { columns: 1 | 2 | 3 | 4; items: Copy[]; eyebrow?: string }
+const { columns, items, eyebrow } = Astro.props;
+---
+<div class="ed-group ed-text-pad">
+  {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
+  <div class="ed-grid ed-columns" style={`--columns:${columns};--tablet-columns:${Math.min(columns, 2)}`}>
+    {items.map(item => <TextBlock {...item} level="h3" />)}
+  </div>
+</div>

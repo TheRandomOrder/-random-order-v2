@@ -1,0 +1,9 @@
+---
+import MediaBlock from './MediaBlock.astro';
+import type { MediaHeight } from '../model';
+interface Props { heights: MediaHeight[]; compact?: boolean }
+const { heights, compact } = Astro.props;
+---
+<div class:list={['ed-stack', { 'ed-compact': compact }]}>
+  {heights.map(height => <MediaBlock {height} />)}
+</div>
