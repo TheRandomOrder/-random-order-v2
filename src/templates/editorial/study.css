@@ -24,6 +24,9 @@
   padding-block: clamp(8rem, 12vw, 14rem) clamp(4rem, 5vw, 6rem);
   background: #000;
 }
+@media (max-width: 1200px) {
+  .ed-study .project-back { position: static; margin: 0; }
+}
 .ed-study .project-header-body { gap: clamp(1.25rem, 1.67vw, 2rem); }
 .ed-study .project-header h1 {
   min-height: 0;
