@@ -1,6 +1,14 @@
 # V2.1 editorial template study
 
-## Review
+## Connected experience, 27 November 2026
+
+Run `npm run dev` and open `/dev/templates/`. Its Home, Work and Superbalist entries live at `home/`, `work/` and `superbalist/` beneath that route. Preview builds include all four routes with noindex. The production build emits 39 pages and the preview emits 43.
+
+Home and Work reuse the shell, footer, cards, carousel, grid/list switch and studio sections. The fixture in `src/templates/experience.ts` owns project order and destinations. Home leads with Superbalist and Work leads its featured list with BAGMEE. Superbalist retains its synthetic copy and numbered neutral panels. The two-slide carousel reflects the limited inventory. Home closes with the Figma film poster pending a motion asset.
+
+The [Chromium workflow](https://github.com/TheRandomOrder/-random-order-v2/actions/runs/45962962397) passed all five requested journeys at 1920, 1440, 1280, 1024, 768, 390 and 320px. Checks covered overflow, automated accessibility, carousel controls, reduced motion, mobile keyboard navigation, grid/list switching, and all four routes on an Astro development server. The narrow-screen detail header places Back to Work in normal flow to clear the fixed navigation. All 31 unit tests passed. Vercel preview deployment could not reach the API. The offline review opens from index.html.
+
+## Original editorial study, 26 November 2026
 
 The template index is at `/dev/templates/`. The Superbalist study is at `/dev/templates/superbalist/`. Both are Astro static pages. Local development registers them automatically. Vercel preview builds register them when `VERCEL_ENV=preview`. The production and default static builds omit both routes. Both preview pages carry a robots noindex directive.
 
