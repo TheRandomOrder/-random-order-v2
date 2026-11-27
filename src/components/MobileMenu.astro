@@ -5,4 +5,4 @@ interface Props { siteNav?: SiteNavigation }
 const {siteNav} = Astro.props;
 const links = siteNav?.links ?? navigation;
 ---
-<div class="mobile-menu" id="mobile-menu" inert aria-hidden="true"><nav aria-label="Mobile"><a href={siteNav?.home ?? "/"}>Home</a>{links.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true">{label}{siteNav && <small> (unavailable)</small>}</span>)}</nav></div>
+<div class="mobile-menu" id="mobile-menu" inert aria-hidden="true"><nav aria-label="Mobile"><a href={siteNav?.home ?? "/"}>Home</a>{links.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true">{label}</span>)}</nav></div>

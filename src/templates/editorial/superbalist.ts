@@ -44,9 +44,9 @@ export const modules: Module[] = [
     { size: 'large', body: ['At the far edge, a final short passage leaves the rest of the column open.'] },
   ] },
   { kind: 'navigation', heading: 'Further work', cards: [
-    { title: 'BAGMEE', tags: 'Detail outside this prototype' },
-    { title: 'TITLE', tags: 'Placeholder' },
-    { title: 'TITLE', tags: 'Placeholder' },
+    { title: 'BAGMEE', tags: 'Identity / Packaging' },
+    { title: 'Field Notes', tags: 'Editorial design' },
+    { title: 'Interval', tags: 'Identity / Motion' },
   ], back: { label: 'Back to Work', href: routes.work } },
   { kind: 'media', height: 1080, bleed: true },
   { kind: 'heading', eyebrow: 'Closing sequence', heading: 'Three frames, with a line between them' },

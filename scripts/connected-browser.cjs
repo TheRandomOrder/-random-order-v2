@@ -30,11 +30,8 @@ async function run() {
       await page.locator('.hero-actions a').first().click();
       assert.equal(page.url(), base + 'work/');
       await checkLayout(page, width);
-      const bagmee = page.getByRole('button', { name: 'Show BAGMEE' });
-      await bagmee.click();
-      assert.equal(await bagmee.getAttribute('aria-pressed'), 'true');
-      await bagmee.press('ArrowLeft');
-      assert.equal(await page.getByRole('button', { name: 'Show Superbalist' }).getAttribute('aria-pressed'), 'true');
+      await page.getByRole('heading', { level: 1, name: 'More things' }).waitFor();
+      assert.equal(await page.locator('[data-work-carousel]').count(), 0);
       await page.getByRole('button', { name: 'List view' }).click();
       assert.equal(await page.locator('[data-work-index]').getAttribute('data-view'), 'list');
       await page.getByRole('button', { name: 'Grid view' }).click();
@@ -47,16 +44,8 @@ async function run() {
       assert.equal(page.url(), base + 'home/');
       await page.locator('a#project-superbalist').click();
       assert.equal(page.url(), base + 'superbalist/');
-      console.log(width + 'px passed layout, accessibility, carousel, view switch and all five journeys');
+      console.log(width + 'px passed layout, accessibility, view switch and all five journeys');
     }
-    await page.emulateMedia({ reducedMotion: 'no-preference' });
-    await page.goto(base + 'work/');
-    const first = page.locator('[data-work-slide]').first();
-    await page.mouse.move(1, 899);
-    await page.waitForFunction(() => document.querySelector('[data-work-slide]').dataset.active === 'false', null, { timeout: 15000 });
-    await page.getByRole('button', { name: 'Pause carousel' }).click();
-    assert.equal(await page.getByRole('button', { name: 'Resume carousel' }).getAttribute('aria-pressed'), 'true');
-    assert.equal(await first.getAttribute('aria-hidden'), 'true');
   } finally {
     await browser.close();
   }

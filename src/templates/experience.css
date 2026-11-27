@@ -54,3 +54,5 @@
   .v21.home .trusted { min-height: 0; }
   .v21 .work-v2-card-copy { max-width: 100%; }
 }
+
+.v21 .v21-work-opening { padding-block-start: clamp(7.5rem, 8.91vw, 10.6875rem); }
