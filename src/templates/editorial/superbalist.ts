@@ -1,3 +1,4 @@
+import { routes } from '../experience';
 import type { Module } from './model';
 
 export const header = {
@@ -43,10 +44,10 @@ export const modules: Module[] = [
     { size: 'large', body: ['At the far edge, a final short passage leaves the rest of the column open.'] },
   ] },
   { kind: 'navigation', heading: 'Further work', cards: [
-    { title: 'MUSO London', tags: 'Project page', href: '/work/muso/' },
-    { title: 'SSUPERLATIVE', tags: 'Project page', href: '/work/ssuperlative/' },
-    { title: 'Adidas', tags: 'Project page', href: '/work/adidas/' },
-  ], back: { label: 'Return to template index', href: '/dev/templates/' } },
+    { title: 'BAGMEE', tags: 'Detail outside this prototype' },
+    { title: 'TITLE', tags: 'Placeholder' },
+    { title: 'TITLE', tags: 'Placeholder' },
+  ], back: { label: 'Back to Work', href: routes.work } },
   { kind: 'media', height: 1080, bleed: true },
   { kind: 'heading', eyebrow: 'Closing sequence', heading: 'Three frames, with a line between them' },
   { kind: 'media', height: 688 },

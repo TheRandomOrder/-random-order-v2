@@ -4,9 +4,13 @@ import Container from '../components/Container.astro';
 import Eyebrow from '../components/Eyebrow.astro';
 import './editorial/study.css';
 
-const studies = [{ title: 'Superbalist', href: '/dev/templates/superbalist/', description: 'Neutral editorial rhythm study' }];
+import {navigation, routes} from './experience';
+const studies = [
+  {title: 'Home', href: routes.home, description: 'Studio homepage'},
+  {title: 'Work', href: routes.work, description: 'Selected projects'},
+  { title: 'Superbalist', href: '/dev/templates/superbalist/', description: 'Neutral editorial rhythm study' }];
 ---
-<Base title="Template index — Random Order" description="Development index for editorial template studies." noindex showFooter={false}>
+<Base title="Template index — Random Order" description="Development index for editorial template studies." noindex siteNav={navigation}>
   <div class="ed-index">
     <Container>
       <Eyebrow>Development / V2.1</Eyebrow>

@@ -1,0 +1,27 @@
+---
+interface Props { controls: string; storageKey?: string }
+const { controls, storageKey = 'ro-work-view' } = Astro.props;
+---
+<div class="work-v2-view-switch" role="group" aria-label="Work view" data-storage-key={storageKey}>
+  <button type="button" class="is-active" data-work-view="visual" aria-pressed="true" aria-controls={controls}>Grid view</button>
+  <button type="button" data-work-view="list" aria-pressed="false" aria-controls={controls}>List view</button>
+</div>
+<script>
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-work-view]')];
+  const index = document.querySelector<HTMLElement>('[data-work-index]');
+  const key = buttons[0]?.parentElement?.dataset.storageKey ?? 'ro-work-view';
+  function setView(view:string){
+    if(index) index.dataset.view=view;
+    buttons.forEach(button=>{
+      const active=button.dataset.workView===view;
+      button.classList.toggle('is-active',active);
+      button.setAttribute('aria-pressed',String(active));
+    });
+  }
+  try { setView(localStorage.getItem(key)==='list'?'list':'visual'); } catch {}
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    const view=button.dataset.workView!;
+    setView(view);
+    try { localStorage.setItem(key,view); } catch {}
+  }));
+</script>

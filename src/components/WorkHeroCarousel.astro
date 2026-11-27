@@ -5,7 +5,8 @@ interface Slide {
   durationMs?: number;
   title: string;
   headline: string;
-  href: string;
+  href?: string;
+  unavailable?: string;
   image: string;
   video?: string;
   description?: string;
@@ -28,7 +29,7 @@ const {slides}=Astro.props;
         <p class="work-v2-hero-label">Featured case study</p>
         <h2>{slide.headline}</h2>
         {slide.description && <p class="work-v2-hero-description">{slide.description}</p>}
-        <a class="work-v2-hero-link" href={slide.href} aria-label={`See ${slide.title} case study`}>See the work</a>
+        {slide.href ? <a class="work-v2-hero-link" href={slide.href} aria-label={`See ${slide.title} case study`}>See the work</a> : <p class="carousel-status">{slide.unavailable}</p>}
       </div>
       {slide.logo && <div class="work-v2-hero-brand" aria-hidden="true"><img src={slide.logo} alt="" width="340" height="64" loading={index===0?'eager':'lazy'} /></div>}
     </article>)}

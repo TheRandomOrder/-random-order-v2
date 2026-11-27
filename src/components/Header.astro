@@ -1,4 +1,8 @@
 ---
 import {navigation} from '../data/home';
+import type {SiteNavigation} from '../data/site-navigation';
+interface Props { siteNav?: SiteNavigation }
+const {siteNav} = Astro.props;
+const links = siteNav?.links ?? navigation;
 ---
-<header class="site-header"><a class="logo" href="/" aria-label="Random Order home">Random Order</a><nav class="nav-primary" aria-label="Primary">{navigation.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true" title="Magazine is not yet available">{label}</span>)}</nav><button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">MENU +</button></header>
+<header class="site-header"><a class="logo" href={siteNav?.home ?? "/"} aria-label="Random Order home">Random Order</a><nav class="nav-primary" aria-label="Primary">{links.map(({label,href})=>href?<a href={href}>{label}</a>:<span class="pending-link" aria-disabled="true" title={siteNav ? "Outside this prototype" : "Magazine is not yet available"}>{label}{siteNav && <small> (unavailable)</small>}</span>)}</nav><button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">MENU +</button></header>

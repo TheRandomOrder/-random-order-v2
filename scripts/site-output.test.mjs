@@ -166,13 +166,19 @@ test('rendered media, lazy video sources, responsive candidates and linked asset
 test('editorial development routes are exclusive to preview builds', () => {
   const prefix = '/dev/templates/';
   const previews = documents.filter(page => page.route.startsWith(prefix));
-  const expected = process.env.VERCEL_ENV === 'preview' ? [prefix, prefix + 'superbalist/'] : [];
+  const expected = process.env.VERCEL_ENV === 'preview' ? [prefix, prefix + 'home/', prefix + 'superbalist/', prefix + 'work/'] : [];
   assert.deepEqual(previews.map(page => page.route).sort(), expected);
   assert.ok(!fs.readFileSync(path.join(output, 'sitemap.xml'), 'utf8').includes(prefix));
   for (const page of documents) {
     if (previews.includes(page)) {
       assert.ok(page.tags.some(({attrs}) => attrs.name === 'robots' && attrs.content === 'noindex'));
       assert.equal(page.tags.filter(({tag}) => tag === 'h1').length, 1);
+      for (const {tag, attrs} of page.tags) {
+        if (tag !== 'a' || !attrs.href) continue;
+        const destination = new URL(attrs.href, origin + page.route);
+        assert.equal(destination.origin, origin, page.route + ' external link ' + attrs.href);
+        assert.ok(expected.includes(destination.pathname), page.route + ' exits the prototype at ' + attrs.href);
+      }
     } else {
       assert.ok(!page.tags.some(({attrs}) => attrs.href?.startsWith(prefix)), page.route);
     }

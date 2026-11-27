@@ -15,7 +15,7 @@ export interface Heading {
   role?: 'display' | 'editorial' | 'card';
   narrow?: boolean;
 }
-export interface RelatedCard { title: string; tags: string; href: string }
+export interface RelatedCard { title: string; tags: string; href?: string }
 
 export type Module =
   | ({ kind: 'heading' } & Heading)

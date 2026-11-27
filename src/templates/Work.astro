@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import WorkHeroCarousel from '../components/WorkHeroCarousel.astro';
+import WorkIndexCard from '../components/WorkIndexCard.astro';
+import WorkViewSwitch from '../components/WorkViewSwitch.astro';
+import EditorialSection from '../components/EditorialSection.astro';
+import ProjectNavigation from './editorial/modules/ProjectNavigation.astro';
+import { workCards, slides, furtherCards, navigation } from './experience';
+import '../styles/work-magazine.css';
+import './editorial/study.css';
+import './experience.css';
+---
+<Base title="Work — Random Order V2.1" description="Selected work from the V2.1 template studies." noindex siteNav={navigation}>
+  <WorkHeroCarousel {slides} />
+  <EditorialSection class="v21-selected" label="01 / Selected work">
+    <WorkViewSwitch controls="v21-work-list" storageKey="ro-v21-work-view" />
+    <h2 class="ed-display">The work</h2>
+    <p class="ed-copy-large">A selection of work spanning brand identity, product design, creative direction, visual systems and experimentation. Different disciplines, approaches and scales, connected by a shared commitment to original thinking, thoughtful execution and the craft of making.</p>
+    <div class="v21-cards" id="v21-work-list" data-work-index data-view="visual">
+      {workCards.map((card, i) => <WorkIndexCard {card} number={i+1} level="h3" />)}
+    </div>
+  </EditorialSection>
+  <ProjectNavigation heading="Take a deeper look through the work" cards={furtherCards} />
+</Base>

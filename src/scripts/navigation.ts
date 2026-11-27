@@ -28,7 +28,8 @@ function updateActiveNavigation() {
   const path=location.pathname.replace(/\/+$/,'')||'/';
   const target=destination.pathname.replace(/\/+$/,'')||'/';
   const active=destination.origin===location.origin && (target==='/work' ? path==='/work'||path.startsWith('/work/') : target===path);
-  if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
+  const matchesLocation = !destination.hash || destination.hash === location.hash;
+  if(active && matchesLocation)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
  });
 }
 window.addEventListener('hashchange',updateActiveNavigation);

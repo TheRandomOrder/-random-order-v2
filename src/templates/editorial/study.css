@@ -86,7 +86,7 @@
   scroll-padding-inline: max(var(--gutter), calc((100% - var(--container-max)) / 2));
 }
 .ed-rail li { flex: 0 0 min(34.5rem, 74vw); scroll-snap-align: start; }
-.ed-rail a { display: grid; gap: var(--text-gap); }
+.ed-rail-card { display: grid; gap: var(--text-gap); }
 .ed-rail a:hover h3, .ed-link { text-decoration: underline; text-underline-offset: .25em; }
 .ed-end { padding-block: var(--statement-pad); }
 .ed-index { padding-block: clamp(8rem, 13vw, 16rem); }

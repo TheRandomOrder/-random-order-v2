@@ -1,0 +1,11 @@
+---
+import TrustedBy from './TrustedBy.astro';
+import EditorialSection from './EditorialSection.astro';
+import Capabilities from './Capabilities.astro';
+import TestimonialCarousel from './TestimonialCarousel.astro';
+import {process} from '../data/home';
+---
+<TrustedBy />
+<EditorialSection id="about" class="services" label="02 / What we do"><h2 class="display">Everything a brand<br/>needs to hold together.</h2><Capabilities /></EditorialSection>
+<section class="process" aria-labelledby="process-title"><div class="wrap section-stack"><p class="eyebrow">03 / How we work</p><h2 class="display" id="process-title">From chaos to clarity.</h2><div class="process-grid">{process.map(([title,body],i)=><div class="process-step"><h3 class="section-title">0{i+1} {title}</h3><p>{body}</p></div>)}</div></div></section>
+<EditorialSection class="testimonial" label="04 / What clients say"><h2 class="display mobile-only">Words from<br/>our people.</h2><TestimonialCarousel /></EditorialSection>

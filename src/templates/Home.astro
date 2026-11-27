@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import EditorialSection from '../components/EditorialSection.astro';
+import StudioSections from '../components/StudioSections.astro';
+import WorkIndexCard from '../components/WorkIndexCard.astro';
+import { homeCards, navigation, routes } from './experience';
+import closing from './assets/home-closing.png';
+import '../styles/work-magazine.css';
+import './experience.css';
+---
+<Base title="Home — Random Order V2.1" description="Random Order studio homepage study." home noindex siteNav={navigation}>
+  <Hero actions={[{label:'See the work', href:routes.work}, {label:'Start a project', href:'#contact'}]} />
+  <EditorialSection id="work" class="v21-selected" label="01 / Selected work">
+    <h2 class="display">A few things<br />we’ve built lately.</h2>
+    <div class="v21-cards">{homeCards.map((card, i) => <WorkIndexCard {card} number={i+1} level="h3" />)}</div>
+    <a class="section-title v21-more" href={routes.work}>The work index</a>
+  </EditorialSection>
+  <StudioSections />
+  <EditorialSection id="contact" class="contact" label="Start a project">
+    <h2 class="display">Design with guts<br />for brands with soul.</h2>
+    <p class="eyebrow">Enquiries outside this prototype</p>
+  </EditorialSection>
+  <img class="v21-closing" src={closing.src} width="1920" height="868" alt="" loading="lazy" />
+</Base>

@@ -3,13 +3,18 @@ import ProjectCardText from '../../../components/ProjectCardText.astro';
 import EditorialHeading from './EditorialHeading.astro';
 import MediaBlock from './MediaBlock.astro';
 import type { RelatedCard, Link } from '../model';
-interface Props { heading: string; cards: RelatedCard[]; back: Link }
+interface Props { heading: string; cards: RelatedCard[]; back?: Link }
 const { heading, cards, back } = Astro.props;
+const Region = back || cards.some(card => card.href) ? 'nav' : 'section';
 ---
-<nav class="ed-related ed-bleed" aria-label="Project navigation">
+<Region class="ed-related ed-bleed" aria-label={heading}>
   <div class="wrap"><EditorialHeading {heading} role="card" divider /></div>
-  <ul class="ed-rail">{cards.map(card =>
-    <li><a href={card.href}><MediaBlock height={412} width={552} /><ProjectCardText variant="archive" title={card.title} tags={card.tags} /></a></li>
-  )}</ul>
-  <div class="wrap"><a class="text-link ed-link" href={back.href}>{back.label}</a></div>
-</nav>
+  <ul class="ed-rail" tabindex="0" aria-label="Project collection">{cards.map(card => {
+    const Tag = card.href ? 'a' : 'div';
+    return <li><Tag class="ed-rail-card" href={card.href}>
+      {back ? <MediaBlock height={412} width={552} /> : <div class="v21-archive-media" />}
+      <ProjectCardText variant="archive" title={card.title} tags={card.tags} />
+    </Tag></li>;
+  })}</ul>
+  {back && <div class="wrap"><a class="text-link ed-link" href={back.href}>{back.label}</a></div>}
+</Region>

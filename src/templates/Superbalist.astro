@@ -1,4 +1,5 @@
 ---
+import {navigation, routes} from './experience';
 import Base from '../layouts/Base.astro';
 import ProjectHeader from '../components/project/ProjectHeader.astro';
 import Composition from './editorial/Composition.astro';
@@ -6,10 +7,10 @@ import { header, modules } from './editorial/superbalist';
 import '../styles/projects.css';
 import './editorial/study.css';
 ---
-<Base title="Superbalist rhythm study — Random Order" description="V2.1 development study with synthetic editorial copy." noindex showFooter={false}>
+<Base title="Superbalist rhythm study — Random Order" description="V2.1 development study with synthetic editorial copy." noindex siteNav={navigation}>
   <article class="ed-study">
-    <ProjectHeader project={header} backLink={null} />
+    <ProjectHeader project={header} backLink={{ label: "Back to Work", href: routes.work }} />
     <Composition {modules} />
-    <footer class="wrap ed-end"><a class="text-link ed-link" href="/dev/templates/">Return to template index</a></footer>
+    <div class="wrap ed-end"><a class="text-link ed-link" href="/dev/templates/">Return to template index</a></div>
   </article>
 </Base>

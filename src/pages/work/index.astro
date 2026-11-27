@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import {workSections} from '../../data/work';
+import WorkViewSwitch from '../../components/WorkViewSwitch.astro';
 import CategoryNav from '../../components/CategoryNav.astro';
 import WorkIndexCard from '../../components/WorkIndexCard.astro';
 import WorkHeroCarousel from '../../components/WorkHeroCarousel.astro';
@@ -20,10 +21,7 @@ const featuredHeroSlides = [
   <section id="all" class="work-v2-selected wrap" aria-labelledby="work-v2-selected-title">
     <div class="work-v2-index-header">
       <h2 id="work-v2-selected-title">A few things we’ve built lately</h2>
-      <div class="work-v2-view-switch" role="group" aria-label="Work view">
-        <button type="button" class="is-active" data-work-view="visual" aria-pressed="true" aria-controls="work-v2-visual">Grid view</button>
-        <button type="button" data-work-view="list" aria-pressed="false" aria-controls="work-v2-visual">List view</button>
-      </div>
+      <WorkViewSwitch controls="work-v2-visual" />
     </div>
     <div class="work-v2-cards" id="work-v2-visual" data-work-index data-view="visual">
       {workSections.map(section=><section class="work-v2-group" id={section.id} data-category-section aria-labelledby={`${section.id}-title`}>
@@ -50,22 +48,7 @@ const featuredHeroSlides = [
   </section>
 </Base>
 <script>
-  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-work-view]')];
   const index = document.querySelector<HTMLElement>('[data-work-index]');
-  function setView(view:string){
-    if(index) index.dataset.view=view;
-    buttons.forEach(button=>{
-      const active=button.dataset.workView===view;
-      button.classList.toggle('is-active',active);
-      button.setAttribute('aria-pressed',String(active));
-    });
-  }
-  try { setView(localStorage.getItem('ro-work-view')==='list'?'list':'visual'); } catch {}
-  buttons.forEach(button=>button.addEventListener('click',()=>{
-    const view=button.dataset.workView!;
-    setView(view);
-    try { localStorage.setItem('ro-work-view',view); } catch {}
-  }));
   const cursor=document.createElement('span');
   cursor.className='work-v2-card-cursor';
   cursor.innerHTML='<strong></strong><span>View Work +</span>';

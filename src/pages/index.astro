@@ -2,18 +2,13 @@
 import Base from '../layouts/Base.astro';
 import Hero from '../components/Hero.astro';
 import FeaturedProject from '../components/FeaturedProject.astro';
-import TrustedBy from '../components/TrustedBy.astro';
 import EditorialSection from '../components/EditorialSection.astro';
-import Capabilities from '../components/Capabilities.astro';
-import TestimonialCarousel from '../components/TestimonialCarousel.astro';
-import {projects,process} from '../data/home';
+import StudioSections from '../components/StudioSections.astro';
+import {projects} from '../data/home';
 ---
 <Base title="Random Order — Brand Design Studio" description="Identity, strategy, and systems for founders who want their brand to feel inevitable, not interchangeable." home>
 <Hero />
 <EditorialSection id="work" class="selected" label="01 / Selected work"><h2 class="display">A few things <br class="mobile-only"/>we've built lately.</h2><div class="work-list">{projects.map(project=><FeaturedProject {...project} />)}</div><a class="eyebrow text-link" href="/work/">View all work →</a></EditorialSection>
-<TrustedBy />
-<EditorialSection id="about" class="services" label="02 / What we do"><h2 class="display">Everything a brand<br/>needs to hold together.</h2><Capabilities /></EditorialSection>
-<section class="process" aria-labelledby="process-title"><div class="wrap section-stack"><p class="eyebrow">03 / How we work</p><h2 class="display" id="process-title">From chaos to clarity.</h2><div class="process-grid">{process.map(([title,body],i)=><div class="process-step"><h3 class="section-title">0{i+1} {title}</h3><p>{body}</p></div>)}</div></div></section>
-<EditorialSection class="testimonial" label="04 / What clients say"><h2 class="display mobile-only">Words from<br/>our people.</h2><TestimonialCarousel /></EditorialSection>
+<StudioSections />
 <EditorialSection id="contact" class="contact" label="Start a project"><h2 class="display">Take your brand from<br/>chaos to clarity.</h2><a class="eyebrow text-link" href="/contact/">Get in touch →</a></EditorialSection>
 </Base>

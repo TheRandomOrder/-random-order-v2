@@ -5,7 +5,8 @@ on:
     paths:
       - 'src/**'
       - 'astro.config.mjs'
-      - 'scripts/editorial-browser.cjs'
+      - 'scripts/*browser.cjs'
+      - 'scripts/site-output.test.mjs'
       - '.github/workflows/editorial-preview.yml'
 permissions:
   contents: read
@@ -20,6 +21,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Check production isolation
+        run: npm run build && npm run test:site
       - name: Build preview and check route isolation
         env:
           VERCEL_ENV: preview
@@ -34,3 +37,11 @@ jobs:
         run: |
           python3 -m http.server 4321 --bind 127.0.0.1 --directory dist > "$RUNNER_TEMP/server.log" 2>&1 &
           node scripts/editorial-browser.cjs
+          node scripts/connected-browser.cjs
+      - name: Verify all four routes on the Astro development server
+        run: |
+          npm run dev -- --host 127.0.0.1 --port 4327 > "$RUNNER_TEMP/astro.log" 2>&1 &
+          curl --fail --retry 10 --retry-all-errors --retry-delay 1 -sS http://127.0.0.1:4327/dev/templates/ -o /dev/null
+          for path in home work superbalist; do
+            curl --fail -sS "http://127.0.0.1:4327/dev/templates/$path/" | grep -F 'name="robots" content="noindex"' > /dev/null
+          done
